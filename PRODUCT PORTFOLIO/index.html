@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>3D Product Portfolio</title>
+<style>
+:root{--bg:#0f1115;--panel:#171a21;--card:#20242d;--line:#303644;--text:#f3f5f8;--muted:#9ca5b5}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:14px system-ui,-apple-system,Segoe UI,sans-serif}
+header{padding:20px 22px;border-bottom:1px solid var(--line)}h1{margin:0 0 5px;font-size:21px}.stamp{color:var(--muted)}
+.board{display:grid;grid-template-columns:repeat(5,minmax(250px,1fr));gap:14px;padding:16px;align-items:start;overflow-x:auto}
+.col{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:10px;min-height:150px}
+.head{display:flex;justify-content:space-between;align-items:center;padding:9px 7px 14px;font-weight:950;font-size:34px;letter-spacing:-.02em;border-bottom:2px solid #3a4354;margin-bottom:10px}.count{color:var(--text);font-weight:750;font-size:12px;background:#2a303c;border:1px solid #424b5d;border-radius:999px;padding:3px 8px}
+.card{display:block;background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden;margin-bottom:10px;color:inherit;text-decoration:none}
+.hero{aspect-ratio:4/3;background:#11151b;display:grid;place-items:center;overflow:hidden}.hero img{width:100%;height:100%;object-fit:cover}
+.ph{font-size:34px;color:#6d7688}.info{padding:10px}.name{font-size:15px;font-weight:750;margin-bottom:7px}
+.badge{display:inline-block;border:1px solid #4a556b;border-radius:999px;padding:2px 7px;font-size:10px;text-transform:uppercase;letter-spacing:.05em}
+.meta,.next{font-size:12px;color:var(--muted);margin-top:7px;line-height:1.4}.warn{color:#f2c777}.empty{padding:12px 5px;color:var(--muted);font-size:12px}
+.coltitle{display:flex;align-items:center;gap:10px;white-space:nowrap;font-weight:950;line-height:1.1}
+
+/* Mobile accordion */
+.toggle{display:none;background:transparent;border:0;color:inherit;font:inherit;font-weight:inherit;padding:0;cursor:pointer;text-align:left}
+.chev{display:none;font-size:20px;transition:transform .2s ease}
+@media(max-width:900px){
+  header{padding:16px}
+  h1{font-size:20px}
+  .board{display:block;padding:10px;overflow:visible}
+  .col{margin-bottom:10px;padding:10px;min-height:0}
+  .head{font-size:24px;padding:10px 8px;margin-bottom:0;cursor:pointer}
+  .coltitle{gap:8px;white-space:normal}
+  .count{margin-left:auto;margin-right:8px}
+  .chev{display:inline-block}
+  .col.collapsed .card,.col.collapsed .empty{display:none}
+  .col:not(.collapsed) .head{margin-bottom:10px}
+  .col:not(.collapsed) .chev{transform:rotate(180deg)}
+  .card{margin-bottom:10px}
+}
+
+</style></head>
+<body><header><h1>3D Product Portfolio</h1><div class="stamp">28 products · updated 2026-10-03T08:44:38+03:00</div></header>
+<main class="board"><section class="col"><div class="head"><span class="coltitle">💡 Ideas</span><span class="count">10</span><span class="chev">⌄</span></div>
+    <a class="card" href="https://drive.google.com/drive/folders/17911dBcTo0jYmpQzTvmVfgx57Bj0Wit6" target="_blank" rel="noopener"><div class="hero"><img src="https://drive.google.com/thumbnail?id=1LYU7tt5_xjauYCcved7L4Mi3r8MZ-JVc&amp;sz=w1000" alt="Boy Who Lived &amp; Deathly Hallows"></div>
+        <div class="info"><div class="name">Boy Who Lived &amp; Deathly Hallows</div>
+        <span class="badge">Ideas</span>
+        <div class="meta">IDEAS / Bookish stuff</div>
+        <div class="next">Next: Run product interview</div></div></a><a class="card" href="https://drive.google.com/drive/folders/17911dBcTo0jYmpQzTvmVfgx57Bj0Wit6" target="_blank" rel="noopener"><div class="hero"><img src="https://drive.google.com/thumbnail?id=1cb4MLOobC1vnB60vsj_ncIK829xrXXFI&amp;sz=w1000" alt="District Tribute &amp; Mockingjay"></div>
+        <div class="info"><div class="name">District Tribute &amp; Mockingjay</div>
+        <span class="badge">Ideas</span>
+        <div class="meta">IDEAS / Bookish stuff</div>
+        <div class="next">Next: Run product interview</div></div></a><a class="card" href="https://drive.google.com/drive/folders/17911dBcTo0jYmpQzTvmVfgx57Bj0Wit6" target="_blank" rel="noopener"><div class="hero"><img src="https://drive.google.com/thumbnail?id=1IsdOCfykN9MgWSK4OkKosX0nN6Tm52Kx&amp;sz=w1000" alt="Camp Half-Blood &amp; Trident"></div>
+        <div class="info"><div class="name">Camp Half-Blood &amp; Trident</div>
+        <span class="badge">Ideas</span>
+        <div class="meta">IDEAS / Bookish stuff</div>
+        <div class="next">Next: Run product interview</div></div></a><a class="card" href="https://drive.google.com/drive/folders/17911dBcTo0jYmpQzTvmVfgx57Bj0Wit6" target="_blank" rel="noopener"><div class="hero"><img src="https://drive.google.com/thumbnail?id=1360nERySoCqsktCLVE9wvN9EePDPEiHt&amp;sz=w1000" alt="One Ring &amp; White Tree"></div>
+        <div class="info"><div class="name">One Ring &amp; White Tree</div>
+        <span class="badge">Ideas</span>
+        <div class="meta">IDEAS / Bookish stuff</div>
+        <div class="next">Next: Run product interview</div></div></a><a class="card" href="https://drive.google.com/drive/folders/17911dBcTo0jYmpQzTvmVfgx57Bj0Wit6" target="_blank" rel="noopener"><div class="hero"><img src="https://drive.google.com/thumbnail?id=1OFQ_8Jgj6Q459xnkVNQ0kiFoiAOYrb6s&amp;sz=w1000" alt="Shadowhunter &amp; Angelic Rune"></div>
+        <div class="info"><div class="name">Shadowhunter &amp; Angelic Rune</div>
+        <span class="badge">Ideas</span>
+        <div class="meta">IDEAS / Bookish stuff</div>
+        <div class="next">Next: Run product interview</div></div></a><a class="card" href="https://drive.google.com/drive/folders/17911dBcTo0jYmpQzTvmVfgx57Bj0Wit6" target="_blank" rel="noopener"><div class="hero"><img src="https://drive.google.com/thumbnail?id=1VXP0whtDNEHiOsmn7B-yZGImH6Mj1pyz&amp;sz=w1000" alt="Wonderland &amp; Pocket Watch"></div>
+        <div class="info"><div class="name">Wonderland &amp; Pocket Watch</div>
+        <span class="badge">Ideas</span>
+        <div class="meta">IDEAS / Bookish stuff</div>
+        <div class="next">Next: Run product interview</div></div></a><a class="card" href="https://drive.google.com/drive/folders/17911dBcTo0jYmpQzTvmVfgx57Bj0Wit6" target="_blank" rel="noopener"><div class="hero"><img src="https://drive.google.com/thumbnail?id=1V9lYXWInRM0t2cNcSVGIsSNlP0fO2t0y&amp;sz=w1000" alt="Crescent City &amp; First Light Star"></div>
+        <div class="info"><div class="name">Crescent City &amp; First Light Star</div>
+        <span class="badge">Ideas</span>
+        <div class="meta">IDEAS / Bookish stuff</div>
+        <div class="next">Next: Run product interview</div></div></a><a class="card" href="https://drive.google.com/drive/folders/17911dBcTo0jYmpQzTvmVfgx57Bj0Wit6" target="_blank" rel="noopener"><div class="hero"><img src="https://drive.google.com/thumbnail?id=1rHh_JJCJb-hlhpg4u-8mreOh7ce6m4BW&amp;sz=w1000" alt="Verdant Spire &amp; Iron Crown"></div>
+        <div class="info"><div class="name">Verdant Spire &amp; Iron Crown</div>
+        <span class="badge">Ideas</span>
+        <div class="meta">IDEAS / Bookish stuff</div>
+        <div class="next">Next: Run product interview</div></div></a><a class="card" href="https://drive.google.com/drive/folders/17911dBcTo0jYmpQzTvmVfgx57Bj0Wit6" target="_blank" rel="noopener"><div class="hero"><img src="https://drive.google.com/thumbnail?id=1qiQG3Oxs0YPfdNG2HSueP7_n8KtVVhkA&amp;sz=w1000" alt="Nevermoor &amp; Umbrella Pass"></div>
+        <div class="info"><div class="name">Nevermoor &amp; Umbrella Pass</div>
+        <span class="badge">Ideas</span>
+        <div class="meta">IDEAS / Bookish stuff</div>
+        <div class="next">Next: Run product interview</div></div></a><a class="card" href="https://drive.google.com/drive/folders/17911dBcTo0jYmpQzTvmVfgx57Bj0Wit6" target="_blank" rel="noopener"><div class="hero"><img src="https://drive.google.com/thumbnail?id=1-lPGSv_IHiCBzmKFN7bXWBwuHFFXB0jA&amp;sz=w1000" alt="Gothic Mystery &amp; Raven Feather"></div>
+        <div class="info"><div class="name">Gothic Mystery &amp; Raven Feather</div>
+        <span class="badge">Ideas</span>
+        <div class="meta">IDEAS / Bookish stuff</div>
+        <div class="next">Next: Run product interview</div></div></a></section><section class="col"><div class="head"><span class="coltitle">📋 Specs</span><span class="count">4</span><span class="chev">⌄</span></div>
+    <a class="card" href="https://drive.google.com/drive/folders/1-ODMjFm3utE-MG8U1h7Q0TU-Lt58hk4Y" target="_blank" rel="noopener"><div class="hero"><img src="https://drive.google.com/thumbnail?id=158vExP6XivFeasYfYP2xhic2jhdv5Ile&amp;sz=w1000" alt="Christmas Reindeer Napkin Ring"></div>
+        <div class="info"><div class="name">Christmas Reindeer Napkin Ring</div>
+        <span class="badge">Specs</span>
+        <div class="meta">IDEAS / Christmas napkin ring</div>
+        <div class="next">Next: Create 3MF</div></div></a><a class="card" href="https://drive.google.com/drive/folders/1dzuyoxoToUioPBHlJhFgjzz8ssT7Ufu7" target="_blank" rel="noopener"><div class="hero"><img src="https://drive.google.com/thumbnail?id=1mcRcq4qvOhXsvHh-m-bgmz5rEztYrg_4&amp;sz=w1000" alt="Christmas Sleigh Napkin Ring"></div>
+        <div class="info"><div class="name">Christmas Sleigh Napkin Ring</div>
+        <span class="badge">Specs</span>
+        <div class="meta">IDEAS / Christmas napkin ring</div>
+        <div class="next">Next: Create 3MF</div></div></a><a class="card" href="https://drive.google.com/drive/folders/1IZJWbk3ATZsph1RvMSyNSOUhDMVcYwNH" target="_blank" rel="noopener"><div class="hero"><img src="https://drive.google.com/thumbnail?id=1Y2gBccysu8uo-Llz8no2S7xXhRQDJdo9&amp;sz=w1000" alt="Christmas Gingerbread Napkin Ring"></div>
+        <div class="info"><div class="name">Christmas Gingerbread Napkin Ring</div>
+        <span class="badge">Specs</span>
+        <div class="meta">IDEAS / Christmas napkin ring</div>
+        <div class="next">Next: Create 3MF</div></div></a><a class="card" href="https://drive.google.com/drive/folders/110qU9U1t6juGxXoyBZ8mQ38xilYlQOcv" target="_blank" rel="noopener"><div class="hero"><img src="https://drive.google.com/thumbnail?id=1xn7nf9XKQ_qcbAd3RDNLwITxxGVjs3Rl&amp;sz=w1000" alt="Christmas Gingerbread Tea Bag Mug Buddy"></div>
+        <div class="info"><div class="name">Christmas Gingerbread Tea Bag Mug Buddy</div>
+        <span class="badge">Specs</span>
+        <div class="meta">IDEAS</div>
+        <div class="next">Next: Create 3MF</div></div></a></section><section class="col"><div class="head"><span class="coltitle">🧊 3MF</span><span class="count">3</span><span class="chev">⌄</span></div>
+    <a class="card" href="https://drive.google.com/drive/folders/1u9UenRlPvlMpSJWjGqQKXp6nO92Xc1Sb" target="_blank" rel="noopener"><div class="hero"><img src="https://drive.google.com/thumbnail?id=1wj3Np7avMI4FnhiTngAnKtQoWN4SnOVF&amp;sz=w1000" alt="Alchemist&#x27;s Stack &amp; Potion Vial"></div>
+        <div class="info"><div class="name">Alchemist&#x27;s Stack &amp; Potion Vial</div>
+        <span class="badge">3MF</span>
+        <div class="meta">GPT-WORK / active</div>
+        <div class="next">Next: Prepare marketplace package</div></div></a><a class="card" href="https://drive.google.com/drive/folders/1GQD8YzJT2gOMun1B_Jb7bY--gdhnZthe" target="_blank" rel="noopener"><div class="hero"><img src="https://drive.google.com/thumbnail?id=1t6SsKrewOfB63RgHkUCBV-48eBF9hUvi&amp;sz=w1000" alt="Rider&#x27;s Stack &amp; Dragon Dagger"></div>
+        <div class="info"><div class="name">Rider&#x27;s Stack &amp; Dragon Dagger</div>
+        <span class="badge">3MF</span>
+        <div class="meta">GPT-WORK / active</div>
+        <div class="next">Next: Prepare marketplace package</div></div></a><a class="card" href="https://drive.google.com/drive/folders/1sf5c2qXpE2ekTA9-qbecOcoE32kzkmEB" target="_blank" rel="noopener"><div class="hero"><img src="https://drive.google.com/thumbnail?id=1j2og0o0ISo9POrfUTbcmQAblyreKjqMS&amp;sz=w1000" alt="Chubby Christmas Reindeer 100mm"></div>
+        <div class="info"><div class="name">Chubby Christmas Reindeer 100mm</div>
+        <span class="badge">3MF</span>
+        <div class="meta">READY TO PUBLISH</div>
+        <div class="next warn">Next: Verify/create marketplace package</div></div></a></section><section class="col"><div class="head"><span class="coltitle">🏪 Marketplace</span><span class="count">4</span><span class="chev">⌄</span></div>
+    <a class="card" href="https://drive.google.com/drive/folders/1_iRZ1uIVe4zbYKv75ioxGsiyP1nx1I-C" target="_blank" rel="noopener"><div class="hero"><img src="https://drive.google.com/thumbnail?id=1PF_wclMRIJz69ufJrjFNeZzU0PXrelMz&amp;sz=w1000" alt="Nordic Layered Christmas Tree"></div>
+        <div class="info"><div class="name">Nordic Layered Christmas Tree</div>
+        <span class="badge">Marketplace</span>
+        <div class="meta">GPT-WORK / active</div>
+        <div class="next">Next: Publish to marketplace</div></div></a><a class="card" href="https://drive.google.com/drive/folders/1uPSdL5e8z1ymn__dwFsFNU6PHdIckHcw" target="_blank" rel="noopener"><div class="hero"><img src="https://drive.google.com/thumbnail?id=17k-3yljEkbdIQqUFFdpqoSZU7dzSXD5x&amp;sz=w1000" alt="Stack &amp; Smile Snowman"></div>
+        <div class="info"><div class="name">Stack &amp; Smile Snowman</div>
+        <span class="badge">Marketplace</span>
+        <div class="meta">GPT-WORK / active</div>
+        <div class="next">Next: Publish to marketplace</div></div></a><a class="card" href="https://drive.google.com/drive/folders/1nBS3SPuksxc9pkZy6ie5X6CW3y7grHFJ" target="_blank" rel="noopener"><div class="hero"><img src="https://drive.google.com/thumbnail?id=1eKSqhWMblcoxVON-zKPgfhZI2mmuQnQs&amp;sz=w1000" alt="Christmas Village House"></div>
+        <div class="info"><div class="name">Christmas Village House</div>
+        <span class="badge">Marketplace</span>
+        <div class="meta">READY TO PUBLISH</div>
+        <div class="next">Next: Publish to marketplace</div></div></a><a class="card" href="https://drive.google.com/drive/folders/1zDqFlI_lzUVfqWeVk-ZiJhR6P5f20-tH" target="_blank" rel="noopener"><div class="hero"><img src="https://drive.google.com/thumbnail?id=17Ef1SRP-IWK8yXMA9CNc_8DZjAqsij4V&amp;sz=w1000" alt="Christmas Gnome Autumn Inspired"></div>
+        <div class="info"><div class="name">Christmas Gnome Autumn Inspired</div>
+        <span class="badge">Marketplace</span>
+        <div class="meta">READY TO PUBLISH</div>
+        <div class="next">Next: Publish to marketplace</div></div></a></section><section class="col"><div class="head"><span class="coltitle">✅ Published</span><span class="count">7</span><span class="chev">⌄</span></div>
+    <a class="card" href="https://drive.google.com/drive/folders/1Dye6mKOGIkgh9FnL_9iZZjd4ob0ZDYTP" target="_blank" rel="noopener"><div class="hero"><img src="https://drive.google.com/thumbnail?id=1owTxfMtgER9lja1dY-CK0R5mWxWC8KT5&amp;sz=w1000" alt="Thanksgiving Turkey"></div>
+        <div class="info"><div class="name">Thanksgiving Turkey</div>
+        <span class="badge">Published</span>
+        <div class="meta">PUBLISHED</div>
+        <div class="next">Next: Published</div></div></a><a class="card" href="https://drive.google.com/drive/folders/1wYzoNRUH4JsT_uopIbIuCoVgduS2Uxw3" target="_blank" rel="noopener"><div class="hero"><img src="https://drive.google.com/thumbnail?id=1-byMfTo3a6dCkjZSH5mP3JrZS43vHk-z&amp;sz=w1000" alt="Stacked Pumpkins Decoration"></div>
+        <div class="info"><div class="name">Stacked Pumpkins Decoration</div>
+        <span class="badge">Published</span>
+        <div class="meta">PUBLISHED</div>
+        <div class="next">Next: Published</div></div></a><a class="card" href="https://drive.google.com/drive/folders/1JFp2gpmoi71Hs0HhNPIKWPRWbZlqTxTt" target="_blank" rel="noopener"><div class="hero"><img src="https://drive.google.com/thumbnail?id=1V7jYo9xOUuB5A5YDfPztJs4Jgqm31-jp&amp;sz=w1000" alt="Ribbed Pumpkin"></div>
+        <div class="info"><div class="name">Ribbed Pumpkin</div>
+        <span class="badge">Published</span>
+        <div class="meta">PUBLISHED</div>
+        <div class="next">Next: Published</div></div></a><a class="card" href="https://drive.google.com/drive/folders/1426ElQ0JgmKch_o7H5al-jXZz0ya0_W2" target="_blank" rel="noopener"><div class="hero"><img src="https://drive.google.com/thumbnail?id=1n65hGcuj1n6qxyuJ-HeRf2o4Fn38mqjj&amp;sz=w1000" alt="Mummy Keychain"></div>
+        <div class="info"><div class="name">Mummy Keychain</div>
+        <span class="badge">Published</span>
+        <div class="meta">PUBLISHED</div>
+        <div class="next">Next: Published</div></div></a><a class="card" href="https://drive.google.com/drive/folders/1jsBCsAWgNwkWb45GZevLynhUUXivuCWV" target="_blank" rel="noopener"><div class="hero"><img src="https://drive.google.com/thumbnail?id=13J-F-FDmPjt4oZUS3dwnmo294ubBrF6s&amp;sz=w1000" alt="Nordic Harvest Gnome"></div>
+        <div class="info"><div class="name">Nordic Harvest Gnome</div>
+        <span class="badge">Published</span>
+        <div class="meta">PUBLISHED</div>
+        <div class="next">Next: Published</div></div></a><a class="card" href="https://drive.google.com/drive/folders/1oJDQTkwYx0iFco-mTyIilo-w_jcFAeua" target="_blank" rel="noopener"><div class="hero"><img src="https://drive.google.com/thumbnail?id=1sgBZ7ceMHsOIIjMmcpb7RqjmIP8JvOPM&amp;sz=w1000" alt="Ghost Holding Pumpkin"></div>
+        <div class="info"><div class="name">Ghost Holding Pumpkin</div>
+        <span class="badge">Published</span>
+        <div class="meta">PUBLISHED</div>
+        <div class="next">Next: Published</div></div></a><a class="card" href="https://drive.google.com/drive/folders/1aiOzCMB6FRcXB6PqxM1XAAuZWhgh2K7x" target="_blank" rel="noopener"><div class="hero"><img src="https://drive.google.com/thumbnail?id=1wTTf1nHUgZrVL1wGwea1WdoTlL66Z_SV&amp;sz=w1000" alt="Upside-Down Bat Keychain"></div>
+        <div class="info"><div class="name">Upside-Down Bat Keychain</div>
+        <span class="badge">Published</span>
+        <div class="meta">PUBLISHED</div>
+        <div class="next">Next: Published</div></div></a></section></main>
+<script>
+(function(){
+  const mq=window.matchMedia('(max-width:900px)');
+  const cols=[...document.querySelectorAll('.col')];
+  function setup(){
+    if(mq.matches){
+      cols.forEach(c=>c.classList.add('collapsed'));
+    } else {
+      cols.forEach(c=>c.classList.remove('collapsed'));
+    }
+  }
+  cols.forEach(col=>{
+    const head=col.querySelector('.head');
+    head.setAttribute('role','button');
+    head.setAttribute('tabindex','0');
+    const toggle=()=>{
+      if(!mq.matches) return;
+      const opening=col.classList.contains('collapsed');
+      cols.forEach(c=>c.classList.add('collapsed'));
+      if(opening) col.classList.remove('collapsed');
+    };
+    head.addEventListener('click',toggle);
+    head.addEventListener('keydown',e=>{
+      if(e.key==='Enter'||e.key===' '){e.preventDefault();toggle();}
+    });
+  });
+  setup();
+  mq.addEventListener?.('change',setup);
+})();
+</script>
+</body></html>
