@@ -1,15 +1,15 @@
 {
-  "schema_version": 1,
-  "generated_at": "2026-10-03T08:44:38+03:00",
+  "schema_version": 2,
+  "generated_at": "2026-10-03T15:53:16+00:00",
   "root_folder_id": "1WliIAk1xWwewi_8NHIT9Mm31UZl1WCBR",
   "products": [
     {
       "product_id": "1_iRZ1uIVe4zbYKv75ioxGsiyP1nx1I-C",
       "product_name": "Nordic Layered Christmas Tree",
-      "stage": "marketplace",
+      "stage": "printed",
       "folder_id": "1_iRZ1uIVe4zbYKv75ioxGsiyP1nx1I-C",
       "folder_url": "https://drive.google.com/drive/folders/1_iRZ1uIVe4zbYKv75ioxGsiyP1nx1I-C",
-      "location": "GPT-WORK / active",
+      "location": "GPT-WORK/READY TO PUBLISH/Nordic_Layered_Christmas_Tree",
       "hero_asset_id": "1PF_wclMRIJz69ufJrjFNeZzU0PXrelMz",
       "hero_asset_url": "https://drive.google.com/thumbnail?id=1PF_wclMRIJz69ufJrjFNeZzU0PXrelMz&sz=w1000",
       "hero_kind": "marketplace",
@@ -17,17 +17,19 @@
       "has_3mf": true,
       "has_marketplace": true,
       "published": false,
-      "next_action": "Publish to marketplace",
-      "updated_at": "2026-10-03T08:44:38+03:00",
-      "needs_review": false
+      "next_action": "Review listing assets and publish",
+      "updated_at": "2026-10-03T15:53:16+00:00",
+      "needs_review": true,
+      "printed": true,
+      "review_note": "READY TO PUBLISH placement completes the print gate; older records still list physical checks as pending."
     },
     {
       "product_id": "1uPSdL5e8z1ymn__dwFsFNU6PHdIckHcw",
       "product_name": "Stack & Smile Snowman",
-      "stage": "marketplace",
+      "stage": "printed",
       "folder_id": "1uPSdL5e8z1ymn__dwFsFNU6PHdIckHcw",
       "folder_url": "https://drive.google.com/drive/folders/1uPSdL5e8z1ymn__dwFsFNU6PHdIckHcw",
-      "location": "GPT-WORK / active",
+      "location": "GPT-WORK/READY TO PUBLISH/Stack_and_Smile_Snowman",
       "hero_asset_id": "17k-3yljEkbdIQqUFFdpqoSZU7dzSXD5x",
       "hero_asset_url": "https://drive.google.com/thumbnail?id=17k-3yljEkbdIQqUFFdpqoSZU7dzSXD5x&sz=w1000",
       "hero_kind": "marketplace",
@@ -35,9 +37,11 @@
       "has_3mf": true,
       "has_marketplace": true,
       "published": false,
-      "next_action": "Publish to marketplace",
-      "updated_at": "2026-10-03T08:44:38+03:00",
-      "needs_review": false
+      "next_action": "Review listing assets and publish",
+      "updated_at": "2026-10-03T15:53:16+00:00",
+      "needs_review": true,
+      "printed": true,
+      "review_note": "READY TO PUBLISH placement completes the print gate; older records still list physical checks as pending."
     },
     {
       "product_id": "1u9UenRlPvlMpSJWjGqQKXp6nO92Xc1Sb",
@@ -45,7 +49,7 @@
       "stage": "3mf",
       "folder_id": "1u9UenRlPvlMpSJWjGqQKXp6nO92Xc1Sb",
       "folder_url": "https://drive.google.com/drive/folders/1u9UenRlPvlMpSJWjGqQKXp6nO92Xc1Sb",
-      "location": "GPT-WORK / active",
+      "location": "GPT-WORK/Bookish_Keychain - Alchemist's Stack & Potion Vial",
       "hero_asset_id": "1wj3Np7avMI4FnhiTngAnKtQoWN4SnOVF",
       "hero_asset_url": "https://drive.google.com/thumbnail?id=1wj3Np7avMI4FnhiTngAnKtQoWN4SnOVF&sz=w1000",
       "hero_kind": "actual_model",
@@ -54,8 +58,9 @@
       "has_marketplace": false,
       "published": false,
       "next_action": "Prepare marketplace package",
-      "updated_at": "2026-10-03T08:44:38+03:00",
-      "needs_review": false
+      "updated_at": "2026-10-03T15:53:16+00:00",
+      "needs_review": false,
+      "printed": false
     },
     {
       "product_id": "1GQD8YzJT2gOMun1B_Jb7bY--gdhnZthe",
@@ -63,7 +68,7 @@
       "stage": "3mf",
       "folder_id": "1GQD8YzJT2gOMun1B_Jb7bY--gdhnZthe",
       "folder_url": "https://drive.google.com/drive/folders/1GQD8YzJT2gOMun1B_Jb7bY--gdhnZthe",
-      "location": "GPT-WORK / active",
+      "location": "GPT-WORK/Bookish_Keychain - Rider's Stack & Dragon Dagger",
       "hero_asset_id": "1t6SsKrewOfB63RgHkUCBV-48eBF9hUvi",
       "hero_asset_url": "https://drive.google.com/thumbnail?id=1t6SsKrewOfB63RgHkUCBV-48eBF9hUvi&sz=w1000",
       "hero_kind": "actual_model",
@@ -72,8 +77,9 @@
       "has_marketplace": false,
       "published": false,
       "next_action": "Prepare marketplace package",
-      "updated_at": "2026-10-03T08:44:38+03:00",
-      "needs_review": false
+      "updated_at": "2026-10-03T15:53:16+00:00",
+      "needs_review": false,
+      "printed": false
     },
     {
       "product_id": "1-ODMjFm3utE-MG8U1h7Q0TU-Lt58hk4Y",
@@ -81,7 +87,7 @@
       "stage": "specs",
       "folder_id": "1-ODMjFm3utE-MG8U1h7Q0TU-Lt58hk4Y",
       "folder_url": "https://drive.google.com/drive/folders/1-ODMjFm3utE-MG8U1h7Q0TU-Lt58hk4Y",
-      "location": "IDEAS / Christmas napkin ring",
+      "location": "GPT-WORK/IDEAS/Christmas napkin ring/Christmas Reindeer Napkin Ring",
       "hero_asset_id": "158vExP6XivFeasYfYP2xhic2jhdv5Ile",
       "hero_asset_url": "https://drive.google.com/thumbnail?id=158vExP6XivFeasYfYP2xhic2jhdv5Ile&sz=w1000",
       "hero_kind": "concept",
@@ -89,9 +95,11 @@
       "has_3mf": false,
       "has_marketplace": false,
       "published": false,
-      "next_action": "Create 3MF",
-      "updated_at": "2026-10-03T08:44:38+03:00",
-      "needs_review": false
+      "next_action": "Use approved r03 collection files",
+      "updated_at": "2026-10-03T15:53:16+00:00",
+      "needs_review": true,
+      "printed": false,
+      "review_note": "Individual concept specs remain here; approved r03 geometry is in the parent collection folder."
     },
     {
       "product_id": "1dzuyoxoToUioPBHlJhFgjzz8ssT7Ufu7",
@@ -99,7 +107,7 @@
       "stage": "specs",
       "folder_id": "1dzuyoxoToUioPBHlJhFgjzz8ssT7Ufu7",
       "folder_url": "https://drive.google.com/drive/folders/1dzuyoxoToUioPBHlJhFgjzz8ssT7Ufu7",
-      "location": "IDEAS / Christmas napkin ring",
+      "location": "GPT-WORK/IDEAS/Christmas napkin ring/Christmas Sleigh Napkin Ring",
       "hero_asset_id": "1mcRcq4qvOhXsvHh-m-bgmz5rEztYrg_4",
       "hero_asset_url": "https://drive.google.com/thumbnail?id=1mcRcq4qvOhXsvHh-m-bgmz5rEztYrg_4&sz=w1000",
       "hero_kind": "concept",
@@ -107,9 +115,11 @@
       "has_3mf": false,
       "has_marketplace": false,
       "published": false,
-      "next_action": "Create 3MF",
-      "updated_at": "2026-10-03T08:44:38+03:00",
-      "needs_review": false
+      "next_action": "Use approved r03 collection files",
+      "updated_at": "2026-10-03T15:53:16+00:00",
+      "needs_review": true,
+      "printed": false,
+      "review_note": "Individual concept specs remain here; approved r03 geometry is in the parent collection folder."
     },
     {
       "product_id": "1IZJWbk3ATZsph1RvMSyNSOUhDMVcYwNH",
@@ -117,7 +127,7 @@
       "stage": "specs",
       "folder_id": "1IZJWbk3ATZsph1RvMSyNSOUhDMVcYwNH",
       "folder_url": "https://drive.google.com/drive/folders/1IZJWbk3ATZsph1RvMSyNSOUhDMVcYwNH",
-      "location": "IDEAS / Christmas napkin ring",
+      "location": "GPT-WORK/IDEAS/Christmas napkin ring/Christmas Gingerbread Napkin Ring",
       "hero_asset_id": "1Y2gBccysu8uo-Llz8no2S7xXhRQDJdo9",
       "hero_asset_url": "https://drive.google.com/thumbnail?id=1Y2gBccysu8uo-Llz8no2S7xXhRQDJdo9&sz=w1000",
       "hero_kind": "concept",
@@ -125,9 +135,11 @@
       "has_3mf": false,
       "has_marketplace": false,
       "published": false,
-      "next_action": "Create 3MF",
-      "updated_at": "2026-10-03T08:44:38+03:00",
-      "needs_review": false
+      "next_action": "Use approved r03 collection files",
+      "updated_at": "2026-10-03T15:53:16+00:00",
+      "needs_review": true,
+      "printed": false,
+      "review_note": "Individual concept specs remain here; approved r03 geometry is in the parent collection folder."
     },
     {
       "product_id": "110qU9U1t6juGxXoyBZ8mQ38xilYlQOcv",
@@ -135,7 +147,7 @@
       "stage": "specs",
       "folder_id": "110qU9U1t6juGxXoyBZ8mQ38xilYlQOcv",
       "folder_url": "https://drive.google.com/drive/folders/110qU9U1t6juGxXoyBZ8mQ38xilYlQOcv",
-      "location": "IDEAS",
+      "location": "GPT-WORK/IDEAS/Christmas Gingerbread Tea Bag Mug Buddy",
       "hero_asset_id": "1xn7nf9XKQ_qcbAd3RDNLwITxxGVjs3Rl",
       "hero_asset_url": "https://drive.google.com/thumbnail?id=1xn7nf9XKQ_qcbAd3RDNLwITxxGVjs3Rl&sz=w1000",
       "hero_kind": "concept",
@@ -143,9 +155,10 @@
       "has_3mf": false,
       "has_marketplace": false,
       "published": false,
-      "next_action": "Create 3MF",
-      "updated_at": "2026-10-03T08:44:38+03:00",
-      "needs_review": false
+      "next_action": "Create verified 3MF",
+      "updated_at": "2026-10-03T15:53:16+00:00",
+      "needs_review": false,
+      "printed": false
     },
     {
       "product_id": "bookish-1LYU7tt5_xjauYCcved7L4Mi3r8MZ-JVc",
@@ -153,7 +166,7 @@
       "stage": "idea",
       "folder_id": "17911dBcTo0jYmpQzTvmVfgx57Bj0Wit6",
       "folder_url": "https://drive.google.com/drive/folders/17911dBcTo0jYmpQzTvmVfgx57Bj0Wit6",
-      "location": "IDEAS / Bookish stuff",
+      "location": "GPT-WORK/IDEAS/Bookish stuff",
       "hero_asset_id": "1LYU7tt5_xjauYCcved7L4Mi3r8MZ-JVc",
       "hero_asset_url": "https://drive.google.com/thumbnail?id=1LYU7tt5_xjauYCcved7L4Mi3r8MZ-JVc&sz=w1000",
       "hero_kind": "concept",
@@ -162,8 +175,9 @@
       "has_marketplace": false,
       "published": false,
       "next_action": "Run product interview",
-      "updated_at": "2026-10-03T08:44:38+03:00",
-      "needs_review": false
+      "updated_at": "2026-10-03T15:53:16+00:00",
+      "needs_review": false,
+      "printed": false
     },
     {
       "product_id": "bookish-1cb4MLOobC1vnB60vsj_ncIK829xrXXFI",
@@ -171,7 +185,7 @@
       "stage": "idea",
       "folder_id": "17911dBcTo0jYmpQzTvmVfgx57Bj0Wit6",
       "folder_url": "https://drive.google.com/drive/folders/17911dBcTo0jYmpQzTvmVfgx57Bj0Wit6",
-      "location": "IDEAS / Bookish stuff",
+      "location": "GPT-WORK/IDEAS/Bookish stuff",
       "hero_asset_id": "1cb4MLOobC1vnB60vsj_ncIK829xrXXFI",
       "hero_asset_url": "https://drive.google.com/thumbnail?id=1cb4MLOobC1vnB60vsj_ncIK829xrXXFI&sz=w1000",
       "hero_kind": "concept",
@@ -180,8 +194,9 @@
       "has_marketplace": false,
       "published": false,
       "next_action": "Run product interview",
-      "updated_at": "2026-10-03T08:44:38+03:00",
-      "needs_review": false
+      "updated_at": "2026-10-03T15:53:16+00:00",
+      "needs_review": false,
+      "printed": false
     },
     {
       "product_id": "bookish-1IsdOCfykN9MgWSK4OkKosX0nN6Tm52Kx",
@@ -189,7 +204,7 @@
       "stage": "idea",
       "folder_id": "17911dBcTo0jYmpQzTvmVfgx57Bj0Wit6",
       "folder_url": "https://drive.google.com/drive/folders/17911dBcTo0jYmpQzTvmVfgx57Bj0Wit6",
-      "location": "IDEAS / Bookish stuff",
+      "location": "GPT-WORK/IDEAS/Bookish stuff",
       "hero_asset_id": "1IsdOCfykN9MgWSK4OkKosX0nN6Tm52Kx",
       "hero_asset_url": "https://drive.google.com/thumbnail?id=1IsdOCfykN9MgWSK4OkKosX0nN6Tm52Kx&sz=w1000",
       "hero_kind": "concept",
@@ -198,8 +213,9 @@
       "has_marketplace": false,
       "published": false,
       "next_action": "Run product interview",
-      "updated_at": "2026-10-03T08:44:38+03:00",
-      "needs_review": false
+      "updated_at": "2026-10-03T15:53:16+00:00",
+      "needs_review": false,
+      "printed": false
     },
     {
       "product_id": "bookish-1360nERySoCqsktCLVE9wvN9EePDPEiHt",
@@ -207,7 +223,7 @@
       "stage": "idea",
       "folder_id": "17911dBcTo0jYmpQzTvmVfgx57Bj0Wit6",
       "folder_url": "https://drive.google.com/drive/folders/17911dBcTo0jYmpQzTvmVfgx57Bj0Wit6",
-      "location": "IDEAS / Bookish stuff",
+      "location": "GPT-WORK/IDEAS/Bookish stuff",
       "hero_asset_id": "1360nERySoCqsktCLVE9wvN9EePDPEiHt",
       "hero_asset_url": "https://drive.google.com/thumbnail?id=1360nERySoCqsktCLVE9wvN9EePDPEiHt&sz=w1000",
       "hero_kind": "concept",
@@ -216,8 +232,9 @@
       "has_marketplace": false,
       "published": false,
       "next_action": "Run product interview",
-      "updated_at": "2026-10-03T08:44:38+03:00",
-      "needs_review": false
+      "updated_at": "2026-10-03T15:53:16+00:00",
+      "needs_review": false,
+      "printed": false
     },
     {
       "product_id": "bookish-1OFQ_8Jgj6Q459xnkVNQ0kiFoiAOYrb6s",
@@ -225,7 +242,7 @@
       "stage": "idea",
       "folder_id": "17911dBcTo0jYmpQzTvmVfgx57Bj0Wit6",
       "folder_url": "https://drive.google.com/drive/folders/17911dBcTo0jYmpQzTvmVfgx57Bj0Wit6",
-      "location": "IDEAS / Bookish stuff",
+      "location": "GPT-WORK/IDEAS/Bookish stuff",
       "hero_asset_id": "1OFQ_8Jgj6Q459xnkVNQ0kiFoiAOYrb6s",
       "hero_asset_url": "https://drive.google.com/thumbnail?id=1OFQ_8Jgj6Q459xnkVNQ0kiFoiAOYrb6s&sz=w1000",
       "hero_kind": "concept",
@@ -234,8 +251,9 @@
       "has_marketplace": false,
       "published": false,
       "next_action": "Run product interview",
-      "updated_at": "2026-10-03T08:44:38+03:00",
-      "needs_review": false
+      "updated_at": "2026-10-03T15:53:16+00:00",
+      "needs_review": false,
+      "printed": false
     },
     {
       "product_id": "bookish-1VXP0whtDNEHiOsmn7B-yZGImH6Mj1pyz",
@@ -243,7 +261,7 @@
       "stage": "idea",
       "folder_id": "17911dBcTo0jYmpQzTvmVfgx57Bj0Wit6",
       "folder_url": "https://drive.google.com/drive/folders/17911dBcTo0jYmpQzTvmVfgx57Bj0Wit6",
-      "location": "IDEAS / Bookish stuff",
+      "location": "GPT-WORK/IDEAS/Bookish stuff",
       "hero_asset_id": "1VXP0whtDNEHiOsmn7B-yZGImH6Mj1pyz",
       "hero_asset_url": "https://drive.google.com/thumbnail?id=1VXP0whtDNEHiOsmn7B-yZGImH6Mj1pyz&sz=w1000",
       "hero_kind": "concept",
@@ -252,8 +270,9 @@
       "has_marketplace": false,
       "published": false,
       "next_action": "Run product interview",
-      "updated_at": "2026-10-03T08:44:38+03:00",
-      "needs_review": false
+      "updated_at": "2026-10-03T15:53:16+00:00",
+      "needs_review": false,
+      "printed": false
     },
     {
       "product_id": "bookish-1V9lYXWInRM0t2cNcSVGIsSNlP0fO2t0y",
@@ -261,7 +280,7 @@
       "stage": "idea",
       "folder_id": "17911dBcTo0jYmpQzTvmVfgx57Bj0Wit6",
       "folder_url": "https://drive.google.com/drive/folders/17911dBcTo0jYmpQzTvmVfgx57Bj0Wit6",
-      "location": "IDEAS / Bookish stuff",
+      "location": "GPT-WORK/IDEAS/Bookish stuff",
       "hero_asset_id": "1V9lYXWInRM0t2cNcSVGIsSNlP0fO2t0y",
       "hero_asset_url": "https://drive.google.com/thumbnail?id=1V9lYXWInRM0t2cNcSVGIsSNlP0fO2t0y&sz=w1000",
       "hero_kind": "concept",
@@ -270,8 +289,9 @@
       "has_marketplace": false,
       "published": false,
       "next_action": "Run product interview",
-      "updated_at": "2026-10-03T08:44:38+03:00",
-      "needs_review": false
+      "updated_at": "2026-10-03T15:53:16+00:00",
+      "needs_review": false,
+      "printed": false
     },
     {
       "product_id": "bookish-1rHh_JJCJb-hlhpg4u-8mreOh7ce6m4BW",
@@ -279,7 +299,7 @@
       "stage": "idea",
       "folder_id": "17911dBcTo0jYmpQzTvmVfgx57Bj0Wit6",
       "folder_url": "https://drive.google.com/drive/folders/17911dBcTo0jYmpQzTvmVfgx57Bj0Wit6",
-      "location": "IDEAS / Bookish stuff",
+      "location": "GPT-WORK/IDEAS/Bookish stuff",
       "hero_asset_id": "1rHh_JJCJb-hlhpg4u-8mreOh7ce6m4BW",
       "hero_asset_url": "https://drive.google.com/thumbnail?id=1rHh_JJCJb-hlhpg4u-8mreOh7ce6m4BW&sz=w1000",
       "hero_kind": "concept",
@@ -288,8 +308,9 @@
       "has_marketplace": false,
       "published": false,
       "next_action": "Run product interview",
-      "updated_at": "2026-10-03T08:44:38+03:00",
-      "needs_review": false
+      "updated_at": "2026-10-03T15:53:16+00:00",
+      "needs_review": false,
+      "printed": false
     },
     {
       "product_id": "bookish-1qiQG3Oxs0YPfdNG2HSueP7_n8KtVVhkA",
@@ -297,7 +318,7 @@
       "stage": "idea",
       "folder_id": "17911dBcTo0jYmpQzTvmVfgx57Bj0Wit6",
       "folder_url": "https://drive.google.com/drive/folders/17911dBcTo0jYmpQzTvmVfgx57Bj0Wit6",
-      "location": "IDEAS / Bookish stuff",
+      "location": "GPT-WORK/IDEAS/Bookish stuff",
       "hero_asset_id": "1qiQG3Oxs0YPfdNG2HSueP7_n8KtVVhkA",
       "hero_asset_url": "https://drive.google.com/thumbnail?id=1qiQG3Oxs0YPfdNG2HSueP7_n8KtVVhkA&sz=w1000",
       "hero_kind": "concept",
@@ -306,8 +327,9 @@
       "has_marketplace": false,
       "published": false,
       "next_action": "Run product interview",
-      "updated_at": "2026-10-03T08:44:38+03:00",
-      "needs_review": false
+      "updated_at": "2026-10-03T15:53:16+00:00",
+      "needs_review": false,
+      "printed": false
     },
     {
       "product_id": "bookish-1-lPGSv_IHiCBzmKFN7bXWBwuHFFXB0jA",
@@ -315,7 +337,7 @@
       "stage": "idea",
       "folder_id": "17911dBcTo0jYmpQzTvmVfgx57Bj0Wit6",
       "folder_url": "https://drive.google.com/drive/folders/17911dBcTo0jYmpQzTvmVfgx57Bj0Wit6",
-      "location": "IDEAS / Bookish stuff",
+      "location": "GPT-WORK/IDEAS/Bookish stuff",
       "hero_asset_id": "1-lPGSv_IHiCBzmKFN7bXWBwuHFFXB0jA",
       "hero_asset_url": "https://drive.google.com/thumbnail?id=1-lPGSv_IHiCBzmKFN7bXWBwuHFFXB0jA&sz=w1000",
       "hero_kind": "concept",
@@ -324,52 +346,56 @@
       "has_marketplace": false,
       "published": false,
       "next_action": "Run product interview",
-      "updated_at": "2026-10-03T08:44:38+03:00",
-      "needs_review": false
+      "updated_at": "2026-10-03T15:53:16+00:00",
+      "needs_review": false,
+      "printed": false
     },
     {
       "product_id": "1nBS3SPuksxc9pkZy6ie5X6CW3y7grHFJ",
       "product_name": "Christmas Village House",
-      "stage": "marketplace",
+      "stage": "printed",
       "folder_id": "1nBS3SPuksxc9pkZy6ie5X6CW3y7grHFJ",
       "folder_url": "https://drive.google.com/drive/folders/1nBS3SPuksxc9pkZy6ie5X6CW3y7grHFJ",
-      "location": "READY TO PUBLISH",
-      "hero_asset_id": "1eKSqhWMblcoxVON-zKPgfhZI2mmuQnQs",
-      "hero_asset_url": "https://drive.google.com/thumbnail?id=1eKSqhWMblcoxVON-zKPgfhZI2mmuQnQs&sz=w1000",
-      "hero_kind": "marketplace",
+      "location": "GPT-WORK/READY TO PUBLISH/Christmas_Vilage_House",
+      "hero_asset_id": "1oTFuQG04-V2gpLJvOt4VukUM0fnNEFkt",
+      "hero_asset_url": "https://drive.google.com/thumbnail?id=1oTFuQG04-V2gpLJvOt4VukUM0fnNEFkt&sz=w1000",
+      "hero_kind": "actual_model",
       "has_specs": true,
       "has_3mf": true,
       "has_marketplace": true,
       "published": false,
-      "next_action": "Publish to marketplace",
-      "updated_at": "2026-10-03T08:44:38+03:00",
-      "needs_review": false
+      "next_action": "Review current listing image and publish",
+      "updated_at": "2026-10-03T15:53:16+00:00",
+      "needs_review": true,
+      "printed": true
     },
     {
       "product_id": "1sf5c2qXpE2ekTA9-qbecOcoE32kzkmEB",
       "product_name": "Chubby Christmas Reindeer 100mm",
-      "stage": "3mf",
+      "stage": "printed",
       "folder_id": "1sf5c2qXpE2ekTA9-qbecOcoE32kzkmEB",
       "folder_url": "https://drive.google.com/drive/folders/1sf5c2qXpE2ekTA9-qbecOcoE32kzkmEB",
-      "location": "READY TO PUBLISH",
+      "location": "GPT-WORK/READY TO PUBLISH/Chubby_Christmas_Reindeer_100mm",
       "hero_asset_id": "1j2og0o0ISo9POrfUTbcmQAblyreKjqMS",
       "hero_asset_url": "https://drive.google.com/thumbnail?id=1j2og0o0ISo9POrfUTbcmQAblyreKjqMS&sz=w1000",
       "hero_kind": "actual_model",
       "has_specs": true,
       "has_3mf": true,
-      "has_marketplace": false,
+      "has_marketplace": true,
       "published": false,
-      "next_action": "Verify/create marketplace package",
-      "updated_at": "2026-10-03T08:44:38+03:00",
-      "needs_review": true
+      "next_action": "Review listing assets and publish",
+      "updated_at": "2026-10-03T15:53:16+00:00",
+      "needs_review": true,
+      "printed": true,
+      "review_note": "READY TO PUBLISH placement completes the print gate; older records still list physical checks as pending."
     },
     {
       "product_id": "1zDqFlI_lzUVfqWeVk-ZiJhR6P5f20-tH",
       "product_name": "Christmas Gnome Autumn Inspired",
-      "stage": "marketplace",
+      "stage": "printed",
       "folder_id": "1zDqFlI_lzUVfqWeVk-ZiJhR6P5f20-tH",
       "folder_url": "https://drive.google.com/drive/folders/1zDqFlI_lzUVfqWeVk-ZiJhR6P5f20-tH",
-      "location": "READY TO PUBLISH",
+      "location": "GPT-WORK/READY TO PUBLISH/Christmas_Gnome_AutumnInspired",
       "hero_asset_id": "17Ef1SRP-IWK8yXMA9CNc_8DZjAqsij4V",
       "hero_asset_url": "https://drive.google.com/thumbnail?id=17Ef1SRP-IWK8yXMA9CNc_8DZjAqsij4V&sz=w1000",
       "hero_kind": "marketplace",
@@ -377,9 +403,11 @@
       "has_3mf": true,
       "has_marketplace": true,
       "published": false,
-      "next_action": "Publish to marketplace",
-      "updated_at": "2026-10-03T08:44:38+03:00",
-      "needs_review": false
+      "next_action": "Review listing assets and publish",
+      "updated_at": "2026-10-03T15:53:16+00:00",
+      "needs_review": true,
+      "printed": true,
+      "review_note": "READY TO PUBLISH placement completes the print gate; older records still list physical checks as pending."
     },
     {
       "product_id": "1Dye6mKOGIkgh9FnL_9iZZjd4ob0ZDYTP",
@@ -387,7 +415,7 @@
       "stage": "published",
       "folder_id": "1Dye6mKOGIkgh9FnL_9iZZjd4ob0ZDYTP",
       "folder_url": "https://drive.google.com/drive/folders/1Dye6mKOGIkgh9FnL_9iZZjd4ob0ZDYTP",
-      "location": "PUBLISHED",
+      "location": "GPT-WORK/PUBLISHED/Thanksgiving turkey",
       "hero_asset_id": "1owTxfMtgER9lja1dY-CK0R5mWxWC8KT5",
       "hero_asset_url": "https://drive.google.com/thumbnail?id=1owTxfMtgER9lja1dY-CK0R5mWxWC8KT5&sz=w1000",
       "hero_kind": "marketplace",
@@ -396,8 +424,10 @@
       "has_marketplace": true,
       "published": true,
       "next_action": "Published",
-      "updated_at": "2026-10-03T08:44:38+03:00",
-      "needs_review": false
+      "updated_at": "2026-10-03T15:53:16+00:00",
+      "needs_review": true,
+      "printed": true,
+      "review_note": "PUBLISHED folder placement is authoritative; older STATE.md says no listing was published."
     },
     {
       "product_id": "1wYzoNRUH4JsT_uopIbIuCoVgduS2Uxw3",
@@ -405,17 +435,18 @@
       "stage": "published",
       "folder_id": "1wYzoNRUH4JsT_uopIbIuCoVgduS2Uxw3",
       "folder_url": "https://drive.google.com/drive/folders/1wYzoNRUH4JsT_uopIbIuCoVgduS2Uxw3",
-      "location": "PUBLISHED",
+      "location": "GPT-WORK/PUBLISHED/Stacked pumpkins decoration",
       "hero_asset_id": "1-byMfTo3a6dCkjZSH5mP3JrZS43vHk-z",
       "hero_asset_url": "https://drive.google.com/thumbnail?id=1-byMfTo3a6dCkjZSH5mP3JrZS43vHk-z&sz=w1000",
       "hero_kind": "marketplace",
-      "has_specs": true,
+      "has_specs": false,
       "has_3mf": true,
-      "has_marketplace": true,
+      "has_marketplace": false,
       "published": true,
       "next_action": "Published",
-      "updated_at": "2026-10-03T08:44:38+03:00",
-      "needs_review": false
+      "updated_at": "2026-10-03T15:53:16+00:00",
+      "needs_review": false,
+      "printed": true
     },
     {
       "product_id": "1JFp2gpmoi71Hs0HhNPIKWPRWbZlqTxTt",
@@ -423,17 +454,18 @@
       "stage": "published",
       "folder_id": "1JFp2gpmoi71Hs0HhNPIKWPRWbZlqTxTt",
       "folder_url": "https://drive.google.com/drive/folders/1JFp2gpmoi71Hs0HhNPIKWPRWbZlqTxTt",
-      "location": "PUBLISHED",
+      "location": "GPT-WORK/PUBLISHED/Ribbed Pumpkin",
       "hero_asset_id": "1V7jYo9xOUuB5A5YDfPztJs4Jgqm31-jp",
       "hero_asset_url": "https://drive.google.com/thumbnail?id=1V7jYo9xOUuB5A5YDfPztJs4Jgqm31-jp&sz=w1000",
       "hero_kind": "marketplace",
-      "has_specs": true,
+      "has_specs": false,
       "has_3mf": true,
-      "has_marketplace": true,
+      "has_marketplace": false,
       "published": true,
       "next_action": "Published",
-      "updated_at": "2026-10-03T08:44:38+03:00",
-      "needs_review": false
+      "updated_at": "2026-10-03T15:53:16+00:00",
+      "needs_review": false,
+      "printed": true
     },
     {
       "product_id": "1426ElQ0JgmKch_o7H5al-jXZz0ya0_W2",
@@ -441,17 +473,18 @@
       "stage": "published",
       "folder_id": "1426ElQ0JgmKch_o7H5al-jXZz0ya0_W2",
       "folder_url": "https://drive.google.com/drive/folders/1426ElQ0JgmKch_o7H5al-jXZz0ya0_W2",
-      "location": "PUBLISHED",
+      "location": "GPT-WORK/PUBLISHED/Mummy Keychain ",
       "hero_asset_id": "1n65hGcuj1n6qxyuJ-HeRf2o4Fn38mqjj",
       "hero_asset_url": "https://drive.google.com/thumbnail?id=1n65hGcuj1n6qxyuJ-HeRf2o4Fn38mqjj&sz=w1000",
       "hero_kind": "marketplace",
-      "has_specs": true,
+      "has_specs": false,
       "has_3mf": true,
-      "has_marketplace": true,
+      "has_marketplace": false,
       "published": true,
       "next_action": "Published",
-      "updated_at": "2026-10-03T08:44:38+03:00",
-      "needs_review": false
+      "updated_at": "2026-10-03T15:53:16+00:00",
+      "needs_review": false,
+      "printed": true
     },
     {
       "product_id": "1jsBCsAWgNwkWb45GZevLynhUUXivuCWV",
@@ -459,17 +492,18 @@
       "stage": "published",
       "folder_id": "1jsBCsAWgNwkWb45GZevLynhUUXivuCWV",
       "folder_url": "https://drive.google.com/drive/folders/1jsBCsAWgNwkWb45GZevLynhUUXivuCWV",
-      "location": "PUBLISHED",
+      "location": "GPT-WORK/PUBLISHED/Nordic Harvest Gnome",
       "hero_asset_id": "13J-F-FDmPjt4oZUS3dwnmo294ubBrF6s",
       "hero_asset_url": "https://drive.google.com/thumbnail?id=13J-F-FDmPjt4oZUS3dwnmo294ubBrF6s&sz=w1000",
       "hero_kind": "marketplace",
       "has_specs": true,
       "has_3mf": true,
-      "has_marketplace": true,
+      "has_marketplace": false,
       "published": true,
       "next_action": "Published",
-      "updated_at": "2026-10-03T08:44:38+03:00",
-      "needs_review": false
+      "updated_at": "2026-10-03T15:53:16+00:00",
+      "needs_review": false,
+      "printed": true
     },
     {
       "product_id": "1oJDQTkwYx0iFco-mTyIilo-w_jcFAeua",
@@ -477,17 +511,18 @@
       "stage": "published",
       "folder_id": "1oJDQTkwYx0iFco-mTyIilo-w_jcFAeua",
       "folder_url": "https://drive.google.com/drive/folders/1oJDQTkwYx0iFco-mTyIilo-w_jcFAeua",
-      "location": "PUBLISHED",
+      "location": "GPT-WORK/PUBLISHED/Ghost Holding Pumpkin",
       "hero_asset_id": "1sgBZ7ceMHsOIIjMmcpb7RqjmIP8JvOPM",
       "hero_asset_url": "https://drive.google.com/thumbnail?id=1sgBZ7ceMHsOIIjMmcpb7RqjmIP8JvOPM&sz=w1000",
       "hero_kind": "marketplace",
-      "has_specs": true,
+      "has_specs": false,
       "has_3mf": true,
-      "has_marketplace": true,
+      "has_marketplace": false,
       "published": true,
       "next_action": "Published",
-      "updated_at": "2026-10-03T08:44:38+03:00",
-      "needs_review": false
+      "updated_at": "2026-10-03T15:53:16+00:00",
+      "needs_review": false,
+      "printed": true
     },
     {
       "product_id": "1aiOzCMB6FRcXB6PqxM1XAAuZWhgh2K7x",
@@ -495,17 +530,38 @@
       "stage": "published",
       "folder_id": "1aiOzCMB6FRcXB6PqxM1XAAuZWhgh2K7x",
       "folder_url": "https://drive.google.com/drive/folders/1aiOzCMB6FRcXB6PqxM1XAAuZWhgh2K7x",
-      "location": "PUBLISHED",
+      "location": "GPT-WORK/PUBLISHED/Upside-Down Bat Keychain",
       "hero_asset_id": "1wTTf1nHUgZrVL1wGwea1WdoTlL66Z_SV",
       "hero_asset_url": "https://drive.google.com/thumbnail?id=1wTTf1nHUgZrVL1wGwea1WdoTlL66Z_SV&sz=w1000",
       "hero_kind": "marketplace",
-      "has_specs": true,
+      "has_specs": false,
       "has_3mf": true,
-      "has_marketplace": true,
+      "has_marketplace": false,
       "published": true,
       "next_action": "Published",
-      "updated_at": "2026-10-03T08:44:38+03:00",
-      "needs_review": false
+      "updated_at": "2026-10-03T15:53:16+00:00",
+      "needs_review": false,
+      "printed": true
+    },
+    {
+      "product_id": "1Krb5b_fRhljKwq73YewVvDhUgk_DsDMQ",
+      "product_name": "Christmas Napkin Ring Set — r03",
+      "stage": "3mf",
+      "folder_id": "1Krb5b_fRhljKwq73YewVvDhUgk_DsDMQ",
+      "folder_url": "https://drive.google.com/drive/folders/1Krb5b_fRhljKwq73YewVvDhUgk_DsDMQ",
+      "location": "GPT-WORK/IDEAS/Christmas napkin ring",
+      "hero_asset_id": "1k9iWsOb9vsf41X6XKhASz3mKsdlEb7oP",
+      "hero_asset_url": "https://drive.google.com/thumbnail?id=1k9iWsOb9vsf41X6XKhASz3mKsdlEb7oP&sz=w1000",
+      "hero_kind": "actual_model",
+      "has_specs": true,
+      "has_3mf": true,
+      "has_marketplace": false,
+      "printed": false,
+      "published": false,
+      "next_action": "Prepare slicer plates and marketplace package",
+      "updated_at": "2026-10-03T15:53:16+00:00",
+      "needs_review": true,
+      "review_note": "Approved r03 development 3MF exists; split the layout into slicer plates and verify physical fit."
     }
   ]
 }
