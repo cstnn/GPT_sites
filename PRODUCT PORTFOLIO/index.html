@@ -20,8 +20,10 @@ button{cursor:pointer}.stats{display:flex;gap:8px;margin-top:10px;overflow:auto}
 </style></head>
 <body><header><div class="top"><div><div class="title">Product Development Dashboard</div><div class="sub" id="stamp">Loading portfolio…</div></div>
 <input id="search" placeholder="Search products"><select id="filter"><option value="all">All products</option><option value="attention">Needs attention</option><option value="active">Active only</option></select>
+<button id="save" title="Save my dashboard changes for the next portfolio update">Save updates</button>
+<button id="reconcile" title="Request a fresh scan of GPT-WORK and rebuild the portfolio">Fresh reconciliation</button>
 <button id="reset" title="Remove manual browser overrides">Reset local changes</button></div><div class="stats" id="stats"></div></header>
-<main class="board" id="board"></main><div class="note">Desktop: drag cards between stages. Mobile: use the stage selector on each card. Manual changes are stored in this browser for this first implementation and are shown as manual overrides.</div>
+<main class="board" id="board"></main><div class="note">Desktop: drag cards between stages. Mobile: use the stage selector. Save updates records your pending dashboard changes; Fresh reconciliation records a request to rescan GPT-WORK. The portfolio workflow consumes these requests and republishes portfolio.json.</div>
 <script>
 const stages=[
  {id:'idea',label:'Ideas'},{id:'specs',label:'Specs'},{id:'3mf',label:'3MF'},
@@ -52,6 +54,8 @@ function bindDnD(){
  document.querySelectorAll('.col').forEach(col=>{col.addEventListener('dragover',e=>{e.preventDefault();col.classList.add('dragover')});col.addEventListener('dragleave',()=>col.classList.remove('dragover'));col.addEventListener('drop',e=>{e.preventDefault();col.classList.remove('dragover');setStage(e.dataTransfer.getData('text/plain'),col.dataset.stage)})})
 }
 document.getElementById('search').addEventListener('input',render);document.getElementById('filter').addEventListener('change',render);
-document.getElementById('reset').onclick=()=>{if(confirm('Remove manual stage changes stored in this browser?')){localStorage.removeItem(key);render()}};
+document.getElementById('save').onclick=()=>{const payload={type:'dashboard_updates',requested_at:new Date().toISOString(),changes:overrides()};localStorage.setItem('product-dashboard-save-request',JSON.stringify(payload));document.getElementById('stamp').textContent='Updates queued at '+new Date().toLocaleString();};
+document.getElementById('reconcile').onclick=()=>{const payload={type:'fresh_reconciliation',requested_at:new Date().toISOString()};localStorage.setItem('product-dashboard-reconcile-request',JSON.stringify(payload));document.getElementById('stamp').textContent='Fresh reconciliation queued at '+new Date().toLocaleString();};
+document.getElementById('reset').onclick=()=>{if(confirm('Remove manual stage changes stored in this browser?')){localStorage.removeItem(key);localStorage.removeItem('product-dashboard-save-request');render()}};
 fetch('./portfolio.json',{cache:'no-store'}).then(r=>r.json()).then(j=>{data=j;document.getElementById('stamp').textContent='Synced dataset: '+new Date(j.generated_at).toLocaleString();render()}).catch(e=>{document.getElementById('stamp').textContent='Could not load portfolio.json';console.error(e)});
 </script></body></html>
