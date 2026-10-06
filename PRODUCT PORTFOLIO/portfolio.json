@@ -1,5 +1,5 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "generated_at": "2026-10-05T21:18:00+00:00",
   "root_folder_id": "1WliIAk1xWwewi_8NHIT9Mm31UZl1WCBR",
   "products": [
@@ -21,7 +21,12 @@
       "updated_at": "2026-10-05T21:18:00+00:00",
       "needs_review": false,
       "printed": true,
-      "review_note": "READY TO PUBLISH placement completes the print gate; older records still list physical checks as pending."
+      "review_note": "READY TO PUBLISH placement completes the print gate; older records still list physical checks as pending.",
+      "status": "Complete",
+      "blocked": false,
+      "blocker_reason": null,
+      "last_update_source": "folder_reconciliation",
+      "history": []
     },
     {
       "product_id": "1uPSdL5e8z1ymn__dwFsFNU6PHdIckHcw",
@@ -41,7 +46,12 @@
       "updated_at": "2026-10-05T21:18:00+00:00",
       "needs_review": false,
       "printed": true,
-      "review_note": "READY TO PUBLISH placement completes the print gate; older records still list physical checks as pending."
+      "review_note": "READY TO PUBLISH placement completes the print gate; older records still list physical checks as pending.",
+      "status": "Complete",
+      "blocked": false,
+      "blocker_reason": null,
+      "last_update_source": "folder_reconciliation",
+      "history": []
     },
     {
       "product_id": "1u9UenRlPvlMpSJWjGqQKXp6nO92Xc1Sb",
@@ -60,7 +70,12 @@
       "next_action": "Prepare marketplace package",
       "updated_at": "2026-10-03T15:53:16+00:00",
       "needs_review": false,
-      "printed": false
+      "printed": false,
+      "status": "In Progress",
+      "blocked": false,
+      "blocker_reason": null,
+      "last_update_source": "folder_reconciliation",
+      "history": []
     },
     {
       "product_id": "1GQD8YzJT2gOMun1B_Jb7bY--gdhnZthe",
@@ -79,7 +94,12 @@
       "next_action": "Prepare marketplace package",
       "updated_at": "2026-10-03T15:53:16+00:00",
       "needs_review": false,
-      "printed": false
+      "printed": false,
+      "status": "In Progress",
+      "blocked": false,
+      "blocker_reason": null,
+      "last_update_source": "folder_reconciliation",
+      "history": []
     },
     {
       "product_id": "110qU9U1t6juGxXoyBZ8mQ38xilYlQOcv",
@@ -98,7 +118,12 @@
       "next_action": "Create verified 3MF",
       "updated_at": "2026-10-03T15:53:16+00:00",
       "needs_review": false,
-      "printed": false
+      "printed": false,
+      "status": "In Progress",
+      "blocked": false,
+      "blocker_reason": null,
+      "last_update_source": "folder_reconciliation",
+      "history": []
     },
     {
       "product_id": "bookish-1LYU7tt5_xjauYCcved7L4Mi3r8MZ-JVc",
@@ -117,7 +142,12 @@
       "next_action": "Run product interview",
       "updated_at": "2026-10-03T15:53:16+00:00",
       "needs_review": false,
-      "printed": false
+      "printed": false,
+      "status": "In Progress",
+      "blocked": false,
+      "blocker_reason": null,
+      "last_update_source": "folder_reconciliation",
+      "history": []
     },
     {
       "product_id": "bookish-1cb4MLOobC1vnB60vsj_ncIK829xrXXFI",
@@ -136,7 +166,12 @@
       "next_action": "Run product interview",
       "updated_at": "2026-10-03T15:53:16+00:00",
       "needs_review": false,
-      "printed": false
+      "printed": false,
+      "status": "In Progress",
+      "blocked": false,
+      "blocker_reason": null,
+      "last_update_source": "folder_reconciliation",
+      "history": []
     },
     {
       "product_id": "bookish-1IsdOCfykN9MgWSK4OkKosX0nN6Tm52Kx",
@@ -155,7 +190,12 @@
       "next_action": "Run product interview",
       "updated_at": "2026-10-03T15:53:16+00:00",
       "needs_review": false,
-      "printed": false
+      "printed": false,
+      "status": "In Progress",
+      "blocked": false,
+      "blocker_reason": null,
+      "last_update_source": "folder_reconciliation",
+      "history": []
     },
     {
       "product_id": "bookish-1360nERySoCqsktCLVE9wvN9EePDPEiHt",
@@ -174,7 +214,12 @@
       "next_action": "Run product interview",
       "updated_at": "2026-10-03T15:53:16+00:00",
       "needs_review": false,
-      "printed": false
+      "printed": false,
+      "status": "In Progress",
+      "blocked": false,
+      "blocker_reason": null,
+      "last_update_source": "folder_reconciliation",
+      "history": []
     },
     {
       "product_id": "bookish-1OFQ_8Jgj6Q459xnkVNQ0kiFoiAOYrb6s",
@@ -193,7 +238,12 @@
       "next_action": "Run product interview",
       "updated_at": "2026-10-03T15:53:16+00:00",
       "needs_review": false,
-      "printed": false
+      "printed": false,
+      "status": "In Progress",
+      "blocked": false,
+      "blocker_reason": null,
+      "last_update_source": "folder_reconciliation",
+      "history": []
     },
     {
       "product_id": "bookish-1VXP0whtDNEHiOsmn7B-yZGImH6Mj1pyz",
@@ -212,7 +262,12 @@
       "next_action": "Run product interview",
       "updated_at": "2026-10-03T15:53:16+00:00",
       "needs_review": false,
-      "printed": false
+      "printed": false,
+      "status": "In Progress",
+      "blocked": false,
+      "blocker_reason": null,
+      "last_update_source": "folder_reconciliation",
+      "history": []
     },
     {
       "product_id": "bookish-1V9lYXWInRM0t2cNcSVGIsSNlP0fO2t0y",
@@ -231,7 +286,12 @@
       "next_action": "Run product interview",
       "updated_at": "2026-10-03T15:53:16+00:00",
       "needs_review": false,
-      "printed": false
+      "printed": false,
+      "status": "In Progress",
+      "blocked": false,
+      "blocker_reason": null,
+      "last_update_source": "folder_reconciliation",
+      "history": []
     },
     {
       "product_id": "bookish-1rHh_JJCJb-hlhpg4u-8mreOh7ce6m4BW",
@@ -250,7 +310,12 @@
       "next_action": "Run product interview",
       "updated_at": "2026-10-03T15:53:16+00:00",
       "needs_review": false,
-      "printed": false
+      "printed": false,
+      "status": "In Progress",
+      "blocked": false,
+      "blocker_reason": null,
+      "last_update_source": "folder_reconciliation",
+      "history": []
     },
     {
       "product_id": "bookish-1qiQG3Oxs0YPfdNG2HSueP7_n8KtVVhkA",
@@ -269,7 +334,12 @@
       "next_action": "Run product interview",
       "updated_at": "2026-10-03T15:53:16+00:00",
       "needs_review": false,
-      "printed": false
+      "printed": false,
+      "status": "In Progress",
+      "blocked": false,
+      "blocker_reason": null,
+      "last_update_source": "folder_reconciliation",
+      "history": []
     },
     {
       "product_id": "bookish-1-lPGSv_IHiCBzmKFN7bXWBwuHFFXB0jA",
@@ -288,7 +358,12 @@
       "next_action": "Run product interview",
       "updated_at": "2026-10-03T15:53:16+00:00",
       "needs_review": false,
-      "printed": false
+      "printed": false,
+      "status": "In Progress",
+      "blocked": false,
+      "blocker_reason": null,
+      "last_update_source": "folder_reconciliation",
+      "history": []
     },
     {
       "product_id": "1nBS3SPuksxc9pkZy6ie5X6CW3y7grHFJ",
@@ -307,7 +382,12 @@
       "next_action": "Published",
       "updated_at": "2026-10-05T21:18:00+00:00",
       "needs_review": false,
-      "printed": true
+      "printed": true,
+      "status": "Complete",
+      "blocked": false,
+      "blocker_reason": null,
+      "last_update_source": "folder_reconciliation",
+      "history": []
     },
     {
       "product_id": "1sf5c2qXpE2ekTA9-qbecOcoE32kzkmEB",
@@ -327,7 +407,12 @@
       "updated_at": "2026-10-05T21:18:00+00:00",
       "needs_review": false,
       "printed": true,
-      "review_note": "READY TO PUBLISH placement completes the print gate; older records still list physical checks as pending."
+      "review_note": "READY TO PUBLISH placement completes the print gate; older records still list physical checks as pending.",
+      "status": "Complete",
+      "blocked": false,
+      "blocker_reason": null,
+      "last_update_source": "folder_reconciliation",
+      "history": []
     },
     {
       "product_id": "1zDqFlI_lzUVfqWeVk-ZiJhR6P5f20-tH",
@@ -347,7 +432,12 @@
       "updated_at": "2026-10-05T21:18:00+00:00",
       "needs_review": false,
       "printed": true,
-      "review_note": "READY TO PUBLISH placement completes the print gate; older records still list physical checks as pending."
+      "review_note": "READY TO PUBLISH placement completes the print gate; older records still list physical checks as pending.",
+      "status": "Complete",
+      "blocked": false,
+      "blocker_reason": null,
+      "last_update_source": "folder_reconciliation",
+      "history": []
     },
     {
       "product_id": "1Dye6mKOGIkgh9FnL_9iZZjd4ob0ZDYTP",
@@ -367,7 +457,12 @@
       "updated_at": "2026-10-05T21:18:00+00:00",
       "needs_review": false,
       "printed": true,
-      "review_note": "PUBLISHED folder placement is authoritative; older STATE.md says no listing was published."
+      "review_note": "PUBLISHED folder placement is authoritative; older STATE.md says no listing was published.",
+      "status": "Complete",
+      "blocked": false,
+      "blocker_reason": null,
+      "last_update_source": "folder_reconciliation",
+      "history": []
     },
     {
       "product_id": "1wYzoNRUH4JsT_uopIbIuCoVgduS2Uxw3",
@@ -386,7 +481,12 @@
       "next_action": "Published",
       "updated_at": "2026-10-05T21:18:00+00:00",
       "needs_review": false,
-      "printed": true
+      "printed": true,
+      "status": "Complete",
+      "blocked": false,
+      "blocker_reason": null,
+      "last_update_source": "folder_reconciliation",
+      "history": []
     },
     {
       "product_id": "1JFp2gpmoi71Hs0HhNPIKWPRWbZlqTxTt",
@@ -405,7 +505,12 @@
       "next_action": "Published",
       "updated_at": "2026-10-05T21:18:00+00:00",
       "needs_review": false,
-      "printed": true
+      "printed": true,
+      "status": "Complete",
+      "blocked": false,
+      "blocker_reason": null,
+      "last_update_source": "folder_reconciliation",
+      "history": []
     },
     {
       "product_id": "1426ElQ0JgmKch_o7H5al-jXZz0ya0_W2",
@@ -424,7 +529,12 @@
       "next_action": "Published",
       "updated_at": "2026-10-05T21:18:00+00:00",
       "needs_review": false,
-      "printed": true
+      "printed": true,
+      "status": "Complete",
+      "blocked": false,
+      "blocker_reason": null,
+      "last_update_source": "folder_reconciliation",
+      "history": []
     },
     {
       "product_id": "1jsBCsAWgNwkWb45GZevLynhUUXivuCWV",
@@ -443,7 +553,12 @@
       "next_action": "Published",
       "updated_at": "2026-10-05T21:18:00+00:00",
       "needs_review": false,
-      "printed": true
+      "printed": true,
+      "status": "Complete",
+      "blocked": false,
+      "blocker_reason": null,
+      "last_update_source": "folder_reconciliation",
+      "history": []
     },
     {
       "product_id": "1oJDQTkwYx0iFco-mTyIilo-w_jcFAeua",
@@ -462,7 +577,12 @@
       "next_action": "Published",
       "updated_at": "2026-10-05T21:18:00+00:00",
       "needs_review": false,
-      "printed": true
+      "printed": true,
+      "status": "Complete",
+      "blocked": false,
+      "blocker_reason": null,
+      "last_update_source": "folder_reconciliation",
+      "history": []
     },
     {
       "product_id": "1aiOzCMB6FRcXB6PqxM1XAAuZWhgh2K7x",
@@ -481,7 +601,12 @@
       "next_action": "Published",
       "updated_at": "2026-10-05T21:18:00+00:00",
       "needs_review": false,
-      "printed": true
+      "printed": true,
+      "status": "Complete",
+      "blocked": false,
+      "blocker_reason": null,
+      "last_update_source": "folder_reconciliation",
+      "history": []
     },
     {
       "product_id": "1Krb5b_fRhljKwq73YewVvDhUgk_DsDMQ",
@@ -501,7 +626,12 @@
       "next_action": "Print and physically validate",
       "updated_at": "2026-10-05T21:18:00+00:00",
       "needs_review": false,
-      "review_note": "Approved r03 development 3MF exists; split the layout into slicer plates and verify physical fit."
+      "review_note": "Approved r03 development 3MF exists; split the layout into slicer plates and verify physical fit.",
+      "status": "In Progress",
+      "blocked": false,
+      "blocker_reason": null,
+      "last_update_source": "folder_reconciliation",
+      "history": []
     },
     {
       "product_id": "1k_i7OSxBJJGfUCSvpi2o4Y-5OF1PyDk9",
@@ -520,7 +650,12 @@
       "published": false,
       "next_action": "Print and physically validate",
       "updated_at": "2026-10-05T21:18:00+00:00",
-      "needs_review": false
+      "needs_review": false,
+      "status": "In Progress",
+      "blocked": false,
+      "blocker_reason": null,
+      "last_update_source": "folder_reconciliation",
+      "history": []
     },
     {
       "product_id": "1XssnXCdH69DhVi1JxomyLqKqqibd8k_x",
@@ -539,7 +674,12 @@
       "published": false,
       "next_action": "Prepare marketplace package",
       "updated_at": "2026-10-05T21:18:00+00:00",
-      "needs_review": false
+      "needs_review": false,
+      "status": "In Progress",
+      "blocked": false,
+      "blocker_reason": null,
+      "last_update_source": "folder_reconciliation",
+      "history": []
     },
     {
       "product_id": "1KoPsjpUsBUZcld8i0c8qm44PDJHrDXg_",
@@ -558,7 +698,12 @@
       "published": false,
       "next_action": "Consolidate approved pack specification and package",
       "updated_at": "2026-10-05T21:18:00+00:00",
-      "needs_review": true
+      "needs_review": true,
+      "status": "In Progress",
+      "blocked": false,
+      "blocker_reason": null,
+      "last_update_source": "folder_reconciliation",
+      "history": []
     },
     {
       "product_id": "1XPriR8X_YGICjPUXUUn-ACilq4pJeMfL",
@@ -577,7 +722,40 @@
       "published": true,
       "next_action": "Published",
       "updated_at": "2026-10-05T21:18:00+00:00",
-      "needs_review": false
+      "needs_review": false,
+      "status": "Complete",
+      "blocked": false,
+      "blocker_reason": null,
+      "last_update_source": "folder_reconciliation",
+      "history": []
     }
-  ]
+  ],
+  "status_contract": {
+    "stages": [
+      "idea",
+      "specs",
+      "3mf",
+      "to_print",
+      "printed",
+      "published"
+    ],
+    "update_sources": [
+      "skill",
+      "todo_sync",
+      "dashboard",
+      "folder_reconciliation"
+    ],
+    "precedence": "newest explicit manual or workflow evidence wins; authoritative GPT-WORK folder placement wins for printed/published",
+    "todo_fields": [
+      "Stage",
+      "Status",
+      "Blocked",
+      "Next Action",
+      "Test Print",
+      "Model",
+      "Marketing",
+      "MakerWorld",
+      "Thangs"
+    ]
+  }
 }
