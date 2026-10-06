@@ -47,7 +47,7 @@ Human-readable tasks remain below the header.
 Write only at meaningful milestones. Update TO_DO.md/STATE.md first, then make a tiny portfolio upsert. Do not scan the whole portfolio.
 
 ### Dashboard
-Manual stage/action changes are explicit user intent. A production backend must write them centrally with source `dashboard`, timestamp them, append history, and then reconcile the product control files.
+Manual changes are explicit user intent. The dashboard writes a local pending override immediately. The next dashboard reconciliation/publish operation merges those overrides into `portfolio.json`, records source `dashboard` and history, then republishes the JSON and dashboard. No separate database is used.
 
 ### End-of-day reconciler
 Recursively scan GPT-WORK, read product control files, merge newer evidence into the central status record, refresh folder/hero metadata, append meaningful history, and regenerate/deploy the dashboard.
@@ -73,5 +73,5 @@ Recursively scan GPT-WORK, read product control files, merge newer evidence into
 }
 ```
 
-## Security
-The browser must never contain a GitHub or Google Drive write credential. Cross-device dashboard writes require an authenticated server-side API/function. Until that endpoint is deployed, browser changes remain local-only and are labeled as such.
+## Storage
+`portfolio.json` is the single portfolio status store. Product control files such as `TO_DO.md` and `STATE.md` remain workflow evidence; reconciliation merges them into the JSON according to the conflict rules above.
