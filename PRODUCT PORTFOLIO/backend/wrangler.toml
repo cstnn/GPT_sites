@@ -1,0 +1,8 @@
+name = "product-dashboard-api"
+main = "src/worker.js"
+compatibility_date = "2026-10-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "product-dashboard"
+database_id = "REPLACE_AFTER_D1_CREATE"
