@@ -23,7 +23,7 @@ button{cursor:pointer}.stats{display:flex;gap:8px;margin-top:10px;overflow:auto}
 <select id="season"><option value="all">All seasons</option><option value="seasonal">Seasonal</option><option value="year_round">Year-round</option></select><select id="sort"><option value="default">Board order</option><option value="interest">Customer interest ↓</option><option value="commercial">Commercial appeal ↓</option></select><button id="save" title="Save my dashboard changes for the next portfolio update">Save updates</button>
 <button id="reconcile" title="Request a fresh scan of GPT-WORK and rebuild the portfolio">Fresh reconciliation</button>
 <button id="reset" title="Remove manual browser overrides">Reset local changes</button></div><div class="stats" id="stats"></div></header>
-<div class="note" style="padding-top:12px">Blue: customer interest in printable files · Green: appeal to sellers of finished products. Saved estimates /10, not measured demand. Seasonal scores refer to the relevant selling season.</div><main class="board" id="board"></main><div class="note">Desktop: drag cards between stages. Mobile: use the stage selector. Save updates records your pending dashboard changes; Fresh reconciliation records a request to rescan GPT-WORK. The portfolio workflow consumes these requests and republishes portfolio.json.</div>
+<div class="note" style="padding-top:12px">Blue: customer interest in printable files · Green: appeal to sellers of finished products. Strict ratings /10: 3–4 niche · 5–6 moderate · 7–8 strong · 9–10 requires demand evidence. Estimates, not measured demand. Seasonal scores refer to the relevant selling season.</div><main class="board" id="board"></main><div class="note">Desktop: drag cards between stages. Mobile: use the stage selector. Save updates records your pending dashboard changes; Fresh reconciliation records a request to rescan GPT-WORK. The portfolio workflow consumes these requests and republishes portfolio.json.</div>
 <script id="portfolio-snapshot" type="application/json">{
   "schema_version": 3,
   "generated_at": "2026-10-12T16:36:47+03:00",
@@ -51,21 +51,30 @@ button{cursor:pointer}.stats{display:flex;gap:8px;margin-top:10px;overflow:auto}
       "seasons": [
         "Christmas"
       ],
-      "customer_interest_score": 8,
-      "commercial_appeal_score": 7.5,
+      "customer_interest_score": 6,
+      "commercial_appeal_score": 5.5,
       "assessment_rationale": {
-        "customer_interest": "Visual appeal, differentiation and gift/use value assessed from current imagery and available specifications.",
-        "commercial_appeal": "Finished-product appeal balanced against batch printing, assembly, packaging and seasonal audience."
+        "customer_interest": "Coordinated nine-motif linking system; moderate novelty.",
+        "commercial_appeal": "Link assembly and packaging add labor."
       },
       "assessment_confidence": "medium",
-      "assessed_at": "2026-10-13T21:46:52+03:00",
-      "assessment_method": "qualitative_v1",
+      "assessed_at": "2026-10-13T22:02:11+03:00",
+      "assessment_method": "qualitative_v2_strict",
       "assessment_evidence": {
         "folder_url": "https://drive.google.com/drive/folders/1EcqVv2Kk991em_lpnQXPmBSVgJsDqbqA",
         "image_asset_id": "1qhSuWnBHyhj4lZd7yHUCNaVPFou0eV9e",
         "reviewed_specs": true,
         "reviewed_marketing": false
-      }
+      },
+      "assessment_history": [
+        {
+          "customer_interest_score": 8,
+          "commercial_appeal_score": 7.5,
+          "assessed_at": "2026-10-13T21:46:52+03:00",
+          "assessment_method": "qualitative_v1",
+          "superseded_reason": "Explicit user request for realistic reassessment"
+        }
+      ]
     },
     {
       "product_id": "1b5li4ontNMvQjagooy974GFEsGCyGhPz",
@@ -89,21 +98,30 @@ button{cursor:pointer}.stats{display:flex;gap:8px;margin-top:10px;overflow:auto}
       "seasons": [
         "Christmas"
       ],
-      "customer_interest_score": 7.5,
-      "commercial_appeal_score": 7,
+      "customer_interest_score": 4.5,
+      "commercial_appeal_score": 4,
       "assessment_rationale": {
-        "customer_interest": "Visual appeal, differentiation and gift/use value assessed from current imagery and available specifications.",
-        "commercial_appeal": "Finished-product appeal balanced against batch printing, assembly, packaging and seasonal audience."
+        "customer_interest": "Familiar flat shapes; no personalization weakens tag utility.",
+        "commercial_appeal": "Low perceived value despite efficient printing."
       },
       "assessment_confidence": "medium",
-      "assessed_at": "2026-10-13T21:46:52+03:00",
-      "assessment_method": "qualitative_v1",
+      "assessed_at": "2026-10-13T22:02:11+03:00",
+      "assessment_method": "qualitative_v2_strict",
       "assessment_evidence": {
         "folder_url": "https://drive.google.com/drive/folders/1b5li4ontNMvQjagooy974GFEsGCyGhPz",
         "image_asset_id": "1ol2phQEqBhg56jXrF6rtanfVlA8y_tzk",
         "reviewed_specs": true,
         "reviewed_marketing": false
-      }
+      },
+      "assessment_history": [
+        {
+          "customer_interest_score": 7.5,
+          "commercial_appeal_score": 7,
+          "assessed_at": "2026-10-13T21:46:52+03:00",
+          "assessment_method": "qualitative_v1",
+          "superseded_reason": "Explicit user request for realistic reassessment"
+        }
+      ]
     },
     {
       "product_id": "1ghaM2obToMfpxg4LHxdJCVaJ9ggLr3aG",
@@ -127,21 +145,30 @@ button{cursor:pointer}.stats{display:flex;gap:8px;margin-top:10px;overflow:auto}
       "seasons": [
         "Christmas"
       ],
-      "customer_interest_score": 7.5,
-      "commercial_appeal_score": 8.5,
+      "customer_interest_score": 5,
+      "commercial_appeal_score": 6.5,
       "assessment_rationale": {
-        "customer_interest": "Visual appeal, differentiation and gift/use value assessed from current imagery and available specifications.",
-        "commercial_appeal": "Finished-product appeal balanced against batch printing, assembly, packaging and seasonal audience."
+        "customer_interest": "Clear function but narrow holiday-table audience.",
+        "commercial_appeal": "Low assembly effort; natural four/six-piece sets."
       },
       "assessment_confidence": "medium",
-      "assessed_at": "2026-10-13T21:46:52+03:00",
-      "assessment_method": "qualitative_v1",
+      "assessed_at": "2026-10-13T22:02:11+03:00",
+      "assessment_method": "qualitative_v2_strict",
       "assessment_evidence": {
         "folder_url": "https://drive.google.com/drive/folders/1ghaM2obToMfpxg4LHxdJCVaJ9ggLr3aG",
         "image_asset_id": "1E24RXei7GDKeORsHicsguY6LcTCE1NM0",
         "reviewed_specs": true,
         "reviewed_marketing": false
-      }
+      },
+      "assessment_history": [
+        {
+          "customer_interest_score": 7.5,
+          "commercial_appeal_score": 8.5,
+          "assessed_at": "2026-10-13T21:46:52+03:00",
+          "assessment_method": "qualitative_v1",
+          "superseded_reason": "Explicit user request for realistic reassessment"
+        }
+      ]
     },
     {
       "product_id": "1aLoYR8jj0ast9cljZhBQCx2afHQ7PTIW",
@@ -165,21 +192,30 @@ button{cursor:pointer}.stats{display:flex;gap:8px;margin-top:10px;overflow:auto}
       "seasons": [
         "Christmas"
       ],
-      "customer_interest_score": 9,
-      "commercial_appeal_score": 8,
+      "customer_interest_score": 8,
+      "commercial_appeal_score": 7,
       "assessment_rationale": {
-        "customer_interest": "Visual appeal, differentiation and gift/use value assessed from current imagery and available specifications.",
-        "commercial_appeal": "Finished-product appeal balanced against batch printing, assembly, packaging and seasonal audience."
+        "customer_interest": "Cohesive illuminated village and accent options offer clear differentiation.",
+        "commercial_appeal": "Set sales potential; multiple house prints, LEDs and packing costs."
       },
       "assessment_confidence": "medium",
-      "assessed_at": "2026-10-13T21:46:52+03:00",
-      "assessment_method": "qualitative_v1",
+      "assessed_at": "2026-10-13T22:02:11+03:00",
+      "assessment_method": "qualitative_v2_strict",
       "assessment_evidence": {
         "folder_url": "https://drive.google.com/drive/folders/1aLoYR8jj0ast9cljZhBQCx2afHQ7PTIW",
         "image_asset_id": "1PG2K-w-Xb6eQKSkTbvqzYqMzzP9h5VU1",
         "reviewed_specs": true,
         "reviewed_marketing": false
-      }
+      },
+      "assessment_history": [
+        {
+          "customer_interest_score": 9,
+          "commercial_appeal_score": 8,
+          "assessed_at": "2026-10-13T21:46:52+03:00",
+          "assessment_method": "qualitative_v1",
+          "superseded_reason": "Explicit user request for realistic reassessment"
+        }
+      ]
     },
     {
       "product_id": "1LrwnPToGFflX1Ig8-HerI9_8BPRR60ms",
@@ -203,21 +239,30 @@ button{cursor:pointer}.stats{display:flex;gap:8px;margin-top:10px;overflow:auto}
       "seasons": [
         "Christmas"
       ],
-      "customer_interest_score": 7.5,
-      "commercial_appeal_score": 8,
+      "customer_interest_score": 5.5,
+      "commercial_appeal_score": 5.5,
       "assessment_rationale": {
-        "customer_interest": "Visual appeal, differentiation and gift/use value assessed from current imagery and available specifications.",
-        "commercial_appeal": "Finished-product appeal balanced against batch printing, assembly, packaging and seasonal audience."
+        "customer_interest": "Coordinated scene; concept-only production evidence.",
+        "commercial_appeal": "Thin silhouettes and lighting/stands need validation."
       },
       "assessment_confidence": "low",
-      "assessed_at": "2026-10-13T21:46:52+03:00",
-      "assessment_method": "qualitative_v1",
+      "assessed_at": "2026-10-13T22:02:11+03:00",
+      "assessment_method": "qualitative_v2_strict",
       "assessment_evidence": {
         "folder_url": "https://drive.google.com/drive/folders/1LrwnPToGFflX1Ig8-HerI9_8BPRR60ms",
         "image_asset_id": "1QwyFJWrpDdqjkSgs6rVDSjOIF4M-GO5M",
         "reviewed_specs": false,
         "reviewed_marketing": false
-      }
+      },
+      "assessment_history": [
+        {
+          "customer_interest_score": 7.5,
+          "commercial_appeal_score": 8,
+          "assessed_at": "2026-10-13T21:46:52+03:00",
+          "assessment_method": "qualitative_v1",
+          "superseded_reason": "Explicit user request for realistic reassessment"
+        }
+      ]
     },
     {
       "product_id": "1e44YH3hx9hdRwhai8REY03ZNl7-vcnr7",
@@ -241,21 +286,30 @@ button{cursor:pointer}.stats{display:flex;gap:8px;margin-top:10px;overflow:auto}
       "seasons": [
         "Christmas"
       ],
-      "customer_interest_score": 8,
-      "commercial_appeal_score": 7,
+      "customer_interest_score": 6,
+      "commercial_appeal_score": 4.5,
       "assessment_rationale": {
-        "customer_interest": "Visual appeal, differentiation and gift/use value assessed from current imagery and available specifications.",
-        "commercial_appeal": "Finished-product appeal balanced against batch printing, assembly, packaging and seasonal audience."
+        "customer_interest": "Daily ritual adds utility; familiar cube countdown format.",
+        "commercial_appeal": "Many numeral inserts, spare cubes and short selling window."
       },
       "assessment_confidence": "medium",
-      "assessed_at": "2026-10-13T21:46:52+03:00",
-      "assessment_method": "qualitative_v1",
+      "assessed_at": "2026-10-13T22:02:11+03:00",
+      "assessment_method": "qualitative_v2_strict",
       "assessment_evidence": {
         "folder_url": "https://drive.google.com/drive/folders/1e44YH3hx9hdRwhai8REY03ZNl7-vcnr7",
         "image_asset_id": "1e_zGgQuPbOGVPufuoYE_XIw5aiTqfJBn",
         "reviewed_specs": true,
         "reviewed_marketing": false
-      }
+      },
+      "assessment_history": [
+        {
+          "customer_interest_score": 8,
+          "commercial_appeal_score": 7,
+          "assessed_at": "2026-10-13T21:46:52+03:00",
+          "assessment_method": "qualitative_v1",
+          "superseded_reason": "Explicit user request for realistic reassessment"
+        }
+      ]
     },
     {
       "product_id": "1u6to3SB8aaWA08zV-0fqmabtImEXXFaJ",
@@ -279,21 +333,30 @@ button{cursor:pointer}.stats{display:flex;gap:8px;margin-top:10px;overflow:auto}
       "seasons": [
         "Christmas"
       ],
-      "customer_interest_score": 8,
-      "commercial_appeal_score": 8.5,
+      "customer_interest_score": 6.5,
+      "commercial_appeal_score": 7,
       "assessment_rationale": {
-        "customer_interest": "Visual appeal, differentiation and gift/use value assessed from current imagery and available specifications.",
-        "commercial_appeal": "Finished-product appeal balanced against batch printing, assembly, packaging and seasonal audience."
+        "customer_interest": "Coordinated 3D flat-pack forms add practical value.",
+        "commercial_appeal": "Compact shipping and set potential; verify joints."
       },
       "assessment_confidence": "medium",
-      "assessed_at": "2026-10-13T21:46:52+03:00",
-      "assessment_method": "qualitative_v1",
+      "assessed_at": "2026-10-13T22:02:11+03:00",
+      "assessment_method": "qualitative_v2_strict",
       "assessment_evidence": {
         "folder_url": "https://drive.google.com/drive/folders/1u6to3SB8aaWA08zV-0fqmabtImEXXFaJ",
         "image_asset_id": "1EFYCQ4kxwGoB1vfYztpYWTg-nus9tkk0",
         "reviewed_specs": true,
         "reviewed_marketing": false
-      }
+      },
+      "assessment_history": [
+        {
+          "customer_interest_score": 8,
+          "commercial_appeal_score": 8.5,
+          "assessed_at": "2026-10-13T21:46:52+03:00",
+          "assessment_method": "qualitative_v1",
+          "superseded_reason": "Explicit user request for realistic reassessment"
+        }
+      ]
     },
     {
       "product_id": "12QvJIAxzdxSbyDLWFqcWKY83krNYQn9Z",
@@ -317,21 +380,30 @@ button{cursor:pointer}.stats{display:flex;gap:8px;margin-top:10px;overflow:auto}
       "seasons": [
         "Christmas"
       ],
-      "customer_interest_score": 7.5,
-      "commercial_appeal_score": 6,
+      "customer_interest_score": 4.5,
+      "commercial_appeal_score": 3,
       "assessment_rationale": {
-        "customer_interest": "Visual appeal, differentiation and gift/use value assessed from current imagery and available specifications.",
-        "commercial_appeal": "Finished-product appeal balanced against batch printing, assembly, packaging and seasonal audience."
+        "customer_interest": "Recognizable but intricate decoration without a clear new advantage.",
+        "commercial_appeal": "Multicolor details and assembly make production difficult."
       },
       "assessment_confidence": "low",
-      "assessed_at": "2026-10-13T21:46:52+03:00",
-      "assessment_method": "qualitative_v1",
+      "assessed_at": "2026-10-13T22:02:11+03:00",
+      "assessment_method": "qualitative_v2_strict",
       "assessment_evidence": {
         "folder_url": "https://drive.google.com/drive/folders/12QvJIAxzdxSbyDLWFqcWKY83krNYQn9Z",
         "image_asset_id": "11GCoPEmkjJyjzRatw-9rqJm4EdR9NBVN",
         "reviewed_specs": true,
         "reviewed_marketing": false
-      }
+      },
+      "assessment_history": [
+        {
+          "customer_interest_score": 7.5,
+          "commercial_appeal_score": 6,
+          "assessed_at": "2026-10-13T21:46:52+03:00",
+          "assessment_method": "qualitative_v1",
+          "superseded_reason": "Explicit user request for realistic reassessment"
+        }
+      ]
     },
     {
       "product_id": "1WWy3Yt-N8j_DjRtu5Ce9DjokV0bOfoNw",
@@ -355,21 +427,30 @@ button{cursor:pointer}.stats{display:flex;gap:8px;margin-top:10px;overflow:auto}
       "seasons": [
         "Christmas"
       ],
-      "customer_interest_score": 7.5,
-      "commercial_appeal_score": 7.5,
+      "customer_interest_score": 6,
+      "commercial_appeal_score": 5,
       "assessment_rationale": {
-        "customer_interest": "Visual appeal, differentiation and gift/use value assessed from current imagery and available specifications.",
-        "commercial_appeal": "Finished-product appeal balanced against batch printing, assembly, packaging and seasonal audience."
+        "customer_interest": "Sculptural illumination has display impact.",
+        "commercial_appeal": "Light installation, finishing and shipping effort remain uncertain."
       },
       "assessment_confidence": "low",
-      "assessed_at": "2026-10-13T21:46:52+03:00",
-      "assessment_method": "qualitative_v1",
+      "assessed_at": "2026-10-13T22:02:11+03:00",
+      "assessment_method": "qualitative_v2_strict",
       "assessment_evidence": {
         "folder_url": "https://drive.google.com/drive/folders/1WWy3Yt-N8j_DjRtu5Ce9DjokV0bOfoNw",
         "image_asset_id": "14wA28aTxIKATOh8RL-iEP7L9MFG2l6qf",
         "reviewed_specs": true,
         "reviewed_marketing": false
-      }
+      },
+      "assessment_history": [
+        {
+          "customer_interest_score": 7.5,
+          "commercial_appeal_score": 7.5,
+          "assessed_at": "2026-10-13T21:46:52+03:00",
+          "assessment_method": "qualitative_v1",
+          "superseded_reason": "Explicit user request for realistic reassessment"
+        }
+      ]
     },
     {
       "product_id": "164zn0PM3COB3PNFVcpjbLBHbwnBLAciv",
@@ -396,21 +477,30 @@ button{cursor:pointer}.stats{display:flex;gap:8px;margin-top:10px;overflow:auto}
         "Halloween",
         "Thanksgiving"
       ],
-      "customer_interest_score": 6.5,
-      "commercial_appeal_score": 6.5,
+      "customer_interest_score": 3.5,
+      "commercial_appeal_score": 3,
       "assessment_rationale": {
-        "customer_interest": "Visual appeal, differentiation and gift/use value assessed from current imagery and available specifications.",
-        "commercial_appeal": "Finished-product appeal balanced against batch printing, assembly, packaging and seasonal audience."
+        "customer_interest": "Expansion depends on existing NORHOLM owners.",
+        "commercial_appeal": "Limited standalone appeal; needs compatible houses."
       },
       "assessment_confidence": "low",
-      "assessed_at": "2026-10-13T21:46:52+03:00",
-      "assessment_method": "qualitative_v1",
+      "assessed_at": "2026-10-13T22:02:11+03:00",
+      "assessment_method": "qualitative_v2_strict",
       "assessment_evidence": {
         "folder_url": "https://drive.google.com/drive/folders/164zn0PM3COB3PNFVcpjbLBHbwnBLAciv",
         "image_asset_id": "1oYz4qZ-7E0HOXrmJ-CQNDQb82l60N8yK",
         "reviewed_specs": false,
         "reviewed_marketing": true
-      }
+      },
+      "assessment_history": [
+        {
+          "customer_interest_score": 6.5,
+          "commercial_appeal_score": 6.5,
+          "assessed_at": "2026-10-13T21:46:52+03:00",
+          "assessment_method": "qualitative_v1",
+          "superseded_reason": "Explicit user request for realistic reassessment"
+        }
+      ]
     },
     {
       "product_id": "1u9UenRlPvlMpSJWjGqQKXp6nO92Xc1Sb",
@@ -432,21 +522,30 @@ button{cursor:pointer}.stats{display:flex;gap:8px;margin-top:10px;overflow:auto}
       "printed": false,
       "seasonality": "year_round",
       "seasons": [],
-      "customer_interest_score": 7.5,
-      "commercial_appeal_score": 7,
+      "customer_interest_score": 5.5,
+      "commercial_appeal_score": 4.5,
       "assessment_rationale": {
-        "customer_interest": "Visual appeal, differentiation and gift/use value assessed from current imagery and available specifications.",
-        "commercial_appeal": "Finished-product appeal balanced against batch printing, assembly, packaging and seasonal audience."
+        "customer_interest": "Bookish gift niche; bulky charm and less readable potion detail.",
+        "commercial_appeal": "Assembly, attachment strength and limited pricing power."
       },
       "assessment_confidence": "medium",
-      "assessed_at": "2026-10-13T21:46:52+03:00",
-      "assessment_method": "qualitative_v1",
+      "assessed_at": "2026-10-13T22:02:11+03:00",
+      "assessment_method": "qualitative_v2_strict",
       "assessment_evidence": {
         "folder_url": "https://drive.google.com/drive/folders/1u9UenRlPvlMpSJWjGqQKXp6nO92Xc1Sb",
         "image_asset_id": "1wj3Np7avMI4FnhiTngAnKtQoWN4SnOVF",
         "reviewed_specs": false,
         "reviewed_marketing": false
-      }
+      },
+      "assessment_history": [
+        {
+          "customer_interest_score": 7.5,
+          "commercial_appeal_score": 7,
+          "assessed_at": "2026-10-13T21:46:52+03:00",
+          "assessment_method": "qualitative_v1",
+          "superseded_reason": "Explicit user request for realistic reassessment"
+        }
+      ]
     },
     {
       "product_id": "1_VzC9zs5H2gxJj1V0qp5eA80oofe7cBx",
@@ -471,21 +570,30 @@ button{cursor:pointer}.stats{display:flex;gap:8px;margin-top:10px;overflow:auto}
       "seasons": [
         "Christmas"
       ],
-      "customer_interest_score": 7.5,
-      "commercial_appeal_score": 8,
+      "customer_interest_score": 4.5,
+      "commercial_appeal_score": 5.5,
       "assessment_rationale": {
-        "customer_interest": "Visual appeal, differentiation and gift/use value assessed from current imagery and available specifications.",
-        "commercial_appeal": "Finished-product appeal balanced against batch printing, assembly, packaging and seasonal audience."
+        "customer_interest": "Three ornament textures, but a familiar bauble format.",
+        "commercial_appeal": "Set potential; unresolved hanging connection reduces readiness."
       },
       "assessment_confidence": "medium",
-      "assessed_at": "2026-10-13T21:46:52+03:00",
-      "assessment_method": "qualitative_v1",
+      "assessed_at": "2026-10-13T22:02:11+03:00",
+      "assessment_method": "qualitative_v2_strict",
       "assessment_evidence": {
         "folder_url": "https://drive.google.com/drive/folders/1_VzC9zs5H2gxJj1V0qp5eA80oofe7cBx",
         "image_asset_id": "1hLG2-NXEfK9S20_avjzsCWynKRHtjt1t",
         "reviewed_specs": true,
         "reviewed_marketing": false
-      }
+      },
+      "assessment_history": [
+        {
+          "customer_interest_score": 7.5,
+          "commercial_appeal_score": 8,
+          "assessed_at": "2026-10-13T21:46:52+03:00",
+          "assessment_method": "qualitative_v1",
+          "superseded_reason": "Explicit user request for realistic reassessment"
+        }
+      ]
     },
     {
       "product_id": "1h9ePQPW1PNbv_jNWQBTF0IUkH8fYHENd",
@@ -509,21 +617,30 @@ button{cursor:pointer}.stats{display:flex;gap:8px;margin-top:10px;overflow:auto}
       "seasons": [
         "Christmas"
       ],
-      "customer_interest_score": 9,
-      "commercial_appeal_score": 8,
+      "customer_interest_score": 7.5,
+      "commercial_appeal_score": 6.5,
       "assessment_rationale": {
-        "customer_interest": "Visual appeal, differentiation and gift/use value assessed from current imagery and available specifications.",
-        "commercial_appeal": "Finished-product appeal balanced against batch printing, assembly, packaging and seasonal audience."
+        "customer_interest": "Memorable clean character silhouette and gift appeal.",
+        "commercial_appeal": "Plausible character product; actual assembly time still needed."
       },
       "assessment_confidence": "medium",
-      "assessed_at": "2026-10-13T21:46:52+03:00",
-      "assessment_method": "qualitative_v1",
+      "assessed_at": "2026-10-13T22:02:11+03:00",
+      "assessment_method": "qualitative_v2_strict",
       "assessment_evidence": {
         "folder_url": "https://drive.google.com/drive/folders/1h9ePQPW1PNbv_jNWQBTF0IUkH8fYHENd",
         "image_asset_id": "103C1QJQtdzBmKJdoOkIbfs3TSsnhMTap",
         "reviewed_specs": true,
         "reviewed_marketing": false
-      }
+      },
+      "assessment_history": [
+        {
+          "customer_interest_score": 9,
+          "commercial_appeal_score": 8,
+          "assessed_at": "2026-10-13T21:46:52+03:00",
+          "assessment_method": "qualitative_v1",
+          "superseded_reason": "Explicit user request for realistic reassessment"
+        }
+      ]
     },
     {
       "product_id": "1o-hn3RiZvHamzrLq6Q9XgfZXaZLeEMhR",
@@ -548,21 +665,30 @@ button{cursor:pointer}.stats{display:flex;gap:8px;margin-top:10px;overflow:auto}
       "seasons": [
         "Christmas"
       ],
-      "customer_interest_score": 7,
-      "commercial_appeal_score": 7.5,
+      "customer_interest_score": 4.5,
+      "commercial_appeal_score": 5,
       "assessment_rationale": {
-        "customer_interest": "Visual appeal, differentiation and gift/use value assessed from current imagery and available specifications.",
-        "commercial_appeal": "Finished-product appeal balanced against batch printing, assembly, packaging and seasonal audience."
+        "customer_interest": "Clean geometric star; little novelty among ornaments.",
+        "commercial_appeal": "Five-piece glue assembly weakens batch efficiency."
       },
       "assessment_confidence": "medium",
-      "assessed_at": "2026-10-13T21:46:52+03:00",
-      "assessment_method": "qualitative_v1",
+      "assessed_at": "2026-10-13T22:02:11+03:00",
+      "assessment_method": "qualitative_v2_strict",
       "assessment_evidence": {
         "folder_url": "https://drive.google.com/drive/folders/1o-hn3RiZvHamzrLq6Q9XgfZXaZLeEMhR",
         "image_asset_id": "1FRH0ea5BKBJ_9_2FaD2i1oMAIVGWl8ed",
         "reviewed_specs": true,
         "reviewed_marketing": true
-      }
+      },
+      "assessment_history": [
+        {
+          "customer_interest_score": 7,
+          "commercial_appeal_score": 7.5,
+          "assessed_at": "2026-10-13T21:46:52+03:00",
+          "assessment_method": "qualitative_v1",
+          "superseded_reason": "Explicit user request for realistic reassessment"
+        }
+      ]
     },
     {
       "product_id": "1o8ExYEkxf_axhMl2-eyZfXG8t43HzlfA",
@@ -587,21 +713,30 @@ button{cursor:pointer}.stats{display:flex;gap:8px;margin-top:10px;overflow:auto}
       "seasons": [
         "Christmas"
       ],
-      "customer_interest_score": 8.5,
-      "commercial_appeal_score": 8,
+      "customer_interest_score": 7,
+      "commercial_appeal_score": 6,
       "assessment_rationale": {
-        "customer_interest": "Visual appeal, differentiation and gift/use value assessed from current imagery and available specifications.",
-        "commercial_appeal": "Finished-product appeal balanced against batch printing, assembly, packaging and seasonal audience."
+        "customer_interest": "Pleats and wings provide strong sculptural décor appeal.",
+        "commercial_appeal": "Wing support cleanup and delicate packing reduce efficiency."
       },
       "assessment_confidence": "medium",
-      "assessed_at": "2026-10-13T21:46:52+03:00",
-      "assessment_method": "qualitative_v1",
+      "assessed_at": "2026-10-13T22:02:11+03:00",
+      "assessment_method": "qualitative_v2_strict",
       "assessment_evidence": {
         "folder_url": "https://drive.google.com/drive/folders/1o8ExYEkxf_axhMl2-eyZfXG8t43HzlfA",
         "image_asset_id": "1xj0IbNflFz5YgxcorfCsPZ9xaIiWUh0i",
         "reviewed_specs": true,
         "reviewed_marketing": true
-      }
+      },
+      "assessment_history": [
+        {
+          "customer_interest_score": 8.5,
+          "commercial_appeal_score": 8,
+          "assessed_at": "2026-10-13T21:46:52+03:00",
+          "assessment_method": "qualitative_v1",
+          "superseded_reason": "Explicit user request for realistic reassessment"
+        }
+      ]
     },
     {
       "product_id": "1GQD8YzJT2gOMun1B_Jb7bY--gdhnZthe",
@@ -623,21 +758,30 @@ button{cursor:pointer}.stats{display:flex;gap:8px;margin-top:10px;overflow:auto}
       "printed": false,
       "seasonality": "year_round",
       "seasons": [],
-      "customer_interest_score": 8,
-      "commercial_appeal_score": 7,
+      "customer_interest_score": 6.5,
+      "commercial_appeal_score": 5.5,
       "assessment_rationale": {
-        "customer_interest": "Visual appeal, differentiation and gift/use value assessed from current imagery and available specifications.",
-        "commercial_appeal": "Finished-product appeal balanced against batch printing, assembly, packaging and seasonal audience."
+        "customer_interest": "Readable dragon/dagger theme for fantasy-reader niche.",
+        "commercial_appeal": "Assembly and dagger/attachment durability require validation."
       },
       "assessment_confidence": "medium",
-      "assessed_at": "2026-10-13T21:46:52+03:00",
-      "assessment_method": "qualitative_v1",
+      "assessed_at": "2026-10-13T22:02:11+03:00",
+      "assessment_method": "qualitative_v2_strict",
       "assessment_evidence": {
         "folder_url": "https://drive.google.com/drive/folders/1GQD8YzJT2gOMun1B_Jb7bY--gdhnZthe",
         "image_asset_id": "1t6SsKrewOfB63RgHkUCBV-48eBF9hUvi",
         "reviewed_specs": false,
         "reviewed_marketing": false
-      }
+      },
+      "assessment_history": [
+        {
+          "customer_interest_score": 8,
+          "commercial_appeal_score": 7,
+          "assessed_at": "2026-10-13T21:46:52+03:00",
+          "assessment_method": "qualitative_v1",
+          "superseded_reason": "Explicit user request for realistic reassessment"
+        }
+      ]
     },
     {
       "product_id": "1U4-Wyybg70WTW5442OegdRrZmuJtvj-V",
@@ -661,21 +805,30 @@ button{cursor:pointer}.stats{display:flex;gap:8px;margin-top:10px;overflow:auto}
       "seasons": [
         "Christmas"
       ],
-      "customer_interest_score": 7,
-      "commercial_appeal_score": 8,
+      "customer_interest_score": 4,
+      "commercial_appeal_score": 5,
       "assessment_rationale": {
-        "customer_interest": "Visual appeal, differentiation and gift/use value assessed from current imagery and available specifications.",
-        "commercial_appeal": "Finished-product appeal balanced against batch printing, assembly, packaging and seasonal audience."
+        "customer_interest": "Smooth stacked tree offers limited differentiation.",
+        "commercial_appeal": "Simple five-part production, but limited pricing power."
       },
       "assessment_confidence": "medium",
-      "assessed_at": "2026-10-13T21:46:52+03:00",
-      "assessment_method": "qualitative_v1",
+      "assessed_at": "2026-10-13T22:02:11+03:00",
+      "assessment_method": "qualitative_v2_strict",
       "assessment_evidence": {
         "folder_url": "https://drive.google.com/drive/folders/1U4-Wyybg70WTW5442OegdRrZmuJtvj-V",
         "image_asset_id": "1bs3pNGunDzhKX3UgHxXrmlhIf0zVzxcd",
         "reviewed_specs": true,
         "reviewed_marketing": true
-      }
+      },
+      "assessment_history": [
+        {
+          "customer_interest_score": 7,
+          "commercial_appeal_score": 8,
+          "assessed_at": "2026-10-13T21:46:52+03:00",
+          "assessment_method": "qualitative_v1",
+          "superseded_reason": "Explicit user request for realistic reassessment"
+        }
+      ]
     },
     {
       "product_id": "1Pt6t8s5QkkCoGgDQQZmqDSZTCXGxp7rG",
@@ -699,21 +852,30 @@ button{cursor:pointer}.stats{display:flex;gap:8px;margin-top:10px;overflow:auto}
       "seasons": [
         "Christmas"
       ],
-      "customer_interest_score": 8,
-      "commercial_appeal_score": 7,
+      "customer_interest_score": 6,
+      "commercial_appeal_score": 4.5,
       "assessment_rationale": {
-        "customer_interest": "Visual appeal, differentiation and gift/use value assessed from current imagery and available specifications.",
-        "commercial_appeal": "Finished-product appeal balanced against batch printing, assembly, packaging and seasonal audience."
+        "customer_interest": "Warm light and contrasting trim; familiar single-cottage offer.",
+        "commercial_appeal": "Twelve parts and roof supports create substantial labor."
       },
       "assessment_confidence": "medium",
-      "assessed_at": "2026-10-13T21:46:52+03:00",
-      "assessment_method": "qualitative_v1",
+      "assessed_at": "2026-10-13T22:02:11+03:00",
+      "assessment_method": "qualitative_v2_strict",
       "assessment_evidence": {
         "folder_url": "https://drive.google.com/drive/folders/1Pt6t8s5QkkCoGgDQQZmqDSZTCXGxp7rG",
         "image_asset_id": "1OUqTwQ30njSkNVaLQxY03j9pye1JkBZn",
         "reviewed_specs": true,
         "reviewed_marketing": true
-      }
+      },
+      "assessment_history": [
+        {
+          "customer_interest_score": 8,
+          "commercial_appeal_score": 7,
+          "assessed_at": "2026-10-13T21:46:52+03:00",
+          "assessment_method": "qualitative_v1",
+          "superseded_reason": "Explicit user request for realistic reassessment"
+        }
+      ]
     },
     {
       "product_id": "1PzNm1mJgoTtVwpo-f3WMJ_21q3Dd4VRj",
@@ -737,21 +899,30 @@ button{cursor:pointer}.stats{display:flex;gap:8px;margin-top:10px;overflow:auto}
       "seasons": [
         "Christmas"
       ],
-      "customer_interest_score": 8.5,
-      "commercial_appeal_score": 8.5,
+      "customer_interest_score": 7,
+      "commercial_appeal_score": 7,
       "assessment_rationale": {
-        "customer_interest": "Visual appeal, differentiation and gift/use value assessed from current imagery and available specifications.",
-        "commercial_appeal": "Finished-product appeal balanced against batch printing, assembly, packaging and seasonal audience."
+        "customer_interest": "Tall illuminated tree with practical removable tiers.",
+        "commercial_appeal": "Three parts, no glue; large size raises print/shipping cost."
       },
       "assessment_confidence": "medium",
-      "assessed_at": "2026-10-13T21:46:52+03:00",
-      "assessment_method": "qualitative_v1",
+      "assessed_at": "2026-10-13T22:02:11+03:00",
+      "assessment_method": "qualitative_v2_strict",
       "assessment_evidence": {
         "folder_url": "https://drive.google.com/drive/folders/1PzNm1mJgoTtVwpo-f3WMJ_21q3Dd4VRj",
         "image_asset_id": "1K0Uy4XENP75HG6P20LvVzZuYLJt4cHvO",
         "reviewed_specs": true,
         "reviewed_marketing": true
-      }
+      },
+      "assessment_history": [
+        {
+          "customer_interest_score": 8.5,
+          "commercial_appeal_score": 8.5,
+          "assessed_at": "2026-10-13T21:46:52+03:00",
+          "assessment_method": "qualitative_v1",
+          "superseded_reason": "Explicit user request for realistic reassessment"
+        }
+      ]
     },
     {
       "product_id": "1KoPsjpUsBUZcld8i0c8qm44PDJHrDXg_",
@@ -777,21 +948,30 @@ button{cursor:pointer}.stats{display:flex;gap:8px;margin-top:10px;overflow:auto}
         "Christmas",
         "Winter"
       ],
-      "customer_interest_score": 7,
-      "commercial_appeal_score": 7,
+      "customer_interest_score": 4.5,
+      "commercial_appeal_score": 4,
       "assessment_rationale": {
-        "customer_interest": "Visual appeal, differentiation and gift/use value assessed from current imagery and available specifications.",
-        "commercial_appeal": "Finished-product appeal balanced against batch printing, assembly, packaging and seasonal audience."
+        "customer_interest": "Winter panels refresh an existing compatible system.",
+        "commercial_appeal": "Best bundled with full lamps; restricted standalone audience."
       },
       "assessment_confidence": "low",
-      "assessed_at": "2026-10-13T21:46:52+03:00",
-      "assessment_method": "qualitative_v1",
+      "assessed_at": "2026-10-13T22:02:11+03:00",
+      "assessment_method": "qualitative_v2_strict",
       "assessment_evidence": {
         "folder_url": "https://drive.google.com/drive/folders/1KoPsjpUsBUZcld8i0c8qm44PDJHrDXg_",
         "image_asset_id": "1XkTvCpz90bij6E9iUd3MGYJE410nLvFV",
         "reviewed_specs": false,
         "reviewed_marketing": false
-      }
+      },
+      "assessment_history": [
+        {
+          "customer_interest_score": 7,
+          "commercial_appeal_score": 7,
+          "assessed_at": "2026-10-13T21:46:52+03:00",
+          "assessment_method": "qualitative_v1",
+          "superseded_reason": "Explicit user request for realistic reassessment"
+        }
+      ]
     },
     {
       "product_id": "1zDqFlI_lzUVfqWeVk-ZiJhR6P5f20-tH",
@@ -815,21 +995,30 @@ button{cursor:pointer}.stats{display:flex;gap:8px;margin-top:10px;overflow:auto}
       "seasons": [
         "Christmas"
       ],
-      "customer_interest_score": 8,
-      "commercial_appeal_score": 7,
+      "customer_interest_score": 5.5,
+      "commercial_appeal_score": 4.5,
       "assessment_rationale": {
-        "customer_interest": "Visual appeal, differentiation and gift/use value assessed from current imagery and available specifications.",
-        "commercial_appeal": "Finished-product appeal balanced against batch printing, assembly, packaging and seasonal audience."
+        "customer_interest": "Gift and curled hat add character; familiar gnome format.",
+        "commercial_appeal": "Thirteen glued pieces without proven premium pricing."
       },
       "assessment_confidence": "medium",
-      "assessed_at": "2026-10-13T21:46:52+03:00",
-      "assessment_method": "qualitative_v1",
+      "assessed_at": "2026-10-13T22:02:11+03:00",
+      "assessment_method": "qualitative_v2_strict",
       "assessment_evidence": {
         "folder_url": "https://drive.google.com/drive/folders/1zDqFlI_lzUVfqWeVk-ZiJhR6P5f20-tH",
         "image_asset_id": "17Ef1SRP-IWK8yXMA9CNc_8DZjAqsij4V",
         "reviewed_specs": true,
         "reviewed_marketing": true
-      }
+      },
+      "assessment_history": [
+        {
+          "customer_interest_score": 8,
+          "commercial_appeal_score": 7,
+          "assessed_at": "2026-10-13T21:46:52+03:00",
+          "assessment_method": "qualitative_v1",
+          "superseded_reason": "Explicit user request for realistic reassessment"
+        }
+      ]
     },
     {
       "product_id": "1nBS3SPuksxc9pkZy6ie5X6CW3y7grHFJ",
@@ -853,21 +1042,30 @@ button{cursor:pointer}.stats{display:flex;gap:8px;margin-top:10px;overflow:auto}
       "seasons": [
         "Christmas"
       ],
-      "customer_interest_score": 8,
-      "commercial_appeal_score": 7,
+      "customer_interest_score": 6,
+      "commercial_appeal_score": 4.5,
       "assessment_rationale": {
-        "customer_interest": "Visual appeal, differentiation and gift/use value assessed from current imagery and available specifications.",
-        "commercial_appeal": "Finished-product appeal balanced against batch printing, assembly, packaging and seasonal audience."
+        "customer_interest": "Detailed festive façade; moderate distinction from other LED houses.",
+        "commercial_appeal": "Seventeen pieces and cleanup burden small-product production."
       },
       "assessment_confidence": "medium",
-      "assessed_at": "2026-10-13T21:46:52+03:00",
-      "assessment_method": "qualitative_v1",
+      "assessed_at": "2026-10-13T22:02:11+03:00",
+      "assessment_method": "qualitative_v2_strict",
       "assessment_evidence": {
         "folder_url": "https://drive.google.com/drive/folders/1nBS3SPuksxc9pkZy6ie5X6CW3y7grHFJ",
         "image_asset_id": "1eKSqhWMblcoxVON-zKPgfhZI2mmuQnQs",
         "reviewed_specs": true,
         "reviewed_marketing": true
-      }
+      },
+      "assessment_history": [
+        {
+          "customer_interest_score": 8,
+          "commercial_appeal_score": 7,
+          "assessed_at": "2026-10-13T21:46:52+03:00",
+          "assessment_method": "qualitative_v1",
+          "superseded_reason": "Explicit user request for realistic reassessment"
+        }
+      ]
     },
     {
       "product_id": "1sf5c2qXpE2ekTA9-qbecOcoE32kzkmEB",
@@ -891,21 +1089,30 @@ button{cursor:pointer}.stats{display:flex;gap:8px;margin-top:10px;overflow:auto}
       "seasons": [
         "Christmas"
       ],
-      "customer_interest_score": 8,
-      "commercial_appeal_score": 7,
+      "customer_interest_score": 6,
+      "commercial_appeal_score": 4.5,
       "assessment_rationale": {
-        "customer_interest": "Visual appeal, differentiation and gift/use value assessed from current imagery and available specifications.",
-        "commercial_appeal": "Finished-product appeal balanced against batch printing, assembly, packaging and seasonal audience."
+        "customer_interest": "Cute seasonal character; familiar static silhouette.",
+        "commercial_appeal": "Eighteen-piece assembly limits production efficiency."
       },
       "assessment_confidence": "medium",
-      "assessed_at": "2026-10-13T21:46:52+03:00",
-      "assessment_method": "qualitative_v1",
+      "assessed_at": "2026-10-13T22:02:11+03:00",
+      "assessment_method": "qualitative_v2_strict",
       "assessment_evidence": {
         "folder_url": "https://drive.google.com/drive/folders/1sf5c2qXpE2ekTA9-qbecOcoE32kzkmEB",
         "image_asset_id": "1AimE9XS5tmovyJTNVef6zf5FWMPmVJJJ",
         "reviewed_specs": true,
         "reviewed_marketing": true
-      }
+      },
+      "assessment_history": [
+        {
+          "customer_interest_score": 8,
+          "commercial_appeal_score": 7,
+          "assessed_at": "2026-10-13T21:46:52+03:00",
+          "assessment_method": "qualitative_v1",
+          "superseded_reason": "Explicit user request for realistic reassessment"
+        }
+      ]
     },
     {
       "product_id": "1oJDQTkwYx0iFco-mTyIilo-w_jcFAeua",
@@ -929,21 +1136,30 @@ button{cursor:pointer}.stats{display:flex;gap:8px;margin-top:10px;overflow:auto}
       "seasons": [
         "Halloween"
       ],
-      "customer_interest_score": 8,
-      "commercial_appeal_score": 8,
+      "customer_interest_score": 6.5,
+      "commercial_appeal_score": 6.5,
       "assessment_rationale": {
-        "customer_interest": "Visual appeal, differentiation and gift/use value assessed from current imagery and available specifications.",
-        "commercial_appeal": "Finished-product appeal balanced against batch printing, assembly, packaging and seasonal audience."
+        "customer_interest": "Readable pumpkin-holding pose; giftable Halloween charm.",
+        "commercial_appeal": "Compact impulse format and trio bundles; account for hardware."
       },
       "assessment_confidence": "medium",
-      "assessed_at": "2026-10-13T21:46:52+03:00",
-      "assessment_method": "qualitative_v1",
+      "assessed_at": "2026-10-13T22:02:11+03:00",
+      "assessment_method": "qualitative_v2_strict",
       "assessment_evidence": {
         "folder_url": "https://drive.google.com/drive/folders/1oJDQTkwYx0iFco-mTyIilo-w_jcFAeua",
         "image_asset_id": "1sgBZ7ceMHsOIIjMmcpb7RqjmIP8JvOPM",
         "reviewed_specs": false,
         "reviewed_marketing": false
-      }
+      },
+      "assessment_history": [
+        {
+          "customer_interest_score": 8,
+          "commercial_appeal_score": 8,
+          "assessed_at": "2026-10-13T21:46:52+03:00",
+          "assessment_method": "qualitative_v1",
+          "superseded_reason": "Explicit user request for realistic reassessment"
+        }
+      ]
     },
     {
       "product_id": "1k_i7OSxBJJGfUCSvpi2o4Y-5OF1PyDk9",
@@ -967,21 +1183,30 @@ button{cursor:pointer}.stats{display:flex;gap:8px;margin-top:10px;overflow:auto}
       "seasons": [
         "Christmas"
       ],
-      "customer_interest_score": 8.5,
-      "commercial_appeal_score": 7,
+      "customer_interest_score": 7,
+      "commercial_appeal_score": 5,
       "assessment_rationale": {
-        "customer_interest": "Visual appeal, differentiation and gift/use value assessed from current imagery and available specifications.",
-        "commercial_appeal": "Finished-product appeal balanced against batch printing, assembly, packaging and seasonal audience."
+        "customer_interest": "Rotating eyes add a meaningful expression feature.",
+        "commercial_appeal": "Eighteen parts plus eye-fit/retention testing."
       },
       "assessment_confidence": "medium",
-      "assessed_at": "2026-10-13T21:46:52+03:00",
-      "assessment_method": "qualitative_v1",
+      "assessed_at": "2026-10-13T22:02:11+03:00",
+      "assessment_method": "qualitative_v2_strict",
       "assessment_evidence": {
         "folder_url": "https://drive.google.com/drive/folders/1k_i7OSxBJJGfUCSvpi2o4Y-5OF1PyDk9",
         "image_asset_id": "1Hjvdf9VniezxvIMxVHKkxCFidfy9WQeo",
         "reviewed_specs": true,
         "reviewed_marketing": true
-      }
+      },
+      "assessment_history": [
+        {
+          "customer_interest_score": 8.5,
+          "commercial_appeal_score": 7,
+          "assessed_at": "2026-10-13T21:46:52+03:00",
+          "assessment_method": "qualitative_v1",
+          "superseded_reason": "Explicit user request for realistic reassessment"
+        }
+      ]
     },
     {
       "product_id": "1XPriR8X_YGICjPUXUUn-ACilq4pJeMfL",
@@ -1006,21 +1231,30 @@ button{cursor:pointer}.stats{display:flex;gap:8px;margin-top:10px;overflow:auto}
         "Autumn",
         "Thanksgiving"
       ],
-      "customer_interest_score": 7.5,
-      "commercial_appeal_score": 6.5,
+      "customer_interest_score": 6,
+      "commercial_appeal_score": 4,
       "assessment_rationale": {
-        "customer_interest": "Visual appeal, differentiation and gift/use value assessed from current imagery and available specifications.",
-        "commercial_appeal": "Finished-product appeal balanced against batch printing, assembly, packaging and seasonal audience."
+        "customer_interest": "Movable eyes add character; geographically narrower seasonal use.",
+        "commercial_appeal": "Fifteen parts, many colors and short sales window."
       },
       "assessment_confidence": "medium",
-      "assessed_at": "2026-10-13T21:46:52+03:00",
-      "assessment_method": "qualitative_v1",
+      "assessed_at": "2026-10-13T22:02:11+03:00",
+      "assessment_method": "qualitative_v2_strict",
       "assessment_evidence": {
         "folder_url": "https://drive.google.com/drive/folders/1XPriR8X_YGICjPUXUUn-ACilq4pJeMfL",
         "image_asset_id": "1A3M-aiMsrIZ6_z56j4ZjK50kvgGHVPct",
         "reviewed_specs": true,
         "reviewed_marketing": true
-      }
+      },
+      "assessment_history": [
+        {
+          "customer_interest_score": 7.5,
+          "commercial_appeal_score": 6.5,
+          "assessed_at": "2026-10-13T21:46:52+03:00",
+          "assessment_method": "qualitative_v1",
+          "superseded_reason": "Explicit user request for realistic reassessment"
+        }
+      ]
     },
     {
       "product_id": "1426ElQ0JgmKch_o7H5al-jXZz0ya0_W2",
@@ -1044,21 +1278,30 @@ button{cursor:pointer}.stats{display:flex;gap:8px;margin-top:10px;overflow:auto}
       "seasons": [
         "Halloween"
       ],
-      "customer_interest_score": 7,
-      "commercial_appeal_score": 7.5,
+      "customer_interest_score": 5,
+      "commercial_appeal_score": 5.5,
       "assessment_rationale": {
-        "customer_interest": "Visual appeal, differentiation and gift/use value assessed from current imagery and available specifications.",
-        "commercial_appeal": "Finished-product appeal balanced against batch printing, assembly, packaging and seasonal audience."
+        "customer_interest": "Cute companion model; limited standalone differentiation.",
+        "commercial_appeal": "Batchable trio component with modest standalone value."
       },
       "assessment_confidence": "medium",
-      "assessed_at": "2026-10-13T21:46:52+03:00",
-      "assessment_method": "qualitative_v1",
+      "assessed_at": "2026-10-13T22:02:11+03:00",
+      "assessment_method": "qualitative_v2_strict",
       "assessment_evidence": {
         "folder_url": "https://drive.google.com/drive/folders/1426ElQ0JgmKch_o7H5al-jXZz0ya0_W2",
         "image_asset_id": "1n65hGcuj1n6qxyuJ-HeRf2o4Fn38mqjj",
         "reviewed_specs": false,
         "reviewed_marketing": false
-      }
+      },
+      "assessment_history": [
+        {
+          "customer_interest_score": 7,
+          "commercial_appeal_score": 7.5,
+          "assessed_at": "2026-10-13T21:46:52+03:00",
+          "assessment_method": "qualitative_v1",
+          "superseded_reason": "Explicit user request for realistic reassessment"
+        }
+      ]
     },
     {
       "product_id": "1jsBCsAWgNwkWb45GZevLynhUUXivuCWV",
@@ -1082,21 +1325,30 @@ button{cursor:pointer}.stats{display:flex;gap:8px;margin-top:10px;overflow:auto}
       "seasons": [
         "Autumn"
       ],
-      "customer_interest_score": 7.5,
-      "commercial_appeal_score": 7,
+      "customer_interest_score": 5,
+      "commercial_appeal_score": 4,
       "assessment_rationale": {
-        "customer_interest": "Visual appeal, differentiation and gift/use value assessed from current imagery and available specifications.",
-        "commercial_appeal": "Finished-product appeal balanced against batch printing, assembly, packaging and seasonal audience."
+        "customer_interest": "Coherent autumn palette; familiar gnome décor.",
+        "commercial_appeal": "Assembly effort and seasonal use limit premium value."
       },
       "assessment_confidence": "medium",
-      "assessed_at": "2026-10-13T21:46:52+03:00",
-      "assessment_method": "qualitative_v1",
+      "assessed_at": "2026-10-13T22:02:11+03:00",
+      "assessment_method": "qualitative_v2_strict",
       "assessment_evidence": {
         "folder_url": "https://drive.google.com/drive/folders/1jsBCsAWgNwkWb45GZevLynhUUXivuCWV",
         "image_asset_id": "13J-F-FDmPjt4oZUS3dwnmo294ubBrF6s",
         "reviewed_specs": true,
         "reviewed_marketing": false
-      }
+      },
+      "assessment_history": [
+        {
+          "customer_interest_score": 7.5,
+          "commercial_appeal_score": 7,
+          "assessed_at": "2026-10-13T21:46:52+03:00",
+          "assessment_method": "qualitative_v1",
+          "superseded_reason": "Explicit user request for realistic reassessment"
+        }
+      ]
     },
     {
       "product_id": "1_iRZ1uIVe4zbYKv75ioxGsiyP1nx1I-C",
@@ -1120,21 +1372,30 @@ button{cursor:pointer}.stats{display:flex;gap:8px;margin-top:10px;overflow:auto}
       "seasons": [
         "Christmas"
       ],
-      "customer_interest_score": 8,
-      "commercial_appeal_score": 8.5,
+      "customer_interest_score": 6,
+      "commercial_appeal_score": 7,
       "assessment_rationale": {
-        "customer_interest": "Visual appeal, differentiation and gift/use value assessed from current imagery and available specifications.",
-        "commercial_appeal": "Finished-product appeal balanced against batch printing, assembly, packaging and seasonal audience."
+        "customer_interest": "Pleated texture and removable tiers distinguish the tree.",
+        "commercial_appeal": "Six pieces, compact size and coordinated set opportunities."
       },
       "assessment_confidence": "medium",
-      "assessed_at": "2026-10-13T21:46:52+03:00",
-      "assessment_method": "qualitative_v1",
+      "assessed_at": "2026-10-13T22:02:11+03:00",
+      "assessment_method": "qualitative_v2_strict",
       "assessment_evidence": {
         "folder_url": "https://drive.google.com/drive/folders/1_iRZ1uIVe4zbYKv75ioxGsiyP1nx1I-C",
         "image_asset_id": "1PF_wclMRIJz69ufJrjFNeZzU0PXrelMz",
         "reviewed_specs": true,
         "reviewed_marketing": true
-      }
+      },
+      "assessment_history": [
+        {
+          "customer_interest_score": 8,
+          "commercial_appeal_score": 8.5,
+          "assessed_at": "2026-10-13T21:46:52+03:00",
+          "assessment_method": "qualitative_v1",
+          "superseded_reason": "Explicit user request for realistic reassessment"
+        }
+      ]
     },
     {
       "product_id": "1JFp2gpmoi71Hs0HhNPIKWPRWbZlqTxTt",
@@ -1158,21 +1419,30 @@ button{cursor:pointer}.stats{display:flex;gap:8px;margin-top:10px;overflow:auto}
       "seasons": [
         "Autumn"
       ],
-      "customer_interest_score": 7,
-      "commercial_appeal_score": 8,
+      "customer_interest_score": 4,
+      "commercial_appeal_score": 6,
       "assessment_rationale": {
-        "customer_interest": "Visual appeal, differentiation and gift/use value assessed from current imagery and available specifications.",
-        "commercial_appeal": "Finished-product appeal balanced against batch printing, assembly, packaging and seasonal audience."
+        "customer_interest": "Generic ribbed pumpkin; weak file differentiation.",
+        "commercial_appeal": "Simple production and color sets support physical sales."
       },
       "assessment_confidence": "medium",
-      "assessed_at": "2026-10-13T21:46:52+03:00",
-      "assessment_method": "qualitative_v1",
+      "assessed_at": "2026-10-13T22:02:11+03:00",
+      "assessment_method": "qualitative_v2_strict",
       "assessment_evidence": {
         "folder_url": "https://drive.google.com/drive/folders/1JFp2gpmoi71Hs0HhNPIKWPRWbZlqTxTt",
         "image_asset_id": "1V7jYo9xOUuB5A5YDfPztJs4Jgqm31-jp",
         "reviewed_specs": false,
         "reviewed_marketing": false
-      }
+      },
+      "assessment_history": [
+        {
+          "customer_interest_score": 7,
+          "commercial_appeal_score": 8,
+          "assessed_at": "2026-10-13T21:46:52+03:00",
+          "assessment_method": "qualitative_v1",
+          "superseded_reason": "Explicit user request for realistic reassessment"
+        }
+      ]
     },
     {
       "product_id": "1uPSdL5e8z1ymn__dwFsFNU6PHdIckHcw",
@@ -1196,21 +1466,30 @@ button{cursor:pointer}.stats{display:flex;gap:8px;margin-top:10px;overflow:auto}
       "seasons": [
         "Christmas"
       ],
-      "customer_interest_score": 9,
-      "commercial_appeal_score": 7,
+      "customer_interest_score": 8,
+      "commercial_appeal_score": 5.5,
       "assessment_rationale": {
-        "customer_interest": "Visual appeal, differentiation and gift/use value assessed from current imagery and available specifications.",
-        "commercial_appeal": "Finished-product appeal balanced against batch printing, assembly, packaging and seasonal audience."
+        "customer_interest": "Swappable expressions and accessories give strong repeat-use file value.",
+        "commercial_appeal": "Many small pieces and glue steps; fixed combinations easier to sell."
       },
       "assessment_confidence": "medium",
-      "assessed_at": "2026-10-13T21:46:52+03:00",
-      "assessment_method": "qualitative_v1",
+      "assessed_at": "2026-10-13T22:02:11+03:00",
+      "assessment_method": "qualitative_v2_strict",
       "assessment_evidence": {
         "folder_url": "https://drive.google.com/drive/folders/1uPSdL5e8z1ymn__dwFsFNU6PHdIckHcw",
         "image_asset_id": "1MApk2sLEmymKg6kyqVyERoo947ZJhahd",
         "reviewed_specs": true,
         "reviewed_marketing": true
-      }
+      },
+      "assessment_history": [
+        {
+          "customer_interest_score": 9,
+          "commercial_appeal_score": 7,
+          "assessed_at": "2026-10-13T21:46:52+03:00",
+          "assessment_method": "qualitative_v1",
+          "superseded_reason": "Explicit user request for realistic reassessment"
+        }
+      ]
     },
     {
       "product_id": "1wYzoNRUH4JsT_uopIbIuCoVgduS2Uxw3",
@@ -1234,21 +1513,30 @@ button{cursor:pointer}.stats{display:flex;gap:8px;margin-top:10px;overflow:auto}
       "seasons": [
         "Autumn"
       ],
-      "customer_interest_score": 7,
-      "commercial_appeal_score": 7.5,
+      "customer_interest_score": 4.5,
+      "commercial_appeal_score": 5.5,
       "assessment_rationale": {
-        "customer_interest": "Visual appeal, differentiation and gift/use value assessed from current imagery and available specifications.",
-        "commercial_appeal": "Finished-product appeal balanced against batch printing, assembly, packaging and seasonal audience."
+        "customer_interest": "Stacked composition adds modest novelty.",
+        "commercial_appeal": "More material and packing bulk than individual pumpkins."
       },
       "assessment_confidence": "medium",
-      "assessed_at": "2026-10-13T21:46:52+03:00",
-      "assessment_method": "qualitative_v1",
+      "assessed_at": "2026-10-13T22:02:11+03:00",
+      "assessment_method": "qualitative_v2_strict",
       "assessment_evidence": {
         "folder_url": "https://drive.google.com/drive/folders/1wYzoNRUH4JsT_uopIbIuCoVgduS2Uxw3",
         "image_asset_id": "1-byMfTo3a6dCkjZSH5mP3JrZS43vHk-z",
         "reviewed_specs": false,
         "reviewed_marketing": false
-      }
+      },
+      "assessment_history": [
+        {
+          "customer_interest_score": 7,
+          "commercial_appeal_score": 7.5,
+          "assessed_at": "2026-10-13T21:46:52+03:00",
+          "assessment_method": "qualitative_v1",
+          "superseded_reason": "Explicit user request for realistic reassessment"
+        }
+      ]
     },
     {
       "product_id": "1Dye6mKOGIkgh9FnL_9iZZjd4ob0ZDYTP",
@@ -1273,21 +1561,30 @@ button{cursor:pointer}.stats{display:flex;gap:8px;margin-top:10px;overflow:auto}
         "Autumn",
         "Thanksgiving"
       ],
-      "customer_interest_score": 6.5,
-      "commercial_appeal_score": 6,
+      "customer_interest_score": 4,
+      "commercial_appeal_score": 2.5,
       "assessment_rationale": {
-        "customer_interest": "Visual appeal, differentiation and gift/use value assessed from current imagery and available specifications.",
-        "commercial_appeal": "Finished-product appeal balanced against batch printing, assembly, packaging and seasonal audience."
+        "customer_interest": "Distinctive leaf tail; narrow season and large footprint.",
+        "commercial_appeal": "Thirteen pieces, bulky shipping and mechanical-fit checks."
       },
       "assessment_confidence": "medium",
-      "assessed_at": "2026-10-13T21:46:52+03:00",
-      "assessment_method": "qualitative_v1",
+      "assessed_at": "2026-10-13T22:02:11+03:00",
+      "assessment_method": "qualitative_v2_strict",
       "assessment_evidence": {
         "folder_url": "https://drive.google.com/drive/folders/1Dye6mKOGIkgh9FnL_9iZZjd4ob0ZDYTP",
         "image_asset_id": "1owTxfMtgER9lja1dY-CK0R5mWxWC8KT5",
         "reviewed_specs": true,
         "reviewed_marketing": true
-      }
+      },
+      "assessment_history": [
+        {
+          "customer_interest_score": 6.5,
+          "commercial_appeal_score": 6,
+          "assessed_at": "2026-10-13T21:46:52+03:00",
+          "assessment_method": "qualitative_v1",
+          "superseded_reason": "Explicit user request for realistic reassessment"
+        }
+      ]
     },
     {
       "product_id": "1aiOzCMB6FRcXB6PqxM1XAAuZWhgh2K7x",
@@ -1311,21 +1608,30 @@ button{cursor:pointer}.stats{display:flex;gap:8px;margin-top:10px;overflow:auto}
       "seasons": [
         "Halloween"
       ],
-      "customer_interest_score": 7.5,
-      "commercial_appeal_score": 8,
+      "customer_interest_score": 6,
+      "commercial_appeal_score": 6.5,
       "assessment_rationale": {
-        "customer_interest": "Visual appeal, differentiation and gift/use value assessed from current imagery and available specifications.",
-        "commercial_appeal": "Finished-product appeal balanced against batch printing, assembly, packaging and seasonal audience."
+        "customer_interest": "Upside-down pose differentiates this small charm.",
+        "commercial_appeal": "Compact gift/trio bundles suit production; strength needs validation."
       },
       "assessment_confidence": "medium",
-      "assessed_at": "2026-10-13T21:46:52+03:00",
-      "assessment_method": "qualitative_v1",
+      "assessed_at": "2026-10-13T22:02:11+03:00",
+      "assessment_method": "qualitative_v2_strict",
       "assessment_evidence": {
         "folder_url": "https://drive.google.com/drive/folders/1aiOzCMB6FRcXB6PqxM1XAAuZWhgh2K7x",
         "image_asset_id": "1wTTf1nHUgZrVL1wGwea1WdoTlL66Z_SV",
         "reviewed_specs": false,
         "reviewed_marketing": false
-      }
+      },
+      "assessment_history": [
+        {
+          "customer_interest_score": 7.5,
+          "commercial_appeal_score": 8,
+          "assessed_at": "2026-10-13T21:46:52+03:00",
+          "assessment_method": "qualitative_v1",
+          "superseded_reason": "Explicit user request for realistic reassessment"
+        }
+      ]
     }
   ],
   "reconciliation": {
@@ -1339,9 +1645,19 @@ button{cursor:pointer}.stats{display:flex;gap:8px;margin-top:10px;overflow:auto}
       "printed": 1,
       "published": 14
     }
+  },
+  "assessment_policy": {
+    "method": "qualitative_v2_strict",
+    "scale": {
+      "1-2": "Very limited appeal",
+      "3-4": "Niche or weak differentiation",
+      "5-6": "Moderate opportunity with competition",
+      "7-8": "Strong clear advantages",
+      "9-10": "Exceptional; requires product-specific measured demand"
+    },
+    "routine_refresh": "Preserve scores; assess missing values only."
   }
-}
-</script>
+}</script>
 <script>
 const stages=[
  {id:'idea',label:'Ideas'},{id:'specs',label:'Specs'},{id:'3mf',label:'3MF'},
