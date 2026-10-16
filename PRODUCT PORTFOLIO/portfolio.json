@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-10-12T16:36:47+03:00",
+  "generated_at": "2026-10-16T09:26:42+03:00",
   "root_folder_id": "1WliIAk1xWwewi_8NHIT9Mm31UZl1WCBR",
   "products": [
     {
@@ -667,17 +667,17 @@
     {
       "product_id": "1o8ExYEkxf_axhMl2-eyZfXG8t43HzlfA",
       "product_name": "Pleated Angel Figurine",
-      "stage": "3mf",
+      "stage": "printed",
       "folder_id": "1o8ExYEkxf_axhMl2-eyZfXG8t43HzlfA",
       "folder_url": "https://drive.google.com/drive/folders/1o8ExYEkxf_axhMl2-eyZfXG8t43HzlfA",
       "location": "GPT-WORK/IDEAS/Pleated Angel Figurine",
       "has_specs": true,
       "has_3mf": true,
       "has_marketplace": false,
-      "printed": false,
+      "printed": true,
       "published": false,
-      "next_action": "Save remaining approved marketing images and verify package",
-      "updated_at": "2026-10-12T16:36:47+03:00",
+      "next_action": "Review listing and marketing package, then publish",
+      "updated_at": "2026-10-16T09:26:42+03:00",
       "needs_review": true,
       "hero_asset_id": "1xj0IbNflFz5YgxcorfCsPZ9xaIiWUh0i",
       "hero_asset_url": "https://drive.google.com/thumbnail?id=1xj0IbNflFz5YgxcorfCsPZ9xaIiWUh0i&sz=w1000",
@@ -710,7 +710,9 @@
           "assessment_method": "qualitative_v1",
           "superseded_reason": "Explicit user request for realistic reassessment"
         }
-      ]
+      ],
+      "update_source": "user",
+      "status_evidence": "Explicit user instruction to move to Printed, 2026-10-16."
     },
     {
       "product_id": "1GQD8YzJT2gOMun1B_Jb7bY--gdhnZthe",
@@ -1614,9 +1616,9 @@
     "stage_counts": {
       "idea": 7,
       "specs": 3,
-      "3mf": 6,
+      "3mf": 5,
+      "printed": 2,
       "to_print": 3,
-      "printed": 1,
       "published": 14
     }
   },
