@@ -24,9 +24,10 @@ button{cursor:pointer}.stats{display:flex;gap:8px;margin-top:10px;overflow:auto}
 <button id="reconcile" title="Request a fresh scan of GPT-WORK and rebuild the portfolio">Fresh reconciliation</button>
 <button id="reset" title="Remove manual browser overrides">Reset local changes</button></div><div class="stats" id="stats"></div></header>
 <div class="note" style="padding-top:12px">Blue: customer interest in printable files · Green: appeal to sellers of finished products. Strict ratings /10: 3–4 niche · 5–6 moderate · 7–8 strong · 9–10 requires demand evidence. Estimates, not measured demand. Seasonal scores refer to the relevant selling season.</div><main class="board" id="board"></main><div class="note">Desktop: drag cards between stages. Mobile: use the stage selector. Save updates records your pending dashboard changes; Fresh reconciliation records a request to rescan GPT-WORK. The portfolio workflow consumes these requests and republishes portfolio.json.</div>
-<script id="portfolio-snapshot" type="application/json">{
+<script id="portfolio-snapshot" type="application/json">
+{
   "schema_version": 3,
-  "generated_at": "2026-10-12T16:36:47+03:00",
+  "generated_at": "2026-10-16T09:26:42+03:00",
   "root_folder_id": "1WliIAk1xWwewi_8NHIT9Mm31UZl1WCBR",
   "products": [
     {
@@ -693,17 +694,17 @@ button{cursor:pointer}.stats{display:flex;gap:8px;margin-top:10px;overflow:auto}
     {
       "product_id": "1o8ExYEkxf_axhMl2-eyZfXG8t43HzlfA",
       "product_name": "Pleated Angel Figurine",
-      "stage": "3mf",
+      "stage": "printed",
       "folder_id": "1o8ExYEkxf_axhMl2-eyZfXG8t43HzlfA",
       "folder_url": "https://drive.google.com/drive/folders/1o8ExYEkxf_axhMl2-eyZfXG8t43HzlfA",
       "location": "GPT-WORK/IDEAS/Pleated Angel Figurine",
       "has_specs": true,
       "has_3mf": true,
       "has_marketplace": false,
-      "printed": false,
+      "printed": true,
       "published": false,
-      "next_action": "Save remaining approved marketing images and verify package",
-      "updated_at": "2026-10-12T16:36:47+03:00",
+      "next_action": "Review listing and marketing package, then publish",
+      "updated_at": "2026-10-16T09:26:42+03:00",
       "needs_review": true,
       "hero_asset_id": "1xj0IbNflFz5YgxcorfCsPZ9xaIiWUh0i",
       "hero_asset_url": "https://drive.google.com/thumbnail?id=1xj0IbNflFz5YgxcorfCsPZ9xaIiWUh0i&sz=w1000",
@@ -736,7 +737,9 @@ button{cursor:pointer}.stats{display:flex;gap:8px;margin-top:10px;overflow:auto}
           "assessment_method": "qualitative_v1",
           "superseded_reason": "Explicit user request for realistic reassessment"
         }
-      ]
+      ],
+      "update_source": "user",
+      "status_evidence": "Explicit user instruction to move to Printed, 2026-10-16."
     },
     {
       "product_id": "1GQD8YzJT2gOMun1B_Jb7bY--gdhnZthe",
@@ -1640,9 +1643,9 @@ button{cursor:pointer}.stats{display:flex;gap:8px;margin-top:10px;overflow:auto}
     "stage_counts": {
       "idea": 7,
       "specs": 3,
-      "3mf": 6,
+      "3mf": 5,
+      "printed": 2,
       "to_print": 3,
-      "printed": 1,
       "published": 14
     }
   },
@@ -1657,7 +1660,8 @@ button{cursor:pointer}.stats{display:flex;gap:8px;margin-top:10px;overflow:auto}
     },
     "routine_refresh": "Preserve scores; assess missing values only."
   }
-}</script>
+}
+</script>
 <script>
 const stages=[
  {id:'idea',label:'Ideas'},{id:'specs',label:'Specs'},{id:'3mf',label:'3MF'},
@@ -1709,5 +1713,6 @@ document.getElementById('reset').onclick=()=>{if(confirm('Remove manual stage ch
 document.getElementById('stamp').textContent='Synced dataset: '+new Date(data.generated_at).toLocaleString();render();
 fetch('./portfolio.json',{cache:'no-store'}).then(r=>r.json()).then(j=>{data=j;document.getElementById('stamp').textContent='Synced dataset: '+new Date(j.generated_at).toLocaleString();render()}).catch(e=>{document.getElementById('stamp').textContent='Could not load portfolio.json';console.error(e)});
 </script></body></html>
+
 
 
