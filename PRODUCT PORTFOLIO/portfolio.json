@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-10-16T09:26:42+03:00",
+  "generated_at": "2026-10-16T09:33:18+03:00",
   "root_folder_id": "1WliIAk1xWwewi_8NHIT9Mm31UZl1WCBR",
   "products": [
     {
@@ -856,17 +856,17 @@
     {
       "product_id": "1PzNm1mJgoTtVwpo-f3WMJ_21q3Dd4VRj",
       "product_name": "Nordic Stacked Tealight Tree",
-      "stage": "to_print",
+      "stage": "printed",
       "folder_id": "1PzNm1mJgoTtVwpo-f3WMJ_21q3Dd4VRj",
       "folder_url": "https://drive.google.com/drive/folders/1PzNm1mJgoTtVwpo-f3WMJ_21q3Dd4VRj",
       "location": "GPT-WORK/IDEAS/Nordic Stacked Tealight Tree",
       "has_specs": true,
       "has_3mf": true,
       "has_marketplace": true,
-      "printed": false,
+      "printed": true,
       "published": false,
-      "next_action": "Slice and print physical sample",
-      "updated_at": "2026-10-12T16:36:47+03:00",
+      "next_action": "Review listing and marketing package, then publish",
+      "updated_at": "2026-10-16T09:33:18+03:00",
       "needs_review": false,
       "hero_asset_id": "1SV-eyZ3bLfiXsI5rnPoJiZxMEHBnlPfA",
       "hero_asset_url": "https://drive.google.com/thumbnail?id=1SV-eyZ3bLfiXsI5rnPoJiZxMEHBnlPfA&sz=w1000",
@@ -898,7 +898,9 @@
           "assessment_method": "qualitative_v1",
           "superseded_reason": "Explicit user request for realistic reassessment"
         }
-      ]
+      ],
+      "update_source": "user",
+      "status_evidence": "Explicit user instruction to move to Printed, 2026-10-16."
     },
     {
       "product_id": "1KoPsjpUsBUZcld8i0c8qm44PDJHrDXg_",
@@ -1617,8 +1619,8 @@
       "idea": 7,
       "specs": 3,
       "3mf": 5,
-      "printed": 2,
-      "to_print": 3,
+      "to_print": 2,
+      "printed": 3,
       "published": 14
     }
   },
