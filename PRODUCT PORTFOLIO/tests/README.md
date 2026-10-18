@@ -14,3 +14,10 @@ Reconcile exported browser changes with:
 Review merged outputs and publish them as portfolio.json and site/kanban/index.html. The fresh_reconciliation flag in an export requests the full Drive scan described in the skill; the builder itself does not access Drive. Without a scan, use the latest canonical JSON for both --current and --previous. Never substitute an older snapshot as --previous.
 
 Backend tests generate and sign real RSA JWTs and exercise claim/signature rejection, owner authorization, missing configuration, same-origin enforcement, If-Match conflicts and field validation. D1 writes use a test double; actual D1/Access deployment tests remain required before cutover. Hub store tests cover local ideas, stable IDs, shared changes, history, canonical preservation and unreadable browser storage.
+
+Google-only edition:
+
+    node 'PRODUCT PORTFOLIO/tests/google-drive-app.test.cjs'
+    node 'PRODUCT PORTFOLIO/tests/google-drive-bridge.test.cjs'
+
+These verify the Apps Script service model with mocks and the asynchronous browser transport. Actual owner authorization/deployment and same-file readback remain required for live verification.
