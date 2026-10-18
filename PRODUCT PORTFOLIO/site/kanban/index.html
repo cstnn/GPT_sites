@@ -1,29 +1,14 @@
 <!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Kanban | Product Studio</title>
-<style>
-:root{--bg:#0d1016;--panel:#151922;--card:#1d2330;--line:#30394a;--text:#f4f6fa;--muted:#9ba7b9;--accent:#8fb3ff}
-*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:14px system-ui,-apple-system,Segoe UI,sans-serif}
-header{position:sticky;top:0;z-index:10;background:rgba(13,16,22,.96);border-bottom:1px solid var(--line);padding:14px 18px}
-.top{display:flex;gap:12px;align-items:center;flex-wrap:wrap}.title{font-size:20px;font-weight:800;margin-right:auto}.sub{color:var(--muted);font-size:12px}
-input,select,button{background:#1a202b;color:var(--text);border:1px solid var(--line);border-radius:9px;padding:9px 10px;font:inherit}
-button{cursor:pointer}.stats{display:flex;gap:8px;margin-top:10px;overflow:auto}.stat{white-space:nowrap;background:#171c26;border:1px solid var(--line);border-radius:999px;padding:5px 9px;color:var(--muted)}
-.board{display:grid;grid-template-columns:repeat(6,minmax(260px,1fr));gap:12px;padding:14px;align-items:start;overflow-x:auto}
-.col{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:9px;min-height:170px}.col.dragover{outline:2px solid var(--accent)}
-.head{display:flex;align-items:center;justify-content:space-between;padding:8px;font-weight:800;font-size:18px}.count{font-size:11px;background:#283040;border-radius:999px;padding:3px 7px}
-.cards{min-height:80px}.card{background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden;margin-bottom:9px;cursor:grab}
-.hero{aspect-ratio:4/3;background:#10141b;overflow:hidden}.hero img{width:100%;height:100%;object-fit:cover}.info{padding:10px}.name{font-weight:750;font-size:15px}
-.row{display:flex;gap:6px;align-items:center;flex-wrap:wrap;margin-top:7px}.badge{font-size:10px;text-transform:uppercase;border:1px solid #4a5870;border-radius:999px;padding:2px 6px}.review{color:#ffd17a}
-.next,.loc{color:var(--muted);font-size:12px;margin-top:7px;line-height:1.35}.actions{display:flex;gap:6px;margin-top:9px}.actions button,.actions select{font-size:12px;padding:6px 7px;min-width:0}.open{color:var(--accent);text-decoration:none;font-size:12px}
-.empty{color:var(--muted);padding:12px 8px}.note{padding:0 18px 12px;color:var(--muted);font-size:12px}
-@media(max-width:900px){header{position:static}.board{display:block;padding:10px}.col{margin-bottom:10px;min-height:0}.head{font-size:18px}.cards:empty{display:none}.card{cursor:default}.hero{aspect-ratio:16/9}.title{width:100%}#search{flex:1;min-width:140px}}
-.assessment{margin-top:10px}.scoreline{display:flex;justify-content:space-between;font-size:12px;margin:7px 0 4px}.track{height:7px;border-radius:9px;background:#333c4f;overflow:hidden}.fill{height:100%;background:#8fb3ff}.fill.commercial{background:#63d4b1}.season{color:#f3cf8e}.assessment-note{font-size:11px;color:var(--muted);margin-top:8px}details.assessment-detail{font-size:12px;color:var(--muted);margin-top:8px}</style></head>
-<body><nav style="padding:12px 18px;background:#151922;border-bottom:1px solid #30394a"><a href="../index.html" style="color:#8fb3ff">← Product Studio home</a> · <strong>Kanban</strong></nav><header><div class="top"><div><div class="title">Product Development Dashboard</div><div class="sub" id="stamp">Loading portfolio…</div></div>
-<input id="search" placeholder="Search products"><select id="filter"><option value="all">All products</option><option value="attention">Needs attention</option><option value="active">Active only</option></select>
-<select id="season"><option value="all">All seasons</option><option value="seasonal">Seasonal</option><option value="year_round">Year-round</option></select><select id="sort"><option value="default">Board order</option><option value="interest">Customer interest ↓</option><option value="commercial">Commercial appeal ↓</option></select><button id="save" title="Download saved changes for the portfolio workflow">Export updates</button>
+<title>Kanban | NORHOLM Studio</title>
+<meta name="color-scheme" content="light"><link rel="stylesheet" href="../assets/hub.css"><link rel="stylesheet" href="../assets/kanban.css"><link rel="stylesheet" href="../assets/chrome.css"><script defer src="../assets/chrome.js"></script></head>
+<body data-page="kanban"><div data-site-header></div><section class="board-tools" aria-label="Kanban controls"><div class="top"><div><div class="eyebrow">THE STUDIO WORKSPACE</div><h1>Kanban board</h1><div class="sub" id="stamp">Loading portfolio…</div></div>
+<input id="search" aria-label="Search products" type="search" placeholder="Search products"><select id="filter" aria-label="Product focus"><option value="all">All products</option><option value="attention">Needs attention</option><option value="active">Active only</option></select>
+<select id="season" aria-label="Season"><option value="all">All seasons</option><option value="seasonal">Seasonal</option><option value="year_round">Year-round</option></select><select id="sort" aria-label="Sort products"><option value="default">Board order</option><option value="interest">Customer interest ↓</option><option value="commercial">Commercial appeal ↓</option></select><button id="save" title="Download saved changes for the portfolio workflow">Export updates</button>
 <button id="reconcile" title="Download changes and a request to rescan GPT-WORK">Export scan request</button>
-<button id="reset" title="Remove manual browser overrides">Reset local changes</button></div><div class="stats" id="stats"></div></header>
-<div class="note" style="padding-top:12px">Blue: customer interest in printable files · Green: appeal to sellers of finished products. Strict ratings /10: 3–4 niche · 5–6 moderate · 7–8 strong · 9–10 requires demand evidence. Estimates, not measured demand. Seasonal scores refer to the relevant selling season.</div><main class="board" id="board"></main><div class="note">Desktop: drag cards between stages. Mobile: use the stage selector. Changes save immediately in this browser. Export updates and give the file to the portfolio workflow to merge and publish across devices. Export scan request also requests a fresh GPT-WORK scan. Published is an overall workflow stage; it never checks a marketplace automatically.</div>
+<button id="reset" title="Remove manual browser overrides">Reset local changes</button></div><div class="stats" id="stats"></div></section>
+<div class="note" style="padding-top:12px">Sage: customer interest in printable files · Olive: appeal to sellers of finished products. Strict ratings /10: 3–4 niche · 5–6 moderate · 7–8 strong · 9–10 requires demand evidence. Estimates, not measured demand. Seasonal scores refer to the relevant selling season.</div><main class="board" id="board"></main><div class="note">Desktop: drag cards between stages. Mobile: tap a stage heading to expand or collapse it; use the stage selector to move a product. Changes save immediately in this browser. New ideas and detailed workspace edits require Export backup from the Product Hub; stage exports exclude uncreated Drive drafts. Export updates and give the file to the portfolio workflow to merge and publish across devices. Export scan request also requests a fresh GPT-WORK scan. Published is an overall workflow stage; it never checks a marketplace automatically.</div>
+<div data-site-footer></div>
 <script id="portfolio-snapshot" type="application/json">{
   "schema_version": 4,
   "generated_at": "2026-10-18T17:32:55.903269+00:00",
@@ -2154,15 +2139,16 @@ button{cursor:pointer}.stats{display:flex;gap:8px;margin-top:10px;overflow:auto}
   }
 }
 </script>
+<script src="../assets/store.js"></script>
 <script>
 const stages=[{"id": "idea", "label": "Idea / Concept"}, {"id": "specs_ready", "label": "Specs ready"}, {"id": "3mf_ready", "label": "3MF ready"}, {"id": "print_ready", "label": "Print ready"}, {"id": "to_publish", "label": "To Publish"}, {"id": "published", "label": "Published"}];
 let data=JSON.parse(document.getElementById('portfolio-snapshot').textContent);const key='product-dashboard-overrides-v1';
 const legacyStages={specs:'specs_ready','3mf':'3mf_ready',to_print:'print_ready',printed:'to_publish'};
 const normalizeStage=s=>legacyStages[s]||s;
 const overrides=()=>{const saved=JSON.parse(localStorage.getItem(key)||'{}');for(const o of Object.values(saved))if(o.stage)o.stage=normalizeStage(o.stage);return saved};
-function effective(p){const o=overrides()[p.product_id];return {...p,...o,stage:normalizeStage(o?.stage||p.stage),publication:{...p.publication,...o?.publication},manual_override:!!o}}
-function setStage(id,stage){const o=overrides();const at=new Date().toISOString();o[id]={...(o[id]||{}),stage,stage_updated_at:at,updated_at:at,update_source:'dashboard'};localStorage.setItem(key,JSON.stringify(o));render()}
-function setPublication(id,platform,value){const o=overrides();const at=new Date().toISOString();o[id]={...o[id],publication:{...o[id]?.publication,[platform]:value},publication_updated_at:{...o[id]?.publication_updated_at,[platform]:at},updated_at:at,update_source:'dashboard'};localStorage.setItem(key,JSON.stringify(o));render()}
+function effective(p){return {...HubStore.effective(p),manual_override:!!overrides()[p.product_id]}}
+function setStage(id,stage){const p=[...data.products,...HubStore.state().drafts].find(p=>p.product_id===id);if(!p||!stages.some(s=>s.id===stage))return;try{HubStore.change(effective(p),{stage});render()}catch(e){alert(e.message)}}
+function setPublication(id,platform,value){const p=[...data.products,...HubStore.state().drafts].find(p=>p.product_id===id);if(!p)return;try{HubStore.change(effective(p),{publication:{[platform]:value}});render()}catch(e){alert(e.message)}}
 function publicationControls(p){if(!['to_publish','published'].includes(p.stage))return '';return '<fieldset><legend>Publication confirmed</legend>'+['thangs','makerworld'].map(platform=>'<label style="display:block;padding:5px"><input type="checkbox" data-product="'+esc(p.product_id)+'" data-platform="'+platform+'" '+(p.publication?.[platform]===true?'checked':'')+'> '+platform.toUpperCase()+(p.publication?.[platform]==null?' · unverified':'')+'</label>').join('')+'<small>Independent of stage; unchecked means unconfirmed.</small></fieldset>'}
 function esc(s){return String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
 
@@ -2176,25 +2162,29 @@ function assessment(p){
  return '<div class="assessment"><span class="badge season">'+esc(season)+'</span>'+scoreBar('Customer interest',p.customer_interest_score,'interest')+scoreBar('Commercial appeal',p.commercial_appeal_score,'commercial')+'<div class="assessment-note">Assessed '+esc(p.assessed_at?new Date(p.assessed_at).toLocaleDateString():'—')+' · '+esc(p.assessment_confidence||'unknown')+' confidence</div><details class="assessment-detail"><summary>Assessment notes</summary><p>'+esc(r.customer_interest||'')+'</p><p>'+esc(r.commercial_appeal||'')+'</p></details></div>';
 }
 
+function safeURL(value){try{const u=new URL(value);return u.protocol==='https:'?u.href:''}catch{return ''}}
 function card(p){return `<article class="card" draggable="true" data-id="${esc(p.product_id)}">
-<div class="hero">${p.hero_asset_url?'<img loading="lazy" src="'+esc(p.hero_asset_url)+'" alt="">':''}</div>
-<div class="info"><div class="name">${esc(p.product_name)}</div><div class="row"><span class="badge">${esc(stages.find(s=>s.id===p.stage)?.label||p.stage)}</span>${p.manual_override?'<span class="badge">manual</span>':''}${p.needs_review?'<span class="review">Needs review</span>':''}</div>
+<div class="hero">${p.hero_asset_url?'<img loading="lazy" src="'+esc(safeURL(p.hero_asset_url))+'" alt="">':''}</div>
+<div class="info"><div class="name"><a href="../index.html#${encodeURIComponent(p.product_id)}">${esc(p.product_name)}</a></div><div class="row"><span class="badge">${esc(stages.find(s=>s.id===p.stage)?.label||p.stage)}</span>${p.manual_override?'<span class="badge">manual</span>':''}${p.needs_review?'<span class="review">Needs review</span>':''}</div>
 ${assessment(p)}
 ${publicationControls(p)}
 <div class="next"><b>Next:</b> ${esc(p.next_action||'—')}</div><div class="loc">${esc(p.location||'')}</div>
 <div class="actions"><select aria-label="Move stage" onchange="setStage('${esc(p.product_id)}',this.value)">${stages.map(s=>'<option value="'+s.id+'" '+(s.id===p.stage?'selected':'')+'>'+s.label+'</option>').join('')}</select>
-<a class="open" href="${esc(p.folder_url||'#')}" target="_blank" rel="noopener">Open folder ↗</a></div></div></article>`}
+<a class="open" href="${esc(safeURL(p.folder_url)||'#')}" target="_blank" rel="noopener">Open folder ↗</a></div></div></article>`}
+const collapsedStages=new Set(stages.map(s=>s.id));
+function toggleColumn(stage){if(!stages.some(s=>s.id===stage))return;collapsedStages.has(stage)?collapsedStages.delete(stage):collapsedStages.add(stage);render();document.getElementById('toggle-'+stage)?.focus?.()}
 function render(){
  const q=document.getElementById('search').value.toLowerCase(),f=document.getElementById('filter').value;
- let ps=data.products.map(effective).filter(p=>(p.product_name||'').toLowerCase().includes(q));
+ let ps=[...data.products,...HubStore.state().drafts].map(effective).filter(p=>(p.product_name||'').toLowerCase().includes(q));
  if(f==='attention')ps=ps.filter(p=>p.needs_review||p.blocked);
  if(f==='active')ps=ps.filter(p=>p.stage!=='published');
  const season=document.getElementById('season').value,sort=document.getElementById('sort').value;
  if(season!=='all')ps=ps.filter(p=>p.seasonality===season);
  if(sort!=='default'){const field=sort==='interest'?'customer_interest_score':'commercial_appeal_score';ps.sort((a,b)=>(b[field]??-1)-(a[field]??-1)||a.product_name.localeCompare(b.product_name));}
- document.getElementById('board').innerHTML=stages.map(s=>{const items=ps.filter(p=>p.stage===s.id);return `<section class="col" data-stage="${s.id}"><div class="head"><span>${s.label}</span><span class="count">${items.length}</span></div><div class="cards">${items.map(card).join('')||'<div class="empty">No products</div>'}</div></section>`}).join('');
- const all=data.products.map(effective);document.getElementById('stats').innerHTML=`<span class="stat">${all.length} products</span><span class="stat">${all.filter(p=>p.stage!=='published').length} active</span><span class="stat">${all.filter(p=>p.needs_review).length} need attention</span><span class="stat">${all.filter(p=>p.manual_override).length} manual overrides</span>`;
+ document.getElementById('board').innerHTML=stages.map(s=>{const items=ps.filter(p=>p.stage===s.id);return `<section class="col ${collapsedStages.has(s.id)?'is-collapsed':''}" data-stage="${s.id}"><div class="head"><span>${s.label}</span><span class="count">${items.length}</span></div><button class="mobile-stage-toggle" id="toggle-${s.id}" data-toggle-stage="${s.id}" aria-expanded="${!collapsedStages.has(s.id)}" aria-controls="cards-${s.id}"><span>${s.label}</span><span class="count">${items.length}</span><span class="stage-chevron" aria-hidden="true">⌄</span></button><div class="cards" id="cards-${s.id}">${items.map(card).join('')||'<div class="empty">No products</div>'}</div></section>`}).join('');
+ const all=[...data.products,...HubStore.state().drafts].map(effective);document.getElementById('stats').innerHTML=`<span class="stat">${all.length} products</span><span class="stat">${all.filter(p=>p.stage!=='published').length} active</span><span class="stat">${all.filter(p=>p.needs_review).length} need attention</span><span class="stat">${all.filter(p=>p.manual_override).length} manual overrides</span>`;
  document.querySelectorAll('[data-platform]').forEach(input=>input.onchange=()=>setPublication(input.dataset.product,input.dataset.platform,input.checked));
+ document.querySelectorAll('[data-toggle-stage]').forEach(button=>button.onclick=()=>toggleColumn(button.dataset.toggleStage));
  bindDnD();
 }
 function bindDnD(){
@@ -2203,10 +2193,11 @@ function bindDnD(){
 }
 document.getElementById('season').addEventListener('change',render);document.getElementById('sort').addEventListener('change',render);document.getElementById('search').addEventListener('input',render);document.getElementById('filter').addEventListener('change',render);
 function downloadRequest(payload){const url=URL.createObjectURL(new Blob([JSON.stringify(payload,null,2)],{type:'application/json'}));const a=document.createElement('a');a.href=url;a.download='dashboard-updates.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000)}
-document.getElementById('save').onclick=()=>{const payload={type:'dashboard_updates',requested_at:new Date().toISOString(),changes:overrides()};localStorage.setItem('product-dashboard-save-request',JSON.stringify(payload));downloadRequest(payload);document.getElementById('stamp').textContent='Saved in this browser and exported. Give the file to the portfolio workflow to publish.';};
-document.getElementById('reconcile').onclick=()=>{const payload={type:'dashboard_updates',fresh_reconciliation:true,requested_at:new Date().toISOString(),changes:overrides()};downloadRequest(payload);document.getElementById('stamp').textContent='Request exported. Give this file to the portfolio workflow for a fresh scan.';};
+document.getElementById('save').onclick=()=>{const payload={type:'dashboard_updates',requested_at:new Date().toISOString(),changes:Object.fromEntries(Object.entries(overrides()).filter(([id])=>!id.startsWith('draft:')))};localStorage.setItem('product-dashboard-save-request',JSON.stringify(payload));downloadRequest(payload);document.getElementById('stamp').textContent='Saved in this browser and exported. Give the file to the portfolio workflow to publish.';};
+document.getElementById('reconcile').onclick=()=>{const payload={type:'dashboard_updates',fresh_reconciliation:true,requested_at:new Date().toISOString(),changes:Object.fromEntries(Object.entries(overrides()).filter(([id])=>!id.startsWith('draft:')))};downloadRequest(payload);document.getElementById('stamp').textContent='Request exported. Give this file to the portfolio workflow for a fresh scan.';};
 document.getElementById('reset').onclick=()=>{if(confirm('Remove all manual stage and marketplace changes stored in this browser?')){localStorage.removeItem(key);localStorage.removeItem('product-dashboard-save-request');render()}};
 document.getElementById('stamp').textContent='Synced dataset: '+new Date(data.generated_at).toLocaleString();render();
+window.addEventListener('storage',render);
 fetch('../../portfolio.json',{cache:'no-store'}).then(r=>r.json()).then(j=>{data=j;document.getElementById('stamp').textContent='Synced dataset: '+new Date(j.generated_at).toLocaleString();render()}).catch(e=>{document.getElementById('stamp').textContent='Could not load portfolio.json';console.error(e)});
 </script></body></html>
 
