@@ -38,7 +38,7 @@ class PortfolioTests(unittest.TestCase):
   for p in current['products']:
    for k in list(p):
     if k.startswith('assessment') or k in ('customer_interest_score','commercial_appeal_score','assessed_at'):p.pop(k)
-  payload,html=build(current,self.data,{},(ROOT/'index.html').read_text())
+  payload,html=build(current,self.data,{},(ROOT/'site/kanban/index.html').read_text())
   parsed=json.loads(payload)
   for a,b in zip(self.data['products'],parsed['products']):
    for k in a:
@@ -58,8 +58,8 @@ class PortfolioTests(unittest.TestCase):
   self.assertEqual(1,len(merge_status(scan,old)['products']))
  def test_new_product_missing_assessment(self):
   current=copy.deepcopy(self.data);current['products'].append({'product_id':'new','stage':'idea'})
-  with self.assertRaises(ValueError):build(current,self.data,{},(ROOT/'index.html').read_text())
-  payload,_=build(current,self.data,{'new':{'seasonality':'year_round','customer_interest_score':0,'commercial_appeal_score':0}},(ROOT/'index.html').read_text())
+  with self.assertRaises(ValueError):build(current,self.data,{},(ROOT/'site/kanban/index.html').read_text())
+  payload,_=build(current,self.data,{'new':{'seasonality':'year_round','customer_interest_score':0,'commercial_appeal_score':0}},(ROOT/'site/kanban/index.html').read_text())
   self.assertEqual(0,json.loads(payload)['products'][-1]['customer_interest_score'])
  def test_unknown_stage_rejected(self):
   self.data['products'][0]['stage']='typo'

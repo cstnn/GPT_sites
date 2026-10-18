@@ -2,13 +2,13 @@ const {readFileSync}=require('node:fs');
 const {resolve}=require('node:path');
 const vm=require('node:vm');
 const assert=require('node:assert/strict');
-const html=readFileSync(resolve(__dirname,'../index.html'),'utf8');
+const html=readFileSync(resolve(__dirname,'../site/kanban/index.html'),'utf8');
 const snapshot=html.match(/type="application\/json">([\s\S]*?)<\/script>/)[1];
 const code=html.match(/<script>\s*([\s\S]*?)<\/script>/)[1];
 const storage=new Map();
 const elements={};
 const document={getElementById(id){return elements[id]??=( {value:['filter','season'].includes(id)?'all':id==='sort'?'default':'',textContent:id==='portfolio-snapshot'?snapshot:'',addEventListener(){}})},querySelectorAll(){return []}};
-function load(){const context=vm.createContext({document,localStorage:{getItem:k=>storage.get(k),setItem:(k,v)=>storage.set(k,v),removeItem:k=>storage.delete(k)},fetch:()=>new Promise(()=>{}),console,confirm:()=>true});vm.runInContext(code,context);return source=>vm.runInContext(source,context)}
+function load(){const context=vm.createContext({document,localStorage:{getItem:k=>storage.get(k),setItem:(k,v)=>storage.set(k,v),removeItem:k=>storage.delete(k)},fetch:()=>new Promise(()=>{}),window:{addEventListener(){}},console,confirm:()=>true});vm.runInContext(readFileSync(resolve(__dirname,'../site/assets/store.js'),'utf8'),context);vm.runInContext(code,context);return source=>vm.runInContext(source,context)}
 let run=load();
 assert.equal(run('stages.length'),6);
 assert.equal(run("stages[0].label"),'Idea / Concept');
