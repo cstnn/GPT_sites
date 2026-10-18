@@ -171,7 +171,7 @@ const snapshot = {
       "printed": true,
       "published": true,
       "next_action": "Published",
-      "updated_at": "2026-10-18T17:32:55.903269+00:00",
+      "updated_at": "2026-10-18T17:53:56.352267+00:00",
       "needs_review": false,
       "hero_asset_id": "1PG2K-w-Xb6eQKSkTbvqzYqMzzP9h5VU1",
       "hero_asset_url": "https://drive.google.com/thumbnail?id=1PG2K-w-Xb6eQKSkTbvqzYqMzzP9h5VU1&sz=w1000",
@@ -205,9 +205,32 @@ const snapshot = {
         }
       ],
       "publication": {
-        "thangs": null,
-        "makerworld": null
-      }
+        "thangs": true,
+        "makerworld": true
+      },
+      "publication_updated_at": {
+        "thangs": "2026-10-18T17:53:56.352267+00:00",
+        "makerworld": "2026-10-18T17:53:56.352267+00:00"
+      },
+      "history": [
+        {
+          "at": "2026-10-18T17:53:56.352267+00:00",
+          "source": "dashboard",
+          "field": "publication.thangs",
+          "from": null,
+          "to": true,
+          "note": "User explicitly requested both marketplaces checked for all Published products."
+        },
+        {
+          "at": "2026-10-18T17:53:56.352267+00:00",
+          "source": "dashboard",
+          "field": "publication.makerworld",
+          "from": null,
+          "to": true,
+          "note": "User explicitly requested both marketplaces checked for all Published products."
+        }
+      ],
+      "last_update_source": "dashboard"
     },
     {
       "product_id": "1e44YH3hx9hdRwhai8REY03ZNl7-vcnr7",
@@ -273,7 +296,7 @@ const snapshot = {
       "printed": true,
       "published": true,
       "next_action": "Published",
-      "updated_at": "2026-10-18T17:32:55.903269+00:00",
+      "updated_at": "2026-10-18T17:53:56.352267+00:00",
       "needs_review": false,
       "hero_asset_id": "1IgHM99t2aKS8-5IJ-WjxhIUMoy66yHKZ",
       "hero_asset_url": "https://drive.google.com/thumbnail?id=1IgHM99t2aKS8-5IJ-WjxhIUMoy66yHKZ&sz=w1000",
@@ -307,9 +330,32 @@ const snapshot = {
         }
       ],
       "publication": {
-        "thangs": null,
-        "makerworld": null
-      }
+        "thangs": true,
+        "makerworld": true
+      },
+      "publication_updated_at": {
+        "thangs": "2026-10-18T17:53:56.352267+00:00",
+        "makerworld": "2026-10-18T17:53:56.352267+00:00"
+      },
+      "history": [
+        {
+          "at": "2026-10-18T17:53:56.352267+00:00",
+          "source": "dashboard",
+          "field": "publication.thangs",
+          "from": null,
+          "to": true,
+          "note": "User explicitly requested both marketplaces checked for all Published products."
+        },
+        {
+          "at": "2026-10-18T17:53:56.352267+00:00",
+          "source": "dashboard",
+          "field": "publication.makerworld",
+          "from": null,
+          "to": true,
+          "note": "User explicitly requested both marketplaces checked for all Published products."
+        }
+      ],
+      "last_update_source": "dashboard"
     },
     {
       "product_id": "1WWy3Yt-N8j_DjRtu5Ce9DjokV0bOfoNw",
@@ -530,7 +576,7 @@ const snapshot = {
       "printed": true,
       "published": true,
       "next_action": "Published",
-      "updated_at": "2026-10-18T17:32:55.903269+00:00",
+      "updated_at": "2026-10-18T17:53:56.352267+00:00",
       "needs_review": false,
       "hero_asset_id": "103C1QJQtdzBmKJdoOkIbfs3TSsnhMTap",
       "hero_asset_url": "https://drive.google.com/thumbnail?id=103C1QJQtdzBmKJdoOkIbfs3TSsnhMTap&sz=w1000",
@@ -564,9 +610,32 @@ const snapshot = {
         }
       ],
       "publication": {
-        "thangs": null,
-        "makerworld": null
-      }
+        "thangs": true,
+        "makerworld": true
+      },
+      "publication_updated_at": {
+        "thangs": "2026-10-18T17:53:56.352267+00:00",
+        "makerworld": "2026-10-18T17:53:56.352267+00:00"
+      },
+      "history": [
+        {
+          "at": "2026-10-18T17:53:56.352267+00:00",
+          "source": "dashboard",
+          "field": "publication.thangs",
+          "from": null,
+          "to": true,
+          "note": "User explicitly requested both marketplaces checked for all Published products."
+        },
+        {
+          "at": "2026-10-18T17:53:56.352267+00:00",
+          "source": "dashboard",
+          "field": "publication.makerworld",
+          "from": null,
+          "to": true,
+          "note": "User explicitly requested both marketplaces checked for all Published products."
+        }
+      ],
+      "last_update_source": "dashboard"
     },
     {
       "product_id": "1o-hn3RiZvHamzrLq6Q9XgfZXaZLeEMhR",
@@ -646,7 +715,7 @@ const snapshot = {
       "printed": true,
       "published": true,
       "next_action": "Published",
-      "updated_at": "2026-10-18T17:32:55.903269+00:00",
+      "updated_at": "2026-10-18T17:53:56.352267+00:00",
       "needs_review": false,
       "hero_asset_id": "1dYaolioZTKizUBxupeiwOIHMTSc4EH7m",
       "hero_asset_url": "https://drive.google.com/thumbnail?id=1dYaolioZTKizUBxupeiwOIHMTSc4EH7m&sz=w1000",
@@ -683,9 +752,32 @@ const snapshot = {
       "update_source": "user",
       "status_evidence": "Explicit user instruction to move to Printed, 2026-10-16.",
       "publication": {
-        "thangs": null,
-        "makerworld": null
-      }
+        "thangs": true,
+        "makerworld": true
+      },
+      "publication_updated_at": {
+        "thangs": "2026-10-18T17:53:56.352267+00:00",
+        "makerworld": "2026-10-18T17:53:56.352267+00:00"
+      },
+      "history": [
+        {
+          "at": "2026-10-18T17:53:56.352267+00:00",
+          "source": "dashboard",
+          "field": "publication.thangs",
+          "from": null,
+          "to": true,
+          "note": "User explicitly requested both marketplaces checked for all Published products."
+        },
+        {
+          "at": "2026-10-18T17:53:56.352267+00:00",
+          "source": "dashboard",
+          "field": "publication.makerworld",
+          "from": null,
+          "to": true,
+          "note": "User explicitly requested both marketplaces checked for all Published products."
+        }
+      ],
+      "last_update_source": "dashboard"
     },
     {
       "product_id": "1GQD8YzJT2gOMun1B_Jb7bY--gdhnZthe",
@@ -851,7 +943,7 @@ const snapshot = {
       "printed": true,
       "published": true,
       "next_action": "Published",
-      "updated_at": "2026-10-18T17:32:55.903269+00:00",
+      "updated_at": "2026-10-18T17:53:56.352267+00:00",
       "needs_review": false,
       "hero_asset_id": "1GQA2NgMKF2JQNgqxhkOjDitn_biBFILi",
       "hero_asset_url": "https://drive.google.com/thumbnail?id=1GQA2NgMKF2JQNgqxhkOjDitn_biBFILi&sz=w1000",
@@ -887,9 +979,32 @@ const snapshot = {
       "update_source": "user",
       "status_evidence": "Explicit user instruction to move to Printed, 2026-10-16.",
       "publication": {
-        "thangs": null,
-        "makerworld": null
-      }
+        "thangs": true,
+        "makerworld": true
+      },
+      "publication_updated_at": {
+        "thangs": "2026-10-18T17:53:56.352267+00:00",
+        "makerworld": "2026-10-18T17:53:56.352267+00:00"
+      },
+      "history": [
+        {
+          "at": "2026-10-18T17:53:56.352267+00:00",
+          "source": "dashboard",
+          "field": "publication.thangs",
+          "from": null,
+          "to": true,
+          "note": "User explicitly requested both marketplaces checked for all Published products."
+        },
+        {
+          "at": "2026-10-18T17:53:56.352267+00:00",
+          "source": "dashboard",
+          "field": "publication.makerworld",
+          "from": null,
+          "to": true,
+          "note": "User explicitly requested both marketplaces checked for all Published products."
+        }
+      ],
+      "last_update_source": "dashboard"
     },
     {
       "product_id": "1KoPsjpUsBUZcld8i0c8qm44PDJHrDXg_",
@@ -959,7 +1074,7 @@ const snapshot = {
       "has_marketplace": true,
       "published": true,
       "next_action": "Published",
-      "updated_at": "2026-10-18T17:32:55.903269+00:00",
+      "updated_at": "2026-10-18T17:53:56.352267+00:00",
       "needs_review": false,
       "printed": true,
       "seasonality": "seasonal",
@@ -991,9 +1106,32 @@ const snapshot = {
         }
       ],
       "publication": {
-        "thangs": null,
-        "makerworld": null
-      }
+        "thangs": true,
+        "makerworld": true
+      },
+      "publication_updated_at": {
+        "thangs": "2026-10-18T17:53:56.352267+00:00",
+        "makerworld": "2026-10-18T17:53:56.352267+00:00"
+      },
+      "history": [
+        {
+          "at": "2026-10-18T17:53:56.352267+00:00",
+          "source": "dashboard",
+          "field": "publication.thangs",
+          "from": null,
+          "to": true,
+          "note": "User explicitly requested both marketplaces checked for all Published products."
+        },
+        {
+          "at": "2026-10-18T17:53:56.352267+00:00",
+          "source": "dashboard",
+          "field": "publication.makerworld",
+          "from": null,
+          "to": true,
+          "note": "User explicitly requested both marketplaces checked for all Published products."
+        }
+      ],
+      "last_update_source": "dashboard"
     },
     {
       "product_id": "1nBS3SPuksxc9pkZy6ie5X6CW3y7grHFJ",
@@ -1010,7 +1148,7 @@ const snapshot = {
       "has_marketplace": true,
       "published": true,
       "next_action": "Published",
-      "updated_at": "2026-10-18T17:32:55.903269+00:00",
+      "updated_at": "2026-10-18T17:53:56.352267+00:00",
       "needs_review": false,
       "printed": true,
       "seasonality": "seasonal",
@@ -1042,9 +1180,32 @@ const snapshot = {
         }
       ],
       "publication": {
-        "thangs": null,
-        "makerworld": null
-      }
+        "thangs": true,
+        "makerworld": true
+      },
+      "publication_updated_at": {
+        "thangs": "2026-10-18T17:53:56.352267+00:00",
+        "makerworld": "2026-10-18T17:53:56.352267+00:00"
+      },
+      "history": [
+        {
+          "at": "2026-10-18T17:53:56.352267+00:00",
+          "source": "dashboard",
+          "field": "publication.thangs",
+          "from": null,
+          "to": true,
+          "note": "User explicitly requested both marketplaces checked for all Published products."
+        },
+        {
+          "at": "2026-10-18T17:53:56.352267+00:00",
+          "source": "dashboard",
+          "field": "publication.makerworld",
+          "from": null,
+          "to": true,
+          "note": "User explicitly requested both marketplaces checked for all Published products."
+        }
+      ],
+      "last_update_source": "dashboard"
     },
     {
       "product_id": "1sf5c2qXpE2ekTA9-qbecOcoE32kzkmEB",
@@ -1061,7 +1222,7 @@ const snapshot = {
       "has_marketplace": true,
       "published": true,
       "next_action": "Published",
-      "updated_at": "2026-10-18T17:32:55.903269+00:00",
+      "updated_at": "2026-10-18T17:53:56.352267+00:00",
       "needs_review": false,
       "printed": true,
       "seasonality": "seasonal",
@@ -1093,9 +1254,32 @@ const snapshot = {
         }
       ],
       "publication": {
-        "thangs": null,
-        "makerworld": null
-      }
+        "thangs": true,
+        "makerworld": true
+      },
+      "publication_updated_at": {
+        "thangs": "2026-10-18T17:53:56.352267+00:00",
+        "makerworld": "2026-10-18T17:53:56.352267+00:00"
+      },
+      "history": [
+        {
+          "at": "2026-10-18T17:53:56.352267+00:00",
+          "source": "dashboard",
+          "field": "publication.thangs",
+          "from": null,
+          "to": true,
+          "note": "User explicitly requested both marketplaces checked for all Published products."
+        },
+        {
+          "at": "2026-10-18T17:53:56.352267+00:00",
+          "source": "dashboard",
+          "field": "publication.makerworld",
+          "from": null,
+          "to": true,
+          "note": "User explicitly requested both marketplaces checked for all Published products."
+        }
+      ],
+      "last_update_source": "dashboard"
     },
     {
       "product_id": "1oJDQTkwYx0iFco-mTyIilo-w_jcFAeua",
@@ -1112,7 +1296,7 @@ const snapshot = {
       "has_marketplace": false,
       "published": true,
       "next_action": "Published",
-      "updated_at": "2026-10-18T17:32:55.903269+00:00",
+      "updated_at": "2026-10-18T17:53:56.352267+00:00",
       "needs_review": false,
       "printed": true,
       "seasonality": "seasonal",
@@ -1144,9 +1328,32 @@ const snapshot = {
         }
       ],
       "publication": {
-        "thangs": null,
-        "makerworld": null
-      }
+        "thangs": true,
+        "makerworld": true
+      },
+      "publication_updated_at": {
+        "thangs": "2026-10-18T17:53:56.352267+00:00",
+        "makerworld": "2026-10-18T17:53:56.352267+00:00"
+      },
+      "history": [
+        {
+          "at": "2026-10-18T17:53:56.352267+00:00",
+          "source": "dashboard",
+          "field": "publication.thangs",
+          "from": null,
+          "to": true,
+          "note": "User explicitly requested both marketplaces checked for all Published products."
+        },
+        {
+          "at": "2026-10-18T17:53:56.352267+00:00",
+          "source": "dashboard",
+          "field": "publication.makerworld",
+          "from": null,
+          "to": true,
+          "note": "User explicitly requested both marketplaces checked for all Published products."
+        }
+      ],
+      "last_update_source": "dashboard"
     },
     {
       "product_id": "1k_i7OSxBJJGfUCSvpi2o4Y-5OF1PyDk9",
@@ -1164,7 +1371,7 @@ const snapshot = {
       "published": true,
       "printed": true,
       "next_action": "Published",
-      "updated_at": "2026-10-18T17:32:55.903269+00:00",
+      "updated_at": "2026-10-18T17:53:56.352267+00:00",
       "needs_review": false,
       "seasonality": "seasonal",
       "seasons": [
@@ -1195,9 +1402,32 @@ const snapshot = {
         }
       ],
       "publication": {
-        "thangs": null,
-        "makerworld": null
-      }
+        "thangs": true,
+        "makerworld": true
+      },
+      "publication_updated_at": {
+        "thangs": "2026-10-18T17:53:56.352267+00:00",
+        "makerworld": "2026-10-18T17:53:56.352267+00:00"
+      },
+      "history": [
+        {
+          "at": "2026-10-18T17:53:56.352267+00:00",
+          "source": "dashboard",
+          "field": "publication.thangs",
+          "from": null,
+          "to": true,
+          "note": "User explicitly requested both marketplaces checked for all Published products."
+        },
+        {
+          "at": "2026-10-18T17:53:56.352267+00:00",
+          "source": "dashboard",
+          "field": "publication.makerworld",
+          "from": null,
+          "to": true,
+          "note": "User explicitly requested both marketplaces checked for all Published products."
+        }
+      ],
+      "last_update_source": "dashboard"
     },
     {
       "product_id": "1XPriR8X_YGICjPUXUUn-ACilq4pJeMfL",
@@ -1212,7 +1442,7 @@ const snapshot = {
       "printed": true,
       "published": true,
       "next_action": "Published",
-      "updated_at": "2026-10-18T17:32:55.903269+00:00",
+      "updated_at": "2026-10-18T17:53:56.352267+00:00",
       "needs_review": false,
       "hero_asset_id": "1A3M-aiMsrIZ6_z56j4ZjK50kvgGHVPct",
       "hero_asset_url": "https://drive.google.com/thumbnail?id=1A3M-aiMsrIZ6_z56j4ZjK50kvgGHVPct&sz=w1000",
@@ -1247,9 +1477,32 @@ const snapshot = {
         }
       ],
       "publication": {
-        "thangs": null,
-        "makerworld": null
-      }
+        "thangs": true,
+        "makerworld": true
+      },
+      "publication_updated_at": {
+        "thangs": "2026-10-18T17:53:56.352267+00:00",
+        "makerworld": "2026-10-18T17:53:56.352267+00:00"
+      },
+      "history": [
+        {
+          "at": "2026-10-18T17:53:56.352267+00:00",
+          "source": "dashboard",
+          "field": "publication.thangs",
+          "from": null,
+          "to": true,
+          "note": "User explicitly requested both marketplaces checked for all Published products."
+        },
+        {
+          "at": "2026-10-18T17:53:56.352267+00:00",
+          "source": "dashboard",
+          "field": "publication.makerworld",
+          "from": null,
+          "to": true,
+          "note": "User explicitly requested both marketplaces checked for all Published products."
+        }
+      ],
+      "last_update_source": "dashboard"
     },
     {
       "product_id": "1426ElQ0JgmKch_o7H5al-jXZz0ya0_W2",
@@ -1266,7 +1519,7 @@ const snapshot = {
       "has_marketplace": false,
       "published": true,
       "next_action": "Published",
-      "updated_at": "2026-10-18T17:32:55.903269+00:00",
+      "updated_at": "2026-10-18T17:53:56.352267+00:00",
       "needs_review": false,
       "printed": true,
       "seasonality": "seasonal",
@@ -1298,9 +1551,32 @@ const snapshot = {
         }
       ],
       "publication": {
-        "thangs": null,
-        "makerworld": null
-      }
+        "thangs": true,
+        "makerworld": true
+      },
+      "publication_updated_at": {
+        "thangs": "2026-10-18T17:53:56.352267+00:00",
+        "makerworld": "2026-10-18T17:53:56.352267+00:00"
+      },
+      "history": [
+        {
+          "at": "2026-10-18T17:53:56.352267+00:00",
+          "source": "dashboard",
+          "field": "publication.thangs",
+          "from": null,
+          "to": true,
+          "note": "User explicitly requested both marketplaces checked for all Published products."
+        },
+        {
+          "at": "2026-10-18T17:53:56.352267+00:00",
+          "source": "dashboard",
+          "field": "publication.makerworld",
+          "from": null,
+          "to": true,
+          "note": "User explicitly requested both marketplaces checked for all Published products."
+        }
+      ],
+      "last_update_source": "dashboard"
     },
     {
       "product_id": "1jsBCsAWgNwkWb45GZevLynhUUXivuCWV",
@@ -1317,7 +1593,7 @@ const snapshot = {
       "has_marketplace": false,
       "published": true,
       "next_action": "Published",
-      "updated_at": "2026-10-18T17:32:55.903269+00:00",
+      "updated_at": "2026-10-18T17:53:56.352267+00:00",
       "needs_review": false,
       "printed": true,
       "seasonality": "seasonal",
@@ -1349,9 +1625,32 @@ const snapshot = {
         }
       ],
       "publication": {
-        "thangs": null,
-        "makerworld": null
-      }
+        "thangs": true,
+        "makerworld": true
+      },
+      "publication_updated_at": {
+        "thangs": "2026-10-18T17:53:56.352267+00:00",
+        "makerworld": "2026-10-18T17:53:56.352267+00:00"
+      },
+      "history": [
+        {
+          "at": "2026-10-18T17:53:56.352267+00:00",
+          "source": "dashboard",
+          "field": "publication.thangs",
+          "from": null,
+          "to": true,
+          "note": "User explicitly requested both marketplaces checked for all Published products."
+        },
+        {
+          "at": "2026-10-18T17:53:56.352267+00:00",
+          "source": "dashboard",
+          "field": "publication.makerworld",
+          "from": null,
+          "to": true,
+          "note": "User explicitly requested both marketplaces checked for all Published products."
+        }
+      ],
+      "last_update_source": "dashboard"
     },
     {
       "product_id": "1_iRZ1uIVe4zbYKv75ioxGsiyP1nx1I-C",
@@ -1368,7 +1667,7 @@ const snapshot = {
       "has_marketplace": true,
       "published": true,
       "next_action": "Published",
-      "updated_at": "2026-10-18T17:32:55.903269+00:00",
+      "updated_at": "2026-10-18T17:53:56.352267+00:00",
       "needs_review": false,
       "printed": true,
       "seasonality": "seasonal",
@@ -1400,9 +1699,32 @@ const snapshot = {
         }
       ],
       "publication": {
-        "thangs": null,
-        "makerworld": null
-      }
+        "thangs": true,
+        "makerworld": true
+      },
+      "publication_updated_at": {
+        "thangs": "2026-10-18T17:53:56.352267+00:00",
+        "makerworld": "2026-10-18T17:53:56.352267+00:00"
+      },
+      "history": [
+        {
+          "at": "2026-10-18T17:53:56.352267+00:00",
+          "source": "dashboard",
+          "field": "publication.thangs",
+          "from": null,
+          "to": true,
+          "note": "User explicitly requested both marketplaces checked for all Published products."
+        },
+        {
+          "at": "2026-10-18T17:53:56.352267+00:00",
+          "source": "dashboard",
+          "field": "publication.makerworld",
+          "from": null,
+          "to": true,
+          "note": "User explicitly requested both marketplaces checked for all Published products."
+        }
+      ],
+      "last_update_source": "dashboard"
     },
     {
       "product_id": "1JFp2gpmoi71Hs0HhNPIKWPRWbZlqTxTt",
@@ -1419,7 +1741,7 @@ const snapshot = {
       "has_marketplace": false,
       "published": true,
       "next_action": "Published",
-      "updated_at": "2026-10-18T17:32:55.903269+00:00",
+      "updated_at": "2026-10-18T17:53:56.352267+00:00",
       "needs_review": false,
       "printed": true,
       "seasonality": "seasonal",
@@ -1451,9 +1773,32 @@ const snapshot = {
         }
       ],
       "publication": {
-        "thangs": null,
-        "makerworld": null
-      }
+        "thangs": true,
+        "makerworld": true
+      },
+      "publication_updated_at": {
+        "thangs": "2026-10-18T17:53:56.352267+00:00",
+        "makerworld": "2026-10-18T17:53:56.352267+00:00"
+      },
+      "history": [
+        {
+          "at": "2026-10-18T17:53:56.352267+00:00",
+          "source": "dashboard",
+          "field": "publication.thangs",
+          "from": null,
+          "to": true,
+          "note": "User explicitly requested both marketplaces checked for all Published products."
+        },
+        {
+          "at": "2026-10-18T17:53:56.352267+00:00",
+          "source": "dashboard",
+          "field": "publication.makerworld",
+          "from": null,
+          "to": true,
+          "note": "User explicitly requested both marketplaces checked for all Published products."
+        }
+      ],
+      "last_update_source": "dashboard"
     },
     {
       "product_id": "1uPSdL5e8z1ymn__dwFsFNU6PHdIckHcw",
@@ -1470,7 +1815,7 @@ const snapshot = {
       "has_marketplace": true,
       "published": true,
       "next_action": "Published",
-      "updated_at": "2026-10-18T17:32:55.903269+00:00",
+      "updated_at": "2026-10-18T17:53:56.352267+00:00",
       "needs_review": false,
       "printed": true,
       "seasonality": "seasonal",
@@ -1502,9 +1847,32 @@ const snapshot = {
         }
       ],
       "publication": {
-        "thangs": null,
-        "makerworld": null
-      }
+        "thangs": true,
+        "makerworld": true
+      },
+      "publication_updated_at": {
+        "thangs": "2026-10-18T17:53:56.352267+00:00",
+        "makerworld": "2026-10-18T17:53:56.352267+00:00"
+      },
+      "history": [
+        {
+          "at": "2026-10-18T17:53:56.352267+00:00",
+          "source": "dashboard",
+          "field": "publication.thangs",
+          "from": null,
+          "to": true,
+          "note": "User explicitly requested both marketplaces checked for all Published products."
+        },
+        {
+          "at": "2026-10-18T17:53:56.352267+00:00",
+          "source": "dashboard",
+          "field": "publication.makerworld",
+          "from": null,
+          "to": true,
+          "note": "User explicitly requested both marketplaces checked for all Published products."
+        }
+      ],
+      "last_update_source": "dashboard"
     },
     {
       "product_id": "1wYzoNRUH4JsT_uopIbIuCoVgduS2Uxw3",
@@ -1521,7 +1889,7 @@ const snapshot = {
       "has_marketplace": false,
       "published": true,
       "next_action": "Published",
-      "updated_at": "2026-10-18T17:32:55.903269+00:00",
+      "updated_at": "2026-10-18T17:53:56.352267+00:00",
       "needs_review": false,
       "printed": true,
       "seasonality": "seasonal",
@@ -1553,9 +1921,32 @@ const snapshot = {
         }
       ],
       "publication": {
-        "thangs": null,
-        "makerworld": null
-      }
+        "thangs": true,
+        "makerworld": true
+      },
+      "publication_updated_at": {
+        "thangs": "2026-10-18T17:53:56.352267+00:00",
+        "makerworld": "2026-10-18T17:53:56.352267+00:00"
+      },
+      "history": [
+        {
+          "at": "2026-10-18T17:53:56.352267+00:00",
+          "source": "dashboard",
+          "field": "publication.thangs",
+          "from": null,
+          "to": true,
+          "note": "User explicitly requested both marketplaces checked for all Published products."
+        },
+        {
+          "at": "2026-10-18T17:53:56.352267+00:00",
+          "source": "dashboard",
+          "field": "publication.makerworld",
+          "from": null,
+          "to": true,
+          "note": "User explicitly requested both marketplaces checked for all Published products."
+        }
+      ],
+      "last_update_source": "dashboard"
     },
     {
       "product_id": "1Dye6mKOGIkgh9FnL_9iZZjd4ob0ZDYTP",
@@ -1572,7 +1963,7 @@ const snapshot = {
       "has_marketplace": true,
       "published": true,
       "next_action": "Published",
-      "updated_at": "2026-10-18T17:32:55.903269+00:00",
+      "updated_at": "2026-10-18T17:53:56.352267+00:00",
       "needs_review": false,
       "printed": true,
       "seasonality": "seasonal",
@@ -1605,9 +1996,32 @@ const snapshot = {
         }
       ],
       "publication": {
-        "thangs": null,
-        "makerworld": null
-      }
+        "thangs": true,
+        "makerworld": true
+      },
+      "publication_updated_at": {
+        "thangs": "2026-10-18T17:53:56.352267+00:00",
+        "makerworld": "2026-10-18T17:53:56.352267+00:00"
+      },
+      "history": [
+        {
+          "at": "2026-10-18T17:53:56.352267+00:00",
+          "source": "dashboard",
+          "field": "publication.thangs",
+          "from": null,
+          "to": true,
+          "note": "User explicitly requested both marketplaces checked for all Published products."
+        },
+        {
+          "at": "2026-10-18T17:53:56.352267+00:00",
+          "source": "dashboard",
+          "field": "publication.makerworld",
+          "from": null,
+          "to": true,
+          "note": "User explicitly requested both marketplaces checked for all Published products."
+        }
+      ],
+      "last_update_source": "dashboard"
     },
     {
       "product_id": "1aiOzCMB6FRcXB6PqxM1XAAuZWhgh2K7x",
@@ -1624,7 +2038,7 @@ const snapshot = {
       "has_marketplace": false,
       "published": true,
       "next_action": "Published",
-      "updated_at": "2026-10-18T17:32:55.903269+00:00",
+      "updated_at": "2026-10-18T17:53:56.352267+00:00",
       "needs_review": false,
       "printed": true,
       "seasonality": "seasonal",
@@ -1656,9 +2070,32 @@ const snapshot = {
         }
       ],
       "publication": {
-        "thangs": null,
-        "makerworld": null
-      }
+        "thangs": true,
+        "makerworld": true
+      },
+      "publication_updated_at": {
+        "thangs": "2026-10-18T17:53:56.352267+00:00",
+        "makerworld": "2026-10-18T17:53:56.352267+00:00"
+      },
+      "history": [
+        {
+          "at": "2026-10-18T17:53:56.352267+00:00",
+          "source": "dashboard",
+          "field": "publication.thangs",
+          "from": null,
+          "to": true,
+          "note": "User explicitly requested both marketplaces checked for all Published products."
+        },
+        {
+          "at": "2026-10-18T17:53:56.352267+00:00",
+          "source": "dashboard",
+          "field": "publication.makerworld",
+          "from": null,
+          "to": true,
+          "note": "User explicitly requested both marketplaces checked for all Published products."
+        }
+      ],
+      "last_update_source": "dashboard"
     }
   ],
   "reconciliation": {
@@ -1668,11 +2105,12 @@ const snapshot = {
     "source": "Full recursive GPT-WORK Drive inventory",
     "product_count": 32,
     "stage_counts": {
-      "print_ready": 7,
-      "published": 19,
+      "idea": 0,
       "specs_ready": 2,
       "3mf_ready": 2,
-      "to_publish": 2
+      "print_ready": 7,
+      "to_publish": 2,
+      "published": 19
     },
     "removed_products": [
       "Nordic Christmas Windowsill Silhouette Set",
