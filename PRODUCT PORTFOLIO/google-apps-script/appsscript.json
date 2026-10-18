@@ -1,0 +1,7 @@
+{
+  "timeZone": "Europe/Bucharest",
+  "exceptionLogging": "STACKDRIVER",
+  "runtimeVersion": "V8",
+  "oauthScopes": ["https://www.googleapis.com/auth/drive", "https://www.googleapis.com/auth/userinfo.email"],
+  "webapp": {"access": "MYSELF", "executeAs": "USER_ACCESSING"}
+}
