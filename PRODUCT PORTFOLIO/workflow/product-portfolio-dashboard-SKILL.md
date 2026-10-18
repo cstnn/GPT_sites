@@ -11,10 +11,10 @@ Maintain a visual overview of the user's **current GPT-WORK tree**. The dashboar
 ## Canonical pipeline
 The dashboard has six canonical stages:
 1. `idea` — idea/concept exists but no durable approved specification yet.
-2. `specs` — approved product specification exists; final verified 3MF does not yet exist.
-3. `3mf` — current final verified 3MF exists; marketplace package is not yet complete.
-4. `to_print` — required marketplace package is complete and the product is waiting for the user's physical print.
-5. `printed` — physical-print gate is complete; authoritative default evidence is the complete product folder being manually placed under `GPT-WORK/READY TO PUBLISH`.
+2. `specs_ready` — approved product specification exists; final verified 3MF does not yet exist.
+3. `3mf_ready` — current final verified 3MF exists; marketplace package is not yet complete.
+4. `print_ready` — required marketplace package is complete and the product is waiting for the user's physical print.
+5. `to_publish` — physical-print gate is complete; authoritative default evidence is the complete product folder being manually placed under `GPT-WORK/READY TO PUBLISH`.
 6. `published` — product is actually published, represented by verified publication state or authoritative placement under `GPT-WORK/PUBLISHED`.
 
 Do not invent a more advanced stage from conversation memory alone.
@@ -60,10 +60,10 @@ Do not inspect every STL, 3MF, image, or historical artifact merely to build the
 ## Stage reconciliation
 Use current folder placement and verified artifacts as authoritative evidence:
 - under `GPT-WORK/PUBLISHED`, or explicit verified publication evidence -> `published`;
-- under `GPT-WORK/READY TO PUBLISH` with a consistent product package -> `printed`;
-- required marketplace package complete but still elsewhere under GPT-WORK -> `to_print`;
-- final verified 3MF exists but marketplace package is incomplete -> `3mf`;
-- durable approved specs exist but no final verified 3MF -> `specs`;
+- under `GPT-WORK/READY TO PUBLISH` with a consistent product package -> `to_publish`;
+- required marketplace package complete but still elsewhere under GPT-WORK -> `print_ready`;
+- final verified 3MF exists but marketplace package is incomplete -> `3mf_ready`;
+- durable approved specs exist but no final verified 3MF -> `specs_ready`;
 - otherwise recognized product idea -> `idea`.
 
 `READY TO PUBLISH` means the user has manually completed the physical-print gate. Do not require the dashboard to independently prove that a printer ran when this authoritative manual folder placement is present.
@@ -80,7 +80,7 @@ On every full scan, follow each product's current folder ID/location. When a pro
 - `updated_at`;
 - hero references as needed.
 
-A move into `READY TO PUBLISH` therefore changes the product to `printed`. A move into `PUBLISHED` changes it to `published`. A move outside `GPT-WORK` causes removal on the next successful full scan.
+A move into `READY TO PUBLISH` therefore changes the product to `to_publish`. A move into `PUBLISHED` changes it to `published`. A move outside `GPT-WORK` causes removal on the next successful full scan.
 
 ## Hero selection and URL refresh
 Every card should have a hero when one exists. Store:
@@ -103,21 +103,21 @@ Read existing `portfolio.json`, merge scan evidence by `product_id`, refresh mut
 
 ## Dashboard generation
 Regenerate `index.html` from the same reconciled dataset as a six-column Kanban:
-`Ideas` | `Specs` | `3MF` | `To Print` | `Printed` | `Published`.
+`Idea / Concept` | `Specs ready` | `3MF ready` | `Print ready` | `To Publish` | `Published`.
 
 Each card shows hero image, product name, compact status badge, next action when useful, current folder/location, and last updated time. Cards may link to current Drive folders. Keep the page responsive and self-contained.
 
 ## JSON schema
 ```json
 {
-  "schema_version": 3,
+  "schema_version": 4,
   "generated_at": "ISO-8601",
   "root_folder_id": "...",
   "products": [
     {
       "product_id": "...",
       "product_name": "...",
-      "stage": "idea|specs|3mf|to_print|printed|published",
+      "stage": "idea|specs_ready|3mf_ready|print_ready|to_publish|published",
       "folder_id": "...",
       "folder_url": "...",
       "location": "...",
@@ -175,7 +175,7 @@ Do not conflate duplicate-named product folders: preserve their distinct stable 
 
 ## Deterministic generation helpers
 Canonical GitHub path: cstnn/GPT_sites, PRODUCT PORTFOLIO/workflow/.
-Keep build_portfolio.py and portfolio_assessments.py there; use the current PRODUCT PORTFOLIO/index.html as the HTML template. Download helpers when needed. Supply the fresh reconciled product inventory as --current, latest saved portfolio as --previous, current assessment-enabled HTML as --template, and evidence-reviewed missing-field proposals keyed by product_id as optional --proposals. Write --output-json and --output-html. The builder preserves existing valid assessments and refuses completion if mandatory fields are missing. It does not perform AI inference itself: review and propose only the missing values before calling it. Never use an older unassessed portfolio as --previous once assessments exist.
+Keep build_portfolio.py, portfolio_status.py and portfolio_assessments.py there; use the current PRODUCT PORTFOLIO/index.html as the HTML template. Download helpers when needed. Supply the fresh reconciled product inventory as --current, latest saved portfolio as --previous, current assessment-enabled HTML as --template, and evidence-reviewed missing-field proposals keyed by product_id as optional --proposals. Write --output-json and --output-html. The builder preserves existing valid assessments and refuses completion if mandatory fields are missing. It does not perform AI inference itself: review and propose only the missing values before calling it. Never use an older unassessed portfolio as --previous once assessments exist.
 
 Every Kanban card must show seasonality/season labels, two separately labeled horizontal bars on a fixed 0–10 scale, numeric scores, original assessment date, confidence and expandable rationale. Keep customer interest blue and commercial appeal green, with a visible estimate legend. Include seasonal/year-round filtering and sorting by either score. Generate bars solely from saved JSON; never assess in the browser. Embed the exact same JSON as the standalone portfolio.json. Preserve all six stages and existing dashboard controls. Update the existing Drive JSON/HTML and GitHub copies in place; preserve existing deployment and audience. Save updated skill instructions to the existing Drive skill file and Git-sync their source.
 
@@ -184,3 +184,12 @@ Completion additionally requires all products to have saved assessments, helper 
 
 ## Strict assessment scale — user correction 13 October 2026
 Use qualitative_v2_strict: 1–2 very limited appeal; 3–4 niche/weak differentiation; 5–6 moderate opportunity with substantial competition; 7–8 clear strong advantages; 9–10 exceptional with product-specific measured demand evidence. Do not give every attractive design 7 or 8. Compare alternatives; penalize generic designs, narrow audiences and difficult production. Commercial scores independently consider labor, part count, colors, size, packing and seller viability. Do not mechanically force a spread. Existing values remain frozen unless explicitly requested. Preserve assessment_policy and assessment_history on refresh; archive prior scores/date/method when reassessment is requested.
+
+## Stage migration and marketplace tracking (schema 4)
+Display labels: Idea / Concept, Specs ready, 3MF ready, Print ready, To Publish, Published. Stable keys: idea, specs_ready, 3mf_ready, print_ready, to_publish, published. Migrate only current stage values: idea→idea, specs→specs_ready, 3mf→3mf_ready, to_print→print_ready, printed→to_publish, published→published. Historical events and physical printed/published flags remain unchanged. Use portfolio_status.py; migration is idempotent and preserves other fields.
+
+Each product has publication: {thangs: null|boolean, makerworld: null|boolean}. True means explicitly confirmed, false explicitly unconfirmed, null unknown/unverified. Never infer either platform from overall Published stage, published flag, folder placement, or the other platform. Preserve existing Published products even if both platforms are unknown. Checking either or both never automatically moves the stage; moving stages never changes checkboxes. Show separate THANGS and MAKERWORLD checkboxes in To Publish and Published.
+
+Load the latest canonical JSON before every merge. Preserve saved platform decisions by product_id, including explicit false, and publication_updated_at per platform. New verified platform evidence may replace saved values only with a newer platform timestamp. Routine folder scans must not reset them. Export updates from the browser and supply --overrides dashboard-updates.json to the builder; record field-level history for changes. Browser changes persist on reload and JSON refresh, but are device-local until exported, merged and republished. Remote workflows cannot consume localStorage automatically. Reset local changes explicitly discards pending edits.
+
+READY TO PUBLISH remains the authoritative physical gate and maps to to_publish; PUBLISHED maps to published without platform assumptions. Preserve newer explicit manual changes against older control-file evidence; newer real workflow evidence may supersede them. Contradictions require review. Keep all identity, hero, assessment, history, scan-boundary and complete-scan-only deletion rules above.

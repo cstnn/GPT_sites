@@ -1,0 +1,28 @@
+const {readFileSync}=require('node:fs');
+const {resolve}=require('node:path');
+const vm=require('node:vm');
+const assert=require('node:assert/strict');
+const html=readFileSync(resolve(__dirname,'../index.html'),'utf8');
+const snapshot=html.match(/type="application\/json">([\s\S]*?)<\/script>/)[1];
+const code=html.match(/<script>\s*([\s\S]*?)<\/script>/)[1];
+const storage=new Map();
+const elements={};
+const document={getElementById(id){return elements[id]??=( {value:['filter','season'].includes(id)?'all':id==='sort'?'default':'',textContent:id==='portfolio-snapshot'?snapshot:'',addEventListener(){}})},querySelectorAll(){return []}};
+function load(){const context=vm.createContext({document,localStorage:{getItem:k=>storage.get(k),setItem:(k,v)=>storage.set(k,v),removeItem:k=>storage.delete(k)},fetch:()=>new Promise(()=>{}),console,confirm:()=>true});vm.runInContext(code,context);return source=>vm.runInContext(source,context)}
+let run=load();
+assert.equal(run('stages.length'),6);
+assert.equal(run("stages[0].label"),'Idea / Concept');
+run("setPublication(data.products[0].product_id,'thangs',true)");
+assert.equal(run('effective(data.products[0]).publication.thangs'),true);
+assert.equal(run('effective(data.products[0]).publication.makerworld'),null);
+run=load();
+assert.equal(run('effective(data.products[0]).publication.thangs'),true);
+run("setStage(data.products[0].product_id,'published')");
+assert.equal(run('effective(data.products[0]).publication.makerworld'),null);
+run("setPublication(data.products[0].product_id,'thangs',false)");
+run=load();assert.equal(run('effective(data.products[0]).publication.thangs'),false);
+const id=run('data.products[0].product_id');storage.set('product-dashboard-overrides-v1',JSON.stringify({[id]:{stage:'printed'}}));
+run=load();assert.equal(run('effective(data.products[0]).stage'),'to_publish');
+assert.match(run('publicationControls(effective(data.products[0]))'),/THANGS/);
+assert.match(run('publicationControls(effective(data.products[0]))'),/MAKERWORLD/);
+console.log('Dashboard persistence, independent checkboxes, legacy overrides and rendering passed.');

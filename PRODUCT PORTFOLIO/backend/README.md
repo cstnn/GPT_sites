@@ -20,3 +20,8 @@ The API supports:
 - PATCH /api/products/:product_id
 
 PATCH records explicit dashboard stage changes in the history table.
+
+## Schema 4 upgrade
+For an existing database, apply migrations/0002_status_publication.sql once before deploying the updated Worker; do not also run this migration on a fresh schema.sql database. The migration preserves history and introduces nullable independent platform flags. The Pages board continues using JSON and browser overrides, not this optional API. No Worker deployment is configured (database_id is a placeholder).
+
+Seed snapshots retain complete product metadata in snapshot_json (including assessments, hero references and historical events); scalar fields support API filtering and updates. Apply a current canonical seed after migration to populate this metadata. The API history endpoint contains API change events; preexisting workflow history remains in each product's snapshot history.

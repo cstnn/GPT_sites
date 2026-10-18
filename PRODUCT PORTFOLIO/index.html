@@ -20,19 +20,19 @@ button{cursor:pointer}.stats{display:flex;gap:8px;margin-top:10px;overflow:auto}
 .assessment{margin-top:10px}.scoreline{display:flex;justify-content:space-between;font-size:12px;margin:7px 0 4px}.track{height:7px;border-radius:9px;background:#333c4f;overflow:hidden}.fill{height:100%;background:#8fb3ff}.fill.commercial{background:#63d4b1}.season{color:#f3cf8e}.assessment-note{font-size:11px;color:var(--muted);margin-top:8px}details.assessment-detail{font-size:12px;color:var(--muted);margin-top:8px}</style></head>
 <body><header><div class="top"><div><div class="title">Product Development Dashboard</div><div class="sub" id="stamp">Loading portfolio…</div></div>
 <input id="search" placeholder="Search products"><select id="filter"><option value="all">All products</option><option value="attention">Needs attention</option><option value="active">Active only</option></select>
-<select id="season"><option value="all">All seasons</option><option value="seasonal">Seasonal</option><option value="year_round">Year-round</option></select><select id="sort"><option value="default">Board order</option><option value="interest">Customer interest ↓</option><option value="commercial">Commercial appeal ↓</option></select><button id="save" title="Save my dashboard changes for the next portfolio update">Save updates</button>
-<button id="reconcile" title="Request a fresh scan of GPT-WORK and rebuild the portfolio">Fresh reconciliation</button>
+<select id="season"><option value="all">All seasons</option><option value="seasonal">Seasonal</option><option value="year_round">Year-round</option></select><select id="sort"><option value="default">Board order</option><option value="interest">Customer interest ↓</option><option value="commercial">Commercial appeal ↓</option></select><button id="save" title="Download saved changes for the portfolio workflow">Export updates</button>
+<button id="reconcile" title="Download changes and a request to rescan GPT-WORK">Export scan request</button>
 <button id="reset" title="Remove manual browser overrides">Reset local changes</button></div><div class="stats" id="stats"></div></header>
-<div class="note" style="padding-top:12px">Blue: customer interest in printable files · Green: appeal to sellers of finished products. Strict ratings /10: 3–4 niche · 5–6 moderate · 7–8 strong · 9–10 requires demand evidence. Estimates, not measured demand. Seasonal scores refer to the relevant selling season.</div><main class="board" id="board"></main><div class="note">Desktop: drag cards between stages. Mobile: use the stage selector. Save updates records your pending dashboard changes; Fresh reconciliation records a request to rescan GPT-WORK. The portfolio workflow consumes these requests and republishes portfolio.json.</div>
+<div class="note" style="padding-top:12px">Blue: customer interest in printable files · Green: appeal to sellers of finished products. Strict ratings /10: 3–4 niche · 5–6 moderate · 7–8 strong · 9–10 requires demand evidence. Estimates, not measured demand. Seasonal scores refer to the relevant selling season.</div><main class="board" id="board"></main><div class="note">Desktop: drag cards between stages. Mobile: use the stage selector. Changes save immediately in this browser. Export updates and give the file to the portfolio workflow to merge and publish across devices. Export scan request also requests a fresh GPT-WORK scan. Published is an overall workflow stage; it never checks a marketplace automatically.</div>
 <script id="portfolio-snapshot" type="application/json">{
-  "schema_version": 3,
+  "schema_version": 4,
   "generated_at": "2026-10-18T17:32:55.903269+00:00",
   "root_folder_id": "1WliIAk1xWwewi_8NHIT9Mm31UZl1WCBR",
   "products": [
     {
       "product_id": "1EcqVv2Kk991em_lpnQXPmBSVgJsDqbqA",
       "product_name": "Nordic Christmas Garland Link Set",
-      "stage": "to_print",
+      "stage": "print_ready",
       "folder_id": "1EcqVv2Kk991em_lpnQXPmBSVgJsDqbqA",
       "folder_url": "https://drive.google.com/drive/folders/1EcqVv2Kk991em_lpnQXPmBSVgJsDqbqA",
       "location": "GPT-WORK/IDEAS/Nordic Christmas Garland Link Set",
@@ -74,12 +74,16 @@ button{cursor:pointer}.stats{display:flex;gap:8px;margin-top:10px;overflow:auto}
           "assessment_method": "qualitative_v1",
           "superseded_reason": "Explicit user request for realistic reassessment"
         }
-      ]
+      ],
+      "publication": {
+        "thangs": null,
+        "makerworld": null
+      }
     },
     {
       "product_id": "1b5li4ontNMvQjagooy974GFEsGCyGhPz",
       "product_name": "Nordic Christmas Gift & Stocking Tags",
-      "stage": "to_print",
+      "stage": "print_ready",
       "folder_id": "1b5li4ontNMvQjagooy974GFEsGCyGhPz",
       "folder_url": "https://drive.google.com/drive/folders/1b5li4ontNMvQjagooy974GFEsGCyGhPz",
       "location": "GPT-WORK/IDEAS/Nordic Christmas Gift & Stocking Tags",
@@ -121,12 +125,16 @@ button{cursor:pointer}.stats{display:flex;gap:8px;margin-top:10px;overflow:auto}
           "assessment_method": "qualitative_v1",
           "superseded_reason": "Explicit user request for realistic reassessment"
         }
-      ]
+      ],
+      "publication": {
+        "thangs": null,
+        "makerworld": null
+      }
     },
     {
       "product_id": "1ghaM2obToMfpxg4LHxdJCVaJ9ggLr3aG",
       "product_name": "Nordic Christmas Napkin Rings",
-      "stage": "to_print",
+      "stage": "print_ready",
       "folder_id": "1ghaM2obToMfpxg4LHxdJCVaJ9ggLr3aG",
       "folder_url": "https://drive.google.com/drive/folders/1ghaM2obToMfpxg4LHxdJCVaJ9ggLr3aG",
       "location": "GPT-WORK/IDEAS/Nordic Christmas Napkin Rings",
@@ -168,7 +176,11 @@ button{cursor:pointer}.stats{display:flex;gap:8px;margin-top:10px;overflow:auto}
           "assessment_method": "qualitative_v1",
           "superseded_reason": "Explicit user request for realistic reassessment"
         }
-      ]
+      ],
+      "publication": {
+        "thangs": null,
+        "makerworld": null
+      }
     },
     {
       "product_id": "1aLoYR8jj0ast9cljZhBQCx2afHQ7PTIW",
@@ -215,12 +227,16 @@ button{cursor:pointer}.stats{display:flex;gap:8px;margin-top:10px;overflow:auto}
           "assessment_method": "qualitative_v1",
           "superseded_reason": "Explicit user request for realistic reassessment"
         }
-      ]
+      ],
+      "publication": {
+        "thangs": null,
+        "makerworld": null
+      }
     },
     {
       "product_id": "1e44YH3hx9hdRwhai8REY03ZNl7-vcnr7",
       "product_name": "Nordic Days Until Christmas Countdown",
-      "stage": "to_print",
+      "stage": "print_ready",
       "folder_id": "1e44YH3hx9hdRwhai8REY03ZNl7-vcnr7",
       "folder_url": "https://drive.google.com/drive/folders/1e44YH3hx9hdRwhai8REY03ZNl7-vcnr7",
       "location": "GPT-WORK/IDEAS/Nordic Days Until Christmas Countdown",
@@ -262,7 +278,11 @@ button{cursor:pointer}.stats{display:flex;gap:8px;margin-top:10px;overflow:auto}
           "assessment_method": "qualitative_v1",
           "superseded_reason": "Explicit user request for realistic reassessment"
         }
-      ]
+      ],
+      "publication": {
+        "thangs": null,
+        "makerworld": null
+      }
     },
     {
       "product_id": "1u6to3SB8aaWA08zV-0fqmabtImEXXFaJ",
@@ -309,12 +329,16 @@ button{cursor:pointer}.stats{display:flex;gap:8px;margin-top:10px;overflow:auto}
           "assessment_method": "qualitative_v1",
           "superseded_reason": "Explicit user request for realistic reassessment"
         }
-      ]
+      ],
+      "publication": {
+        "thangs": null,
+        "makerworld": null
+      }
     },
     {
       "product_id": "1WWy3Yt-N8j_DjRtu5Ce9DjokV0bOfoNw",
       "product_name": "Nordic Christmas Star",
-      "stage": "specs",
+      "stage": "specs_ready",
       "folder_id": "1WWy3Yt-N8j_DjRtu5Ce9DjokV0bOfoNw",
       "folder_url": "https://drive.google.com/drive/folders/1WWy3Yt-N8j_DjRtu5Ce9DjokV0bOfoNw",
       "location": "GPT-WORK/IDEAS/Nordic Christmas Star",
@@ -356,12 +380,16 @@ button{cursor:pointer}.stats{display:flex;gap:8px;margin-top:10px;overflow:auto}
           "assessment_method": "qualitative_v1",
           "superseded_reason": "Explicit user request for realistic reassessment"
         }
-      ]
+      ],
+      "publication": {
+        "thangs": null,
+        "makerworld": null
+      }
     },
     {
       "product_id": "164zn0PM3COB3PNFVcpjbLBHbwnBLAciv",
       "product_name": "NORHOLM seasonal front pannels expansion packs",
-      "stage": "specs",
+      "stage": "specs_ready",
       "folder_id": "164zn0PM3COB3PNFVcpjbLBHbwnBLAciv",
       "folder_url": "https://drive.google.com/drive/folders/164zn0PM3COB3PNFVcpjbLBHbwnBLAciv",
       "location": "GPT-WORK/NORHOLM seasonal front pannels expansion packs",
@@ -406,12 +434,16 @@ button{cursor:pointer}.stats{display:flex;gap:8px;margin-top:10px;overflow:auto}
           "assessment_method": "qualitative_v1",
           "superseded_reason": "Explicit user request for realistic reassessment"
         }
-      ]
+      ],
+      "publication": {
+        "thangs": null,
+        "makerworld": null
+      }
     },
     {
       "product_id": "1u9UenRlPvlMpSJWjGqQKXp6nO92Xc1Sb",
       "product_name": "Alchemist's Stack & Potion Vial",
-      "stage": "3mf",
+      "stage": "3mf_ready",
       "folder_id": "1u9UenRlPvlMpSJWjGqQKXp6nO92Xc1Sb",
       "folder_url": "https://drive.google.com/drive/folders/1u9UenRlPvlMpSJWjGqQKXp6nO92Xc1Sb",
       "location": "GPT-WORK/Bookish_Keychain - Alchemist's Stack & Potion Vial",
@@ -451,12 +483,16 @@ button{cursor:pointer}.stats{display:flex;gap:8px;margin-top:10px;overflow:auto}
           "assessment_method": "qualitative_v1",
           "superseded_reason": "Explicit user request for realistic reassessment"
         }
-      ]
+      ],
+      "publication": {
+        "thangs": null,
+        "makerworld": null
+      }
     },
     {
       "product_id": "1_VzC9zs5H2gxJj1V0qp5eA80oofe7cBx",
       "product_name": "Christmas Globe Collection — Spiral Diamond Chevron",
-      "stage": "to_print",
+      "stage": "print_ready",
       "folder_id": "1_VzC9zs5H2gxJj1V0qp5eA80oofe7cBx",
       "folder_url": "https://drive.google.com/drive/folders/1_VzC9zs5H2gxJj1V0qp5eA80oofe7cBx",
       "location": "GPT-WORK/IDEAS/Christmas Globe Collection — Spiral Diamond Chevron",
@@ -499,7 +535,11 @@ button{cursor:pointer}.stats{display:flex;gap:8px;margin-top:10px;overflow:auto}
           "assessment_method": "qualitative_v1",
           "superseded_reason": "Explicit user request for realistic reassessment"
         }
-      ]
+      ],
+      "publication": {
+        "thangs": null,
+        "makerworld": null
+      }
     },
     {
       "product_id": "1h9ePQPW1PNbv_jNWQBTF0IUkH8fYHENd",
@@ -546,12 +586,16 @@ button{cursor:pointer}.stats{display:flex;gap:8px;margin-top:10px;overflow:auto}
           "assessment_method": "qualitative_v1",
           "superseded_reason": "Explicit user request for realistic reassessment"
         }
-      ]
+      ],
+      "publication": {
+        "thangs": null,
+        "makerworld": null
+      }
     },
     {
       "product_id": "1o-hn3RiZvHamzrLq6Q9XgfZXaZLeEMhR",
       "product_name": "Nordic Faceted Christmas Star",
-      "stage": "printed",
+      "stage": "to_publish",
       "folder_id": "1o-hn3RiZvHamzrLq6Q9XgfZXaZLeEMhR",
       "folder_url": "https://drive.google.com/drive/folders/1o-hn3RiZvHamzrLq6Q9XgfZXaZLeEMhR",
       "location": "GPT-WORK/IDEAS/Nordic Faceted Christmas Star",
@@ -607,7 +651,11 @@ button{cursor:pointer}.stats{display:flex;gap:8px;margin-top:10px;overflow:auto}
       ],
       "last_update_source": "dashboard",
       "update_source": "user",
-      "status_evidence": "Explicit user instruction to mark Printed, 2026-10-16."
+      "status_evidence": "Explicit user instruction to mark Printed, 2026-10-16.",
+      "publication": {
+        "thangs": null,
+        "makerworld": null
+      }
     },
     {
       "product_id": "1o8ExYEkxf_axhMl2-eyZfXG8t43HzlfA",
@@ -657,12 +705,16 @@ button{cursor:pointer}.stats{display:flex;gap:8px;margin-top:10px;overflow:auto}
         }
       ],
       "update_source": "user",
-      "status_evidence": "Explicit user instruction to move to Printed, 2026-10-16."
+      "status_evidence": "Explicit user instruction to move to Printed, 2026-10-16.",
+      "publication": {
+        "thangs": null,
+        "makerworld": null
+      }
     },
     {
       "product_id": "1GQD8YzJT2gOMun1B_Jb7bY--gdhnZthe",
       "product_name": "Rider's Stack & Dragon Dagger",
-      "stage": "3mf",
+      "stage": "3mf_ready",
       "folder_id": "1GQD8YzJT2gOMun1B_Jb7bY--gdhnZthe",
       "folder_url": "https://drive.google.com/drive/folders/1GQD8YzJT2gOMun1B_Jb7bY--gdhnZthe",
       "location": "GPT-WORK/Bookish_Keychain - Rider's Stack & Dragon Dagger",
@@ -702,12 +754,16 @@ button{cursor:pointer}.stats{display:flex;gap:8px;margin-top:10px;overflow:auto}
           "assessment_method": "qualitative_v1",
           "superseded_reason": "Explicit user request for realistic reassessment"
         }
-      ]
+      ],
+      "publication": {
+        "thangs": null,
+        "makerworld": null
+      }
     },
     {
       "product_id": "1U4-Wyybg70WTW5442OegdRrZmuJtvj-V",
       "product_name": "Christmas Pine — Modular Nordic Tree",
-      "stage": "to_print",
+      "stage": "print_ready",
       "folder_id": "1U4-Wyybg70WTW5442OegdRrZmuJtvj-V",
       "folder_url": "https://drive.google.com/drive/folders/1U4-Wyybg70WTW5442OegdRrZmuJtvj-V",
       "location": "GPT-WORK/IDEAS/Christmas Pine — Modular Nordic Tree",
@@ -749,12 +805,16 @@ button{cursor:pointer}.stats{display:flex;gap:8px;margin-top:10px;overflow:auto}
           "assessment_method": "qualitative_v1",
           "superseded_reason": "Explicit user request for realistic reassessment"
         }
-      ]
+      ],
+      "publication": {
+        "thangs": null,
+        "makerworld": null
+      }
     },
     {
       "product_id": "1Pt6t8s5QkkCoGgDQQZmqDSZTCXGxp7rG",
       "product_name": "Cozy Ceramic LED Cottage",
-      "stage": "to_print",
+      "stage": "print_ready",
       "folder_id": "1Pt6t8s5QkkCoGgDQQZmqDSZTCXGxp7rG",
       "folder_url": "https://drive.google.com/drive/folders/1Pt6t8s5QkkCoGgDQQZmqDSZTCXGxp7rG",
       "location": "GPT-WORK/IDEAS/Cozy Ceramic LED Cottage",
@@ -796,7 +856,11 @@ button{cursor:pointer}.stats{display:flex;gap:8px;margin-top:10px;overflow:auto}
           "assessment_method": "qualitative_v1",
           "superseded_reason": "Explicit user request for realistic reassessment"
         }
-      ]
+      ],
+      "publication": {
+        "thangs": null,
+        "makerworld": null
+      }
     },
     {
       "product_id": "1PzNm1mJgoTtVwpo-f3WMJ_21q3Dd4VRj",
@@ -845,12 +909,16 @@ button{cursor:pointer}.stats{display:flex;gap:8px;margin-top:10px;overflow:auto}
         }
       ],
       "update_source": "user",
-      "status_evidence": "Explicit user instruction to move to Printed, 2026-10-16."
+      "status_evidence": "Explicit user instruction to move to Printed, 2026-10-16.",
+      "publication": {
+        "thangs": null,
+        "makerworld": null
+      }
     },
     {
       "product_id": "1KoPsjpUsBUZcld8i0c8qm44PDJHrDXg_",
       "product_name": "NORHOLM seasonal front pannels expansion packs",
-      "stage": "printed",
+      "stage": "to_publish",
       "folder_id": "1KoPsjpUsBUZcld8i0c8qm44PDJHrDXg_",
       "folder_url": "https://drive.google.com/drive/folders/1KoPsjpUsBUZcld8i0c8qm44PDJHrDXg_",
       "location": "GPT-WORK/READY TO PUBLISH/NORHOLM seasonal front pannels expansion packs",
@@ -894,7 +962,11 @@ button{cursor:pointer}.stats{display:flex;gap:8px;margin-top:10px;overflow:auto}
           "assessment_method": "qualitative_v1",
           "superseded_reason": "Explicit user request for realistic reassessment"
         }
-      ]
+      ],
+      "publication": {
+        "thangs": null,
+        "makerworld": null
+      }
     },
     {
       "product_id": "1zDqFlI_lzUVfqWeVk-ZiJhR6P5f20-tH",
@@ -941,7 +1013,11 @@ button{cursor:pointer}.stats{display:flex;gap:8px;margin-top:10px;overflow:auto}
           "assessment_method": "qualitative_v1",
           "superseded_reason": "Explicit user request for realistic reassessment"
         }
-      ]
+      ],
+      "publication": {
+        "thangs": null,
+        "makerworld": null
+      }
     },
     {
       "product_id": "1nBS3SPuksxc9pkZy6ie5X6CW3y7grHFJ",
@@ -988,7 +1064,11 @@ button{cursor:pointer}.stats{display:flex;gap:8px;margin-top:10px;overflow:auto}
           "assessment_method": "qualitative_v1",
           "superseded_reason": "Explicit user request for realistic reassessment"
         }
-      ]
+      ],
+      "publication": {
+        "thangs": null,
+        "makerworld": null
+      }
     },
     {
       "product_id": "1sf5c2qXpE2ekTA9-qbecOcoE32kzkmEB",
@@ -1035,7 +1115,11 @@ button{cursor:pointer}.stats{display:flex;gap:8px;margin-top:10px;overflow:auto}
           "assessment_method": "qualitative_v1",
           "superseded_reason": "Explicit user request for realistic reassessment"
         }
-      ]
+      ],
+      "publication": {
+        "thangs": null,
+        "makerworld": null
+      }
     },
     {
       "product_id": "1oJDQTkwYx0iFco-mTyIilo-w_jcFAeua",
@@ -1082,7 +1166,11 @@ button{cursor:pointer}.stats{display:flex;gap:8px;margin-top:10px;overflow:auto}
           "assessment_method": "qualitative_v1",
           "superseded_reason": "Explicit user request for realistic reassessment"
         }
-      ]
+      ],
+      "publication": {
+        "thangs": null,
+        "makerworld": null
+      }
     },
     {
       "product_id": "1k_i7OSxBJJGfUCSvpi2o4Y-5OF1PyDk9",
@@ -1129,7 +1217,11 @@ button{cursor:pointer}.stats{display:flex;gap:8px;margin-top:10px;overflow:auto}
           "assessment_method": "qualitative_v1",
           "superseded_reason": "Explicit user request for realistic reassessment"
         }
-      ]
+      ],
+      "publication": {
+        "thangs": null,
+        "makerworld": null
+      }
     },
     {
       "product_id": "1XPriR8X_YGICjPUXUUn-ACilq4pJeMfL",
@@ -1177,7 +1269,11 @@ button{cursor:pointer}.stats{display:flex;gap:8px;margin-top:10px;overflow:auto}
           "assessment_method": "qualitative_v1",
           "superseded_reason": "Explicit user request for realistic reassessment"
         }
-      ]
+      ],
+      "publication": {
+        "thangs": null,
+        "makerworld": null
+      }
     },
     {
       "product_id": "1426ElQ0JgmKch_o7H5al-jXZz0ya0_W2",
@@ -1224,7 +1320,11 @@ button{cursor:pointer}.stats{display:flex;gap:8px;margin-top:10px;overflow:auto}
           "assessment_method": "qualitative_v1",
           "superseded_reason": "Explicit user request for realistic reassessment"
         }
-      ]
+      ],
+      "publication": {
+        "thangs": null,
+        "makerworld": null
+      }
     },
     {
       "product_id": "1jsBCsAWgNwkWb45GZevLynhUUXivuCWV",
@@ -1271,7 +1371,11 @@ button{cursor:pointer}.stats{display:flex;gap:8px;margin-top:10px;overflow:auto}
           "assessment_method": "qualitative_v1",
           "superseded_reason": "Explicit user request for realistic reassessment"
         }
-      ]
+      ],
+      "publication": {
+        "thangs": null,
+        "makerworld": null
+      }
     },
     {
       "product_id": "1_iRZ1uIVe4zbYKv75ioxGsiyP1nx1I-C",
@@ -1318,7 +1422,11 @@ button{cursor:pointer}.stats{display:flex;gap:8px;margin-top:10px;overflow:auto}
           "assessment_method": "qualitative_v1",
           "superseded_reason": "Explicit user request for realistic reassessment"
         }
-      ]
+      ],
+      "publication": {
+        "thangs": null,
+        "makerworld": null
+      }
     },
     {
       "product_id": "1JFp2gpmoi71Hs0HhNPIKWPRWbZlqTxTt",
@@ -1365,7 +1473,11 @@ button{cursor:pointer}.stats{display:flex;gap:8px;margin-top:10px;overflow:auto}
           "assessment_method": "qualitative_v1",
           "superseded_reason": "Explicit user request for realistic reassessment"
         }
-      ]
+      ],
+      "publication": {
+        "thangs": null,
+        "makerworld": null
+      }
     },
     {
       "product_id": "1uPSdL5e8z1ymn__dwFsFNU6PHdIckHcw",
@@ -1412,7 +1524,11 @@ button{cursor:pointer}.stats{display:flex;gap:8px;margin-top:10px;overflow:auto}
           "assessment_method": "qualitative_v1",
           "superseded_reason": "Explicit user request for realistic reassessment"
         }
-      ]
+      ],
+      "publication": {
+        "thangs": null,
+        "makerworld": null
+      }
     },
     {
       "product_id": "1wYzoNRUH4JsT_uopIbIuCoVgduS2Uxw3",
@@ -1459,7 +1575,11 @@ button{cursor:pointer}.stats{display:flex;gap:8px;margin-top:10px;overflow:auto}
           "assessment_method": "qualitative_v1",
           "superseded_reason": "Explicit user request for realistic reassessment"
         }
-      ]
+      ],
+      "publication": {
+        "thangs": null,
+        "makerworld": null
+      }
     },
     {
       "product_id": "1Dye6mKOGIkgh9FnL_9iZZjd4ob0ZDYTP",
@@ -1507,7 +1627,11 @@ button{cursor:pointer}.stats{display:flex;gap:8px;margin-top:10px;overflow:auto}
           "assessment_method": "qualitative_v1",
           "superseded_reason": "Explicit user request for realistic reassessment"
         }
-      ]
+      ],
+      "publication": {
+        "thangs": null,
+        "makerworld": null
+      }
     },
     {
       "product_id": "1aiOzCMB6FRcXB6PqxM1XAAuZWhgh2K7x",
@@ -1554,7 +1678,11 @@ button{cursor:pointer}.stats{display:flex;gap:8px;margin-top:10px;overflow:auto}
           "assessment_method": "qualitative_v1",
           "superseded_reason": "Explicit user request for realistic reassessment"
         }
-      ]
+      ],
+      "publication": {
+        "thangs": null,
+        "makerworld": null
+      }
     }
   ],
   "reconciliation": {
@@ -1564,11 +1692,11 @@ button{cursor:pointer}.stats{display:flex;gap:8px;margin-top:10px;overflow:auto}
     "source": "Full recursive GPT-WORK Drive inventory",
     "product_count": 32,
     "stage_counts": {
-      "to_print": 7,
+      "print_ready": 7,
       "published": 19,
-      "specs": 2,
-      "3mf": 2,
-      "printed": 2
+      "specs_ready": 2,
+      "3mf_ready": 2,
+      "to_publish": 2
     },
     "removed_products": [
       "Nordic Christmas Windowsill Silhouette Set",
@@ -1589,14 +1717,15 @@ button{cursor:pointer}.stats{display:flex;gap:8px;margin-top:10px;overflow:auto}
 }
 </script>
 <script>
-const stages=[
- {id:'idea',label:'Ideas'},{id:'specs',label:'Specs'},{id:'3mf',label:'3MF'},
- {id:'to_print',label:'To Print'},{id:'printed',label:'Printed'},{id:'published',label:'Published'}
-];
+const stages=[{"id": "idea", "label": "Idea / Concept"}, {"id": "specs_ready", "label": "Specs ready"}, {"id": "3mf_ready", "label": "3MF ready"}, {"id": "print_ready", "label": "Print ready"}, {"id": "to_publish", "label": "To Publish"}, {"id": "published", "label": "Published"}];
 let data=JSON.parse(document.getElementById('portfolio-snapshot').textContent);const key='product-dashboard-overrides-v1';
-const overrides=()=>JSON.parse(localStorage.getItem(key)||'{}');
-function effective(p){const o=overrides()[p.product_id];return o?{...p,...o,manual_override:true}:p}
-function setStage(id,stage){const o=overrides();o[id]={...(o[id]||{}),stage,updated_at:new Date().toISOString(),update_source:'dashboard'};localStorage.setItem(key,JSON.stringify(o));render()}
+const legacyStages={specs:'specs_ready','3mf':'3mf_ready',to_print:'print_ready',printed:'to_publish'};
+const normalizeStage=s=>legacyStages[s]||s;
+const overrides=()=>{const saved=JSON.parse(localStorage.getItem(key)||'{}');for(const o of Object.values(saved))if(o.stage)o.stage=normalizeStage(o.stage);return saved};
+function effective(p){const o=overrides()[p.product_id];return {...p,...o,stage:normalizeStage(o?.stage||p.stage),publication:{...p.publication,...o?.publication},manual_override:!!o}}
+function setStage(id,stage){const o=overrides();const at=new Date().toISOString();o[id]={...(o[id]||{}),stage,stage_updated_at:at,updated_at:at,update_source:'dashboard'};localStorage.setItem(key,JSON.stringify(o));render()}
+function setPublication(id,platform,value){const o=overrides();const at=new Date().toISOString();o[id]={...o[id],publication:{...o[id]?.publication,[platform]:value},publication_updated_at:{...o[id]?.publication_updated_at,[platform]:at},updated_at:at,update_source:'dashboard'};localStorage.setItem(key,JSON.stringify(o));render()}
+function publicationControls(p){if(!['to_publish','published'].includes(p.stage))return '';return '<fieldset><legend>Publication confirmed</legend>'+['thangs','makerworld'].map(platform=>'<label style="display:block;padding:5px"><input type="checkbox" data-product="'+esc(p.product_id)+'" data-platform="'+platform+'" '+(p.publication?.[platform]===true?'checked':'')+'> '+platform.toUpperCase()+(p.publication?.[platform]==null?' · unverified':'')+'</label>').join('')+'<small>Independent of stage; unchecked means unconfirmed.</small></fieldset>'}
 function esc(s){return String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
 
 function scoreBar(label,value,kind){
@@ -1611,8 +1740,9 @@ function assessment(p){
 
 function card(p){return `<article class="card" draggable="true" data-id="${esc(p.product_id)}">
 <div class="hero">${p.hero_asset_url?'<img loading="lazy" src="'+esc(p.hero_asset_url)+'" alt="">':''}</div>
-<div class="info"><div class="name">${esc(p.product_name)}</div><div class="row"><span class="badge">${esc(p.stage.replace('_',' '))}</span>${p.manual_override?'<span class="badge">manual</span>':''}${p.needs_review?'<span class="review">Needs review</span>':''}</div>
+<div class="info"><div class="name">${esc(p.product_name)}</div><div class="row"><span class="badge">${esc(stages.find(s=>s.id===p.stage)?.label||p.stage)}</span>${p.manual_override?'<span class="badge">manual</span>':''}${p.needs_review?'<span class="review">Needs review</span>':''}</div>
 ${assessment(p)}
+${publicationControls(p)}
 <div class="next"><b>Next:</b> ${esc(p.next_action||'—')}</div><div class="loc">${esc(p.location||'')}</div>
 <div class="actions"><select aria-label="Move stage" onchange="setStage('${esc(p.product_id)}',this.value)">${stages.map(s=>'<option value="'+s.id+'" '+(s.id===p.stage?'selected':'')+'>'+s.label+'</option>').join('')}</select>
 <a class="open" href="${esc(p.folder_url||'#')}" target="_blank" rel="noopener">Open folder ↗</a></div></div></article>`}
@@ -1626,6 +1756,7 @@ function render(){
  if(sort!=='default'){const field=sort==='interest'?'customer_interest_score':'commercial_appeal_score';ps.sort((a,b)=>(b[field]??-1)-(a[field]??-1)||a.product_name.localeCompare(b.product_name));}
  document.getElementById('board').innerHTML=stages.map(s=>{const items=ps.filter(p=>p.stage===s.id);return `<section class="col" data-stage="${s.id}"><div class="head"><span>${s.label}</span><span class="count">${items.length}</span></div><div class="cards">${items.map(card).join('')||'<div class="empty">No products</div>'}</div></section>`}).join('');
  const all=data.products.map(effective);document.getElementById('stats').innerHTML=`<span class="stat">${all.length} products</span><span class="stat">${all.filter(p=>p.stage!=='published').length} active</span><span class="stat">${all.filter(p=>p.needs_review).length} need attention</span><span class="stat">${all.filter(p=>p.manual_override).length} manual overrides</span>`;
+ document.querySelectorAll('[data-platform]').forEach(input=>input.onchange=()=>setPublication(input.dataset.product,input.dataset.platform,input.checked));
  bindDnD();
 }
 function bindDnD(){
@@ -1633,9 +1764,10 @@ function bindDnD(){
  document.querySelectorAll('.col').forEach(col=>{col.addEventListener('dragover',e=>{e.preventDefault();col.classList.add('dragover')});col.addEventListener('dragleave',()=>col.classList.remove('dragover'));col.addEventListener('drop',e=>{e.preventDefault();col.classList.remove('dragover');setStage(e.dataTransfer.getData('text/plain'),col.dataset.stage)})})
 }
 document.getElementById('season').addEventListener('change',render);document.getElementById('sort').addEventListener('change',render);document.getElementById('search').addEventListener('input',render);document.getElementById('filter').addEventListener('change',render);
-document.getElementById('save').onclick=()=>{const payload={type:'dashboard_updates',requested_at:new Date().toISOString(),changes:overrides()};localStorage.setItem('product-dashboard-save-request',JSON.stringify(payload));document.getElementById('stamp').textContent='Updates queued at '+new Date().toLocaleString();};
-document.getElementById('reconcile').onclick=()=>{const payload={type:'fresh_reconciliation',requested_at:new Date().toISOString()};localStorage.setItem('product-dashboard-reconcile-request',JSON.stringify(payload));document.getElementById('stamp').textContent='Fresh reconciliation queued at '+new Date().toLocaleString();};
-document.getElementById('reset').onclick=()=>{if(confirm('Remove manual stage changes stored in this browser?')){localStorage.removeItem(key);localStorage.removeItem('product-dashboard-save-request');render()}};
+function downloadRequest(payload){const url=URL.createObjectURL(new Blob([JSON.stringify(payload,null,2)],{type:'application/json'}));const a=document.createElement('a');a.href=url;a.download='dashboard-updates.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000)}
+document.getElementById('save').onclick=()=>{const payload={type:'dashboard_updates',requested_at:new Date().toISOString(),changes:overrides()};localStorage.setItem('product-dashboard-save-request',JSON.stringify(payload));downloadRequest(payload);document.getElementById('stamp').textContent='Saved in this browser and exported. Give the file to the portfolio workflow to publish.';};
+document.getElementById('reconcile').onclick=()=>{const payload={type:'dashboard_updates',fresh_reconciliation:true,requested_at:new Date().toISOString(),changes:overrides()};downloadRequest(payload);document.getElementById('stamp').textContent='Request exported. Give this file to the portfolio workflow for a fresh scan.';};
+document.getElementById('reset').onclick=()=>{if(confirm('Remove all manual stage and marketplace changes stored in this browser?')){localStorage.removeItem(key);localStorage.removeItem('product-dashboard-save-request');render()}};
 document.getElementById('stamp').textContent='Synced dataset: '+new Date(data.generated_at).toLocaleString();render();
 fetch('./portfolio.json',{cache:'no-store'}).then(r=>r.json()).then(j=>{data=j;document.getElementById('stamp').textContent='Synced dataset: '+new Date(j.generated_at).toLocaleString();render()}).catch(e=>{document.getElementById('stamp').textContent='Could not load portfolio.json';console.error(e)});
 </script></body></html>

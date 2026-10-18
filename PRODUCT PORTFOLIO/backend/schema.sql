@@ -1,5 +1,8 @@
 CREATE TABLE IF NOT EXISTS products (
  product_id TEXT PRIMARY KEY, product_name TEXT NOT NULL, stage TEXT NOT NULL,
+ publication_thangs INTEGER DEFAULT NULL CHECK(publication_thangs IN (0,1)),
+ publication_makerworld INTEGER DEFAULT NULL CHECK(publication_makerworld IN (0,1)),
+ snapshot_json TEXT,
  status TEXT, blocked INTEGER NOT NULL DEFAULT 0, blocker_reason TEXT, next_action TEXT,
  folder_id TEXT, folder_url TEXT, location TEXT, hero_asset_id TEXT, hero_asset_url TEXT, hero_kind TEXT,
  has_specs INTEGER DEFAULT 0, has_3mf INTEGER DEFAULT 0, has_marketplace INTEGER DEFAULT 0,

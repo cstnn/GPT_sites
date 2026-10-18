@@ -1,64 +1,425 @@
 // Generated seed loader for D1. Run after schema.sql.
 // Source snapshot: PRODUCT PORTFOLIO/portfolio.json
 const snapshot = {
-  "schema_version": 3,
-  "generated_at": "2026-10-05T21:18:00+00:00",
+  "schema_version": 4,
+  "generated_at": "2026-10-18T17:32:55.903269+00:00",
   "root_folder_id": "1WliIAk1xWwewi_8NHIT9Mm31UZl1WCBR",
   "products": [
     {
-      "product_id": "1_iRZ1uIVe4zbYKv75ioxGsiyP1nx1I-C",
-      "product_name": "Nordic Layered Christmas Tree",
-      "stage": "published",
-      "folder_id": "1_iRZ1uIVe4zbYKv75ioxGsiyP1nx1I-C",
-      "folder_url": "https://drive.google.com/drive/folders/1_iRZ1uIVe4zbYKv75ioxGsiyP1nx1I-C",
-      "location": "GPT-WORK/PUBLISHED/Nordic_Layered_Christmas_Tree",
-      "hero_asset_id": "1PF_wclMRIJz69ufJrjFNeZzU0PXrelMz",
-      "hero_asset_url": "https://drive.google.com/thumbnail?id=1PF_wclMRIJz69ufJrjFNeZzU0PXrelMz&sz=w1000",
-      "hero_kind": "marketplace",
+      "product_id": "1EcqVv2Kk991em_lpnQXPmBSVgJsDqbqA",
+      "product_name": "Nordic Christmas Garland Link Set",
+      "stage": "print_ready",
+      "folder_id": "1EcqVv2Kk991em_lpnQXPmBSVgJsDqbqA",
+      "folder_url": "https://drive.google.com/drive/folders/1EcqVv2Kk991em_lpnQXPmBSVgJsDqbqA",
+      "location": "GPT-WORK/IDEAS/Nordic Christmas Garland Link Set",
       "has_specs": true,
       "has_3mf": true,
       "has_marketplace": true,
-      "published": true,
-      "next_action": "Published",
-      "updated_at": "2026-10-05T21:18:00+00:00",
+      "printed": false,
+      "published": false,
+      "next_action": "Slice and physically test-print",
+      "updated_at": "2026-10-18T17:32:55.903269+00:00",
       "needs_review": false,
-      "printed": true,
-      "review_note": "READY TO PUBLISH placement completes the print gate; older records still list physical checks as pending.",
-      "status": "Complete",
-      "blocked": false,
-      "blocker_reason": null,
-      "last_update_source": "folder_reconciliation",
-      "history": []
+      "hero_asset_id": "1qhSuWnBHyhj4lZd7yHUCNaVPFou0eV9e",
+      "hero_asset_url": "https://drive.google.com/thumbnail?id=1qhSuWnBHyhj4lZd7yHUCNaVPFou0eV9e&sz=w1000",
+      "hero_kind": "marketplace",
+      "seasonality": "seasonal",
+      "seasons": [
+        "Christmas"
+      ],
+      "customer_interest_score": 6,
+      "commercial_appeal_score": 5.5,
+      "assessment_rationale": {
+        "customer_interest": "Coordinated nine-motif linking system; moderate novelty.",
+        "commercial_appeal": "Link assembly and packaging add labor."
+      },
+      "assessment_confidence": "medium",
+      "assessed_at": "2026-10-13T22:02:11+03:00",
+      "assessment_method": "qualitative_v2_strict",
+      "assessment_evidence": {
+        "folder_url": "https://drive.google.com/drive/folders/1EcqVv2Kk991em_lpnQXPmBSVgJsDqbqA",
+        "image_asset_id": "1qhSuWnBHyhj4lZd7yHUCNaVPFou0eV9e",
+        "reviewed_specs": true,
+        "reviewed_marketing": false
+      },
+      "assessment_history": [
+        {
+          "customer_interest_score": 8,
+          "commercial_appeal_score": 7.5,
+          "assessed_at": "2026-10-13T21:46:52+03:00",
+          "assessment_method": "qualitative_v1",
+          "superseded_reason": "Explicit user request for realistic reassessment"
+        }
+      ],
+      "publication": {
+        "thangs": null,
+        "makerworld": null
+      }
     },
     {
-      "product_id": "1uPSdL5e8z1ymn__dwFsFNU6PHdIckHcw",
-      "product_name": "Stack & Smile Snowman",
-      "stage": "published",
-      "folder_id": "1uPSdL5e8z1ymn__dwFsFNU6PHdIckHcw",
-      "folder_url": "https://drive.google.com/drive/folders/1uPSdL5e8z1ymn__dwFsFNU6PHdIckHcw",
-      "location": "GPT-WORK/PUBLISHED/Stack_and_Smile_Snowman",
-      "hero_asset_id": "17k-3yljEkbdIQqUFFdpqoSZU7dzSXD5x",
-      "hero_asset_url": "https://drive.google.com/thumbnail?id=17k-3yljEkbdIQqUFFdpqoSZU7dzSXD5x&sz=w1000",
-      "hero_kind": "marketplace",
+      "product_id": "1b5li4ontNMvQjagooy974GFEsGCyGhPz",
+      "product_name": "Nordic Christmas Gift & Stocking Tags",
+      "stage": "print_ready",
+      "folder_id": "1b5li4ontNMvQjagooy974GFEsGCyGhPz",
+      "folder_url": "https://drive.google.com/drive/folders/1b5li4ontNMvQjagooy974GFEsGCyGhPz",
+      "location": "GPT-WORK/IDEAS/Nordic Christmas Gift & Stocking Tags",
       "has_specs": true,
       "has_3mf": true,
       "has_marketplace": true,
+      "printed": false,
+      "published": false,
+      "next_action": "Slice and physically test-print",
+      "updated_at": "2026-10-18T17:32:55.903269+00:00",
+      "needs_review": false,
+      "hero_asset_id": "1ol2phQEqBhg56jXrF6rtanfVlA8y_tzk",
+      "hero_asset_url": "https://drive.google.com/thumbnail?id=1ol2phQEqBhg56jXrF6rtanfVlA8y_tzk&sz=w1000",
+      "hero_kind": "marketplace",
+      "seasonality": "seasonal",
+      "seasons": [
+        "Christmas"
+      ],
+      "customer_interest_score": 4.5,
+      "commercial_appeal_score": 4,
+      "assessment_rationale": {
+        "customer_interest": "Familiar flat shapes; no personalization weakens tag utility.",
+        "commercial_appeal": "Low perceived value despite efficient printing."
+      },
+      "assessment_confidence": "medium",
+      "assessed_at": "2026-10-13T22:02:11+03:00",
+      "assessment_method": "qualitative_v2_strict",
+      "assessment_evidence": {
+        "folder_url": "https://drive.google.com/drive/folders/1b5li4ontNMvQjagooy974GFEsGCyGhPz",
+        "image_asset_id": "1ol2phQEqBhg56jXrF6rtanfVlA8y_tzk",
+        "reviewed_specs": true,
+        "reviewed_marketing": false
+      },
+      "assessment_history": [
+        {
+          "customer_interest_score": 7.5,
+          "commercial_appeal_score": 7,
+          "assessed_at": "2026-10-13T21:46:52+03:00",
+          "assessment_method": "qualitative_v1",
+          "superseded_reason": "Explicit user request for realistic reassessment"
+        }
+      ],
+      "publication": {
+        "thangs": null,
+        "makerworld": null
+      }
+    },
+    {
+      "product_id": "1ghaM2obToMfpxg4LHxdJCVaJ9ggLr3aG",
+      "product_name": "Nordic Christmas Napkin Rings",
+      "stage": "print_ready",
+      "folder_id": "1ghaM2obToMfpxg4LHxdJCVaJ9ggLr3aG",
+      "folder_url": "https://drive.google.com/drive/folders/1ghaM2obToMfpxg4LHxdJCVaJ9ggLr3aG",
+      "location": "GPT-WORK/IDEAS/Nordic Christmas Napkin Rings",
+      "has_specs": true,
+      "has_3mf": true,
+      "has_marketplace": true,
+      "printed": false,
+      "published": false,
+      "next_action": "Slice and physically test-print",
+      "updated_at": "2026-10-18T17:32:55.903269+00:00",
+      "needs_review": false,
+      "hero_asset_id": "1P93UE7OFRiUq1DkSmSid2E-DqT__h0OP",
+      "hero_asset_url": "https://drive.google.com/thumbnail?id=1P93UE7OFRiUq1DkSmSid2E-DqT__h0OP&sz=w1000",
+      "hero_kind": "marketplace",
+      "seasonality": "seasonal",
+      "seasons": [
+        "Christmas"
+      ],
+      "customer_interest_score": 5,
+      "commercial_appeal_score": 6.5,
+      "assessment_rationale": {
+        "customer_interest": "Clear function but narrow holiday-table audience.",
+        "commercial_appeal": "Low assembly effort; natural four/six-piece sets."
+      },
+      "assessment_confidence": "medium",
+      "assessed_at": "2026-10-13T22:02:11+03:00",
+      "assessment_method": "qualitative_v2_strict",
+      "assessment_evidence": {
+        "folder_url": "https://drive.google.com/drive/folders/1ghaM2obToMfpxg4LHxdJCVaJ9ggLr3aG",
+        "image_asset_id": "1E24RXei7GDKeORsHicsguY6LcTCE1NM0",
+        "reviewed_specs": true,
+        "reviewed_marketing": false
+      },
+      "assessment_history": [
+        {
+          "customer_interest_score": 7.5,
+          "commercial_appeal_score": 8.5,
+          "assessed_at": "2026-10-13T21:46:52+03:00",
+          "assessment_method": "qualitative_v1",
+          "superseded_reason": "Explicit user request for realistic reassessment"
+        }
+      ],
+      "publication": {
+        "thangs": null,
+        "makerworld": null
+      }
+    },
+    {
+      "product_id": "1aLoYR8jj0ast9cljZhBQCx2afHQ7PTIW",
+      "product_name": "Nordic Christmas Village Houses",
+      "stage": "published",
+      "folder_id": "1aLoYR8jj0ast9cljZhBQCx2afHQ7PTIW",
+      "folder_url": "https://drive.google.com/drive/folders/1aLoYR8jj0ast9cljZhBQCx2afHQ7PTIW",
+      "location": "GPT-WORK/PUBLISHED/Nordic Christmas Village Houses",
+      "has_specs": true,
+      "has_3mf": true,
+      "has_marketplace": true,
+      "printed": true,
       "published": true,
       "next_action": "Published",
-      "updated_at": "2026-10-05T21:18:00+00:00",
+      "updated_at": "2026-10-18T17:32:55.903269+00:00",
       "needs_review": false,
+      "hero_asset_id": "1PG2K-w-Xb6eQKSkTbvqzYqMzzP9h5VU1",
+      "hero_asset_url": "https://drive.google.com/thumbnail?id=1PG2K-w-Xb6eQKSkTbvqzYqMzzP9h5VU1&sz=w1000",
+      "hero_kind": "marketplace",
+      "seasonality": "seasonal",
+      "seasons": [
+        "Christmas"
+      ],
+      "customer_interest_score": 8,
+      "commercial_appeal_score": 7,
+      "assessment_rationale": {
+        "customer_interest": "Cohesive illuminated village and accent options offer clear differentiation.",
+        "commercial_appeal": "Set sales potential; multiple house prints, LEDs and packing costs."
+      },
+      "assessment_confidence": "medium",
+      "assessed_at": "2026-10-13T22:02:11+03:00",
+      "assessment_method": "qualitative_v2_strict",
+      "assessment_evidence": {
+        "folder_url": "https://drive.google.com/drive/folders/1aLoYR8jj0ast9cljZhBQCx2afHQ7PTIW",
+        "image_asset_id": "1PG2K-w-Xb6eQKSkTbvqzYqMzzP9h5VU1",
+        "reviewed_specs": true,
+        "reviewed_marketing": false
+      },
+      "assessment_history": [
+        {
+          "customer_interest_score": 9,
+          "commercial_appeal_score": 8,
+          "assessed_at": "2026-10-13T21:46:52+03:00",
+          "assessment_method": "qualitative_v1",
+          "superseded_reason": "Explicit user request for realistic reassessment"
+        }
+      ],
+      "publication": {
+        "thangs": null,
+        "makerworld": null
+      }
+    },
+    {
+      "product_id": "1e44YH3hx9hdRwhai8REY03ZNl7-vcnr7",
+      "product_name": "Nordic Days Until Christmas Countdown",
+      "stage": "print_ready",
+      "folder_id": "1e44YH3hx9hdRwhai8REY03ZNl7-vcnr7",
+      "folder_url": "https://drive.google.com/drive/folders/1e44YH3hx9hdRwhai8REY03ZNl7-vcnr7",
+      "location": "GPT-WORK/IDEAS/Nordic Days Until Christmas Countdown",
+      "has_specs": true,
+      "has_3mf": true,
+      "has_marketplace": true,
+      "printed": false,
+      "published": false,
+      "next_action": "Slice and physically test-print",
+      "updated_at": "2026-10-18T17:32:55.903269+00:00",
+      "needs_review": false,
+      "hero_asset_id": "1qhdJkvNA4GS4N_-raM6Vl9imdu3k0rob",
+      "hero_asset_url": "https://drive.google.com/thumbnail?id=1qhdJkvNA4GS4N_-raM6Vl9imdu3k0rob&sz=w1000",
+      "hero_kind": "marketplace",
+      "seasonality": "seasonal",
+      "seasons": [
+        "Christmas"
+      ],
+      "customer_interest_score": 6,
+      "commercial_appeal_score": 4.5,
+      "assessment_rationale": {
+        "customer_interest": "Daily ritual adds utility; familiar cube countdown format.",
+        "commercial_appeal": "Many numeral inserts, spare cubes and short selling window."
+      },
+      "assessment_confidence": "medium",
+      "assessed_at": "2026-10-13T22:02:11+03:00",
+      "assessment_method": "qualitative_v2_strict",
+      "assessment_evidence": {
+        "folder_url": "https://drive.google.com/drive/folders/1e44YH3hx9hdRwhai8REY03ZNl7-vcnr7",
+        "image_asset_id": "1e_zGgQuPbOGVPufuoYE_XIw5aiTqfJBn",
+        "reviewed_specs": true,
+        "reviewed_marketing": false
+      },
+      "assessment_history": [
+        {
+          "customer_interest_score": 8,
+          "commercial_appeal_score": 7,
+          "assessed_at": "2026-10-13T21:46:52+03:00",
+          "assessment_method": "qualitative_v1",
+          "superseded_reason": "Explicit user request for realistic reassessment"
+        }
+      ],
+      "publication": {
+        "thangs": null,
+        "makerworld": null
+      }
+    },
+    {
+      "product_id": "1u6to3SB8aaWA08zV-0fqmabtImEXXFaJ",
+      "product_name": "Nordic Flat-Pack Christmas Ornaments",
+      "stage": "published",
+      "folder_id": "1u6to3SB8aaWA08zV-0fqmabtImEXXFaJ",
+      "folder_url": "https://drive.google.com/drive/folders/1u6to3SB8aaWA08zV-0fqmabtImEXXFaJ",
+      "location": "GPT-WORK/PUBLISHED/Nordic Flat-Pack Christmas Ornaments",
+      "has_specs": true,
+      "has_3mf": true,
+      "has_marketplace": true,
       "printed": true,
-      "review_note": "READY TO PUBLISH placement completes the print gate; older records still list physical checks as pending.",
-      "status": "Complete",
-      "blocked": false,
-      "blocker_reason": null,
-      "last_update_source": "folder_reconciliation",
-      "history": []
+      "published": true,
+      "next_action": "Published",
+      "updated_at": "2026-10-18T17:32:55.903269+00:00",
+      "needs_review": false,
+      "hero_asset_id": "1IgHM99t2aKS8-5IJ-WjxhIUMoy66yHKZ",
+      "hero_asset_url": "https://drive.google.com/thumbnail?id=1IgHM99t2aKS8-5IJ-WjxhIUMoy66yHKZ&sz=w1000",
+      "hero_kind": "marketplace",
+      "seasonality": "seasonal",
+      "seasons": [
+        "Christmas"
+      ],
+      "customer_interest_score": 6.5,
+      "commercial_appeal_score": 7,
+      "assessment_rationale": {
+        "customer_interest": "Coordinated 3D flat-pack forms add practical value.",
+        "commercial_appeal": "Compact shipping and set potential; verify joints."
+      },
+      "assessment_confidence": "medium",
+      "assessed_at": "2026-10-13T22:02:11+03:00",
+      "assessment_method": "qualitative_v2_strict",
+      "assessment_evidence": {
+        "folder_url": "https://drive.google.com/drive/folders/1u6to3SB8aaWA08zV-0fqmabtImEXXFaJ",
+        "image_asset_id": "1EFYCQ4kxwGoB1vfYztpYWTg-nus9tkk0",
+        "reviewed_specs": true,
+        "reviewed_marketing": false
+      },
+      "assessment_history": [
+        {
+          "customer_interest_score": 8,
+          "commercial_appeal_score": 8.5,
+          "assessed_at": "2026-10-13T21:46:52+03:00",
+          "assessment_method": "qualitative_v1",
+          "superseded_reason": "Explicit user request for realistic reassessment"
+        }
+      ],
+      "publication": {
+        "thangs": null,
+        "makerworld": null
+      }
+    },
+    {
+      "product_id": "1WWy3Yt-N8j_DjRtu5Ce9DjokV0bOfoNw",
+      "product_name": "Nordic Christmas Star",
+      "stage": "specs_ready",
+      "folder_id": "1WWy3Yt-N8j_DjRtu5Ce9DjokV0bOfoNw",
+      "folder_url": "https://drive.google.com/drive/folders/1WWy3Yt-N8j_DjRtu5Ce9DjokV0bOfoNw",
+      "location": "GPT-WORK/IDEAS/Nordic Christmas Star",
+      "has_specs": true,
+      "has_3mf": false,
+      "has_marketplace": false,
+      "printed": false,
+      "published": false,
+      "next_action": "Create verified 3MF",
+      "updated_at": "2026-10-18T17:32:55.903269+00:00",
+      "needs_review": false,
+      "hero_asset_id": "14wA28aTxIKATOh8RL-iEP7L9MFG2l6qf",
+      "hero_asset_url": "https://drive.google.com/thumbnail?id=14wA28aTxIKATOh8RL-iEP7L9MFG2l6qf&sz=w1000",
+      "hero_kind": "concept",
+      "seasonality": "seasonal",
+      "seasons": [
+        "Christmas"
+      ],
+      "customer_interest_score": 6,
+      "commercial_appeal_score": 5,
+      "assessment_rationale": {
+        "customer_interest": "Sculptural illumination has display impact.",
+        "commercial_appeal": "Light installation, finishing and shipping effort remain uncertain."
+      },
+      "assessment_confidence": "low",
+      "assessed_at": "2026-10-13T22:02:11+03:00",
+      "assessment_method": "qualitative_v2_strict",
+      "assessment_evidence": {
+        "folder_url": "https://drive.google.com/drive/folders/1WWy3Yt-N8j_DjRtu5Ce9DjokV0bOfoNw",
+        "image_asset_id": "14wA28aTxIKATOh8RL-iEP7L9MFG2l6qf",
+        "reviewed_specs": true,
+        "reviewed_marketing": false
+      },
+      "assessment_history": [
+        {
+          "customer_interest_score": 7.5,
+          "commercial_appeal_score": 7.5,
+          "assessed_at": "2026-10-13T21:46:52+03:00",
+          "assessment_method": "qualitative_v1",
+          "superseded_reason": "Explicit user request for realistic reassessment"
+        }
+      ],
+      "publication": {
+        "thangs": null,
+        "makerworld": null
+      }
+    },
+    {
+      "product_id": "164zn0PM3COB3PNFVcpjbLBHbwnBLAciv",
+      "product_name": "NORHOLM seasonal front pannels expansion packs",
+      "stage": "specs_ready",
+      "folder_id": "164zn0PM3COB3PNFVcpjbLBHbwnBLAciv",
+      "folder_url": "https://drive.google.com/drive/folders/164zn0PM3COB3PNFVcpjbLBHbwnBLAciv",
+      "location": "GPT-WORK/NORHOLM seasonal front pannels expansion packs",
+      "has_specs": true,
+      "has_3mf": false,
+      "has_marketplace": false,
+      "printed": false,
+      "published": false,
+      "next_action": "Create verified 3MF",
+      "updated_at": "2026-10-18T17:32:55.903269+00:00",
+      "needs_review": false,
+      "hero_asset_id": "1oYz4qZ-7E0HOXrmJ-CQNDQb82l60N8yK",
+      "hero_asset_url": "https://drive.google.com/thumbnail?id=1oYz4qZ-7E0HOXrmJ-CQNDQb82l60N8yK&sz=w1000",
+      "hero_kind": "concept",
+      "review_note": "Two separate expansion-pack folders exist; reconcile package scope and completeness before publishing.",
+      "seasonality": "seasonal",
+      "seasons": [
+        "Autumn",
+        "Halloween",
+        "Thanksgiving"
+      ],
+      "customer_interest_score": 3.5,
+      "commercial_appeal_score": 3,
+      "assessment_rationale": {
+        "customer_interest": "Expansion depends on existing NORHOLM owners.",
+        "commercial_appeal": "Limited standalone appeal; needs compatible houses."
+      },
+      "assessment_confidence": "low",
+      "assessed_at": "2026-10-13T22:02:11+03:00",
+      "assessment_method": "qualitative_v2_strict",
+      "assessment_evidence": {
+        "folder_url": "https://drive.google.com/drive/folders/164zn0PM3COB3PNFVcpjbLBHbwnBLAciv",
+        "image_asset_id": "1oYz4qZ-7E0HOXrmJ-CQNDQb82l60N8yK",
+        "reviewed_specs": false,
+        "reviewed_marketing": true
+      },
+      "assessment_history": [
+        {
+          "customer_interest_score": 6.5,
+          "commercial_appeal_score": 6.5,
+          "assessed_at": "2026-10-13T21:46:52+03:00",
+          "assessment_method": "qualitative_v1",
+          "superseded_reason": "Explicit user request for realistic reassessment"
+        }
+      ],
+      "publication": {
+        "thangs": null,
+        "makerworld": null
+      }
     },
     {
       "product_id": "1u9UenRlPvlMpSJWjGqQKXp6nO92Xc1Sb",
       "product_name": "Alchemist's Stack & Potion Vial",
-      "stage": "3mf",
+      "stage": "3mf_ready",
       "folder_id": "1u9UenRlPvlMpSJWjGqQKXp6nO92Xc1Sb",
       "folder_url": "https://drive.google.com/drive/folders/1u9UenRlPvlMpSJWjGqQKXp6nO92Xc1Sb",
       "location": "GPT-WORK/Bookish_Keychain - Alchemist's Stack & Potion Vial",
@@ -69,20 +430,267 @@ const snapshot = {
       "has_3mf": true,
       "has_marketplace": false,
       "published": false,
-      "next_action": "Prepare marketplace package",
-      "updated_at": "2026-10-03T15:53:16+00:00",
+      "next_action": "Complete marketing copy and hero images",
+      "updated_at": "2026-10-18T17:32:55.903269+00:00",
       "needs_review": false,
       "printed": false,
-      "status": "In Progress",
-      "blocked": false,
-      "blocker_reason": null,
-      "last_update_source": "folder_reconciliation",
-      "history": []
+      "seasonality": "year_round",
+      "seasons": [],
+      "customer_interest_score": 5.5,
+      "commercial_appeal_score": 4.5,
+      "assessment_rationale": {
+        "customer_interest": "Bookish gift niche; bulky charm and less readable potion detail.",
+        "commercial_appeal": "Assembly, attachment strength and limited pricing power."
+      },
+      "assessment_confidence": "medium",
+      "assessed_at": "2026-10-13T22:02:11+03:00",
+      "assessment_method": "qualitative_v2_strict",
+      "assessment_evidence": {
+        "folder_url": "https://drive.google.com/drive/folders/1u9UenRlPvlMpSJWjGqQKXp6nO92Xc1Sb",
+        "image_asset_id": "1wj3Np7avMI4FnhiTngAnKtQoWN4SnOVF",
+        "reviewed_specs": false,
+        "reviewed_marketing": false
+      },
+      "assessment_history": [
+        {
+          "customer_interest_score": 7.5,
+          "commercial_appeal_score": 7,
+          "assessed_at": "2026-10-13T21:46:52+03:00",
+          "assessment_method": "qualitative_v1",
+          "superseded_reason": "Explicit user request for realistic reassessment"
+        }
+      ],
+      "publication": {
+        "thangs": null,
+        "makerworld": null
+      }
+    },
+    {
+      "product_id": "1_VzC9zs5H2gxJj1V0qp5eA80oofe7cBx",
+      "product_name": "Christmas Globe Collection — Spiral Diamond Chevron",
+      "stage": "print_ready",
+      "folder_id": "1_VzC9zs5H2gxJj1V0qp5eA80oofe7cBx",
+      "folder_url": "https://drive.google.com/drive/folders/1_VzC9zs5H2gxJj1V0qp5eA80oofe7cBx",
+      "location": "GPT-WORK/IDEAS/Christmas Globe Collection — Spiral Diamond Chevron",
+      "has_specs": true,
+      "has_3mf": true,
+      "has_marketplace": true,
+      "printed": false,
+      "published": false,
+      "next_action": "Slice and physically test-print",
+      "updated_at": "2026-10-18T17:32:55.903269+00:00",
+      "needs_review": false,
+      "hero_asset_id": "1hLG2-NXEfK9S20_avjzsCWynKRHtjt1t",
+      "hero_asset_url": "https://drive.google.com/thumbnail?id=1hLG2-NXEfK9S20_avjzsCWynKRHtjt1t&sz=w1000",
+      "hero_kind": "marketplace",
+      "review_note": "User must add permanent socket-to-shell connections in the slicer; fit and hanging strength remain untested.",
+      "seasonality": "seasonal",
+      "seasons": [
+        "Christmas"
+      ],
+      "customer_interest_score": 4.5,
+      "commercial_appeal_score": 5.5,
+      "assessment_rationale": {
+        "customer_interest": "Three ornament textures, but a familiar bauble format.",
+        "commercial_appeal": "Set potential; unresolved hanging connection reduces readiness."
+      },
+      "assessment_confidence": "medium",
+      "assessed_at": "2026-10-13T22:02:11+03:00",
+      "assessment_method": "qualitative_v2_strict",
+      "assessment_evidence": {
+        "folder_url": "https://drive.google.com/drive/folders/1_VzC9zs5H2gxJj1V0qp5eA80oofe7cBx",
+        "image_asset_id": "1hLG2-NXEfK9S20_avjzsCWynKRHtjt1t",
+        "reviewed_specs": true,
+        "reviewed_marketing": false
+      },
+      "assessment_history": [
+        {
+          "customer_interest_score": 7.5,
+          "commercial_appeal_score": 8,
+          "assessed_at": "2026-10-13T21:46:52+03:00",
+          "assessment_method": "qualitative_v1",
+          "superseded_reason": "Explicit user request for realistic reassessment"
+        }
+      ],
+      "publication": {
+        "thangs": null,
+        "makerworld": null
+      }
+    },
+    {
+      "product_id": "1h9ePQPW1PNbv_jNWQBTF0IUkH8fYHENd",
+      "product_name": "Christmas Goose Desk Ornament",
+      "stage": "published",
+      "folder_id": "1h9ePQPW1PNbv_jNWQBTF0IUkH8fYHENd",
+      "folder_url": "https://drive.google.com/drive/folders/1h9ePQPW1PNbv_jNWQBTF0IUkH8fYHENd",
+      "location": "GPT-WORK/PUBLISHED/Christmas Goose Desk Ornament",
+      "has_specs": true,
+      "has_3mf": true,
+      "has_marketplace": true,
+      "printed": true,
+      "published": true,
+      "next_action": "Published",
+      "updated_at": "2026-10-18T17:32:55.903269+00:00",
+      "needs_review": false,
+      "hero_asset_id": "103C1QJQtdzBmKJdoOkIbfs3TSsnhMTap",
+      "hero_asset_url": "https://drive.google.com/thumbnail?id=103C1QJQtdzBmKJdoOkIbfs3TSsnhMTap&sz=w1000",
+      "hero_kind": "marketplace",
+      "seasonality": "seasonal",
+      "seasons": [
+        "Christmas"
+      ],
+      "customer_interest_score": 7.5,
+      "commercial_appeal_score": 6.5,
+      "assessment_rationale": {
+        "customer_interest": "Memorable clean character silhouette and gift appeal.",
+        "commercial_appeal": "Plausible character product; actual assembly time still needed."
+      },
+      "assessment_confidence": "medium",
+      "assessed_at": "2026-10-13T22:02:11+03:00",
+      "assessment_method": "qualitative_v2_strict",
+      "assessment_evidence": {
+        "folder_url": "https://drive.google.com/drive/folders/1h9ePQPW1PNbv_jNWQBTF0IUkH8fYHENd",
+        "image_asset_id": "103C1QJQtdzBmKJdoOkIbfs3TSsnhMTap",
+        "reviewed_specs": true,
+        "reviewed_marketing": false
+      },
+      "assessment_history": [
+        {
+          "customer_interest_score": 9,
+          "commercial_appeal_score": 8,
+          "assessed_at": "2026-10-13T21:46:52+03:00",
+          "assessment_method": "qualitative_v1",
+          "superseded_reason": "Explicit user request for realistic reassessment"
+        }
+      ],
+      "publication": {
+        "thangs": null,
+        "makerworld": null
+      }
+    },
+    {
+      "product_id": "1o-hn3RiZvHamzrLq6Q9XgfZXaZLeEMhR",
+      "product_name": "Nordic Faceted Christmas Star",
+      "stage": "to_publish",
+      "folder_id": "1o-hn3RiZvHamzrLq6Q9XgfZXaZLeEMhR",
+      "folder_url": "https://drive.google.com/drive/folders/1o-hn3RiZvHamzrLq6Q9XgfZXaZLeEMhR",
+      "location": "GPT-WORK/IDEAS/Nordic Faceted Christmas Star",
+      "has_specs": true,
+      "has_3mf": true,
+      "has_marketplace": true,
+      "printed": true,
+      "published": false,
+      "next_action": "Review listing and publish",
+      "updated_at": "2026-10-18T17:32:55.903269+00:00",
+      "needs_review": false,
+      "hero_asset_id": "1lIIGFgzfppNf9bRNO8Sy7tuUrRR5XBCJ",
+      "hero_asset_url": "https://drive.google.com/thumbnail?id=1lIIGFgzfppNf9bRNO8Sy7tuUrRR5XBCJ&sz=w1000",
+      "hero_kind": "marketplace",
+      "review_note": "Marketplace copy exists; newly approved additional marketing image uploads remain incomplete.",
+      "seasonality": "seasonal",
+      "seasons": [
+        "Christmas"
+      ],
+      "customer_interest_score": 4.5,
+      "commercial_appeal_score": 5,
+      "assessment_rationale": {
+        "customer_interest": "Clean geometric star; little novelty among ornaments.",
+        "commercial_appeal": "Five-piece glue assembly weakens batch efficiency."
+      },
+      "assessment_confidence": "medium",
+      "assessed_at": "2026-10-13T22:02:11+03:00",
+      "assessment_method": "qualitative_v2_strict",
+      "assessment_evidence": {
+        "folder_url": "https://drive.google.com/drive/folders/1o-hn3RiZvHamzrLq6Q9XgfZXaZLeEMhR",
+        "image_asset_id": "1FRH0ea5BKBJ_9_2FaD2i1oMAIVGWl8ed",
+        "reviewed_specs": true,
+        "reviewed_marketing": true
+      },
+      "assessment_history": [
+        {
+          "customer_interest_score": 7,
+          "commercial_appeal_score": 7.5,
+          "assessed_at": "2026-10-13T21:46:52+03:00",
+          "assessment_method": "qualitative_v1",
+          "superseded_reason": "Explicit user request for realistic reassessment"
+        }
+      ],
+      "history": [
+        {
+          "at": "2026-10-16T06:48:54.122Z",
+          "source": "dashboard",
+          "field": "stage",
+          "from": "3mf",
+          "to": "printed",
+          "note": "User confirmed printed"
+        }
+      ],
+      "last_update_source": "dashboard",
+      "update_source": "user",
+      "status_evidence": "Explicit user instruction to mark Printed, 2026-10-16.",
+      "publication": {
+        "thangs": null,
+        "makerworld": null
+      }
+    },
+    {
+      "product_id": "1o8ExYEkxf_axhMl2-eyZfXG8t43HzlfA",
+      "product_name": "Pleated Angel Figurine",
+      "stage": "published",
+      "folder_id": "1o8ExYEkxf_axhMl2-eyZfXG8t43HzlfA",
+      "folder_url": "https://drive.google.com/drive/folders/1o8ExYEkxf_axhMl2-eyZfXG8t43HzlfA",
+      "location": "GPT-WORK/PUBLISHED/Pleated Angel Figurine",
+      "has_specs": true,
+      "has_3mf": true,
+      "has_marketplace": true,
+      "printed": true,
+      "published": true,
+      "next_action": "Published",
+      "updated_at": "2026-10-18T17:32:55.903269+00:00",
+      "needs_review": false,
+      "hero_asset_id": "1dYaolioZTKizUBxupeiwOIHMTSc4EH7m",
+      "hero_asset_url": "https://drive.google.com/thumbnail?id=1dYaolioZTKizUBxupeiwOIHMTSc4EH7m&sz=w1000",
+      "hero_kind": "marketplace",
+      "review_note": "Marketplace copy exists; newly approved additional marketing image uploads remain incomplete.",
+      "seasonality": "seasonal",
+      "seasons": [
+        "Christmas"
+      ],
+      "customer_interest_score": 7,
+      "commercial_appeal_score": 6,
+      "assessment_rationale": {
+        "customer_interest": "Pleats and wings provide strong sculptural décor appeal.",
+        "commercial_appeal": "Wing support cleanup and delicate packing reduce efficiency."
+      },
+      "assessment_confidence": "medium",
+      "assessed_at": "2026-10-13T22:02:11+03:00",
+      "assessment_method": "qualitative_v2_strict",
+      "assessment_evidence": {
+        "folder_url": "https://drive.google.com/drive/folders/1o8ExYEkxf_axhMl2-eyZfXG8t43HzlfA",
+        "image_asset_id": "1xj0IbNflFz5YgxcorfCsPZ9xaIiWUh0i",
+        "reviewed_specs": true,
+        "reviewed_marketing": true
+      },
+      "assessment_history": [
+        {
+          "customer_interest_score": 8.5,
+          "commercial_appeal_score": 8,
+          "assessed_at": "2026-10-13T21:46:52+03:00",
+          "assessment_method": "qualitative_v1",
+          "superseded_reason": "Explicit user request for realistic reassessment"
+        }
+      ],
+      "update_source": "user",
+      "status_evidence": "Explicit user instruction to move to Printed, 2026-10-16.",
+      "publication": {
+        "thangs": null,
+        "makerworld": null
+      }
     },
     {
       "product_id": "1GQD8YzJT2gOMun1B_Jb7bY--gdhnZthe",
       "product_name": "Rider's Stack & Dragon Dagger",
-      "stage": "3mf",
+      "stage": "3mf_ready",
       "folder_id": "1GQD8YzJT2gOMun1B_Jb7bY--gdhnZthe",
       "folder_url": "https://drive.google.com/drive/folders/1GQD8YzJT2gOMun1B_Jb7bY--gdhnZthe",
       "location": "GPT-WORK/Bookish_Keychain - Rider's Stack & Dragon Dagger",
@@ -93,328 +701,248 @@ const snapshot = {
       "has_3mf": true,
       "has_marketplace": false,
       "published": false,
-      "next_action": "Prepare marketplace package",
-      "updated_at": "2026-10-03T15:53:16+00:00",
+      "next_action": "Complete marketing copy and hero images",
+      "updated_at": "2026-10-18T17:32:55.903269+00:00",
       "needs_review": false,
       "printed": false,
-      "status": "In Progress",
-      "blocked": false,
-      "blocker_reason": null,
-      "last_update_source": "folder_reconciliation",
-      "history": []
+      "seasonality": "year_round",
+      "seasons": [],
+      "customer_interest_score": 6.5,
+      "commercial_appeal_score": 5.5,
+      "assessment_rationale": {
+        "customer_interest": "Readable dragon/dagger theme for fantasy-reader niche.",
+        "commercial_appeal": "Assembly and dagger/attachment durability require validation."
+      },
+      "assessment_confidence": "medium",
+      "assessed_at": "2026-10-13T22:02:11+03:00",
+      "assessment_method": "qualitative_v2_strict",
+      "assessment_evidence": {
+        "folder_url": "https://drive.google.com/drive/folders/1GQD8YzJT2gOMun1B_Jb7bY--gdhnZthe",
+        "image_asset_id": "1t6SsKrewOfB63RgHkUCBV-48eBF9hUvi",
+        "reviewed_specs": false,
+        "reviewed_marketing": false
+      },
+      "assessment_history": [
+        {
+          "customer_interest_score": 8,
+          "commercial_appeal_score": 7,
+          "assessed_at": "2026-10-13T21:46:52+03:00",
+          "assessment_method": "qualitative_v1",
+          "superseded_reason": "Explicit user request for realistic reassessment"
+        }
+      ],
+      "publication": {
+        "thangs": null,
+        "makerworld": null
+      }
     },
     {
-      "product_id": "110qU9U1t6juGxXoyBZ8mQ38xilYlQOcv",
-      "product_name": "Christmas Gingerbread Tea Bag Mug Buddy",
-      "stage": "specs",
-      "folder_id": "110qU9U1t6juGxXoyBZ8mQ38xilYlQOcv",
-      "folder_url": "https://drive.google.com/drive/folders/110qU9U1t6juGxXoyBZ8mQ38xilYlQOcv",
-      "location": "GPT-WORK/IDEAS/Christmas Gingerbread Tea Bag Mug Buddy",
-      "hero_asset_id": "1xn7nf9XKQ_qcbAd3RDNLwITxxGVjs3Rl",
-      "hero_asset_url": "https://drive.google.com/thumbnail?id=1xn7nf9XKQ_qcbAd3RDNLwITxxGVjs3Rl&sz=w1000",
-      "hero_kind": "concept",
-      "has_specs": true,
-      "has_3mf": false,
-      "has_marketplace": false,
-      "published": false,
-      "next_action": "Create verified 3MF",
-      "updated_at": "2026-10-03T15:53:16+00:00",
-      "needs_review": false,
-      "printed": false,
-      "status": "In Progress",
-      "blocked": false,
-      "blocker_reason": null,
-      "last_update_source": "folder_reconciliation",
-      "history": []
-    },
-    {
-      "product_id": "bookish-1LYU7tt5_xjauYCcved7L4Mi3r8MZ-JVc",
-      "product_name": "Boy Who Lived & Deathly Hallows",
-      "stage": "idea",
-      "folder_id": "17911dBcTo0jYmpQzTvmVfgx57Bj0Wit6",
-      "folder_url": "https://drive.google.com/drive/folders/17911dBcTo0jYmpQzTvmVfgx57Bj0Wit6",
-      "location": "GPT-WORK/IDEAS/Bookish stuff",
-      "hero_asset_id": "1LYU7tt5_xjauYCcved7L4Mi3r8MZ-JVc",
-      "hero_asset_url": "https://drive.google.com/thumbnail?id=1LYU7tt5_xjauYCcved7L4Mi3r8MZ-JVc&sz=w1000",
-      "hero_kind": "concept",
-      "has_specs": false,
-      "has_3mf": false,
-      "has_marketplace": false,
-      "published": false,
-      "next_action": "Run product interview",
-      "updated_at": "2026-10-03T15:53:16+00:00",
-      "needs_review": false,
-      "printed": false,
-      "status": "In Progress",
-      "blocked": false,
-      "blocker_reason": null,
-      "last_update_source": "folder_reconciliation",
-      "history": []
-    },
-    {
-      "product_id": "bookish-1cb4MLOobC1vnB60vsj_ncIK829xrXXFI",
-      "product_name": "District Tribute & Mockingjay",
-      "stage": "idea",
-      "folder_id": "17911dBcTo0jYmpQzTvmVfgx57Bj0Wit6",
-      "folder_url": "https://drive.google.com/drive/folders/17911dBcTo0jYmpQzTvmVfgx57Bj0Wit6",
-      "location": "GPT-WORK/IDEAS/Bookish stuff",
-      "hero_asset_id": "1cb4MLOobC1vnB60vsj_ncIK829xrXXFI",
-      "hero_asset_url": "https://drive.google.com/thumbnail?id=1cb4MLOobC1vnB60vsj_ncIK829xrXXFI&sz=w1000",
-      "hero_kind": "concept",
-      "has_specs": false,
-      "has_3mf": false,
-      "has_marketplace": false,
-      "published": false,
-      "next_action": "Run product interview",
-      "updated_at": "2026-10-03T15:53:16+00:00",
-      "needs_review": false,
-      "printed": false,
-      "status": "In Progress",
-      "blocked": false,
-      "blocker_reason": null,
-      "last_update_source": "folder_reconciliation",
-      "history": []
-    },
-    {
-      "product_id": "bookish-1IsdOCfykN9MgWSK4OkKosX0nN6Tm52Kx",
-      "product_name": "Camp Half-Blood & Trident",
-      "stage": "idea",
-      "folder_id": "17911dBcTo0jYmpQzTvmVfgx57Bj0Wit6",
-      "folder_url": "https://drive.google.com/drive/folders/17911dBcTo0jYmpQzTvmVfgx57Bj0Wit6",
-      "location": "GPT-WORK/IDEAS/Bookish stuff",
-      "hero_asset_id": "1IsdOCfykN9MgWSK4OkKosX0nN6Tm52Kx",
-      "hero_asset_url": "https://drive.google.com/thumbnail?id=1IsdOCfykN9MgWSK4OkKosX0nN6Tm52Kx&sz=w1000",
-      "hero_kind": "concept",
-      "has_specs": false,
-      "has_3mf": false,
-      "has_marketplace": false,
-      "published": false,
-      "next_action": "Run product interview",
-      "updated_at": "2026-10-03T15:53:16+00:00",
-      "needs_review": false,
-      "printed": false,
-      "status": "In Progress",
-      "blocked": false,
-      "blocker_reason": null,
-      "last_update_source": "folder_reconciliation",
-      "history": []
-    },
-    {
-      "product_id": "bookish-1360nERySoCqsktCLVE9wvN9EePDPEiHt",
-      "product_name": "One Ring & White Tree",
-      "stage": "idea",
-      "folder_id": "17911dBcTo0jYmpQzTvmVfgx57Bj0Wit6",
-      "folder_url": "https://drive.google.com/drive/folders/17911dBcTo0jYmpQzTvmVfgx57Bj0Wit6",
-      "location": "GPT-WORK/IDEAS/Bookish stuff",
-      "hero_asset_id": "1360nERySoCqsktCLVE9wvN9EePDPEiHt",
-      "hero_asset_url": "https://drive.google.com/thumbnail?id=1360nERySoCqsktCLVE9wvN9EePDPEiHt&sz=w1000",
-      "hero_kind": "concept",
-      "has_specs": false,
-      "has_3mf": false,
-      "has_marketplace": false,
-      "published": false,
-      "next_action": "Run product interview",
-      "updated_at": "2026-10-03T15:53:16+00:00",
-      "needs_review": false,
-      "printed": false,
-      "status": "In Progress",
-      "blocked": false,
-      "blocker_reason": null,
-      "last_update_source": "folder_reconciliation",
-      "history": []
-    },
-    {
-      "product_id": "bookish-1OFQ_8Jgj6Q459xnkVNQ0kiFoiAOYrb6s",
-      "product_name": "Shadowhunter & Angelic Rune",
-      "stage": "idea",
-      "folder_id": "17911dBcTo0jYmpQzTvmVfgx57Bj0Wit6",
-      "folder_url": "https://drive.google.com/drive/folders/17911dBcTo0jYmpQzTvmVfgx57Bj0Wit6",
-      "location": "GPT-WORK/IDEAS/Bookish stuff",
-      "hero_asset_id": "1OFQ_8Jgj6Q459xnkVNQ0kiFoiAOYrb6s",
-      "hero_asset_url": "https://drive.google.com/thumbnail?id=1OFQ_8Jgj6Q459xnkVNQ0kiFoiAOYrb6s&sz=w1000",
-      "hero_kind": "concept",
-      "has_specs": false,
-      "has_3mf": false,
-      "has_marketplace": false,
-      "published": false,
-      "next_action": "Run product interview",
-      "updated_at": "2026-10-03T15:53:16+00:00",
-      "needs_review": false,
-      "printed": false,
-      "status": "In Progress",
-      "blocked": false,
-      "blocker_reason": null,
-      "last_update_source": "folder_reconciliation",
-      "history": []
-    },
-    {
-      "product_id": "bookish-1VXP0whtDNEHiOsmn7B-yZGImH6Mj1pyz",
-      "product_name": "Wonderland & Pocket Watch",
-      "stage": "idea",
-      "folder_id": "17911dBcTo0jYmpQzTvmVfgx57Bj0Wit6",
-      "folder_url": "https://drive.google.com/drive/folders/17911dBcTo0jYmpQzTvmVfgx57Bj0Wit6",
-      "location": "GPT-WORK/IDEAS/Bookish stuff",
-      "hero_asset_id": "1VXP0whtDNEHiOsmn7B-yZGImH6Mj1pyz",
-      "hero_asset_url": "https://drive.google.com/thumbnail?id=1VXP0whtDNEHiOsmn7B-yZGImH6Mj1pyz&sz=w1000",
-      "hero_kind": "concept",
-      "has_specs": false,
-      "has_3mf": false,
-      "has_marketplace": false,
-      "published": false,
-      "next_action": "Run product interview",
-      "updated_at": "2026-10-03T15:53:16+00:00",
-      "needs_review": false,
-      "printed": false,
-      "status": "In Progress",
-      "blocked": false,
-      "blocker_reason": null,
-      "last_update_source": "folder_reconciliation",
-      "history": []
-    },
-    {
-      "product_id": "bookish-1V9lYXWInRM0t2cNcSVGIsSNlP0fO2t0y",
-      "product_name": "Crescent City & First Light Star",
-      "stage": "idea",
-      "folder_id": "17911dBcTo0jYmpQzTvmVfgx57Bj0Wit6",
-      "folder_url": "https://drive.google.com/drive/folders/17911dBcTo0jYmpQzTvmVfgx57Bj0Wit6",
-      "location": "GPT-WORK/IDEAS/Bookish stuff",
-      "hero_asset_id": "1V9lYXWInRM0t2cNcSVGIsSNlP0fO2t0y",
-      "hero_asset_url": "https://drive.google.com/thumbnail?id=1V9lYXWInRM0t2cNcSVGIsSNlP0fO2t0y&sz=w1000",
-      "hero_kind": "concept",
-      "has_specs": false,
-      "has_3mf": false,
-      "has_marketplace": false,
-      "published": false,
-      "next_action": "Run product interview",
-      "updated_at": "2026-10-03T15:53:16+00:00",
-      "needs_review": false,
-      "printed": false,
-      "status": "In Progress",
-      "blocked": false,
-      "blocker_reason": null,
-      "last_update_source": "folder_reconciliation",
-      "history": []
-    },
-    {
-      "product_id": "bookish-1rHh_JJCJb-hlhpg4u-8mreOh7ce6m4BW",
-      "product_name": "Verdant Spire & Iron Crown",
-      "stage": "idea",
-      "folder_id": "17911dBcTo0jYmpQzTvmVfgx57Bj0Wit6",
-      "folder_url": "https://drive.google.com/drive/folders/17911dBcTo0jYmpQzTvmVfgx57Bj0Wit6",
-      "location": "GPT-WORK/IDEAS/Bookish stuff",
-      "hero_asset_id": "1rHh_JJCJb-hlhpg4u-8mreOh7ce6m4BW",
-      "hero_asset_url": "https://drive.google.com/thumbnail?id=1rHh_JJCJb-hlhpg4u-8mreOh7ce6m4BW&sz=w1000",
-      "hero_kind": "concept",
-      "has_specs": false,
-      "has_3mf": false,
-      "has_marketplace": false,
-      "published": false,
-      "next_action": "Run product interview",
-      "updated_at": "2026-10-03T15:53:16+00:00",
-      "needs_review": false,
-      "printed": false,
-      "status": "In Progress",
-      "blocked": false,
-      "blocker_reason": null,
-      "last_update_source": "folder_reconciliation",
-      "history": []
-    },
-    {
-      "product_id": "bookish-1qiQG3Oxs0YPfdNG2HSueP7_n8KtVVhkA",
-      "product_name": "Nevermoor & Umbrella Pass",
-      "stage": "idea",
-      "folder_id": "17911dBcTo0jYmpQzTvmVfgx57Bj0Wit6",
-      "folder_url": "https://drive.google.com/drive/folders/17911dBcTo0jYmpQzTvmVfgx57Bj0Wit6",
-      "location": "GPT-WORK/IDEAS/Bookish stuff",
-      "hero_asset_id": "1qiQG3Oxs0YPfdNG2HSueP7_n8KtVVhkA",
-      "hero_asset_url": "https://drive.google.com/thumbnail?id=1qiQG3Oxs0YPfdNG2HSueP7_n8KtVVhkA&sz=w1000",
-      "hero_kind": "concept",
-      "has_specs": false,
-      "has_3mf": false,
-      "has_marketplace": false,
-      "published": false,
-      "next_action": "Run product interview",
-      "updated_at": "2026-10-03T15:53:16+00:00",
-      "needs_review": false,
-      "printed": false,
-      "status": "In Progress",
-      "blocked": false,
-      "blocker_reason": null,
-      "last_update_source": "folder_reconciliation",
-      "history": []
-    },
-    {
-      "product_id": "bookish-1-lPGSv_IHiCBzmKFN7bXWBwuHFFXB0jA",
-      "product_name": "Gothic Mystery & Raven Feather",
-      "stage": "idea",
-      "folder_id": "17911dBcTo0jYmpQzTvmVfgx57Bj0Wit6",
-      "folder_url": "https://drive.google.com/drive/folders/17911dBcTo0jYmpQzTvmVfgx57Bj0Wit6",
-      "location": "GPT-WORK/IDEAS/Bookish stuff",
-      "hero_asset_id": "1-lPGSv_IHiCBzmKFN7bXWBwuHFFXB0jA",
-      "hero_asset_url": "https://drive.google.com/thumbnail?id=1-lPGSv_IHiCBzmKFN7bXWBwuHFFXB0jA&sz=w1000",
-      "hero_kind": "concept",
-      "has_specs": false,
-      "has_3mf": false,
-      "has_marketplace": false,
-      "published": false,
-      "next_action": "Run product interview",
-      "updated_at": "2026-10-03T15:53:16+00:00",
-      "needs_review": false,
-      "printed": false,
-      "status": "In Progress",
-      "blocked": false,
-      "blocker_reason": null,
-      "last_update_source": "folder_reconciliation",
-      "history": []
-    },
-    {
-      "product_id": "1nBS3SPuksxc9pkZy6ie5X6CW3y7grHFJ",
-      "product_name": "Christmas Village House",
-      "stage": "published",
-      "folder_id": "1nBS3SPuksxc9pkZy6ie5X6CW3y7grHFJ",
-      "folder_url": "https://drive.google.com/drive/folders/1nBS3SPuksxc9pkZy6ie5X6CW3y7grHFJ",
-      "location": "GPT-WORK/PUBLISHED/Christmas_Vilage_House",
-      "hero_asset_id": "1oTFuQG04-V2gpLJvOt4VukUM0fnNEFkt",
-      "hero_asset_url": "https://drive.google.com/thumbnail?id=1oTFuQG04-V2gpLJvOt4VukUM0fnNEFkt&sz=w1000",
-      "hero_kind": "actual_model",
+      "product_id": "1U4-Wyybg70WTW5442OegdRrZmuJtvj-V",
+      "product_name": "Christmas Pine — Modular Nordic Tree",
+      "stage": "print_ready",
+      "folder_id": "1U4-Wyybg70WTW5442OegdRrZmuJtvj-V",
+      "folder_url": "https://drive.google.com/drive/folders/1U4-Wyybg70WTW5442OegdRrZmuJtvj-V",
+      "location": "GPT-WORK/IDEAS/Christmas Pine — Modular Nordic Tree",
       "has_specs": true,
       "has_3mf": true,
       "has_marketplace": true,
-      "published": true,
-      "next_action": "Published",
-      "updated_at": "2026-10-05T21:18:00+00:00",
+      "printed": false,
+      "published": false,
+      "next_action": "Slice and physically test-print",
+      "updated_at": "2026-10-18T17:32:55.903269+00:00",
       "needs_review": false,
-      "printed": true,
-      "status": "Complete",
-      "blocked": false,
-      "blocker_reason": null,
-      "last_update_source": "folder_reconciliation",
-      "history": []
+      "hero_asset_id": "1BS7Cqi3fm5TiYZuhCESMQmchB23_34Z_",
+      "hero_asset_url": "https://drive.google.com/thumbnail?id=1BS7Cqi3fm5TiYZuhCESMQmchB23_34Z_&sz=w1000",
+      "hero_kind": "marketplace",
+      "seasonality": "seasonal",
+      "seasons": [
+        "Christmas"
+      ],
+      "customer_interest_score": 4,
+      "commercial_appeal_score": 5,
+      "assessment_rationale": {
+        "customer_interest": "Smooth stacked tree offers limited differentiation.",
+        "commercial_appeal": "Simple five-part production, but limited pricing power."
+      },
+      "assessment_confidence": "medium",
+      "assessed_at": "2026-10-13T22:02:11+03:00",
+      "assessment_method": "qualitative_v2_strict",
+      "assessment_evidence": {
+        "folder_url": "https://drive.google.com/drive/folders/1U4-Wyybg70WTW5442OegdRrZmuJtvj-V",
+        "image_asset_id": "1bs3pNGunDzhKX3UgHxXrmlhIf0zVzxcd",
+        "reviewed_specs": true,
+        "reviewed_marketing": true
+      },
+      "assessment_history": [
+        {
+          "customer_interest_score": 7,
+          "commercial_appeal_score": 8,
+          "assessed_at": "2026-10-13T21:46:52+03:00",
+          "assessment_method": "qualitative_v1",
+          "superseded_reason": "Explicit user request for realistic reassessment"
+        }
+      ],
+      "publication": {
+        "thangs": null,
+        "makerworld": null
+      }
     },
     {
-      "product_id": "1sf5c2qXpE2ekTA9-qbecOcoE32kzkmEB",
-      "product_name": "Chubby Christmas Reindeer 100mm",
-      "stage": "published",
-      "folder_id": "1sf5c2qXpE2ekTA9-qbecOcoE32kzkmEB",
-      "folder_url": "https://drive.google.com/drive/folders/1sf5c2qXpE2ekTA9-qbecOcoE32kzkmEB",
-      "location": "GPT-WORK/PUBLISHED/Chubby_Christmas_Reindeer_100mm",
-      "hero_asset_id": "1j2og0o0ISo9POrfUTbcmQAblyreKjqMS",
-      "hero_asset_url": "https://drive.google.com/thumbnail?id=1j2og0o0ISo9POrfUTbcmQAblyreKjqMS&sz=w1000",
-      "hero_kind": "actual_model",
+      "product_id": "1Pt6t8s5QkkCoGgDQQZmqDSZTCXGxp7rG",
+      "product_name": "Cozy Ceramic LED Cottage",
+      "stage": "print_ready",
+      "folder_id": "1Pt6t8s5QkkCoGgDQQZmqDSZTCXGxp7rG",
+      "folder_url": "https://drive.google.com/drive/folders/1Pt6t8s5QkkCoGgDQQZmqDSZTCXGxp7rG",
+      "location": "GPT-WORK/IDEAS/Cozy Ceramic LED Cottage",
       "has_specs": true,
       "has_3mf": true,
       "has_marketplace": true,
+      "printed": false,
+      "published": false,
+      "next_action": "Slice and physically test-print",
+      "updated_at": "2026-10-18T17:32:55.903269+00:00",
+      "needs_review": false,
+      "hero_asset_id": "1dwQ5akjfEHZ_0ApJi2MuioxP19N9imPs",
+      "hero_asset_url": "https://drive.google.com/thumbnail?id=1dwQ5akjfEHZ_0ApJi2MuioxP19N9imPs&sz=w1000",
+      "hero_kind": "marketplace",
+      "seasonality": "seasonal",
+      "seasons": [
+        "Christmas"
+      ],
+      "customer_interest_score": 6,
+      "commercial_appeal_score": 4.5,
+      "assessment_rationale": {
+        "customer_interest": "Warm light and contrasting trim; familiar single-cottage offer.",
+        "commercial_appeal": "Twelve parts and roof supports create substantial labor."
+      },
+      "assessment_confidence": "medium",
+      "assessed_at": "2026-10-13T22:02:11+03:00",
+      "assessment_method": "qualitative_v2_strict",
+      "assessment_evidence": {
+        "folder_url": "https://drive.google.com/drive/folders/1Pt6t8s5QkkCoGgDQQZmqDSZTCXGxp7rG",
+        "image_asset_id": "1OUqTwQ30njSkNVaLQxY03j9pye1JkBZn",
+        "reviewed_specs": true,
+        "reviewed_marketing": true
+      },
+      "assessment_history": [
+        {
+          "customer_interest_score": 8,
+          "commercial_appeal_score": 7,
+          "assessed_at": "2026-10-13T21:46:52+03:00",
+          "assessment_method": "qualitative_v1",
+          "superseded_reason": "Explicit user request for realistic reassessment"
+        }
+      ],
+      "publication": {
+        "thangs": null,
+        "makerworld": null
+      }
+    },
+    {
+      "product_id": "1PzNm1mJgoTtVwpo-f3WMJ_21q3Dd4VRj",
+      "product_name": "Nordic Stacked Tealight Tree",
+      "stage": "published",
+      "folder_id": "1PzNm1mJgoTtVwpo-f3WMJ_21q3Dd4VRj",
+      "folder_url": "https://drive.google.com/drive/folders/1PzNm1mJgoTtVwpo-f3WMJ_21q3Dd4VRj",
+      "location": "GPT-WORK/PUBLISHED/Nordic Stacked Tealight Tree",
+      "has_specs": true,
+      "has_3mf": true,
+      "has_marketplace": true,
+      "printed": true,
       "published": true,
       "next_action": "Published",
-      "updated_at": "2026-10-05T21:18:00+00:00",
+      "updated_at": "2026-10-18T17:32:55.903269+00:00",
       "needs_review": false,
+      "hero_asset_id": "1GQA2NgMKF2JQNgqxhkOjDitn_biBFILi",
+      "hero_asset_url": "https://drive.google.com/thumbnail?id=1GQA2NgMKF2JQNgqxhkOjDitn_biBFILi&sz=w1000",
+      "hero_kind": "marketplace",
+      "seasonality": "seasonal",
+      "seasons": [
+        "Christmas"
+      ],
+      "customer_interest_score": 7,
+      "commercial_appeal_score": 7,
+      "assessment_rationale": {
+        "customer_interest": "Tall illuminated tree with practical removable tiers.",
+        "commercial_appeal": "Three parts, no glue; large size raises print/shipping cost."
+      },
+      "assessment_confidence": "medium",
+      "assessed_at": "2026-10-13T22:02:11+03:00",
+      "assessment_method": "qualitative_v2_strict",
+      "assessment_evidence": {
+        "folder_url": "https://drive.google.com/drive/folders/1PzNm1mJgoTtVwpo-f3WMJ_21q3Dd4VRj",
+        "image_asset_id": "1K0Uy4XENP75HG6P20LvVzZuYLJt4cHvO",
+        "reviewed_specs": true,
+        "reviewed_marketing": true
+      },
+      "assessment_history": [
+        {
+          "customer_interest_score": 8.5,
+          "commercial_appeal_score": 8.5,
+          "assessed_at": "2026-10-13T21:46:52+03:00",
+          "assessment_method": "qualitative_v1",
+          "superseded_reason": "Explicit user request for realistic reassessment"
+        }
+      ],
+      "update_source": "user",
+      "status_evidence": "Explicit user instruction to move to Printed, 2026-10-16.",
+      "publication": {
+        "thangs": null,
+        "makerworld": null
+      }
+    },
+    {
+      "product_id": "1KoPsjpUsBUZcld8i0c8qm44PDJHrDXg_",
+      "product_name": "NORHOLM seasonal front pannels expansion packs",
+      "stage": "to_publish",
+      "folder_id": "1KoPsjpUsBUZcld8i0c8qm44PDJHrDXg_",
+      "folder_url": "https://drive.google.com/drive/folders/1KoPsjpUsBUZcld8i0c8qm44PDJHrDXg_",
+      "location": "GPT-WORK/READY TO PUBLISH/NORHOLM seasonal front pannels expansion packs",
+      "has_specs": true,
+      "has_3mf": false,
+      "has_marketplace": false,
       "printed": true,
-      "review_note": "READY TO PUBLISH placement completes the print gate; older records still list physical checks as pending.",
-      "status": "Complete",
-      "blocked": false,
-      "blocker_reason": null,
-      "last_update_source": "folder_reconciliation",
-      "history": []
+      "published": false,
+      "next_action": "Review listing and publish",
+      "updated_at": "2026-10-18T17:32:55.903269+00:00",
+      "needs_review": false,
+      "hero_asset_id": "1XkTvCpz90bij6E9iUd3MGYJE410nLvFV",
+      "hero_asset_url": "https://drive.google.com/thumbnail?id=1XkTvCpz90bij6E9iUd3MGYJE410nLvFV&sz=w1000",
+      "hero_kind": "marketplace",
+      "review_note": "Two separate expansion-pack folders exist; reconcile package scope and completeness before publishing.",
+      "seasonality": "seasonal",
+      "seasons": [
+        "Christmas",
+        "Winter"
+      ],
+      "customer_interest_score": 4.5,
+      "commercial_appeal_score": 4,
+      "assessment_rationale": {
+        "customer_interest": "Winter panels refresh an existing compatible system.",
+        "commercial_appeal": "Best bundled with full lamps; restricted standalone audience."
+      },
+      "assessment_confidence": "low",
+      "assessed_at": "2026-10-13T22:02:11+03:00",
+      "assessment_method": "qualitative_v2_strict",
+      "assessment_evidence": {
+        "folder_url": "https://drive.google.com/drive/folders/1KoPsjpUsBUZcld8i0c8qm44PDJHrDXg_",
+        "image_asset_id": "1XkTvCpz90bij6E9iUd3MGYJE410nLvFV",
+        "reviewed_specs": false,
+        "reviewed_marketing": false
+      },
+      "assessment_history": [
+        {
+          "customer_interest_score": 7,
+          "commercial_appeal_score": 7,
+          "assessed_at": "2026-10-13T21:46:52+03:00",
+          "assessment_method": "qualitative_v1",
+          "superseded_reason": "Explicit user request for realistic reassessment"
+        }
+      ],
+      "publication": {
+        "thangs": null,
+        "makerworld": null
+      }
     },
     {
       "product_id": "1zDqFlI_lzUVfqWeVk-ZiJhR6P5f20-tH",
@@ -431,136 +959,143 @@ const snapshot = {
       "has_marketplace": true,
       "published": true,
       "next_action": "Published",
-      "updated_at": "2026-10-05T21:18:00+00:00",
+      "updated_at": "2026-10-18T17:32:55.903269+00:00",
       "needs_review": false,
       "printed": true,
-      "review_note": "READY TO PUBLISH placement completes the print gate; older records still list physical checks as pending.",
-      "status": "Complete",
-      "blocked": false,
-      "blocker_reason": null,
-      "last_update_source": "folder_reconciliation",
-      "history": []
+      "seasonality": "seasonal",
+      "seasons": [
+        "Christmas"
+      ],
+      "customer_interest_score": 5.5,
+      "commercial_appeal_score": 4.5,
+      "assessment_rationale": {
+        "customer_interest": "Gift and curled hat add character; familiar gnome format.",
+        "commercial_appeal": "Thirteen glued pieces without proven premium pricing."
+      },
+      "assessment_confidence": "medium",
+      "assessed_at": "2026-10-13T22:02:11+03:00",
+      "assessment_method": "qualitative_v2_strict",
+      "assessment_evidence": {
+        "folder_url": "https://drive.google.com/drive/folders/1zDqFlI_lzUVfqWeVk-ZiJhR6P5f20-tH",
+        "image_asset_id": "17Ef1SRP-IWK8yXMA9CNc_8DZjAqsij4V",
+        "reviewed_specs": true,
+        "reviewed_marketing": true
+      },
+      "assessment_history": [
+        {
+          "customer_interest_score": 8,
+          "commercial_appeal_score": 7,
+          "assessed_at": "2026-10-13T21:46:52+03:00",
+          "assessment_method": "qualitative_v1",
+          "superseded_reason": "Explicit user request for realistic reassessment"
+        }
+      ],
+      "publication": {
+        "thangs": null,
+        "makerworld": null
+      }
     },
     {
-      "product_id": "1Dye6mKOGIkgh9FnL_9iZZjd4ob0ZDYTP",
-      "product_name": "Thanksgiving Turkey",
+      "product_id": "1nBS3SPuksxc9pkZy6ie5X6CW3y7grHFJ",
+      "product_name": "Christmas Village House",
       "stage": "published",
-      "folder_id": "1Dye6mKOGIkgh9FnL_9iZZjd4ob0ZDYTP",
-      "folder_url": "https://drive.google.com/drive/folders/1Dye6mKOGIkgh9FnL_9iZZjd4ob0ZDYTP",
-      "location": "GPT-WORK/PUBLISHED/Thanksgiving turkey",
-      "hero_asset_id": "1owTxfMtgER9lja1dY-CK0R5mWxWC8KT5",
-      "hero_asset_url": "https://drive.google.com/thumbnail?id=1owTxfMtgER9lja1dY-CK0R5mWxWC8KT5&sz=w1000",
+      "folder_id": "1nBS3SPuksxc9pkZy6ie5X6CW3y7grHFJ",
+      "folder_url": "https://drive.google.com/drive/folders/1nBS3SPuksxc9pkZy6ie5X6CW3y7grHFJ",
+      "location": "GPT-WORK/PUBLISHED/Christmas_Vilage_House",
+      "hero_asset_id": "1eKSqhWMblcoxVON-zKPgfhZI2mmuQnQs",
+      "hero_asset_url": "https://drive.google.com/thumbnail?id=1eKSqhWMblcoxVON-zKPgfhZI2mmuQnQs&sz=w1000",
       "hero_kind": "marketplace",
       "has_specs": true,
       "has_3mf": true,
       "has_marketplace": true,
       "published": true,
       "next_action": "Published",
-      "updated_at": "2026-10-05T21:18:00+00:00",
+      "updated_at": "2026-10-18T17:32:55.903269+00:00",
       "needs_review": false,
       "printed": true,
-      "review_note": "PUBLISHED folder placement is authoritative; older STATE.md says no listing was published.",
-      "status": "Complete",
-      "blocked": false,
-      "blocker_reason": null,
-      "last_update_source": "folder_reconciliation",
-      "history": []
+      "seasonality": "seasonal",
+      "seasons": [
+        "Christmas"
+      ],
+      "customer_interest_score": 6,
+      "commercial_appeal_score": 4.5,
+      "assessment_rationale": {
+        "customer_interest": "Detailed festive façade; moderate distinction from other LED houses.",
+        "commercial_appeal": "Seventeen pieces and cleanup burden small-product production."
+      },
+      "assessment_confidence": "medium",
+      "assessed_at": "2026-10-13T22:02:11+03:00",
+      "assessment_method": "qualitative_v2_strict",
+      "assessment_evidence": {
+        "folder_url": "https://drive.google.com/drive/folders/1nBS3SPuksxc9pkZy6ie5X6CW3y7grHFJ",
+        "image_asset_id": "1eKSqhWMblcoxVON-zKPgfhZI2mmuQnQs",
+        "reviewed_specs": true,
+        "reviewed_marketing": true
+      },
+      "assessment_history": [
+        {
+          "customer_interest_score": 8,
+          "commercial_appeal_score": 7,
+          "assessed_at": "2026-10-13T21:46:52+03:00",
+          "assessment_method": "qualitative_v1",
+          "superseded_reason": "Explicit user request for realistic reassessment"
+        }
+      ],
+      "publication": {
+        "thangs": null,
+        "makerworld": null
+      }
     },
     {
-      "product_id": "1wYzoNRUH4JsT_uopIbIuCoVgduS2Uxw3",
-      "product_name": "Stacked Pumpkins Decoration",
+      "product_id": "1sf5c2qXpE2ekTA9-qbecOcoE32kzkmEB",
+      "product_name": "Chubby Christmas Reindeer 100mm",
       "stage": "published",
-      "folder_id": "1wYzoNRUH4JsT_uopIbIuCoVgduS2Uxw3",
-      "folder_url": "https://drive.google.com/drive/folders/1wYzoNRUH4JsT_uopIbIuCoVgduS2Uxw3",
-      "location": "GPT-WORK/PUBLISHED/Stacked pumpkins decoration",
-      "hero_asset_id": "1-byMfTo3a6dCkjZSH5mP3JrZS43vHk-z",
-      "hero_asset_url": "https://drive.google.com/thumbnail?id=1-byMfTo3a6dCkjZSH5mP3JrZS43vHk-z&sz=w1000",
-      "hero_kind": "marketplace",
-      "has_specs": false,
-      "has_3mf": true,
-      "has_marketplace": false,
-      "published": true,
-      "next_action": "Published",
-      "updated_at": "2026-10-05T21:18:00+00:00",
-      "needs_review": false,
-      "printed": true,
-      "status": "Complete",
-      "blocked": false,
-      "blocker_reason": null,
-      "last_update_source": "folder_reconciliation",
-      "history": []
-    },
-    {
-      "product_id": "1JFp2gpmoi71Hs0HhNPIKWPRWbZlqTxTt",
-      "product_name": "Ribbed Pumpkin",
-      "stage": "published",
-      "folder_id": "1JFp2gpmoi71Hs0HhNPIKWPRWbZlqTxTt",
-      "folder_url": "https://drive.google.com/drive/folders/1JFp2gpmoi71Hs0HhNPIKWPRWbZlqTxTt",
-      "location": "GPT-WORK/PUBLISHED/Ribbed Pumpkin",
-      "hero_asset_id": "1V7jYo9xOUuB5A5YDfPztJs4Jgqm31-jp",
-      "hero_asset_url": "https://drive.google.com/thumbnail?id=1V7jYo9xOUuB5A5YDfPztJs4Jgqm31-jp&sz=w1000",
-      "hero_kind": "marketplace",
-      "has_specs": false,
-      "has_3mf": true,
-      "has_marketplace": false,
-      "published": true,
-      "next_action": "Published",
-      "updated_at": "2026-10-05T21:18:00+00:00",
-      "needs_review": false,
-      "printed": true,
-      "status": "Complete",
-      "blocked": false,
-      "blocker_reason": null,
-      "last_update_source": "folder_reconciliation",
-      "history": []
-    },
-    {
-      "product_id": "1426ElQ0JgmKch_o7H5al-jXZz0ya0_W2",
-      "product_name": "Mummy Keychain",
-      "stage": "published",
-      "folder_id": "1426ElQ0JgmKch_o7H5al-jXZz0ya0_W2",
-      "folder_url": "https://drive.google.com/drive/folders/1426ElQ0JgmKch_o7H5al-jXZz0ya0_W2",
-      "location": "GPT-WORK/PUBLISHED/Mummy Keychain ",
-      "hero_asset_id": "1n65hGcuj1n6qxyuJ-HeRf2o4Fn38mqjj",
-      "hero_asset_url": "https://drive.google.com/thumbnail?id=1n65hGcuj1n6qxyuJ-HeRf2o4Fn38mqjj&sz=w1000",
-      "hero_kind": "marketplace",
-      "has_specs": false,
-      "has_3mf": true,
-      "has_marketplace": false,
-      "published": true,
-      "next_action": "Published",
-      "updated_at": "2026-10-05T21:18:00+00:00",
-      "needs_review": false,
-      "printed": true,
-      "status": "Complete",
-      "blocked": false,
-      "blocker_reason": null,
-      "last_update_source": "folder_reconciliation",
-      "history": []
-    },
-    {
-      "product_id": "1jsBCsAWgNwkWb45GZevLynhUUXivuCWV",
-      "product_name": "Nordic Harvest Gnome",
-      "stage": "published",
-      "folder_id": "1jsBCsAWgNwkWb45GZevLynhUUXivuCWV",
-      "folder_url": "https://drive.google.com/drive/folders/1jsBCsAWgNwkWb45GZevLynhUUXivuCWV",
-      "location": "GPT-WORK/PUBLISHED/Nordic Harvest Gnome",
-      "hero_asset_id": "13J-F-FDmPjt4oZUS3dwnmo294ubBrF6s",
-      "hero_asset_url": "https://drive.google.com/thumbnail?id=13J-F-FDmPjt4oZUS3dwnmo294ubBrF6s&sz=w1000",
+      "folder_id": "1sf5c2qXpE2ekTA9-qbecOcoE32kzkmEB",
+      "folder_url": "https://drive.google.com/drive/folders/1sf5c2qXpE2ekTA9-qbecOcoE32kzkmEB",
+      "location": "GPT-WORK/PUBLISHED/Chubby_Christmas_Reindeer_100mm",
+      "hero_asset_id": "1AimE9XS5tmovyJTNVef6zf5FWMPmVJJJ",
+      "hero_asset_url": "https://drive.google.com/thumbnail?id=1AimE9XS5tmovyJTNVef6zf5FWMPmVJJJ&sz=w1000",
       "hero_kind": "marketplace",
       "has_specs": true,
       "has_3mf": true,
-      "has_marketplace": false,
+      "has_marketplace": true,
       "published": true,
       "next_action": "Published",
-      "updated_at": "2026-10-05T21:18:00+00:00",
+      "updated_at": "2026-10-18T17:32:55.903269+00:00",
       "needs_review": false,
       "printed": true,
-      "status": "Complete",
-      "blocked": false,
-      "blocker_reason": null,
-      "last_update_source": "folder_reconciliation",
-      "history": []
+      "seasonality": "seasonal",
+      "seasons": [
+        "Christmas"
+      ],
+      "customer_interest_score": 6,
+      "commercial_appeal_score": 4.5,
+      "assessment_rationale": {
+        "customer_interest": "Cute seasonal character; familiar static silhouette.",
+        "commercial_appeal": "Eighteen-piece assembly limits production efficiency."
+      },
+      "assessment_confidence": "medium",
+      "assessed_at": "2026-10-13T22:02:11+03:00",
+      "assessment_method": "qualitative_v2_strict",
+      "assessment_evidence": {
+        "folder_url": "https://drive.google.com/drive/folders/1sf5c2qXpE2ekTA9-qbecOcoE32kzkmEB",
+        "image_asset_id": "1AimE9XS5tmovyJTNVef6zf5FWMPmVJJJ",
+        "reviewed_specs": true,
+        "reviewed_marketing": true
+      },
+      "assessment_history": [
+        {
+          "customer_interest_score": 8,
+          "commercial_appeal_score": 7,
+          "assessed_at": "2026-10-13T21:46:52+03:00",
+          "assessment_method": "qualitative_v1",
+          "superseded_reason": "Explicit user request for realistic reassessment"
+        }
+      ],
+      "publication": {
+        "thangs": null,
+        "makerworld": null
+      }
     },
     {
       "product_id": "1oJDQTkwYx0iFco-mTyIilo-w_jcFAeua",
@@ -577,14 +1112,502 @@ const snapshot = {
       "has_marketplace": false,
       "published": true,
       "next_action": "Published",
-      "updated_at": "2026-10-05T21:18:00+00:00",
+      "updated_at": "2026-10-18T17:32:55.903269+00:00",
       "needs_review": false,
       "printed": true,
-      "status": "Complete",
-      "blocked": false,
-      "blocker_reason": null,
-      "last_update_source": "folder_reconciliation",
-      "history": []
+      "seasonality": "seasonal",
+      "seasons": [
+        "Halloween"
+      ],
+      "customer_interest_score": 6.5,
+      "commercial_appeal_score": 6.5,
+      "assessment_rationale": {
+        "customer_interest": "Readable pumpkin-holding pose; giftable Halloween charm.",
+        "commercial_appeal": "Compact impulse format and trio bundles; account for hardware."
+      },
+      "assessment_confidence": "medium",
+      "assessed_at": "2026-10-13T22:02:11+03:00",
+      "assessment_method": "qualitative_v2_strict",
+      "assessment_evidence": {
+        "folder_url": "https://drive.google.com/drive/folders/1oJDQTkwYx0iFco-mTyIilo-w_jcFAeua",
+        "image_asset_id": "1sgBZ7ceMHsOIIjMmcpb7RqjmIP8JvOPM",
+        "reviewed_specs": false,
+        "reviewed_marketing": false
+      },
+      "assessment_history": [
+        {
+          "customer_interest_score": 8,
+          "commercial_appeal_score": 8,
+          "assessed_at": "2026-10-13T21:46:52+03:00",
+          "assessment_method": "qualitative_v1",
+          "superseded_reason": "Explicit user request for realistic reassessment"
+        }
+      ],
+      "publication": {
+        "thangs": null,
+        "makerworld": null
+      }
+    },
+    {
+      "product_id": "1k_i7OSxBJJGfUCSvpi2o4Y-5OF1PyDk9",
+      "product_name": "Goofy Christmas Reindeer",
+      "stage": "published",
+      "folder_id": "1k_i7OSxBJJGfUCSvpi2o4Y-5OF1PyDk9",
+      "folder_url": "https://drive.google.com/drive/folders/1k_i7OSxBJJGfUCSvpi2o4Y-5OF1PyDk9",
+      "location": "GPT-WORK/PUBLISHED/Goofy Christmas Reindeer",
+      "hero_asset_id": "1Hjvdf9VniezxvIMxVHKkxCFidfy9WQeo",
+      "hero_asset_url": "https://drive.google.com/thumbnail?id=1Hjvdf9VniezxvIMxVHKkxCFidfy9WQeo&sz=w1000",
+      "hero_kind": "marketplace",
+      "has_specs": true,
+      "has_3mf": true,
+      "has_marketplace": true,
+      "published": true,
+      "printed": true,
+      "next_action": "Published",
+      "updated_at": "2026-10-18T17:32:55.903269+00:00",
+      "needs_review": false,
+      "seasonality": "seasonal",
+      "seasons": [
+        "Christmas"
+      ],
+      "customer_interest_score": 7,
+      "commercial_appeal_score": 5,
+      "assessment_rationale": {
+        "customer_interest": "Rotating eyes add a meaningful expression feature.",
+        "commercial_appeal": "Eighteen parts plus eye-fit/retention testing."
+      },
+      "assessment_confidence": "medium",
+      "assessed_at": "2026-10-13T22:02:11+03:00",
+      "assessment_method": "qualitative_v2_strict",
+      "assessment_evidence": {
+        "folder_url": "https://drive.google.com/drive/folders/1k_i7OSxBJJGfUCSvpi2o4Y-5OF1PyDk9",
+        "image_asset_id": "1Hjvdf9VniezxvIMxVHKkxCFidfy9WQeo",
+        "reviewed_specs": true,
+        "reviewed_marketing": true
+      },
+      "assessment_history": [
+        {
+          "customer_interest_score": 8.5,
+          "commercial_appeal_score": 7,
+          "assessed_at": "2026-10-13T21:46:52+03:00",
+          "assessment_method": "qualitative_v1",
+          "superseded_reason": "Explicit user request for realistic reassessment"
+        }
+      ],
+      "publication": {
+        "thangs": null,
+        "makerworld": null
+      }
+    },
+    {
+      "product_id": "1XPriR8X_YGICjPUXUUn-ACilq4pJeMfL",
+      "product_name": "Goofy Thanksgiving Turkey",
+      "stage": "published",
+      "folder_id": "1XPriR8X_YGICjPUXUUn-ACilq4pJeMfL",
+      "folder_url": "https://drive.google.com/drive/folders/1XPriR8X_YGICjPUXUUn-ACilq4pJeMfL",
+      "location": "GPT-WORK/PUBLISHED/Goofy Thanksgiving Turkey",
+      "has_specs": true,
+      "has_3mf": true,
+      "has_marketplace": true,
+      "printed": true,
+      "published": true,
+      "next_action": "Published",
+      "updated_at": "2026-10-18T17:32:55.903269+00:00",
+      "needs_review": false,
+      "hero_asset_id": "1A3M-aiMsrIZ6_z56j4ZjK50kvgGHVPct",
+      "hero_asset_url": "https://drive.google.com/thumbnail?id=1A3M-aiMsrIZ6_z56j4ZjK50kvgGHVPct&sz=w1000",
+      "hero_kind": "marketplace",
+      "seasonality": "seasonal",
+      "seasons": [
+        "Autumn",
+        "Thanksgiving"
+      ],
+      "customer_interest_score": 6,
+      "commercial_appeal_score": 4,
+      "assessment_rationale": {
+        "customer_interest": "Movable eyes add character; geographically narrower seasonal use.",
+        "commercial_appeal": "Fifteen parts, many colors and short sales window."
+      },
+      "assessment_confidence": "medium",
+      "assessed_at": "2026-10-13T22:02:11+03:00",
+      "assessment_method": "qualitative_v2_strict",
+      "assessment_evidence": {
+        "folder_url": "https://drive.google.com/drive/folders/1XPriR8X_YGICjPUXUUn-ACilq4pJeMfL",
+        "image_asset_id": "1A3M-aiMsrIZ6_z56j4ZjK50kvgGHVPct",
+        "reviewed_specs": true,
+        "reviewed_marketing": true
+      },
+      "assessment_history": [
+        {
+          "customer_interest_score": 7.5,
+          "commercial_appeal_score": 6.5,
+          "assessed_at": "2026-10-13T21:46:52+03:00",
+          "assessment_method": "qualitative_v1",
+          "superseded_reason": "Explicit user request for realistic reassessment"
+        }
+      ],
+      "publication": {
+        "thangs": null,
+        "makerworld": null
+      }
+    },
+    {
+      "product_id": "1426ElQ0JgmKch_o7H5al-jXZz0ya0_W2",
+      "product_name": "Mummy Keychain",
+      "stage": "published",
+      "folder_id": "1426ElQ0JgmKch_o7H5al-jXZz0ya0_W2",
+      "folder_url": "https://drive.google.com/drive/folders/1426ElQ0JgmKch_o7H5al-jXZz0ya0_W2",
+      "location": "GPT-WORK/PUBLISHED/Mummy Keychain ",
+      "hero_asset_id": "1n65hGcuj1n6qxyuJ-HeRf2o4Fn38mqjj",
+      "hero_asset_url": "https://drive.google.com/thumbnail?id=1n65hGcuj1n6qxyuJ-HeRf2o4Fn38mqjj&sz=w1000",
+      "hero_kind": "marketplace",
+      "has_specs": false,
+      "has_3mf": true,
+      "has_marketplace": false,
+      "published": true,
+      "next_action": "Published",
+      "updated_at": "2026-10-18T17:32:55.903269+00:00",
+      "needs_review": false,
+      "printed": true,
+      "seasonality": "seasonal",
+      "seasons": [
+        "Halloween"
+      ],
+      "customer_interest_score": 5,
+      "commercial_appeal_score": 5.5,
+      "assessment_rationale": {
+        "customer_interest": "Cute companion model; limited standalone differentiation.",
+        "commercial_appeal": "Batchable trio component with modest standalone value."
+      },
+      "assessment_confidence": "medium",
+      "assessed_at": "2026-10-13T22:02:11+03:00",
+      "assessment_method": "qualitative_v2_strict",
+      "assessment_evidence": {
+        "folder_url": "https://drive.google.com/drive/folders/1426ElQ0JgmKch_o7H5al-jXZz0ya0_W2",
+        "image_asset_id": "1n65hGcuj1n6qxyuJ-HeRf2o4Fn38mqjj",
+        "reviewed_specs": false,
+        "reviewed_marketing": false
+      },
+      "assessment_history": [
+        {
+          "customer_interest_score": 7,
+          "commercial_appeal_score": 7.5,
+          "assessed_at": "2026-10-13T21:46:52+03:00",
+          "assessment_method": "qualitative_v1",
+          "superseded_reason": "Explicit user request for realistic reassessment"
+        }
+      ],
+      "publication": {
+        "thangs": null,
+        "makerworld": null
+      }
+    },
+    {
+      "product_id": "1jsBCsAWgNwkWb45GZevLynhUUXivuCWV",
+      "product_name": "Nordic Harvest Gnome",
+      "stage": "published",
+      "folder_id": "1jsBCsAWgNwkWb45GZevLynhUUXivuCWV",
+      "folder_url": "https://drive.google.com/drive/folders/1jsBCsAWgNwkWb45GZevLynhUUXivuCWV",
+      "location": "GPT-WORK/PUBLISHED/Nordic Harvest Gnome",
+      "hero_asset_id": "13J-F-FDmPjt4oZUS3dwnmo294ubBrF6s",
+      "hero_asset_url": "https://drive.google.com/thumbnail?id=13J-F-FDmPjt4oZUS3dwnmo294ubBrF6s&sz=w1000",
+      "hero_kind": "actual_model",
+      "has_specs": true,
+      "has_3mf": true,
+      "has_marketplace": false,
+      "published": true,
+      "next_action": "Published",
+      "updated_at": "2026-10-18T17:32:55.903269+00:00",
+      "needs_review": false,
+      "printed": true,
+      "seasonality": "seasonal",
+      "seasons": [
+        "Autumn"
+      ],
+      "customer_interest_score": 5,
+      "commercial_appeal_score": 4,
+      "assessment_rationale": {
+        "customer_interest": "Coherent autumn palette; familiar gnome décor.",
+        "commercial_appeal": "Assembly effort and seasonal use limit premium value."
+      },
+      "assessment_confidence": "medium",
+      "assessed_at": "2026-10-13T22:02:11+03:00",
+      "assessment_method": "qualitative_v2_strict",
+      "assessment_evidence": {
+        "folder_url": "https://drive.google.com/drive/folders/1jsBCsAWgNwkWb45GZevLynhUUXivuCWV",
+        "image_asset_id": "13J-F-FDmPjt4oZUS3dwnmo294ubBrF6s",
+        "reviewed_specs": true,
+        "reviewed_marketing": false
+      },
+      "assessment_history": [
+        {
+          "customer_interest_score": 7.5,
+          "commercial_appeal_score": 7,
+          "assessed_at": "2026-10-13T21:46:52+03:00",
+          "assessment_method": "qualitative_v1",
+          "superseded_reason": "Explicit user request for realistic reassessment"
+        }
+      ],
+      "publication": {
+        "thangs": null,
+        "makerworld": null
+      }
+    },
+    {
+      "product_id": "1_iRZ1uIVe4zbYKv75ioxGsiyP1nx1I-C",
+      "product_name": "Nordic Layered Christmas Tree",
+      "stage": "published",
+      "folder_id": "1_iRZ1uIVe4zbYKv75ioxGsiyP1nx1I-C",
+      "folder_url": "https://drive.google.com/drive/folders/1_iRZ1uIVe4zbYKv75ioxGsiyP1nx1I-C",
+      "location": "GPT-WORK/PUBLISHED/Nordic_Layered_Christmas_Tree",
+      "hero_asset_id": "1PF_wclMRIJz69ufJrjFNeZzU0PXrelMz",
+      "hero_asset_url": "https://drive.google.com/thumbnail?id=1PF_wclMRIJz69ufJrjFNeZzU0PXrelMz&sz=w1000",
+      "hero_kind": "marketplace",
+      "has_specs": true,
+      "has_3mf": true,
+      "has_marketplace": true,
+      "published": true,
+      "next_action": "Published",
+      "updated_at": "2026-10-18T17:32:55.903269+00:00",
+      "needs_review": false,
+      "printed": true,
+      "seasonality": "seasonal",
+      "seasons": [
+        "Christmas"
+      ],
+      "customer_interest_score": 6,
+      "commercial_appeal_score": 7,
+      "assessment_rationale": {
+        "customer_interest": "Pleated texture and removable tiers distinguish the tree.",
+        "commercial_appeal": "Six pieces, compact size and coordinated set opportunities."
+      },
+      "assessment_confidence": "medium",
+      "assessed_at": "2026-10-13T22:02:11+03:00",
+      "assessment_method": "qualitative_v2_strict",
+      "assessment_evidence": {
+        "folder_url": "https://drive.google.com/drive/folders/1_iRZ1uIVe4zbYKv75ioxGsiyP1nx1I-C",
+        "image_asset_id": "1PF_wclMRIJz69ufJrjFNeZzU0PXrelMz",
+        "reviewed_specs": true,
+        "reviewed_marketing": true
+      },
+      "assessment_history": [
+        {
+          "customer_interest_score": 8,
+          "commercial_appeal_score": 8.5,
+          "assessed_at": "2026-10-13T21:46:52+03:00",
+          "assessment_method": "qualitative_v1",
+          "superseded_reason": "Explicit user request for realistic reassessment"
+        }
+      ],
+      "publication": {
+        "thangs": null,
+        "makerworld": null
+      }
+    },
+    {
+      "product_id": "1JFp2gpmoi71Hs0HhNPIKWPRWbZlqTxTt",
+      "product_name": "Ribbed Pumpkin",
+      "stage": "published",
+      "folder_id": "1JFp2gpmoi71Hs0HhNPIKWPRWbZlqTxTt",
+      "folder_url": "https://drive.google.com/drive/folders/1JFp2gpmoi71Hs0HhNPIKWPRWbZlqTxTt",
+      "location": "GPT-WORK/PUBLISHED/Ribbed Pumpkin",
+      "hero_asset_id": "1V7jYo9xOUuB5A5YDfPztJs4Jgqm31-jp",
+      "hero_asset_url": "https://drive.google.com/thumbnail?id=1V7jYo9xOUuB5A5YDfPztJs4Jgqm31-jp&sz=w1000",
+      "hero_kind": "actual_model",
+      "has_specs": false,
+      "has_3mf": true,
+      "has_marketplace": false,
+      "published": true,
+      "next_action": "Published",
+      "updated_at": "2026-10-18T17:32:55.903269+00:00",
+      "needs_review": false,
+      "printed": true,
+      "seasonality": "seasonal",
+      "seasons": [
+        "Autumn"
+      ],
+      "customer_interest_score": 4,
+      "commercial_appeal_score": 6,
+      "assessment_rationale": {
+        "customer_interest": "Generic ribbed pumpkin; weak file differentiation.",
+        "commercial_appeal": "Simple production and color sets support physical sales."
+      },
+      "assessment_confidence": "medium",
+      "assessed_at": "2026-10-13T22:02:11+03:00",
+      "assessment_method": "qualitative_v2_strict",
+      "assessment_evidence": {
+        "folder_url": "https://drive.google.com/drive/folders/1JFp2gpmoi71Hs0HhNPIKWPRWbZlqTxTt",
+        "image_asset_id": "1V7jYo9xOUuB5A5YDfPztJs4Jgqm31-jp",
+        "reviewed_specs": false,
+        "reviewed_marketing": false
+      },
+      "assessment_history": [
+        {
+          "customer_interest_score": 7,
+          "commercial_appeal_score": 8,
+          "assessed_at": "2026-10-13T21:46:52+03:00",
+          "assessment_method": "qualitative_v1",
+          "superseded_reason": "Explicit user request for realistic reassessment"
+        }
+      ],
+      "publication": {
+        "thangs": null,
+        "makerworld": null
+      }
+    },
+    {
+      "product_id": "1uPSdL5e8z1ymn__dwFsFNU6PHdIckHcw",
+      "product_name": "Stack & Smile Snowman",
+      "stage": "published",
+      "folder_id": "1uPSdL5e8z1ymn__dwFsFNU6PHdIckHcw",
+      "folder_url": "https://drive.google.com/drive/folders/1uPSdL5e8z1ymn__dwFsFNU6PHdIckHcw",
+      "location": "GPT-WORK/PUBLISHED/Stack_and_Smile_Snowman",
+      "hero_asset_id": "1MApk2sLEmymKg6kyqVyERoo947ZJhahd",
+      "hero_asset_url": "https://drive.google.com/thumbnail?id=1MApk2sLEmymKg6kyqVyERoo947ZJhahd&sz=w1000",
+      "hero_kind": "marketplace",
+      "has_specs": true,
+      "has_3mf": true,
+      "has_marketplace": true,
+      "published": true,
+      "next_action": "Published",
+      "updated_at": "2026-10-18T17:32:55.903269+00:00",
+      "needs_review": false,
+      "printed": true,
+      "seasonality": "seasonal",
+      "seasons": [
+        "Christmas"
+      ],
+      "customer_interest_score": 8,
+      "commercial_appeal_score": 5.5,
+      "assessment_rationale": {
+        "customer_interest": "Swappable expressions and accessories give strong repeat-use file value.",
+        "commercial_appeal": "Many small pieces and glue steps; fixed combinations easier to sell."
+      },
+      "assessment_confidence": "medium",
+      "assessed_at": "2026-10-13T22:02:11+03:00",
+      "assessment_method": "qualitative_v2_strict",
+      "assessment_evidence": {
+        "folder_url": "https://drive.google.com/drive/folders/1uPSdL5e8z1ymn__dwFsFNU6PHdIckHcw",
+        "image_asset_id": "1MApk2sLEmymKg6kyqVyERoo947ZJhahd",
+        "reviewed_specs": true,
+        "reviewed_marketing": true
+      },
+      "assessment_history": [
+        {
+          "customer_interest_score": 9,
+          "commercial_appeal_score": 7,
+          "assessed_at": "2026-10-13T21:46:52+03:00",
+          "assessment_method": "qualitative_v1",
+          "superseded_reason": "Explicit user request for realistic reassessment"
+        }
+      ],
+      "publication": {
+        "thangs": null,
+        "makerworld": null
+      }
+    },
+    {
+      "product_id": "1wYzoNRUH4JsT_uopIbIuCoVgduS2Uxw3",
+      "product_name": "Stacked Pumpkins Decoration",
+      "stage": "published",
+      "folder_id": "1wYzoNRUH4JsT_uopIbIuCoVgduS2Uxw3",
+      "folder_url": "https://drive.google.com/drive/folders/1wYzoNRUH4JsT_uopIbIuCoVgduS2Uxw3",
+      "location": "GPT-WORK/PUBLISHED/Stacked pumpkins decoration",
+      "hero_asset_id": "1-byMfTo3a6dCkjZSH5mP3JrZS43vHk-z",
+      "hero_asset_url": "https://drive.google.com/thumbnail?id=1-byMfTo3a6dCkjZSH5mP3JrZS43vHk-z&sz=w1000",
+      "hero_kind": "actual_model",
+      "has_specs": false,
+      "has_3mf": true,
+      "has_marketplace": false,
+      "published": true,
+      "next_action": "Published",
+      "updated_at": "2026-10-18T17:32:55.903269+00:00",
+      "needs_review": false,
+      "printed": true,
+      "seasonality": "seasonal",
+      "seasons": [
+        "Autumn"
+      ],
+      "customer_interest_score": 4.5,
+      "commercial_appeal_score": 5.5,
+      "assessment_rationale": {
+        "customer_interest": "Stacked composition adds modest novelty.",
+        "commercial_appeal": "More material and packing bulk than individual pumpkins."
+      },
+      "assessment_confidence": "medium",
+      "assessed_at": "2026-10-13T22:02:11+03:00",
+      "assessment_method": "qualitative_v2_strict",
+      "assessment_evidence": {
+        "folder_url": "https://drive.google.com/drive/folders/1wYzoNRUH4JsT_uopIbIuCoVgduS2Uxw3",
+        "image_asset_id": "1-byMfTo3a6dCkjZSH5mP3JrZS43vHk-z",
+        "reviewed_specs": false,
+        "reviewed_marketing": false
+      },
+      "assessment_history": [
+        {
+          "customer_interest_score": 7,
+          "commercial_appeal_score": 7.5,
+          "assessed_at": "2026-10-13T21:46:52+03:00",
+          "assessment_method": "qualitative_v1",
+          "superseded_reason": "Explicit user request for realistic reassessment"
+        }
+      ],
+      "publication": {
+        "thangs": null,
+        "makerworld": null
+      }
+    },
+    {
+      "product_id": "1Dye6mKOGIkgh9FnL_9iZZjd4ob0ZDYTP",
+      "product_name": "Thanksgiving Turkey",
+      "stage": "published",
+      "folder_id": "1Dye6mKOGIkgh9FnL_9iZZjd4ob0ZDYTP",
+      "folder_url": "https://drive.google.com/drive/folders/1Dye6mKOGIkgh9FnL_9iZZjd4ob0ZDYTP",
+      "location": "GPT-WORK/PUBLISHED/Thanksgiving turkey",
+      "hero_asset_id": "1owTxfMtgER9lja1dY-CK0R5mWxWC8KT5",
+      "hero_asset_url": "https://drive.google.com/thumbnail?id=1owTxfMtgER9lja1dY-CK0R5mWxWC8KT5&sz=w1000",
+      "hero_kind": "marketplace",
+      "has_specs": true,
+      "has_3mf": true,
+      "has_marketplace": true,
+      "published": true,
+      "next_action": "Published",
+      "updated_at": "2026-10-18T17:32:55.903269+00:00",
+      "needs_review": false,
+      "printed": true,
+      "seasonality": "seasonal",
+      "seasons": [
+        "Autumn",
+        "Thanksgiving"
+      ],
+      "customer_interest_score": 4,
+      "commercial_appeal_score": 2.5,
+      "assessment_rationale": {
+        "customer_interest": "Distinctive leaf tail; narrow season and large footprint.",
+        "commercial_appeal": "Thirteen pieces, bulky shipping and mechanical-fit checks."
+      },
+      "assessment_confidence": "medium",
+      "assessed_at": "2026-10-13T22:02:11+03:00",
+      "assessment_method": "qualitative_v2_strict",
+      "assessment_evidence": {
+        "folder_url": "https://drive.google.com/drive/folders/1Dye6mKOGIkgh9FnL_9iZZjd4ob0ZDYTP",
+        "image_asset_id": "1owTxfMtgER9lja1dY-CK0R5mWxWC8KT5",
+        "reviewed_specs": true,
+        "reviewed_marketing": true
+      },
+      "assessment_history": [
+        {
+          "customer_interest_score": 6.5,
+          "commercial_appeal_score": 6,
+          "assessed_at": "2026-10-13T21:46:52+03:00",
+          "assessment_method": "qualitative_v1",
+          "superseded_reason": "Explicit user request for realistic reassessment"
+        }
+      ],
+      "publication": {
+        "thangs": null,
+        "makerworld": null
+      }
     },
     {
       "product_id": "1aiOzCMB6FRcXB6PqxM1XAAuZWhgh2K7x",
@@ -601,164 +1624,71 @@ const snapshot = {
       "has_marketplace": false,
       "published": true,
       "next_action": "Published",
-      "updated_at": "2026-10-05T21:18:00+00:00",
+      "updated_at": "2026-10-18T17:32:55.903269+00:00",
       "needs_review": false,
       "printed": true,
-      "status": "Complete",
-      "blocked": false,
-      "blocker_reason": null,
-      "last_update_source": "folder_reconciliation",
-      "history": []
-    },
-    {
-      "product_id": "1Krb5b_fRhljKwq73YewVvDhUgk_DsDMQ",
-      "product_name": "Christmas Napkin Ring Set — r03",
-      "stage": "to_print",
-      "folder_id": "1Krb5b_fRhljKwq73YewVvDhUgk_DsDMQ",
-      "folder_url": "https://drive.google.com/drive/folders/1Krb5b_fRhljKwq73YewVvDhUgk_DsDMQ",
-      "location": "GPT-WORK/Christmas napkin ring",
-      "hero_asset_id": "1k9iWsOb9vsf41X6XKhASz3mKsdlEb7oP",
-      "hero_asset_url": "https://drive.google.com/thumbnail?id=1k9iWsOb9vsf41X6XKhASz3mKsdlEb7oP&sz=w1000",
-      "hero_kind": "actual_model",
-      "has_specs": true,
-      "has_3mf": true,
-      "has_marketplace": true,
-      "printed": false,
-      "published": false,
-      "next_action": "Print and physically validate",
-      "updated_at": "2026-10-05T21:18:00+00:00",
-      "needs_review": false,
-      "review_note": "Approved r03 development 3MF exists; split the layout into slicer plates and verify physical fit.",
-      "status": "In Progress",
-      "blocked": false,
-      "blocker_reason": null,
-      "last_update_source": "folder_reconciliation",
-      "history": []
-    },
-    {
-      "product_id": "1k_i7OSxBJJGfUCSvpi2o4Y-5OF1PyDk9",
-      "product_name": "Goofy Christmas Reindeer",
-      "stage": "to_print",
-      "folder_id": "1k_i7OSxBJJGfUCSvpi2o4Y-5OF1PyDk9",
-      "folder_url": "https://drive.google.com/drive/folders/1k_i7OSxBJJGfUCSvpi2o4Y-5OF1PyDk9",
-      "location": "GPT-WORK/Goofy Christmas Reindeer",
-      "hero_asset_id": "1xQyKxzwAAEjn9DzakyApydxf4XLrkI-l",
-      "hero_asset_url": "https://drive.google.com/thumbnail?id=1xQyKxzwAAEjn9DzakyApydxf4XLrkI-l&sz=w1000",
-      "hero_kind": "marketplace",
-      "has_specs": true,
-      "has_3mf": true,
-      "has_marketplace": true,
-      "printed": false,
-      "published": false,
-      "next_action": "Print and physically validate",
-      "updated_at": "2026-10-05T21:18:00+00:00",
-      "needs_review": false,
-      "status": "In Progress",
-      "blocked": false,
-      "blocker_reason": null,
-      "last_update_source": "folder_reconciliation",
-      "history": []
-    },
-    {
-      "product_id": "1XssnXCdH69DhVi1JxomyLqKqqibd8k_x",
-      "product_name": "Tired Reindeer",
-      "stage": "3mf",
-      "folder_id": "1XssnXCdH69DhVi1JxomyLqKqqibd8k_x",
-      "folder_url": "https://drive.google.com/drive/folders/1XssnXCdH69DhVi1JxomyLqKqqibd8k_x",
-      "location": "GPT-WORK/IDEAS/Tired raindier",
-      "hero_asset_id": "1KvmpOFDRtamZzaebGemMIRy9sTLSYdpL",
-      "hero_asset_url": "https://drive.google.com/thumbnail?id=1KvmpOFDRtamZzaebGemMIRy9sTLSYdpL&sz=w1000",
-      "hero_kind": "actual_model",
-      "has_specs": false,
-      "has_3mf": true,
-      "has_marketplace": false,
-      "printed": false,
-      "published": false,
-      "next_action": "Prepare marketplace package",
-      "updated_at": "2026-10-05T21:18:00+00:00",
-      "needs_review": false,
-      "status": "In Progress",
-      "blocked": false,
-      "blocker_reason": null,
-      "last_update_source": "folder_reconciliation",
-      "history": []
-    },
-    {
-      "product_id": "1KoPsjpUsBUZcld8i0c8qm44PDJHrDXg_",
-      "product_name": "NORHOLM Seasonal Front Panel Expansion Packs",
-      "stage": "idea",
-      "folder_id": "1KoPsjpUsBUZcld8i0c8qm44PDJHrDXg_",
-      "folder_url": "https://drive.google.com/drive/folders/1KoPsjpUsBUZcld8i0c8qm44PDJHrDXg_",
-      "location": "GPT-WORK/IDEAS/NORHOLM seasonal front pannels expansion packs",
-      "hero_asset_id": "14tjMQmrWbMik62uEA77mKkeErFJrLqfw",
-      "hero_asset_url": "https://drive.google.com/thumbnail?id=14tjMQmrWbMik62uEA77mKkeErFJrLqfw&sz=w1000",
-      "hero_kind": "concept",
-      "has_specs": false,
-      "has_3mf": false,
-      "has_marketplace": false,
-      "printed": false,
-      "published": false,
-      "next_action": "Consolidate approved pack specification and package",
-      "updated_at": "2026-10-05T21:18:00+00:00",
-      "needs_review": true,
-      "status": "In Progress",
-      "blocked": false,
-      "blocker_reason": null,
-      "last_update_source": "folder_reconciliation",
-      "history": []
-    },
-    {
-      "product_id": "1XPriR8X_YGICjPUXUUn-ACilq4pJeMfL",
-      "product_name": "Goofy Thanksgiving Turkey",
-      "stage": "published",
-      "folder_id": "1XPriR8X_YGICjPUXUUn-ACilq4pJeMfL",
-      "folder_url": "https://drive.google.com/drive/folders/1XPriR8X_YGICjPUXUUn-ACilq4pJeMfL",
-      "location": "GPT-WORK/PUBLISHED/Goofy Thanksgiving Turkey",
-      "hero_asset_id": "1H-0Rsmkv2IhWW5nX_Jpa5SadRVzn2oKI",
-      "hero_asset_url": "https://drive.google.com/thumbnail?id=1H-0Rsmkv2IhWW5nX_Jpa5SadRVzn2oKI&sz=w1000",
-      "hero_kind": "concept",
-      "has_specs": true,
-      "has_3mf": true,
-      "has_marketplace": true,
-      "printed": true,
-      "published": true,
-      "next_action": "Published",
-      "updated_at": "2026-10-05T21:18:00+00:00",
-      "needs_review": false,
-      "status": "Complete",
-      "blocked": false,
-      "blocker_reason": null,
-      "last_update_source": "folder_reconciliation",
-      "history": []
+      "seasonality": "seasonal",
+      "seasons": [
+        "Halloween"
+      ],
+      "customer_interest_score": 6,
+      "commercial_appeal_score": 6.5,
+      "assessment_rationale": {
+        "customer_interest": "Upside-down pose differentiates this small charm.",
+        "commercial_appeal": "Compact gift/trio bundles suit production; strength needs validation."
+      },
+      "assessment_confidence": "medium",
+      "assessed_at": "2026-10-13T22:02:11+03:00",
+      "assessment_method": "qualitative_v2_strict",
+      "assessment_evidence": {
+        "folder_url": "https://drive.google.com/drive/folders/1aiOzCMB6FRcXB6PqxM1XAAuZWhgh2K7x",
+        "image_asset_id": "1wTTf1nHUgZrVL1wGwea1WdoTlL66Z_SV",
+        "reviewed_specs": false,
+        "reviewed_marketing": false
+      },
+      "assessment_history": [
+        {
+          "customer_interest_score": 7.5,
+          "commercial_appeal_score": 8,
+          "assessed_at": "2026-10-13T21:46:52+03:00",
+          "assessment_method": "qualitative_v1",
+          "superseded_reason": "Explicit user request for realistic reassessment"
+        }
+      ],
+      "publication": {
+        "thangs": null,
+        "makerworld": null
+      }
     }
   ],
-  "status_contract": {
-    "stages": [
-      "idea",
-      "specs",
-      "3mf",
-      "to_print",
-      "printed",
-      "published"
-    ],
-    "update_sources": [
-      "skill",
-      "todo_sync",
-      "dashboard",
-      "folder_reconciliation"
-    ],
-    "precedence": "newest explicit manual or workflow evidence wins; authoritative GPT-WORK folder placement wins for printed/published",
-    "todo_fields": [
-      "Stage",
-      "Status",
-      "Blocked",
-      "Next Action",
-      "Test Print",
-      "Model",
-      "Marketing",
-      "MakerWorld",
-      "Thangs"
+  "reconciliation": {
+    "scanned_at": "2026-10-18T17:32:55.903269+00:00",
+    "complete": true,
+    "folders_scanned": 126,
+    "source": "Full recursive GPT-WORK Drive inventory",
+    "product_count": 32,
+    "stage_counts": {
+      "print_ready": 7,
+      "published": 19,
+      "specs_ready": 2,
+      "3mf_ready": 2,
+      "to_publish": 2
+    },
+    "removed_products": [
+      "Nordic Christmas Windowsill Silhouette Set",
+      "Nordic Christmas Nutcracker – 200mm"
     ]
+  },
+  "assessment_policy": {
+    "method": "qualitative_v2_strict",
+    "scale": {
+      "1-2": "Very limited appeal",
+      "3-4": "Niche or weak differentiation",
+      "5-6": "Moderate opportunity with competition",
+      "7-8": "Strong clear advantages",
+      "9-10": "Exceptional; requires product-specific measured demand"
+    },
+    "routine_refresh": "Preserve scores; assess missing values only."
   }
 }
 ;
@@ -766,10 +1696,10 @@ const snapshot = {
 export async function seed(db) {
   const products = snapshot.products || [];
   for (const p of products) {
-    await db.prepare(`INSERT INTO products(product_id,product_name,stage,status,blocked,blocker_reason,next_action,folder_id,folder_url,location,hero_asset_id,hero_asset_url,hero_kind,has_specs,has_3mf,has_marketplace,printed,published,needs_review,updated_at,last_update_source)
-      VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
-      ON CONFLICT(product_id) DO UPDATE SET product_name=excluded.product_name, stage=excluded.stage, status=excluded.status, blocked=excluded.blocked, blocker_reason=excluded.blocker_reason, next_action=excluded.next_action, folder_id=excluded.folder_id, folder_url=excluded.folder_url, location=excluded.location, hero_asset_id=excluded.hero_asset_id, hero_asset_url=excluded.hero_asset_url, hero_kind=excluded.hero_kind, has_specs=excluded.has_specs, has_3mf=excluded.has_3mf, has_marketplace=excluded.has_marketplace, printed=excluded.printed, published=excluded.published, needs_review=excluded.needs_review, updated_at=excluded.updated_at, last_update_source=excluded.last_update_source`)
-      .bind(p.product_id,p.product_name,p.stage,p.status||'In Progress',p.blocked?1:0,p.blocker_reason||null,p.next_action||null,p.folder_id||null,p.folder_url||null,p.location||null,p.hero_asset_id||null,p.hero_asset_url||null,p.hero_kind||null,p.has_specs?1:0,p.has_3mf?1:0,p.has_marketplace?1:0,p.printed?1:0,p.published?1:0,p.needs_review?1:0,p.updated_at||snapshot.generated_at||new Date().toISOString(),p.last_update_source||'folder_reconciliation').run();
+    await db.prepare(`INSERT INTO products(product_id,product_name,stage,publication_thangs,publication_makerworld,snapshot_json,status,blocked,blocker_reason,next_action,folder_id,folder_url,location,hero_asset_id,hero_asset_url,hero_kind,has_specs,has_3mf,has_marketplace,printed,published,needs_review,updated_at,last_update_source)
+      VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+      ON CONFLICT(product_id) DO UPDATE SET snapshot_json=excluded.snapshot_json, product_name=excluded.product_name, stage=excluded.stage, status=excluded.status, blocked=excluded.blocked, blocker_reason=excluded.blocker_reason, next_action=excluded.next_action, folder_id=excluded.folder_id, folder_url=excluded.folder_url, location=excluded.location, hero_asset_id=excluded.hero_asset_id, hero_asset_url=excluded.hero_asset_url, hero_kind=excluded.hero_kind, has_specs=excluded.has_specs, has_3mf=excluded.has_3mf, has_marketplace=excluded.has_marketplace, printed=excluded.printed, published=excluded.published, needs_review=excluded.needs_review, updated_at=excluded.updated_at, last_update_source=excluded.last_update_source`)
+      .bind(p.product_id,p.product_name,p.stage,p.publication?.thangs==null?null:Number(p.publication.thangs),p.publication?.makerworld==null?null:Number(p.publication.makerworld),JSON.stringify(p),p.status||'In Progress',p.blocked?1:0,p.blocker_reason||null,p.next_action||null,p.folder_id||null,p.folder_url||null,p.location||null,p.hero_asset_id||null,p.hero_asset_url||null,p.hero_kind||null,p.has_specs?1:0,p.has_3mf?1:0,p.has_marketplace?1:0,p.printed?1:0,p.published?1:0,p.needs_review?1:0,p.updated_at||snapshot.generated_at||new Date().toISOString(),p.last_update_source||'folder_reconciliation').run();
   }
   return products.length;
 }

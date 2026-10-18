@@ -1,0 +1,18 @@
+import {readFileSync} from 'node:fs';
+import assert from 'node:assert/strict';
+const source=readFileSync(new URL('../backend/src/worker.js',import.meta.url),'utf8');
+const {default:worker}=await import('data:text/javascript;base64,'+Buffer.from(source).toString('base64'));
+let row={product_id:'x',stage:'to_publish',publication_thangs:null,publication_makerworld:null,updated_at:'2026-01-01T00:00:00Z',snapshot_json:JSON.stringify({customer_interest_score:0,assessment_history:[{note:'preserved'}]})};
+let history=[];
+const DB={prepare(sql){return {bind(...args){return {...this,args}},async first(){return row},sql}},async batch(statements){for(const {sql,args} of statements){if(sql.startsWith('UPDATE')){[row.stage,row.next_action,row.blocked,row.blocker_reason,row.updated_at,row.publication_thangs,row.publication_makerworld]=args}else history.push(args)}}};
+const patch=async body=>worker.fetch(new Request('https://example.com/api/products/x',{method:'PATCH',body:JSON.stringify(body)}),{DB});
+let response=await patch({publication:{thangs:true}});assert.equal(response.status,200);
+let product=(await response.json()).product;
+assert.deepEqual(product.publication,{thangs:true,makerworld:null});assert.equal(product.stage,'to_publish');assert.equal(product.customer_interest_score,0);assert.equal(product.assessment_history[0].note,'preserved');
+await patch({stage:'published'});assert.equal(row.publication_makerworld,null);
+await patch({publication:{thangs:false,makerworld:true}});assert.equal(row.publication_thangs,0);assert.equal(row.publication_makerworld,1);
+assert.equal((await patch({stage:'printed'})).status,400);
+assert.equal((await patch({publication:{thangs:'yes'}})).status,400);
+assert.equal((await patch({publication:{other:true}})).status,400);
+assert.equal(history.filter(h=>h[3]==='publication.thangs').length,2);
+console.log('API validation, partial platform updates, history, stage independence and metadata preservation passed.');

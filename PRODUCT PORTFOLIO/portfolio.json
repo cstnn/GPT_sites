@@ -1,12 +1,12 @@
 {
-  "schema_version": 3,
+  "schema_version": 4,
   "generated_at": "2026-10-18T17:32:55.903269+00:00",
   "root_folder_id": "1WliIAk1xWwewi_8NHIT9Mm31UZl1WCBR",
   "products": [
     {
       "product_id": "1EcqVv2Kk991em_lpnQXPmBSVgJsDqbqA",
       "product_name": "Nordic Christmas Garland Link Set",
-      "stage": "to_print",
+      "stage": "print_ready",
       "folder_id": "1EcqVv2Kk991em_lpnQXPmBSVgJsDqbqA",
       "folder_url": "https://drive.google.com/drive/folders/1EcqVv2Kk991em_lpnQXPmBSVgJsDqbqA",
       "location": "GPT-WORK/IDEAS/Nordic Christmas Garland Link Set",
@@ -48,12 +48,16 @@
           "assessment_method": "qualitative_v1",
           "superseded_reason": "Explicit user request for realistic reassessment"
         }
-      ]
+      ],
+      "publication": {
+        "thangs": null,
+        "makerworld": null
+      }
     },
     {
       "product_id": "1b5li4ontNMvQjagooy974GFEsGCyGhPz",
       "product_name": "Nordic Christmas Gift & Stocking Tags",
-      "stage": "to_print",
+      "stage": "print_ready",
       "folder_id": "1b5li4ontNMvQjagooy974GFEsGCyGhPz",
       "folder_url": "https://drive.google.com/drive/folders/1b5li4ontNMvQjagooy974GFEsGCyGhPz",
       "location": "GPT-WORK/IDEAS/Nordic Christmas Gift & Stocking Tags",
@@ -95,12 +99,16 @@
           "assessment_method": "qualitative_v1",
           "superseded_reason": "Explicit user request for realistic reassessment"
         }
-      ]
+      ],
+      "publication": {
+        "thangs": null,
+        "makerworld": null
+      }
     },
     {
       "product_id": "1ghaM2obToMfpxg4LHxdJCVaJ9ggLr3aG",
       "product_name": "Nordic Christmas Napkin Rings",
-      "stage": "to_print",
+      "stage": "print_ready",
       "folder_id": "1ghaM2obToMfpxg4LHxdJCVaJ9ggLr3aG",
       "folder_url": "https://drive.google.com/drive/folders/1ghaM2obToMfpxg4LHxdJCVaJ9ggLr3aG",
       "location": "GPT-WORK/IDEAS/Nordic Christmas Napkin Rings",
@@ -142,7 +150,11 @@
           "assessment_method": "qualitative_v1",
           "superseded_reason": "Explicit user request for realistic reassessment"
         }
-      ]
+      ],
+      "publication": {
+        "thangs": null,
+        "makerworld": null
+      }
     },
     {
       "product_id": "1aLoYR8jj0ast9cljZhBQCx2afHQ7PTIW",
@@ -189,12 +201,16 @@
           "assessment_method": "qualitative_v1",
           "superseded_reason": "Explicit user request for realistic reassessment"
         }
-      ]
+      ],
+      "publication": {
+        "thangs": null,
+        "makerworld": null
+      }
     },
     {
       "product_id": "1e44YH3hx9hdRwhai8REY03ZNl7-vcnr7",
       "product_name": "Nordic Days Until Christmas Countdown",
-      "stage": "to_print",
+      "stage": "print_ready",
       "folder_id": "1e44YH3hx9hdRwhai8REY03ZNl7-vcnr7",
       "folder_url": "https://drive.google.com/drive/folders/1e44YH3hx9hdRwhai8REY03ZNl7-vcnr7",
       "location": "GPT-WORK/IDEAS/Nordic Days Until Christmas Countdown",
@@ -236,7 +252,11 @@
           "assessment_method": "qualitative_v1",
           "superseded_reason": "Explicit user request for realistic reassessment"
         }
-      ]
+      ],
+      "publication": {
+        "thangs": null,
+        "makerworld": null
+      }
     },
     {
       "product_id": "1u6to3SB8aaWA08zV-0fqmabtImEXXFaJ",
@@ -283,12 +303,16 @@
           "assessment_method": "qualitative_v1",
           "superseded_reason": "Explicit user request for realistic reassessment"
         }
-      ]
+      ],
+      "publication": {
+        "thangs": null,
+        "makerworld": null
+      }
     },
     {
       "product_id": "1WWy3Yt-N8j_DjRtu5Ce9DjokV0bOfoNw",
       "product_name": "Nordic Christmas Star",
-      "stage": "specs",
+      "stage": "specs_ready",
       "folder_id": "1WWy3Yt-N8j_DjRtu5Ce9DjokV0bOfoNw",
       "folder_url": "https://drive.google.com/drive/folders/1WWy3Yt-N8j_DjRtu5Ce9DjokV0bOfoNw",
       "location": "GPT-WORK/IDEAS/Nordic Christmas Star",
@@ -330,12 +354,16 @@
           "assessment_method": "qualitative_v1",
           "superseded_reason": "Explicit user request for realistic reassessment"
         }
-      ]
+      ],
+      "publication": {
+        "thangs": null,
+        "makerworld": null
+      }
     },
     {
       "product_id": "164zn0PM3COB3PNFVcpjbLBHbwnBLAciv",
       "product_name": "NORHOLM seasonal front pannels expansion packs",
-      "stage": "specs",
+      "stage": "specs_ready",
       "folder_id": "164zn0PM3COB3PNFVcpjbLBHbwnBLAciv",
       "folder_url": "https://drive.google.com/drive/folders/164zn0PM3COB3PNFVcpjbLBHbwnBLAciv",
       "location": "GPT-WORK/NORHOLM seasonal front pannels expansion packs",
@@ -380,12 +408,16 @@
           "assessment_method": "qualitative_v1",
           "superseded_reason": "Explicit user request for realistic reassessment"
         }
-      ]
+      ],
+      "publication": {
+        "thangs": null,
+        "makerworld": null
+      }
     },
     {
       "product_id": "1u9UenRlPvlMpSJWjGqQKXp6nO92Xc1Sb",
       "product_name": "Alchemist's Stack & Potion Vial",
-      "stage": "3mf",
+      "stage": "3mf_ready",
       "folder_id": "1u9UenRlPvlMpSJWjGqQKXp6nO92Xc1Sb",
       "folder_url": "https://drive.google.com/drive/folders/1u9UenRlPvlMpSJWjGqQKXp6nO92Xc1Sb",
       "location": "GPT-WORK/Bookish_Keychain - Alchemist's Stack & Potion Vial",
@@ -425,12 +457,16 @@
           "assessment_method": "qualitative_v1",
           "superseded_reason": "Explicit user request for realistic reassessment"
         }
-      ]
+      ],
+      "publication": {
+        "thangs": null,
+        "makerworld": null
+      }
     },
     {
       "product_id": "1_VzC9zs5H2gxJj1V0qp5eA80oofe7cBx",
       "product_name": "Christmas Globe Collection — Spiral Diamond Chevron",
-      "stage": "to_print",
+      "stage": "print_ready",
       "folder_id": "1_VzC9zs5H2gxJj1V0qp5eA80oofe7cBx",
       "folder_url": "https://drive.google.com/drive/folders/1_VzC9zs5H2gxJj1V0qp5eA80oofe7cBx",
       "location": "GPT-WORK/IDEAS/Christmas Globe Collection — Spiral Diamond Chevron",
@@ -473,7 +509,11 @@
           "assessment_method": "qualitative_v1",
           "superseded_reason": "Explicit user request for realistic reassessment"
         }
-      ]
+      ],
+      "publication": {
+        "thangs": null,
+        "makerworld": null
+      }
     },
     {
       "product_id": "1h9ePQPW1PNbv_jNWQBTF0IUkH8fYHENd",
@@ -520,12 +560,16 @@
           "assessment_method": "qualitative_v1",
           "superseded_reason": "Explicit user request for realistic reassessment"
         }
-      ]
+      ],
+      "publication": {
+        "thangs": null,
+        "makerworld": null
+      }
     },
     {
       "product_id": "1o-hn3RiZvHamzrLq6Q9XgfZXaZLeEMhR",
       "product_name": "Nordic Faceted Christmas Star",
-      "stage": "printed",
+      "stage": "to_publish",
       "folder_id": "1o-hn3RiZvHamzrLq6Q9XgfZXaZLeEMhR",
       "folder_url": "https://drive.google.com/drive/folders/1o-hn3RiZvHamzrLq6Q9XgfZXaZLeEMhR",
       "location": "GPT-WORK/IDEAS/Nordic Faceted Christmas Star",
@@ -581,7 +625,11 @@
       ],
       "last_update_source": "dashboard",
       "update_source": "user",
-      "status_evidence": "Explicit user instruction to mark Printed, 2026-10-16."
+      "status_evidence": "Explicit user instruction to mark Printed, 2026-10-16.",
+      "publication": {
+        "thangs": null,
+        "makerworld": null
+      }
     },
     {
       "product_id": "1o8ExYEkxf_axhMl2-eyZfXG8t43HzlfA",
@@ -631,12 +679,16 @@
         }
       ],
       "update_source": "user",
-      "status_evidence": "Explicit user instruction to move to Printed, 2026-10-16."
+      "status_evidence": "Explicit user instruction to move to Printed, 2026-10-16.",
+      "publication": {
+        "thangs": null,
+        "makerworld": null
+      }
     },
     {
       "product_id": "1GQD8YzJT2gOMun1B_Jb7bY--gdhnZthe",
       "product_name": "Rider's Stack & Dragon Dagger",
-      "stage": "3mf",
+      "stage": "3mf_ready",
       "folder_id": "1GQD8YzJT2gOMun1B_Jb7bY--gdhnZthe",
       "folder_url": "https://drive.google.com/drive/folders/1GQD8YzJT2gOMun1B_Jb7bY--gdhnZthe",
       "location": "GPT-WORK/Bookish_Keychain - Rider's Stack & Dragon Dagger",
@@ -676,12 +728,16 @@
           "assessment_method": "qualitative_v1",
           "superseded_reason": "Explicit user request for realistic reassessment"
         }
-      ]
+      ],
+      "publication": {
+        "thangs": null,
+        "makerworld": null
+      }
     },
     {
       "product_id": "1U4-Wyybg70WTW5442OegdRrZmuJtvj-V",
       "product_name": "Christmas Pine — Modular Nordic Tree",
-      "stage": "to_print",
+      "stage": "print_ready",
       "folder_id": "1U4-Wyybg70WTW5442OegdRrZmuJtvj-V",
       "folder_url": "https://drive.google.com/drive/folders/1U4-Wyybg70WTW5442OegdRrZmuJtvj-V",
       "location": "GPT-WORK/IDEAS/Christmas Pine — Modular Nordic Tree",
@@ -723,12 +779,16 @@
           "assessment_method": "qualitative_v1",
           "superseded_reason": "Explicit user request for realistic reassessment"
         }
-      ]
+      ],
+      "publication": {
+        "thangs": null,
+        "makerworld": null
+      }
     },
     {
       "product_id": "1Pt6t8s5QkkCoGgDQQZmqDSZTCXGxp7rG",
       "product_name": "Cozy Ceramic LED Cottage",
-      "stage": "to_print",
+      "stage": "print_ready",
       "folder_id": "1Pt6t8s5QkkCoGgDQQZmqDSZTCXGxp7rG",
       "folder_url": "https://drive.google.com/drive/folders/1Pt6t8s5QkkCoGgDQQZmqDSZTCXGxp7rG",
       "location": "GPT-WORK/IDEAS/Cozy Ceramic LED Cottage",
@@ -770,7 +830,11 @@
           "assessment_method": "qualitative_v1",
           "superseded_reason": "Explicit user request for realistic reassessment"
         }
-      ]
+      ],
+      "publication": {
+        "thangs": null,
+        "makerworld": null
+      }
     },
     {
       "product_id": "1PzNm1mJgoTtVwpo-f3WMJ_21q3Dd4VRj",
@@ -819,12 +883,16 @@
         }
       ],
       "update_source": "user",
-      "status_evidence": "Explicit user instruction to move to Printed, 2026-10-16."
+      "status_evidence": "Explicit user instruction to move to Printed, 2026-10-16.",
+      "publication": {
+        "thangs": null,
+        "makerworld": null
+      }
     },
     {
       "product_id": "1KoPsjpUsBUZcld8i0c8qm44PDJHrDXg_",
       "product_name": "NORHOLM seasonal front pannels expansion packs",
-      "stage": "printed",
+      "stage": "to_publish",
       "folder_id": "1KoPsjpUsBUZcld8i0c8qm44PDJHrDXg_",
       "folder_url": "https://drive.google.com/drive/folders/1KoPsjpUsBUZcld8i0c8qm44PDJHrDXg_",
       "location": "GPT-WORK/READY TO PUBLISH/NORHOLM seasonal front pannels expansion packs",
@@ -868,7 +936,11 @@
           "assessment_method": "qualitative_v1",
           "superseded_reason": "Explicit user request for realistic reassessment"
         }
-      ]
+      ],
+      "publication": {
+        "thangs": null,
+        "makerworld": null
+      }
     },
     {
       "product_id": "1zDqFlI_lzUVfqWeVk-ZiJhR6P5f20-tH",
@@ -915,7 +987,11 @@
           "assessment_method": "qualitative_v1",
           "superseded_reason": "Explicit user request for realistic reassessment"
         }
-      ]
+      ],
+      "publication": {
+        "thangs": null,
+        "makerworld": null
+      }
     },
     {
       "product_id": "1nBS3SPuksxc9pkZy6ie5X6CW3y7grHFJ",
@@ -962,7 +1038,11 @@
           "assessment_method": "qualitative_v1",
           "superseded_reason": "Explicit user request for realistic reassessment"
         }
-      ]
+      ],
+      "publication": {
+        "thangs": null,
+        "makerworld": null
+      }
     },
     {
       "product_id": "1sf5c2qXpE2ekTA9-qbecOcoE32kzkmEB",
@@ -1009,7 +1089,11 @@
           "assessment_method": "qualitative_v1",
           "superseded_reason": "Explicit user request for realistic reassessment"
         }
-      ]
+      ],
+      "publication": {
+        "thangs": null,
+        "makerworld": null
+      }
     },
     {
       "product_id": "1oJDQTkwYx0iFco-mTyIilo-w_jcFAeua",
@@ -1056,7 +1140,11 @@
           "assessment_method": "qualitative_v1",
           "superseded_reason": "Explicit user request for realistic reassessment"
         }
-      ]
+      ],
+      "publication": {
+        "thangs": null,
+        "makerworld": null
+      }
     },
     {
       "product_id": "1k_i7OSxBJJGfUCSvpi2o4Y-5OF1PyDk9",
@@ -1103,7 +1191,11 @@
           "assessment_method": "qualitative_v1",
           "superseded_reason": "Explicit user request for realistic reassessment"
         }
-      ]
+      ],
+      "publication": {
+        "thangs": null,
+        "makerworld": null
+      }
     },
     {
       "product_id": "1XPriR8X_YGICjPUXUUn-ACilq4pJeMfL",
@@ -1151,7 +1243,11 @@
           "assessment_method": "qualitative_v1",
           "superseded_reason": "Explicit user request for realistic reassessment"
         }
-      ]
+      ],
+      "publication": {
+        "thangs": null,
+        "makerworld": null
+      }
     },
     {
       "product_id": "1426ElQ0JgmKch_o7H5al-jXZz0ya0_W2",
@@ -1198,7 +1294,11 @@
           "assessment_method": "qualitative_v1",
           "superseded_reason": "Explicit user request for realistic reassessment"
         }
-      ]
+      ],
+      "publication": {
+        "thangs": null,
+        "makerworld": null
+      }
     },
     {
       "product_id": "1jsBCsAWgNwkWb45GZevLynhUUXivuCWV",
@@ -1245,7 +1345,11 @@
           "assessment_method": "qualitative_v1",
           "superseded_reason": "Explicit user request for realistic reassessment"
         }
-      ]
+      ],
+      "publication": {
+        "thangs": null,
+        "makerworld": null
+      }
     },
     {
       "product_id": "1_iRZ1uIVe4zbYKv75ioxGsiyP1nx1I-C",
@@ -1292,7 +1396,11 @@
           "assessment_method": "qualitative_v1",
           "superseded_reason": "Explicit user request for realistic reassessment"
         }
-      ]
+      ],
+      "publication": {
+        "thangs": null,
+        "makerworld": null
+      }
     },
     {
       "product_id": "1JFp2gpmoi71Hs0HhNPIKWPRWbZlqTxTt",
@@ -1339,7 +1447,11 @@
           "assessment_method": "qualitative_v1",
           "superseded_reason": "Explicit user request for realistic reassessment"
         }
-      ]
+      ],
+      "publication": {
+        "thangs": null,
+        "makerworld": null
+      }
     },
     {
       "product_id": "1uPSdL5e8z1ymn__dwFsFNU6PHdIckHcw",
@@ -1386,7 +1498,11 @@
           "assessment_method": "qualitative_v1",
           "superseded_reason": "Explicit user request for realistic reassessment"
         }
-      ]
+      ],
+      "publication": {
+        "thangs": null,
+        "makerworld": null
+      }
     },
     {
       "product_id": "1wYzoNRUH4JsT_uopIbIuCoVgduS2Uxw3",
@@ -1433,7 +1549,11 @@
           "assessment_method": "qualitative_v1",
           "superseded_reason": "Explicit user request for realistic reassessment"
         }
-      ]
+      ],
+      "publication": {
+        "thangs": null,
+        "makerworld": null
+      }
     },
     {
       "product_id": "1Dye6mKOGIkgh9FnL_9iZZjd4ob0ZDYTP",
@@ -1481,7 +1601,11 @@
           "assessment_method": "qualitative_v1",
           "superseded_reason": "Explicit user request for realistic reassessment"
         }
-      ]
+      ],
+      "publication": {
+        "thangs": null,
+        "makerworld": null
+      }
     },
     {
       "product_id": "1aiOzCMB6FRcXB6PqxM1XAAuZWhgh2K7x",
@@ -1528,7 +1652,11 @@
           "assessment_method": "qualitative_v1",
           "superseded_reason": "Explicit user request for realistic reassessment"
         }
-      ]
+      ],
+      "publication": {
+        "thangs": null,
+        "makerworld": null
+      }
     }
   ],
   "reconciliation": {
@@ -1538,11 +1666,11 @@
     "source": "Full recursive GPT-WORK Drive inventory",
     "product_count": 32,
     "stage_counts": {
-      "to_print": 7,
+      "print_ready": 7,
       "published": 19,
-      "specs": 2,
-      "3mf": 2,
-      "printed": 2
+      "specs_ready": 2,
+      "3mf_ready": 2,
+      "to_publish": 2
     },
     "removed_products": [
       "Nordic Christmas Windowsill Silhouette Set",

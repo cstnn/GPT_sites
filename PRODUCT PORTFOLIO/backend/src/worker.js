@@ -1,3 +1,4 @@
+const serialize=p=>{const {publication_thangs,publication_makerworld,snapshot_json,...rest}=p;return {...JSON.parse(snapshot_json||'{}'),...rest,publication:{thangs:publication_thangs==null?null:!!publication_thangs,makerworld:publication_makerworld==null?null:!!publication_makerworld}}};
 export default {
   async fetch(request, env) {
     const url = new URL(request.url);
@@ -14,25 +15,30 @@ export default {
     }
     if (request.method === "GET" && url.pathname === "/api/products") {
       const {results}=await env.DB.prepare("SELECT * FROM products ORDER BY updated_at DESC").all();
-      return new Response(JSON.stringify({products:results}),{headers:cors});
+      return new Response(JSON.stringify({products:results.map(serialize)}),{headers:cors});
     }
     if (request.method === "PATCH" && url.pathname.startsWith("/api/products/")) {
       const id=decodeURIComponent(url.pathname.split("/").pop());
       const body=await request.json();
-      const allowedStages=["idea","specs","3mf","to_print","printed","published"];
+      const allowedStages=["idea","specs_ready","3mf_ready","print_ready","to_publish","published"];
       const old=await env.DB.prepare("SELECT * FROM products WHERE product_id=?").bind(id).first();
       if(!old) return new Response(JSON.stringify({error:"not_found"}),{status:404,headers:cors});
       const stage=body.stage??old.stage;
       if(!allowedStages.includes(stage)) return new Response(JSON.stringify({error:"invalid_stage"}),{status:400,headers:cors});
       const next=body.next_action??old.next_action, blocked=body.blocked===undefined?old.blocked:(body.blocked?1:0);
       const reason=body.blocker_reason===undefined?old.blocker_reason:body.blocker_reason;
+      const publication=body.publication??{};
+      if(!publication || typeof publication!=="object" || Array.isArray(publication) || Object.entries(publication).some(([k,v])=>!["thangs","makerworld"].includes(k)||typeof v!=="boolean")) return new Response(JSON.stringify({error:"invalid_publication"}),{status:400,headers:cors});
+      const thangs=publication.thangs===undefined?old.publication_thangs:Number(publication.thangs);
+      const makerworld=publication.makerworld===undefined?old.publication_makerworld:Number(publication.makerworld);
       const now=new Date().toISOString();
-      await env.DB.prepare("UPDATE products SET stage=?,next_action=?,blocked=?,blocker_reason=?,updated_at=?,last_update_source='dashboard' WHERE product_id=?")
-        .bind(stage,next,blocked,reason,now,id).run();
-      const changes=[["stage",old.stage,stage],["next_action",old.next_action,next],["blocked",String(old.blocked),String(blocked)],["blocker_reason",old.blocker_reason,reason]];
-      for(const [field,before,after] of changes){ if(String(before??"")!==String(after??"")) await env.DB.prepare("INSERT INTO history(product_id,at,source,field,old_value,new_value,note) VALUES(?,?,?,?,?,?,?)").bind(id,now,"dashboard",field,before==null?null:String(before),after==null?null:String(after),"Manual dashboard change").run(); }
+      const statements=[env.DB.prepare("UPDATE products SET stage=?,next_action=?,blocked=?,blocker_reason=?,updated_at=?,last_update_source='dashboard',publication_thangs=?,publication_makerworld=? WHERE product_id=?")
+        .bind(stage,next,blocked,reason,now,thangs,makerworld,id)];
+      const changes=[["publication.thangs",old.publication_thangs,thangs],["publication.makerworld",old.publication_makerworld,makerworld],["stage",old.stage,stage],["next_action",old.next_action,next],["blocked",String(old.blocked),String(blocked)],["blocker_reason",old.blocker_reason,reason]];
+      for(const [field,before,after] of changes){ if(String(before??"")!==String(after??"")) statements.push(env.DB.prepare("INSERT INTO history(product_id,at,source,field,old_value,new_value,note) VALUES(?,?,?,?,?,?,?)").bind(id,now,"dashboard",field,before==null?null:String(before),after==null?null:String(after),"Manual dashboard change")); }
+      await env.DB.batch(statements);
       const product=await env.DB.prepare("SELECT * FROM products WHERE product_id=?").bind(id).first();
-      return new Response(JSON.stringify({product}),{headers:cors});
+      return new Response(JSON.stringify({product:serialize(product)}),{headers:cors});
     }
     return new Response(JSON.stringify({error:"not_found"}),{status:404,headers:cors});
   }
