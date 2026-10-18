@@ -7,7 +7,7 @@
 <select id="season" aria-label="Season"><option value="all">All seasons</option><option value="seasonal">Seasonal</option><option value="year_round">Year-round</option></select><select id="sort" aria-label="Sort products"><option value="default">Board order</option><option value="interest">Customer interest ↓</option><option value="commercial">Commercial appeal ↓</option></select><button id="save" title="Download saved changes for the portfolio workflow">Export updates</button>
 <button id="reconcile" title="Download changes and a request to rescan GPT-WORK">Export scan request</button>
 <button id="reset" title="Remove manual browser overrides">Reset local changes</button></div><div class="stats" id="stats"></div></section>
-<div class="note" style="padding-top:12px">Sage: customer interest in printable files · Olive: appeal to sellers of finished products. Strict ratings /10: 3–4 niche · 5–6 moderate · 7–8 strong · 9–10 requires demand evidence. Estimates, not measured demand. Seasonal scores refer to the relevant selling season.</div><main class="board" id="board"></main><div class="note">Desktop: drag cards between stages. Mobile: use the stage selector. Changes save immediately in this browser. New ideas and detailed workspace edits require Export backup from the Product Hub; stage exports exclude uncreated Drive drafts. Export updates and give the file to the portfolio workflow to merge and publish across devices. Export scan request also requests a fresh GPT-WORK scan. Published is an overall workflow stage; it never checks a marketplace automatically.</div>
+<div class="note" style="padding-top:12px">Sage: customer interest in printable files · Olive: appeal to sellers of finished products. Strict ratings /10: 3–4 niche · 5–6 moderate · 7–8 strong · 9–10 requires demand evidence. Estimates, not measured demand. Seasonal scores refer to the relevant selling season.</div><main class="board" id="board"></main><div class="note">Desktop: drag cards between stages. Mobile: tap a stage heading to expand or collapse it; use the stage selector to move a product. Changes save immediately in this browser. New ideas and detailed workspace edits require Export backup from the Product Hub; stage exports exclude uncreated Drive drafts. Export updates and give the file to the portfolio workflow to merge and publish across devices. Export scan request also requests a fresh GPT-WORK scan. Published is an overall workflow stage; it never checks a marketplace automatically.</div>
 <div data-site-footer></div>
 <script id="portfolio-snapshot" type="application/json">{
   "schema_version": 4,
@@ -2171,6 +2171,8 @@ ${publicationControls(p)}
 <div class="next"><b>Next:</b> ${esc(p.next_action||'—')}</div><div class="loc">${esc(p.location||'')}</div>
 <div class="actions"><select aria-label="Move stage" onchange="setStage('${esc(p.product_id)}',this.value)">${stages.map(s=>'<option value="'+s.id+'" '+(s.id===p.stage?'selected':'')+'>'+s.label+'</option>').join('')}</select>
 <a class="open" href="${esc(safeURL(p.folder_url)||'#')}" target="_blank" rel="noopener">Open folder ↗</a></div></div></article>`}
+const collapsedStages=new Set(stages.map(s=>s.id));
+function toggleColumn(stage){if(!stages.some(s=>s.id===stage))return;collapsedStages.has(stage)?collapsedStages.delete(stage):collapsedStages.add(stage);render();document.getElementById('toggle-'+stage)?.focus?.()}
 function render(){
  const q=document.getElementById('search').value.toLowerCase(),f=document.getElementById('filter').value;
  let ps=[...data.products,...HubStore.state().drafts].map(effective).filter(p=>(p.product_name||'').toLowerCase().includes(q));
@@ -2179,9 +2181,10 @@ function render(){
  const season=document.getElementById('season').value,sort=document.getElementById('sort').value;
  if(season!=='all')ps=ps.filter(p=>p.seasonality===season);
  if(sort!=='default'){const field=sort==='interest'?'customer_interest_score':'commercial_appeal_score';ps.sort((a,b)=>(b[field]??-1)-(a[field]??-1)||a.product_name.localeCompare(b.product_name));}
- document.getElementById('board').innerHTML=stages.map(s=>{const items=ps.filter(p=>p.stage===s.id);return `<section class="col" data-stage="${s.id}"><div class="head"><span>${s.label}</span><span class="count">${items.length}</span></div><div class="cards">${items.map(card).join('')||'<div class="empty">No products</div>'}</div></section>`}).join('');
+ document.getElementById('board').innerHTML=stages.map(s=>{const items=ps.filter(p=>p.stage===s.id);return `<section class="col ${collapsedStages.has(s.id)?'is-collapsed':''}" data-stage="${s.id}"><div class="head"><span>${s.label}</span><span class="count">${items.length}</span></div><button class="mobile-stage-toggle" id="toggle-${s.id}" data-toggle-stage="${s.id}" aria-expanded="${!collapsedStages.has(s.id)}" aria-controls="cards-${s.id}"><span>${s.label}</span><span class="count">${items.length}</span><span class="stage-chevron" aria-hidden="true">⌄</span></button><div class="cards" id="cards-${s.id}">${items.map(card).join('')||'<div class="empty">No products</div>'}</div></section>`}).join('');
  const all=[...data.products,...HubStore.state().drafts].map(effective);document.getElementById('stats').innerHTML=`<span class="stat">${all.length} products</span><span class="stat">${all.filter(p=>p.stage!=='published').length} active</span><span class="stat">${all.filter(p=>p.needs_review).length} need attention</span><span class="stat">${all.filter(p=>p.manual_override).length} manual overrides</span>`;
  document.querySelectorAll('[data-platform]').forEach(input=>input.onchange=()=>setPublication(input.dataset.product,input.dataset.platform,input.checked));
+ document.querySelectorAll('[data-toggle-stage]').forEach(button=>button.onclick=()=>toggleColumn(button.dataset.toggleStage));
  bindDnD();
 }
 function bindDnD(){

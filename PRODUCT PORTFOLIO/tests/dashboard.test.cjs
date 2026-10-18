@@ -25,4 +25,5 @@ const id=run('data.products[0].product_id');storage.set('product-dashboard-overr
 run=load();assert.equal(run('effective(data.products[0]).stage'),'to_publish');
 assert.match(run('publicationControls(effective(data.products[0]))'),/THANGS/);
 assert.match(run('publicationControls(effective(data.products[0]))'),/MAKERWORLD/);
+run("toggleColumn('specs_ready')");assert.equal(run("collapsedStages.has('specs_ready')"),false);run('render()');assert.equal(run("collapsedStages.has('specs_ready')"),false);run("toggleColumn('specs_ready')");assert.equal(run("collapsedStages.has('specs_ready')"),true);
 console.log('Dashboard persistence, independent checkboxes, legacy overrides and rendering passed.');
