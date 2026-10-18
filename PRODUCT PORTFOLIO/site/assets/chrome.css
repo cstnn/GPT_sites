@@ -15,3 +15,5 @@
 .studio-tagline{color:#69715f}.site-footer nav{display:flex;gap:24px;margin:0}
 .site-header a:focus-visible,.site-header button:focus-visible,.site-footer a:focus-visible{outline:3px solid #b68338;outline-offset:5px}
 @media(max-width:650px){.site-header{padding:16px;gap:18px;flex-wrap:wrap;min-height:90px}.studio-wordmark{font-size:19px;letter-spacing:3px}.studio-mark{width:30px;height:38px}.studio-brand{gap:10px}.site-nav{order:3;width:100%;gap:28px}.site-header .studio-capture{margin-left:auto;padding:10px 12px}.site-footer{padding:24px 16px;gap:18px;flex-wrap:wrap}.studio-tagline{order:3;width:100%}.site-footer nav{margin-left:auto}}
+@media(max-width:380px){.studio-brand{flex-basis:100%}.site-nav{width:auto;order:2;gap:22px}.site-header .studio-capture{order:3;margin-left:auto}.site-header{gap:10px 14px}.site-footer nav{gap:16px}}
+@media(max-width:380px){.site-nav{gap:14px}.site-nav a{font-size:13px}.site-header .studio-capture{font-size:12px;padding:10px}}

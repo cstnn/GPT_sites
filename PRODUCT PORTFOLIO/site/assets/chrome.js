@@ -8,11 +8,11 @@
     <header class="site-header">
       <a class="studio-brand" href="${home}" aria-label="NORHOLM Studio home">${mark}<span class="studio-wordmark">NORHOLM<span>STUDIO</span></span></a>
       <nav class="site-nav" aria-label="Main navigation">
-        <a href="${home}" ${!isBoard?'aria-current="page"':''}>Products</a>
+        <a href="${home}" ${!isBoard?'aria-current="page"':''}>Product Hub</a>
         <a href="${board}" ${isBoard?'aria-current="page"':''}>Kanban</a>
       </nav>
       ${isBoard?`<a class="studio-capture" href="${home}?capture=1">＋ Capture idea</a>`:'<button id="new" class="studio-capture" type="button">＋ Capture idea</button>'}
     </header>`;
   document.querySelector('[data-site-footer]').innerHTML = `
-    <footer class="site-footer"><a href="${home}" class="footer-brand">NORHOLM <span>Studio</span></a><span class="studio-tagline">Stylized minimalism. Thoughtfully made.</span><nav aria-label="Footer navigation"><a href="${home}">Products</a><a href="${board}">Kanban</a></nav></footer>`;
+    <footer class="site-footer"><a href="${home}" class="footer-brand">NORHOLM <span>Studio</span></a><span class="studio-tagline">Stylized minimalism. Thoughtfully made.</span><nav aria-label="Footer navigation"><a href="${home}">Product Hub</a><a href="${board}">Kanban</a></nav></footer>`;
 })();
