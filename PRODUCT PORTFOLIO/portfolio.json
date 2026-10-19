@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-10-18T17:32:55.903269+00:00",
+  "generated_at": "2026-10-19T05:49:45.434Z",
   "root_folder_id": "1WliIAk1xWwewi_8NHIT9Mm31UZl1WCBR",
   "products": [
     {
@@ -2094,17 +2094,269 @@
         }
       ],
       "last_update_source": "dashboard"
+    },
+    {
+      "product_id": "1VmMn-pwIfEVdAOWrEa64FQdCD1tI5sOl",
+      "product_name": "Christmas Pickle Ornament",
+      "stage": "specs_ready",
+      "folder_id": "1VmMn-pwIfEVdAOWrEa64FQdCD1tI5sOl",
+      "folder_url": "https://drive.google.com/drive/folders/1VmMn-pwIfEVdAOWrEa64FQdCD1tI5sOl",
+      "location": "GPT-WORK/IDEAS/Christmas Pickle Ornament",
+      "has_specs": true,
+      "has_3mf": false,
+      "has_marketplace": false,
+      "printed": false,
+      "published": false,
+      "next_action": "Model in Fusion 360; validate connectors and test-print",
+      "updated_at": "2026-10-19T05:49:45.434Z",
+      "needs_review": false,
+      "hero_asset_id": "1joKyN70Ok3FDeViXkCBJY-GdFDtfVjK1",
+      "hero_asset_url": "https://drive.google.com/thumbnail?id=1joKyN70Ok3FDeViXkCBJY-GdFDtfVjK1&sz=w1000",
+      "hero_kind": "concept",
+      "seasonality": "seasonal",
+      "seasons": [
+        "Christmas"
+      ],
+      "customer_interest_score": 5.5,
+      "commercial_appeal_score": 5,
+      "assessment_rationale": {
+        "customer_interest": "Novelty holiday tradition; giftable but narrow cultural recognition.",
+        "commercial_appeal": "Simple ornament production; seasonal novelty limits repeat demand."
+      },
+      "assessment_confidence": "low",
+      "assessed_at": "2026-10-19T05:49:45.434Z",
+      "assessment_method": "qualitative_v2_strict",
+      "assessment_evidence": {
+        "folder_url": "https://drive.google.com/drive/folders/1VmMn-pwIfEVdAOWrEa64FQdCD1tI5sOl",
+        "image_asset_id": "1joKyN70Ok3FDeViXkCBJY-GdFDtfVjK1",
+        "reviewed_specs": true,
+        "reviewed_marketing": false
+      },
+      "publication": {
+        "thangs": null,
+        "makerworld": null
+      }
+    },
+    {
+      "product_id": "1No3jVeTEUaUrHGxJLk4KG4vVXwPMeaRG",
+      "product_name": "Ugly Christmas Sweater Ornaments",
+      "stage": "specs_ready",
+      "folder_id": "1No3jVeTEUaUrHGxJLk4KG4vVXwPMeaRG",
+      "folder_url": "https://drive.google.com/drive/folders/1No3jVeTEUaUrHGxJLk4KG4vVXwPMeaRG",
+      "location": "GPT-WORK/IDEAS/Ugly Christmas Sweater Ornaments",
+      "has_specs": true,
+      "has_3mf": false,
+      "has_marketplace": false,
+      "printed": false,
+      "published": false,
+      "next_action": "Model in Fusion 360; validate connectors and test-print",
+      "updated_at": "2026-10-19T05:49:45.434Z",
+      "needs_review": false,
+      "hero_asset_id": "1vJYq-OdayQmmsPrUtvMsBHH6rapUXzz7",
+      "hero_asset_url": "https://drive.google.com/thumbnail?id=1vJYq-OdayQmmsPrUtvMsBHH6rapUXzz7&sz=w1000",
+      "hero_kind": "concept",
+      "seasonality": "seasonal",
+      "seasons": [
+        "Christmas"
+      ],
+      "customer_interest_score": 6,
+      "commercial_appeal_score": 5.5,
+      "assessment_rationale": {
+        "customer_interest": "Recognizable Christmas humor and ten variations; crowded ornament category.",
+        "commercial_appeal": "Flat ornaments suit batches, but variety increases handling and SKU complexity."
+      },
+      "assessment_confidence": "low",
+      "assessed_at": "2026-10-19T05:49:45.434Z",
+      "assessment_method": "qualitative_v2_strict",
+      "assessment_evidence": {
+        "folder_url": "https://drive.google.com/drive/folders/1No3jVeTEUaUrHGxJLk4KG4vVXwPMeaRG",
+        "image_asset_id": "1vJYq-OdayQmmsPrUtvMsBHH6rapUXzz7",
+        "reviewed_specs": true,
+        "reviewed_marketing": false
+      },
+      "publication": {
+        "thangs": null,
+        "makerworld": null
+      }
+    },
+    {
+      "product_id": "1iQ-HTfn-llXvQBoRjl-TQRxEJQq9myJE",
+      "product_name": "Gingerbread Cottage Breakaway Kit",
+      "stage": "specs_ready",
+      "folder_id": "1iQ-HTfn-llXvQBoRjl-TQRxEJQq9myJE",
+      "folder_url": "https://drive.google.com/drive/folders/1iQ-HTfn-llXvQBoRjl-TQRxEJQq9myJE",
+      "location": "GPT-WORK/IDEAS/Gingerbread Cottage Breakaway Kit",
+      "has_specs": true,
+      "has_3mf": false,
+      "has_marketplace": false,
+      "printed": false,
+      "published": false,
+      "next_action": "Model in Fusion 360; validate connectors and test-print",
+      "updated_at": "2026-10-19T05:49:45.434Z",
+      "needs_review": false,
+      "hero_asset_id": "193wnFuQl-GLEMrEgjhKedmynXE0i_aey",
+      "hero_asset_url": "https://drive.google.com/thumbnail?id=193wnFuQl-GLEMrEgjhKedmynXE0i_aey&sz=w1000",
+      "hero_kind": "concept",
+      "seasonality": "seasonal",
+      "seasons": [
+        "Christmas"
+      ],
+      "customer_interest_score": 6.5,
+      "commercial_appeal_score": 4.5,
+      "assessment_rationale": {
+        "customer_interest": "Sprue-frame breakaway assembly offers a distinctive interactive gift.",
+        "commercial_appeal": "Multiple parts and sprue trimming increase labor and customer assembly risk."
+      },
+      "assessment_confidence": "low",
+      "assessed_at": "2026-10-19T05:49:45.434Z",
+      "assessment_method": "qualitative_v2_strict",
+      "assessment_evidence": {
+        "folder_url": "https://drive.google.com/drive/folders/1iQ-HTfn-llXvQBoRjl-TQRxEJQq9myJE",
+        "image_asset_id": "193wnFuQl-GLEMrEgjhKedmynXE0i_aey",
+        "reviewed_specs": true,
+        "reviewed_marketing": false
+      },
+      "publication": {
+        "thangs": null,
+        "makerworld": null
+      }
+    },
+    {
+      "product_id": "1_79iqfpIqrfXMoIN-svolsM9A02sYJY7",
+      "product_name": "Letters to Santa Mailbox",
+      "stage": "specs_ready",
+      "folder_id": "1_79iqfpIqrfXMoIN-svolsM9A02sYJY7",
+      "folder_url": "https://drive.google.com/drive/folders/1_79iqfpIqrfXMoIN-svolsM9A02sYJY7",
+      "location": "GPT-WORK/IDEAS/Letters to Santa Mailbox",
+      "has_specs": true,
+      "has_3mf": false,
+      "has_marketplace": false,
+      "printed": false,
+      "published": false,
+      "next_action": "Model in Fusion 360; validate connectors and test-print",
+      "updated_at": "2026-10-19T05:49:45.434Z",
+      "needs_review": false,
+      "hero_asset_id": "10meZuvbKSoz8AY7OCHJc4nTzu46PXutJ",
+      "hero_asset_url": "https://drive.google.com/thumbnail?id=10meZuvbKSoz8AY7OCHJc4nTzu46PXutJ&sz=w1000",
+      "hero_kind": "concept",
+      "seasonality": "seasonal",
+      "seasons": [
+        "Christmas"
+      ],
+      "customer_interest_score": 6.5,
+      "commercial_appeal_score": 4.5,
+      "assessment_rationale": {
+        "customer_interest": "Functional opening letter box and nostalgic seasonal appeal.",
+        "commercial_appeal": "Larger print, fitted roof, hinge and flag increase material and assembly labor."
+      },
+      "assessment_confidence": "low",
+      "assessed_at": "2026-10-19T05:49:45.434Z",
+      "assessment_method": "qualitative_v2_strict",
+      "assessment_evidence": {
+        "folder_url": "https://drive.google.com/drive/folders/1_79iqfpIqrfXMoIN-svolsM9A02sYJY7",
+        "image_asset_id": "10meZuvbKSoz8AY7OCHJc4nTzu46PXutJ",
+        "reviewed_specs": true,
+        "reviewed_marketing": false
+      },
+      "publication": {
+        "thangs": null,
+        "makerworld": null
+      }
+    },
+    {
+      "product_id": "1tZHl-tCV8nUomXRizaFs2i8G3_iRC1Ck",
+      "product_name": "Winter Friends — Penguin & Polar Bear",
+      "stage": "specs_ready",
+      "folder_id": "1tZHl-tCV8nUomXRizaFs2i8G3_iRC1Ck",
+      "folder_url": "https://drive.google.com/drive/folders/1tZHl-tCV8nUomXRizaFs2i8G3_iRC1Ck",
+      "location": "GPT-WORK/IDEAS/Winter Friends — Penguin & Polar Bear",
+      "has_specs": true,
+      "has_3mf": false,
+      "has_marketplace": false,
+      "printed": false,
+      "published": false,
+      "next_action": "Model in Fusion 360; validate connectors and test-print",
+      "updated_at": "2026-10-19T05:49:45.434Z",
+      "needs_review": false,
+      "hero_asset_id": null,
+      "hero_asset_url": null,
+      "hero_kind": "placeholder",
+      "seasonality": "seasonal",
+      "seasons": [
+        "Christmas"
+      ],
+      "customer_interest_score": 5.5,
+      "commercial_appeal_score": 4.5,
+      "assessment_rationale": {
+        "customer_interest": "Cute collectible winter pair but generic character market; design only.",
+        "commercial_appeal": "Many snap-fit parts and assembly labor limit batch efficiency."
+      },
+      "assessment_confidence": "low",
+      "assessed_at": "2026-10-19T05:49:45.434Z",
+      "assessment_method": "qualitative_v2_strict",
+      "assessment_evidence": {
+        "folder_url": "https://drive.google.com/drive/folders/1tZHl-tCV8nUomXRizaFs2i8G3_iRC1Ck",
+        "image_asset_id": null,
+        "reviewed_specs": true,
+        "reviewed_marketing": false
+      },
+      "publication": {
+        "thangs": null,
+        "makerworld": null
+      }
+    },
+    {
+      "product_id": "1JalULeSvcdk9Ht14CCrugUZTPLq8sqZP",
+      "product_name": "Christmas Elf — Simple Assembly Figurine",
+      "stage": "specs_ready",
+      "folder_id": "1JalULeSvcdk9Ht14CCrugUZTPLq8sqZP",
+      "folder_url": "https://drive.google.com/drive/folders/1JalULeSvcdk9Ht14CCrugUZTPLq8sqZP",
+      "location": "GPT-WORK/IDEAS/Christmas Elf — Simple Assembly Figurine",
+      "has_specs": true,
+      "has_3mf": false,
+      "has_marketplace": false,
+      "printed": false,
+      "published": false,
+      "next_action": "Model in Fusion 360; validate connectors and test-print",
+      "updated_at": "2026-10-19T05:49:45.434Z",
+      "needs_review": false,
+      "hero_asset_id": "14EN4MKrk3ki2SDh5xG10U9UAvCtmxaV_",
+      "hero_asset_url": "https://drive.google.com/thumbnail?id=14EN4MKrk3ki2SDh5xG10U9UAvCtmxaV_&sz=w1000",
+      "hero_kind": "concept",
+      "seasonality": "seasonal",
+      "seasons": [
+        "Christmas"
+      ],
+      "customer_interest_score": 5.5,
+      "commercial_appeal_score": 4,
+      "assessment_rationale": {
+        "customer_interest": "Recognizable Christmas character but highly competitive figurine category.",
+        "commercial_appeal": "Separate eyes, boots, arms and hat add labor despite simpler color layout."
+      },
+      "assessment_confidence": "low",
+      "assessed_at": "2026-10-19T05:49:45.434Z",
+      "assessment_method": "qualitative_v2_strict",
+      "assessment_evidence": {
+        "folder_url": "https://drive.google.com/drive/folders/1JalULeSvcdk9Ht14CCrugUZTPLq8sqZP",
+        "image_asset_id": "14EN4MKrk3ki2SDh5xG10U9UAvCtmxaV_",
+        "reviewed_specs": true,
+        "reviewed_marketing": false
+      },
+      "publication": {
+        "thangs": null,
+        "makerworld": null
+      }
     }
   ],
   "reconciliation": {
-    "scanned_at": "2026-10-18T17:32:55.903269+00:00",
-    "complete": true,
+    "scanned_at": "2026-10-19T05:49:45.434Z",
+    "complete": false,
     "folders_scanned": 126,
-    "source": "Full recursive GPT-WORK Drive inventory",
-    "product_count": 32,
+    "source": "Partial GPT-WORK inventory: IDEAS and top-level status folders; prior entries preserved",
+    "product_count": 38,
     "stage_counts": {
       "idea": 0,
-      "specs_ready": 2,
+      "specs_ready": 8,
       "3mf_ready": 2,
       "print_ready": 7,
       "to_publish": 2,
